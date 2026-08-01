@@ -136,7 +136,7 @@ ORION NOVA Technologies S.A.S. aspira a convertirse en un referente en innovaci�
 
 | Versión | Fecha | Descripción | Autor |
 |----------|--------|-------------|-------|
-| 1.0.0 | Agosto 2026 | Creación inicial | Equipo Fundador |
+| 1.0.0 | Agosto 2026 | Creación inicial | Carlos Culma |
 
 ---
 
