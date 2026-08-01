@@ -122,7 +122,7 @@ La misión de ORION NOVA Technologies representa el compromiso permanente de la 
 
 | Versión | Fecha | Descripción | Autor |
 |----------|--------|-------------|-------|
-| 1.0.0 | Agosto 2026 | Creación inicial del documento | Equipo Fundador |
+| 1.0.0 | Agosto 2026 | Creación inicial del documento | Carlos Culma |
 
 ---
 
