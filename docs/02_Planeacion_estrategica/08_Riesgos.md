@@ -15,7 +15,7 @@
 
 # Introducción
 
-Toda organización está expuesta a riesgos que pueden afectar el cumplimiento de sus objetivos estratégicos. La gestión de riesgos permite identificar, analizar, evaluar, tratar y monitorear aquellos eventos que podrían impactar negativamente el crecimiento, la sostenibilidad y la competitividad de ORION NOVA Technologies S.A.S.
+Toda organización está expuesta a riesgos que pueden afectar el cumplimiento de sus objetivos estratégicos. La gestión de riesgos permite identificar, analizar, evaluar, tratar y monitorear aquellos eventos que podrían impactar negativamente el crecimiento, la sostenibilidad y la competitividad de ORION NOVA Technologies 
 
 Este documento establece el marco general para la gestión de riesgos estratégicos de la empresa, promoviendo una cultura preventiva y orientada a la toma de decisiones basada en el análisis del riesgo.
 
@@ -23,7 +23,7 @@ Este documento establece el marco general para la gestión de riesgos estratégi
 
 # Objetivo
 
-Establecer el proceso para identificar, evaluar, controlar y monitorear los riesgos estratégicos que puedan afectar el cumplimiento del Plan Estratégico 2026–2035 de ORION NOVA Technologies S.A.S.
+Establecer el proceso para identificar, evaluar, controlar y monitorear los riesgos estratégicos que puedan afectar el cumplimiento del Plan Estratégico 2026–2035 de ORION NOVA Technologies 
 
 ---
 
@@ -295,7 +295,7 @@ La gestión de riesgos será revisada al menos una vez al año o cuando se prese
 
 # Conclusión
 
-La gestión de riesgos constituye un componente esencial para garantizar la sostenibilidad, resiliencia y crecimiento de ORION NOVA Technologies S.A.S.
+La gestión de riesgos constituye un componente esencial para garantizar la sostenibilidad, resiliencia y crecimiento de ORION NOVA Technologies 
 
 La identificación temprana de riesgos y la implementación de medidas preventivas permitirán fortalecer la capacidad de adaptación de la organización frente a los cambios tecnológicos, económicos y sociales, contribuyendo al cumplimiento de los objetivos estratégicos definidos para el período 2026–2035.
 
