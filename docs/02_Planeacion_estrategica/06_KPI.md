@@ -80,11 +80,11 @@ Estos indicadores permiten medir el cumplimiento de la visión corporativa y del
 
 | Indicador | Descripción | Meta |
 |------------|-------------|------|
-| Cumplimiento del Plan Estratégico | Porcentaje de iniciativas estratégicas ejecutadas | ≥ 90% |
-| Productos del Ecosistema ORION desarrollados | Productos oficialmente lanzados | ≥ 8 |
-| Nuevos mercados alcanzados | Países donde opera la empresa | ≥ 5 |
-| Alianzas estratégicas | Convenios activos con organizaciones | ≥ 15 |
-| Proyectos de investigación ejecutados | Proyectos I+D+i finalizados | ≥ 5 por año |
+| Cumplimiento del Plan Estratégico | Porcentaje de iniciativas estratégicas ejecutadas |  90% |
+| Productos del Ecosistema ORION desarrollados | Productos oficialmente lanzados |  8 % |
+| Nuevos mercados alcanzados | Países donde opera la empresa |  5% |
+| Alianzas estratégicas | Convenios activos con organizaciones |  15% |
+| Proyectos de investigación ejecutados | Proyectos I+D+i finalizados |  5 % por año |
 
 ---
 
@@ -94,11 +94,11 @@ Estos indicadores evalúan el crecimiento económico y la sostenibilidad de la o
 
 | Indicador | Descripción | Meta |
 |------------|-------------|------|
-| Crecimiento anual de ingresos | Incremento porcentual anual | ≥ 20% |
-| Margen de utilidad operacional | Rentabilidad operacional | ≥ 25% |
+| Crecimiento anual de ingresos | Incremento porcentual anual |  20% |
+| Margen de utilidad operacional | Rentabilidad operacional |  25% |
 | Flujo de caja | Balance entre ingresos y egresos | Positivo |
-| ROI de proyectos | Retorno de inversión | ≥ 30% |
-| Diversificación de ingresos | Número de líneas de negocio activas | ≥ 5 |
+| ROI de proyectos | Retorno de inversión |  30% |
+| Diversificación de ingresos | Número de líneas de negocio activas |  5 % |
 
 ---
 
@@ -108,11 +108,11 @@ Estos indicadores permiten evaluar el desempeño comercial.
 
 | Indicador | Descripción | Meta |
 |------------|-------------|------|
-| Clientes nuevos | Nuevos clientes por año | ≥ 20 |
-| Clientes activos | Clientes con contratos vigentes | ≥ 100 |
-| Tasa de retención | Permanencia de clientes | ≥ 90% |
-| Nivel de satisfacción | Encuestas de satisfacción | ≥ 95% |
-| Tiempo promedio de respuesta comercial | Atención de solicitudes | < 24 horas |
+| Clientes nuevos | Nuevos clientes por año |  20 % |
+| Clientes activos | Clientes con contratos vigentes |  100% |
+| Tasa de retención | Permanencia de clientes |  90% |
+| Nivel de satisfacción | Encuestas de satisfacción |  95% |
+| Tiempo promedio de respuesta comercial | Atención de solicitudes |  24 horas |
 
 ---
 
@@ -122,11 +122,11 @@ Estos indicadores miden la calidad del desarrollo de software.
 
 | Indicador | Descripción | Meta |
 |------------|-------------|------|
-| Disponibilidad de plataformas | Uptime anual | ≥ 99.9% |
-| Cobertura de pruebas | Código cubierto por pruebas | ≥ 85% |
-| Bugs críticos por versión | Incidentes críticos liberados | ≤ 3 |
-| Tiempo promedio de despliegue | Duración del proceso de despliegue | ≤ 30 minutos |
-| Tiempo de respuesta de APIs | Promedio de respuesta | ≤ 250 ms |
+| Disponibilidad de plataformas | Uptime anual |  99.9% |
+| Cobertura de pruebas | Código cubierto por pruebas |  85% |
+| Bugs críticos por versión | Incidentes críticos liberados |  3% |
+| Tiempo promedio de despliegue | Duración del proceso de despliegue |  30 minutos |
+| Tiempo de respuesta de APIs | Promedio de respuesta |  250 ms |
 
 ---
 
@@ -136,11 +136,11 @@ Estos indicadores permiten evaluar la capacidad innovadora de ORION.
 
 | Indicador | Descripción | Meta |
 |------------|-------------|------|
-| Modelos de IA desarrollados | Modelos implementados | ≥ 10 por año |
-| Nuevas funcionalidades inteligentes | Funciones basadas en IA | ≥ 5 por año |
-| Precisión promedio de modelos | Exactitud de los modelos | ≥ 92% |
-| Publicaciones científicas | Artículos publicados | ≥ 2 por año |
-| Patentes o registros tecnológicos | Registros obtenidos | ≥ 1 cada 3 años |
+| Modelos de IA desarrollados | Modelos implementados |  10 por año |
+| Nuevas funcionalidades inteligentes | Funciones basadas en IA |  5 por año |
+| Precisión promedio de modelos | Exactitud de los modelos |  92% |
+| Publicaciones científicas | Artículos publicados |  2 por año |
+| Patentes o registros tecnológicos | Registros obtenidos |  1 cada 3 años |
 
 ---
 
@@ -153,7 +153,7 @@ Estos indicadores permiten controlar la seguridad de la infraestructura tecnoló
 | Incidentes críticos de seguridad | Ataques exitosos | 0 |
 | Equipos actualizados | Infraestructura con parches al día | 100% |
 | Copias de seguridad exitosas | Backups realizados correctamente | 100% |
-| Tiempo de recuperación | Recuperación ante incidentes | ≤ 4 horas |
+| Tiempo de recuperación | Recuperación ante incidentes |  4 horas |
 | Vulnerabilidades críticas abiertas | Hallazgos pendientes | 0 |
 
 ---
@@ -164,11 +164,11 @@ Estos indicadores permiten evaluar el crecimiento del talento humano.
 
 | Indicador | Descripción | Meta |
 |------------|-------------|------|
-| Rotación del personal | Porcentaje anual | ≤ 10% |
-| Horas de capacitación | Formación por colaborador | ≥ 40 horas/año |
-| Certificaciones obtenidas | Certificaciones profesionales | ≥ 5 por año |
-| Clima organizacional | Encuestas internas | ≥ 90% |
-| Participación en innovación | Colaboradores vinculados a proyectos I+D+i | ≥ 70% |
+| Rotación del personal | Porcentaje anual |  10% |
+| Horas de capacitación | Formación por colaborador |  40 horas/año |
+| Certificaciones obtenidas | Certificaciones profesionales |  5 por año |
+| Clima organizacional | Encuestas internas |  90% |
+| Participación en innovación | Colaboradores vinculados a proyectos I+D+i |  70% |
 
 ---
 
@@ -182,7 +182,7 @@ Estos indicadores permiten asegurar la mejora continua.
 | No conformidades críticas | Hallazgos críticos | 0 |
 | Cumplimiento documental | Documentación actualizada | 100% |
 | Procesos estandarizados | Procesos documentados | 100% |
-| Acciones de mejora implementadas | Acciones ejecutadas | ≥ 90% |
+| Acciones de mejora implementadas | Acciones ejecutadas |  90% |
 
 ---
 
