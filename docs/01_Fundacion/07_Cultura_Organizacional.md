@@ -7,7 +7,7 @@
 | Versión | 1.0.0 |
 | Estado | Aprobado para el Proyecto Fundacional |
 | Fecha | Agosto de 2026 |
-| Elaborado por | Equipo Fundador |
+| Elaborado por | Carlos Culma |
 | Revisión | Pendiente |
 | Aprobación | Pendiente |
 
@@ -103,7 +103,7 @@ La cultura organizacional de ORION NOVA Technologies será el motor que impulse 
 
 | Versión | Fecha | Descripción | Autor |
 |----------|--------|-------------|-------|
-| 1.0.0 | Agosto 2026 | Creación inicial del documento | Equipo Fundador |
+| 1.0.0 | Agosto 2026 | Creación inicial del documento | Carlos Culma |
 
 ---
 

@@ -7,7 +7,7 @@
 | Versión | 1.0.0 |
 | Estado | Borrador |
 | Fecha | Agosto de 2026 |
-| Elaborado por | Equipo Fundador |
+| Elaborado por | Carlos Culma |
 
 ---
 
@@ -112,7 +112,7 @@ Fecha: _______________________
 
 | Versión | Fecha | Descripción | Autor |
 |----------|--------|-------------|-------|
-| 1.0.0 | Agosto de 2026 | Creación del documento | Equipo Fundador |
+| 1.0.0 | Agosto de 2026 | Creación del documento | Carlos Culma |
 
 ---
 

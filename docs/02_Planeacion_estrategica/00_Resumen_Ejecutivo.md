@@ -7,7 +7,7 @@
 | Versión | 1.0.0 |
 | Estado | En desarrollo |
 | Fecha | Agosto de 2026 |
-| Elaborado por | Equipo Fundador |
+| Elaborado por | Carlos Culma |
 | Revisión | Pendiente |
 | Aprobación | Pendiente |
 

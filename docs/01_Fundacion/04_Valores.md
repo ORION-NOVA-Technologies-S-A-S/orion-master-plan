@@ -7,7 +7,7 @@
 | Versión | 1.0.0 |
 | Estado | Aprobado para el Proyecto Fundacional |
 | Fecha | Agosto de 2026 |
-| Elaborado por | Equipo Fundador |
+| Elaborado por | Carlos Culma |
 | Revisión | Pendiente |
 | Aprobación | Pendiente |
 
@@ -123,7 +123,7 @@ Los valores corporativos constituyen la base ética y cultural de ORION NOVA Tec
 
 | Versión | Fecha | Descripción | Autor |
 |----------|--------|-------------|-------|
-| 1.0.0 | Agosto 2026 | Creación inicial del documento | Equipo Fundador |
+| 1.0.0 | Agosto 2026 | Creación inicial del documento | Carlos Culma |
 
 ---
 

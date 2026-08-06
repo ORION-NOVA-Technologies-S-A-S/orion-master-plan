@@ -7,7 +7,7 @@
 | Versión | 1.0.0 |
 | Estado | Aprobado para el Proyecto Fundacional |
 | Fecha | Agosto de 2026 |
-| Elaborado por | Equipo Fundador |
+| Elaborado por | Carlos Culma |
 | Revisión | Pendiente |
 | Aprobación | Pendiente |
 
@@ -109,7 +109,7 @@ El Código de Ética constituye un compromiso permanente con el desarrollo respo
 
 | Versión | Fecha | Descripción | Autor |
 |----------|--------|-------------|-------|
-| 1.0.0 | Agosto 2026 | Creación inicial | Equipo Fundador |
+| 1.0.0 | Agosto 2026 | Creación inicial | Carlos Culma |
 
 ---
 
