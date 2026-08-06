@@ -90,17 +90,17 @@ Los riesgos estratégicos se clasifican en las siguientes categorías:
 # Matriz General de Riesgos
 
 | Código | Riesgo | Probabilidad | Impacto | Nivel |
-|---------|---------|-------------|---------|--------|
-| R-001 | Cambios acelerados en la tecnología | Alta | Alto | Crítico |
-| R-002 | Insuficiencia de recursos financieros | Media | Alto | Alto |
-| R-003 | Fuga de talento especializado | Media | Alto | Alto |
-| R-004 | Ataques de ciberseguridad | Alta | Muy Alto | Crítico |
-| R-005 | Retrasos en el desarrollo de productos | Media | Medio | Moderado |
-| R-006 | Cambios regulatorios | Baja | Alto | Moderado |
-| R-007 | Baja adopción del mercado | Media | Alto | Alto |
-| R-008 | Dependencia de proveedores tecnológicos | Media | Medio | Moderado |
-| R-009 | Fallas de infraestructura Cloud | Baja | Muy Alto | Alto |
-| R-010 | Pérdida de información crítica | Baja | Muy Alto | Crítico |
+|---------|---------|--------------|---------|--------|
+| R-001 | Cambios acelerados en la tecnología | 🔴 Alta | 🟠 Alto | 🔴 Crítico |
+| R-002 | Insuficiencia de recursos financieros | 🟡 Media | 🟠 Alto | 🟠 Alto |
+| R-003 | Fuga de talento especializado | 🟡 Media | 🟠 Alto | 🟠 Alto |
+| R-004 | Ataques de ciberseguridad | 🔴 Alta | 🔴 Muy Alto | 🔴 Crítico |
+| R-005 | Retrasos en el desarrollo de productos | 🟡 Media | 🟡 Medio | 🟡 Moderado |
+| R-006 | Cambios regulatorios | 🟢 Baja | 🟠 Alto | 🟡 Moderado |
+| R-007 | Baja adopción del mercado | 🟡 Media | 🟠 Alto | 🟠 Alto |
+| R-008 | Dependencia de proveedores tecnológicos | 🟡 Media | 🟡 Medio | 🟡 Moderado |
+| R-009 | Fallas de infraestructura Cloud | 🟢 Baja | 🔴 Muy Alto | 🟠 Alto |
+| R-010 | Pérdida de información crítica | 🟢 Baja | 🔴 Muy Alto | 🔴 Crítico |
 
 ---
 
