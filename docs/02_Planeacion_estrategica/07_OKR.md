@@ -23,7 +23,7 @@ Los OKR permiten convertir la estrategia en objetivos claros, medibles y alcanza
 
 # Objetivo
 
-Establecer los objetivos estratégicos de ORION NOVA Technologies S.A.S. y definir los resultados clave que permitirán medir el progreso hacia el cumplimiento del Plan Estratégico 2026–2035.
+Establecer los objetivos estratégicos de ORION NOVA Technologies y definir los resultados clave que permitirán medir el progreso hacia el cumplimiento del Plan Estratégico 2026–2035.
 
 ---
 
