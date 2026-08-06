@@ -1,4 +1,4 @@
-# Resumen del Modelo de Negocio de ORION NOVA Technologies S.A.S.
+# Resumen del Modelo de Negocio de ORION NOVA Technologies.
 
 | Documento | Información |
 |-----------|-------------|
