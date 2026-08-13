@@ -1,4 +1,4 @@
-# Historia de ORION NOVA Technologies S.A.S.
+# Historia de ORION NOVA Technologies 
 
 | Documento | Información |
 |-----------|-------------|
