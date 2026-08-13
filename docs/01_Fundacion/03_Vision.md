@@ -1,4 +1,4 @@
-# Visión de ORION NOVA Technologies S.A.S.
+# Visión de ORION NOVA Technologies
 
 | Documento | Información |
 |-----------|-------------|
