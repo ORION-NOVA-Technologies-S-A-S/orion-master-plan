@@ -1,4 +1,4 @@
-# Misión de ORION NOVA Technologies S.A.S.
+# Misión de ORION NOVA Technologies 
 
 | Documento | Información |
 |-----------|-------------|
