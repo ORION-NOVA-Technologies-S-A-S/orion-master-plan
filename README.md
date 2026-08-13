@@ -65,8 +65,6 @@ Un asistente inteligente humanoide capaz de colaborar con personas, automatizar 
 
 ## Licencia
 
-Copyright © 2026
-
 ORION NOVA Technologies S.A.S.
 
 Todos los derechos reservados.
