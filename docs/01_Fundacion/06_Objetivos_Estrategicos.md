@@ -1,160 +1,160 @@
-# Objetivos Estratégicos de ORION NOVA Technologies
+# OBJETIVOS ESTRATÉGICOS DE ORION NOVA TECHNOLOGIES
 
-| Documento | Información |
+| DOCUMENTO | INFORMACIÓN |
 |-----------|-------------|
-| Código | ONT-FUN-006 |
-| Nombre | Objetivos Estratégicos |
-| Versión | 1.0.0 |
-| Estado | Aprobado para el Proyecto Fundacional |
-| Fecha | Agosto de 2026 |
-| Elaborado por | Carlos Culma |
-| Revisión | Pendiente |
-| Aprobación | Pendiente |
+| CÓDIGO | ONT-FUN-006 |
+| NOMBRE | OBJETIVOS ESTRATÉGICOS |
+| VERSIÓN | 1.0.0 |
+| ESTADO | APROBADO PARA EL PROYECTO FUNDACIONAL |
+| FECHA | AGOSTO DE 2026 |
+| ELABORADO POR | CARLOS CULMA |
+| REVISIÓN | PENDIENTE |
+| APROBACIÓN | PENDIENTE |
 
 ---
 
-# Objetivos Estratégicos
+# OBJETIVOS ESTRATÉGICOS
 
-## Introducción
+## INTRODUCCIÓN
 
-Los objetivos estratégicos establecen la dirección que seguirá ORION NOVA Technologies durante los próximos años. Estos objetivos orientan las decisiones de negocio, investigación, desarrollo tecnológico y crecimiento organizacional.
-
----
-
-# Objetivo General
-
-Consolidar a ORION NOVA Technologies como una empresa líder en investigación, desarrollo e innovación tecnológica mediante la creación de un ecosistema de Inteligencia Artificial, Software, Robótica, Internet de las Cosas (IoT) y Computación en la Nube, generando soluciones que impulsen la transformación digital y el desarrollo sostenible.
+LOS OBJETIVOS ESTRATÉGICOS ESTABLECEN LA DIRECCIÓN QUE SEGUIRÁ ORION NOVA TECHNOLOGIES DURANTE LOS PRÓXIMOS AÑOS. ESTOS OBJETIVOS ORIENTAN LAS DECISIONES DE NEGOCIO, INVESTIGACIÓN, DESARROLLO TECNOLÓGICO Y CRECIMIENTO ORGANIZACIONAL.
 
 ---
 
-# Objetivos Específicos
+# OBJETIVO GENERAL
 
-## 1. Investigación
-
-Desarrollar líneas de investigación en Inteligencia Artificial, Robótica, IoT, Ciencia de Datos y Automatización.
+CONSOLIDAR A ORION NOVA TECHNOLOGIES COMO UNA EMPRESA LÍDER EN INVESTIGACIÓN, DESARROLLO E INNOVACIÓN TECNOLÓGICA MEDIANTE LA CREACIÓN DE UN ECOSISTEMA DE INTELIGENCIA ARTIFICIAL, SOFTWARE, ROBÓTICA, INTERNET DE LAS COSAS (IOT) Y COMPUTACIÓN EN LA NUBE, GENERANDO SOLUCIONES QUE IMPULSEN LA TRANSFORMACIÓN DIGITAL Y EL DESARROLLO SOSTENIBLE.
 
 ---
 
-## 2. Desarrollo Tecnológico
+# OBJETIVOS ESPECÍFICOS
 
-Diseñar y construir plataformas tecnológicas escalables, seguras y modulares que permitan la evolución continua del ecosistema ORION.
+## 1. INVESTIGACIÓN
 
----
-
-## 3. Innovación
-
-Crear productos innovadores que resuelvan necesidades reales de personas, empresas e instituciones.
+DESARROLLAR LÍNEAS DE INVESTIGACIÓN EN INTELIGENCIA ARTIFICIAL, ROBÓTICA, IOT, CIENCIA DE DATOS Y AUTOMATIZACIÓN.
 
 ---
 
-## 4. Educación
+## 2. DESARROLLO TECNOLÓGICO
 
-Impulsar herramientas tecnológicas que fortalezcan el aprendizaje, la investigación y la formación profesional.
-
----
-
-## 5. Automatización
-
-Desarrollar soluciones que optimicen procesos mediante Inteligencia Artificial y tecnologías IoT.
+DISEÑAR Y CONSTRUIR PLATAFORMAS TECNOLÓGICAS ESCALABLES, SEGURAS Y MODULARES QUE PERMITAN LA EVOLUCIÓN CONTINUA DEL ECOSISTEMA ORION.
 
 ---
 
-## 6. Ciberseguridad
+## 3. INNOVACIÓN
 
-Garantizar que todos los productos incorporen principios de seguridad, privacidad y protección de datos desde su diseño.
-
----
-
-## 7. Expansión
-
-Posicionar a ORION NOVA Technologies en el mercado nacional e internacional mediante alianzas estratégicas y proyectos de alto impacto.
+CREAR PRODUCTOS INNOVADORES QUE RESUELVAN NECESIDADES REALES DE PERSONAS, EMPRESAS E INSTITUCIONES.
 
 ---
 
-## 8. Talento Humano
+## 4. EDUCACIÓN
 
-Construir un equipo multidisciplinario comprometido con la excelencia, la innovación y el aprendizaje continuo.
+IMPULSAR HERRAMIENTAS TECNOLÓGICAS QUE FORTALEZCAN EL APRENDIZAJE, LA INVESTIGACIÓN Y LA FORMACIÓN PROFESIONAL.
 
 ---
 
-# Objetivos Tecnológicos
+## 5. AUTOMATIZACIÓN
 
-La organización desarrollará progresivamente los siguientes componentes:
+DESARROLLAR SOLUCIONES QUE OPTIMICEN PROCESOS MEDIANTE INTELIGENCIA ARTIFICIAL Y TECNOLOGÍAS IOT.
 
-- ORION Core
-- ORION Nexus AI
+---
+
+## 6. CIBERSEGURIDAD
+
+GARANTIZAR QUE TODOS LOS PRODUCTOS INCORPOREN PRINCIPIOS DE SEGURIDAD, PRIVACIDAD Y PROTECCIÓN DE DATOS DESDE SU DISEÑO.
+
+---
+
+## 7. EXPANSIÓN
+
+POSICIONAR A ORION NOVA TECHNOLOGIES EN EL MERCADO NACIONAL E INTERNACIONAL MEDIANTE ALIANZAS ESTRATÉGICAS Y PROYECTOS DE ALTO IMPACTO.
+
+---
+
+## 8. TALENTO HUMANO
+
+CONSTRUIR UN EQUIPO MULTIDISCIPLINARIO COMPROMETIDO CON LA EXCELENCIA, LA INNOVACIÓN Y EL APRENDIZAJE CONTINUO.
+
+---
+
+# OBJETIVOS TECNOLÓGICOS
+
+LA ORGANIZACIÓN DESARROLLARÁ PROGRESIVAMENTE LOS SIGUIENTES COMPONENTES:
+
+- ORION CORE
+- ORION NEXUS AI
 - ORION OS
-- ORION Cloud
-- ORION Vision
-- ORION Robotics
-- ORION Home
-- ORION Secure
-- ORION Edu
-- ORION Labs
+- ORION CLOUD
+- ORION VISION
+- ORION ROBOTICS
+- ORION HOME
+- ORION SECURE
+- ORION EDU
+- ORION LABS
 
 ---
 
-# Objetivos Empresariales
+# OBJETIVOS EMPRESARIALES
 
-- Constituir legalmente la empresa.
-- Registrar la marca ORION.
-- Obtener propiedad intelectual sobre los desarrollos.
-- Crear una infraestructura tecnológica escalable.
-- Establecer alianzas estratégicas con universidades y empresas.
-- Participar en convocatorias nacionales e internacionales de innovación.
-
----
-
-# Indicadores Estratégicos (KPIs)
-
-Para evaluar el cumplimiento de los objetivos, la organización utilizará indicadores como:
-
-- Número de productos desarrollados.
-- Número de investigaciones realizadas.
-- Proyectos implementados.
-- Clientes activos.
-- Alianzas estratégicas.
-- Publicaciones técnicas.
-- Patentes registradas.
-- Satisfacción del cliente.
-- Disponibilidad de los servicios.
+- CONSTITUIR LEGALMENTE LA EMPRESA.
+- REGISTRAR LA MARCA ORION.
+- OBTENER PROPIEDAD INTELECTUAL SOBRE LOS DESARROLLOS.
+- CREAR UNA INFRAESTRUCTURA TECNOLÓGICA ESCALABLE.
+- ESTABLECER ALIANZAS ESTRATÉGICAS CON UNIVERSIDADES Y EMPRESAS.
+- PARTICIPAR EN CONVOCATORIAS NACIONALES E INTERNACIONALES DE INNOVACIÓN.
 
 ---
 
-# Compromiso
+# INDICADORES ESTRATÉGICOS (KPIS)
 
-Todos los proyectos de ORION NOVA Technologies deberán contribuir al cumplimiento de estos objetivos estratégicos, garantizando coherencia entre la visión de la empresa y sus acciones.
+PARA EVALUAR EL CUMPLIMIENTO DE LOS OBJETIVOS, LA ORGANIZACIÓN UTILIZARÁ INDICADORES COMO:
 
----
-
-# Conclusión
-
-Los objetivos estratégicos representan la hoja de ruta que permitirá a ORION NOVA Technologies crecer de manera sostenible, consolidando un ecosistema tecnológico innovador y competitivo.
-
----
-
-## Trazabilidad
-
-### Documentos relacionados
-
-- ONT-FUN-001 - Historia
-- ONT-FUN-002 - Misión
-- ONT-FUN-003 - Visión
-- ONT-FUN-005 - Filosofía Empresarial
-- ONT-STR-001 - Plan Estratégico
+- NÚMERO DE PRODUCTOS DESARROLLADOS.
+- NÚMERO DE INVESTIGACIONES REALIZADAS.
+- PROYECTOS IMPLEMENTADOS.
+- CLIENTES ACTIVOS.
+- ALIANZAS ESTRATÉGICAS.
+- PUBLICACIONES TÉCNICAS.
+- PATENTES REGISTRADAS.
+- SATISFACCIÓN DEL CLIENTE.
+- DISPONIBILIDAD DE LOS SERVICIOS.
 
 ---
 
-## Control de Cambios
+# COMPROMISO
 
-| Versión | Fecha | Descripción | Autor |
+TODOS LOS PROYECTOS DE ORION NOVA TECHNOLOGIES DEBERÁN CONTRIBUIR AL CUMPLIMIENTO DE ESTOS OBJETIVOS ESTRATÉGICOS, GARANTIZANDO COHERENCIA ENTRE LA VISIÓN DE LA EMPRESA Y SUS ACCIONES.
+
+---
+
+# CONCLUSIÓN
+
+LOS OBJETIVOS ESTRATÉGICOS REPRESENTAN LA HOJA DE RUTA QUE PERMITIRÁ A ORION NOVA TECHNOLOGIES CRECER DE MANERA SOSTENIBLE, CONSOLIDANDO UN ECOSISTEMA TECNOLÓGICO INNOVADOR Y COMPETITIVO.
+
+---
+
+## TRAZABILIDAD
+
+### DOCUMENTOS RELACIONADOS
+
+- ONT-FUN-001 - HISTORIA
+- ONT-FUN-002 - MISIÓN
+- ONT-FUN-003 - VISIÓN
+- ONT-FUN-005 - FILOSOFÍA EMPRESARIAL
+- ONT-STR-001 - PLAN ESTRATÉGICO
+
+---
+
+## CONTROL DE CAMBIOS
+
+| VERSIÓN | FECHA | DESCRIPCIÓN | AUTOR |
 |----------|--------|-------------|-------|
-| 1.0.0 | Agosto 2026 | Creación inicial del documento | Carlos Culma|
+| 1.0.0 | AGOSTO 2026 | CREACIÓN INICIAL DEL DOCUMENTO | CARLOS CULMA|
 
 ---
 
-**Documento oficial de ORION NOVA Technologies**
+**DOCUMENTO OFICIAL DE ORION NOVA TECHNOLOGIES**
 
-**Clasificación:** Documento Institucional
+**CLASIFICACIÓN:** DOCUMENTO INSTITUCIONAL
 
-**Estado:** Vigente
+**ESTADO:** VIGENTE

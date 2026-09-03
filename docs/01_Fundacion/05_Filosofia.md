@@ -1,114 +1,114 @@
-# Filosofía Empresarial de ORION NOVA Technologies
+# FILOSOFÍA EMPRESARIAL DE ORION NOVA TECHNOLOGIES
 
-| Documento | Información |
+| DOCUMENTO | INFORMACIÓN |
 |-----------|-------------|
-| Código | ONT-FUN-005 |
-| Nombre | Filosofía Empresarial |
-| Versión | 1.0.0 |
-| Estado | Aprobado para el Proyecto Fundacional |
-| Fecha | Agosto de 2026 |
-| Elaborado por | Carlos Culma |
-| Revisión | Pendiente |
-| Aprobación | Pendiente |
+| CÓDIGO | ONT-FUN-005 |
+| NOMBRE | FILOSOFÍA EMPRESARIAL |
+| VERSIÓN | 1.0.0 |
+| ESTADO | APROBADO PARA EL PROYECTO FUNDACIONAL |
+| FECHA | AGOSTO DE 2026 |
+| ELABORADO POR | CARLOS CULMA |
+| REVISIÓN | PENDIENTE |
+| APROBACIÓN | PENDIENTE |
 
 ---
 
-# Filosofía Empresarial
+# FILOSOFÍA EMPRESARIAL
 
-## Introducción
+## INTRODUCCIÓN
 
-La filosofía empresarial de ORION NOVA Technologies define la forma en que concebimos la tecnología, la innovación y el impacto que queremos generar en la sociedad. Es el conjunto de principios que orientan nuestras decisiones estratégicas, técnicas y humanas.
+LA FILOSOFÍA EMPRESARIAL DE ORION NOVA TECHNOLOGIES DEFINE LA FORMA EN QUE CONCEBIMOS LA TECNOLOGÍA, LA INNOVACIÓN Y EL IMPACTO QUE QUEREMOS GENERAR EN LA SOCIEDAD. ES EL CONJUNTO DE PRINCIPIOS QUE ORIENTAN NUESTRAS DECISIONES ESTRATÉGICAS, TÉCNICAS Y HUMANAS.
 
-Creemos que la tecnología debe estar al servicio de las personas, potenciando sus capacidades sin reemplazar su creatividad, pensamiento crítico ni autonomía.
-
----
-
-# Nuestra Filosofía
-
-ORION NOVA Technologies desarrolla soluciones tecnológicas centradas en las personas, impulsadas por la innovación, la investigación y la excelencia técnica.
-
-Nuestra meta no es únicamente construir software o dispositivos inteligentes, sino crear un ecosistema tecnológico que contribuya al bienestar, la educación, la productividad y el desarrollo sostenible.
+CREEMOS QUE LA TECNOLOGÍA DEBE ESTAR AL SERVICIO DE LAS PERSONAS, POTENCIANDO SUS CAPACIDADES SIN REEMPLAZAR SU CREATIVIDAD, PENSAMIENTO CRÍTICO NI AUTONOMÍA.
 
 ---
 
-# Principios Fundamentales
+# NUESTRA FILOSOFÍA
 
-## AI First
+ORION NOVA TECHNOLOGIES DESARROLLA SOLUCIONES TECNOLÓGICAS CENTRADAS EN LAS PERSONAS, IMPULSADAS POR LA INNOVACIÓN, LA INVESTIGACIÓN Y LA EXCELENCIA TÉCNICA.
 
-La Inteligencia Artificial será el núcleo de nuestros productos y servicios, utilizada de manera ética y responsable.
-
-## Human-Centered Design
-
-Diseñaremos tecnologías pensando primero en las personas, priorizando la usabilidad, accesibilidad y experiencia del usuario.
-
-## Security by Design
-
-La seguridad será considerada desde la fase de diseño y no como un elemento añadido al final del desarrollo.
-
-## Privacy by Default
-
-La privacidad y la protección de los datos personales serán un compromiso permanente.
-
-## Modular First
-
-Nuestros sistemas estarán compuestos por módulos independientes que faciliten su evolución, mantenimiento y escalabilidad.
-
-## Continuous Learning
-
-Promoveremos el aprendizaje continuo tanto para las personas como para nuestras plataformas tecnológicas.
-
-## Open Innovation
-
-Fomentaremos la colaboración con universidades, comunidades tecnológicas, empresas y centros de investigación.
+NUESTRA META NO ES ÚNICAMENTE CONSTRUIR SOFTWARE O DISPOSITIVOS INTELIGENTES, SINO CREAR UN ECOSISTEMA TECNOLÓGICO QUE CONTRIBUYA AL BIENESTAR, LA EDUCACIÓN, LA PRODUCTIVIDAD Y EL DESARROLLO SOSTENIBLE.
 
 ---
 
-# Nuestra Cultura Tecnológica
+# PRINCIPIOS FUNDAMENTALES
 
-En ORION NOVA Technologies creemos que:
+## AI FIRST
 
-- La investigación impulsa la innovación.
-- La documentación es parte del desarrollo.
-- La calidad es responsabilidad de todo el equipo.
-- La mejora continua es un proceso permanente.
-- Compartir conocimiento fortalece la organización.
+LA INTELIGENCIA ARTIFICIAL SERÁ EL NÚCLEO DE NUESTROS PRODUCTOS Y SERVICIOS, UTILIZADA DE MANERA ÉTICA Y RESPONSABLE.
 
----
+## HUMAN-CENTERED DESIGN
 
-# Compromiso
+DISEÑAREMOS TECNOLOGÍAS PENSANDO PRIMERO EN LAS PERSONAS, PRIORIZANDO LA USABILIDAD, ACCESIBILIDAD Y EXPERIENCIA DEL USUARIO.
 
-Cada decisión tecnológica deberá respetar los principios de esta filosofía, garantizando que nuestros productos generen confianza, seguridad y valor para la sociedad.
+## SECURITY BY DESIGN
 
----
+LA SEGURIDAD SERÁ CONSIDERADA DESDE LA FASE DE DISEÑO Y NO COMO UN ELEMENTO AÑADIDO AL FINAL DEL DESARROLLO.
 
-# Conclusión
+## PRIVACY BY DEFAULT
 
-La filosofía empresarial de ORION NOVA Technologies constituye el fundamento sobre el cual construiremos nuestra organización, nuestros productos y nuestras relaciones con clientes, aliados y colaboradores.
+LA PRIVACIDAD Y LA PROTECCIÓN DE LOS DATOS PERSONALES SERÁN UN COMPROMISO PERMANENTE.
 
----
+## MODULAR FIRST
 
-## Trazabilidad
+NUESTROS SISTEMAS ESTARÁN COMPUESTOS POR MÓDULOS INDEPENDIENTES QUE FACILITEN SU EVOLUCIÓN, MANTENIMIENTO Y ESCALABILIDAD.
 
-### Documentos relacionados
+## CONTINUOUS LEARNING
 
-- ONT-FUN-001 - Historia
-- ONT-FUN-002 - Misión
-- ONT-FUN-003 - Visión
-- ONT-FUN-004 - Valores
-- ONT-FUN-006 - Objetivos Estratégicos
+PROMOVEREMOS EL APRENDIZAJE CONTINUO TANTO PARA LAS PERSONAS COMO PARA NUESTRAS PLATAFORMAS TECNOLÓGICAS.
+
+## OPEN INNOVATION
+
+FOMENTAREMOS LA COLABORACIÓN CON UNIVERSIDADES, COMUNIDADES TECNOLÓGICAS, EMPRESAS Y CENTROS DE INVESTIGACIÓN.
 
 ---
 
-## Control de Cambios
+# NUESTRA CULTURA TECNOLÓGICA
 
-| Versión | Fecha | Descripción | Autor |
+EN ORION NOVA TECHNOLOGIES CREEMOS QUE:
+
+- LA INVESTIGACIÓN IMPULSA LA INNOVACIÓN.
+- LA DOCUMENTACIÓN ES PARTE DEL DESARROLLO.
+- LA CALIDAD ES RESPONSABILIDAD DE TODO EL EQUIPO.
+- LA MEJORA CONTINUA ES UN PROCESO PERMANENTE.
+- COMPARTIR CONOCIMIENTO FORTALECE LA ORGANIZACIÓN.
+
+---
+
+# COMPROMISO
+
+CADA DECISIÓN TECNOLÓGICA DEBERÁ RESPETAR LOS PRINCIPIOS DE ESTA FILOSOFÍA, GARANTIZANDO QUE NUESTROS PRODUCTOS GENEREN CONFIANZA, SEGURIDAD Y VALOR PARA LA SOCIEDAD.
+
+---
+
+# CONCLUSIÓN
+
+LA FILOSOFÍA EMPRESARIAL DE ORION NOVA TECHNOLOGIES CONSTITUYE EL FUNDAMENTO SOBRE EL CUAL CONSTRUIREMOS NUESTRA ORGANIZACIÓN, NUESTROS PRODUCTOS Y NUESTRAS RELACIONES CON CLIENTES, ALIADOS Y COLABORADORES.
+
+---
+
+## TRAZABILIDAD
+
+### DOCUMENTOS RELACIONADOS
+
+- ONT-FUN-001 - HISTORIA
+- ONT-FUN-002 - MISIÓN
+- ONT-FUN-003 - VISIÓN
+- ONT-FUN-004 - VALORES
+- ONT-FUN-006 - OBJETIVOS ESTRATÉGICOS
+
+---
+
+## CONTROL DE CAMBIOS
+
+| VERSIÓN | FECHA | DESCRIPCIÓN | AUTOR |
 |----------|--------|-------------|-------|
-| 1.0.0 | Agosto 2026 | Creación inicial del documento | Carlos Culma |
+| 1.0.0 | AGOSTO 2026 | CREACIÓN INICIAL DEL DOCUMENTO | CARLOS CULMA |
 
 ---
 
-**Documento oficial de ORION NOVA Technologies**
+**DOCUMENTO OFICIAL DE ORION NOVA TECHNOLOGIES**
 
-**Clasificación:** Documento Institucional
+**CLASIFICACIÓN:** DOCUMENTO INSTITUCIONAL
 
-**Estado:** Vigente
+**ESTADO:** VIGENTE

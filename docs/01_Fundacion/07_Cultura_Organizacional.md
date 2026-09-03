@@ -1,114 +1,114 @@
-# Cultura Organizacional de ORION NOVA Technologies
+# CULTURA ORGANIZACIONAL DE ORION NOVA TECHNOLOGIES
 
-| Documento | Información |
+| DOCUMENTO | INFORMACIÓN |
 |-----------|-------------|
-| Código | ONT-FUN-007 |
-| Nombre | Cultura Organizacional |
-| Versión | 1.0.0 |
-| Estado | Aprobado para el Proyecto Fundacional |
-| Fecha | Agosto de 2026 |
-| Elaborado por | Carlos Culma |
-| Revisión | Pendiente |
-| Aprobación | Pendiente |
+| CÓDIGO | ONT-FUN-007 |
+| NOMBRE | CULTURA ORGANIZACIONAL |
+| VERSIÓN | 1.0.0 |
+| ESTADO | APROBADO PARA EL PROYECTO FUNDACIONAL |
+| FECHA | AGOSTO DE 2026 |
+| ELABORADO POR | CARLOS CULMA |
+| REVISIÓN | PENDIENTE |
+| APROBACIÓN | PENDIENTE |
 
 ---
 
-# Cultura Organizacional
+# CULTURA ORGANIZACIONAL
 
-## Introducción
+## INTRODUCCIÓN
 
-La cultura organizacional de ORION NOVA Technologies representa el conjunto de principios, comportamientos, hábitos y formas de trabajo que orientan el crecimiento de la organización. Nuestra cultura busca fomentar la innovación, la colaboración y el desarrollo tecnológico con un enfoque ético y centrado en las personas.
-
----
-
-# Nuestra Cultura
-
-En ORION NOVA Technologies creemos que las mejores soluciones tecnológicas nacen de equipos comprometidos, diversos y en constante aprendizaje.
-
-Promovemos un ambiente donde la creatividad, la investigación y la mejora continua sean parte del trabajo diario.
+LA CULTURA ORGANIZACIONAL DE ORION NOVA TECHNOLOGIES REPRESENTA EL CONJUNTO DE PRINCIPIOS, COMPORTAMIENTOS, HÁBITOS Y FORMAS DE TRABAJO QUE ORIENTAN EL CRECIMIENTO DE LA ORGANIZACIÓN. NUESTRA CULTURA BUSCA FOMENTAR LA INNOVACIÓN, LA COLABORACIÓN Y EL DESARROLLO TECNOLÓGICO CON UN ENFOQUE ÉTICO Y CENTRADO EN LAS PERSONAS.
 
 ---
 
-# Principios Culturales
+# NUESTRA CULTURA
 
-## Innovación Permanente
+EN ORION NOVA TECHNOLOGIES CREEMOS QUE LAS MEJORES SOLUCIONES TECNOLÓGICAS NACEN DE EQUIPOS COMPROMETIDOS, DIVERSOS Y EN CONSTANTE APRENDIZAJE.
 
-Buscamos nuevas formas de resolver problemas mediante la investigación y el desarrollo tecnológico.
-
-## Trabajo Colaborativo
-
-Valoramos el trabajo en equipo y el intercambio de conocimientos entre todas las áreas de la organización.
-
-## Aprendizaje Continuo
-
-Impulsamos la formación permanente de nuestros colaboradores en tecnologías emergentes, metodologías ágiles y buenas prácticas de ingeniería.
-
-## Orientación al Usuario
-
-Cada producto y servicio debe responder a necesidades reales y ofrecer una experiencia de alta calidad.
-
-## Transparencia
-
-Fomentamos la comunicación abierta, la honestidad y la responsabilidad en todas las decisiones.
-
-## Diversidad e Inclusión
-
-Respetamos y promovemos la diversidad de ideas, experiencias y perspectivas, fortaleciendo un entorno de trabajo inclusivo.
+PROMOVEMOS UN AMBIENTE DONDE LA CREATIVIDAD, LA INVESTIGACIÓN Y LA MEJORA CONTINUA SEAN PARTE DEL TRABAJO DIARIO.
 
 ---
 
-# Forma de Trabajar
+# PRINCIPIOS CULTURALES
 
-Nuestra organización adoptará metodologías modernas para el desarrollo de proyectos, incluyendo:
+## INNOVACIÓN PERMANENTE
 
-- Gestión Ágil (Scrum y Kanban).
-- Control de versiones con Git y GitHub.
-- Integración y entrega continua (CI/CD).
-- Documentación como parte del desarrollo.
-- Revisión de código y aseguramiento de la calidad.
+BUSCAMOS NUEVAS FORMAS DE RESOLVER PROBLEMAS MEDIANTE LA INVESTIGACIÓN Y EL DESARROLLO TECNOLÓGICO.
 
----
+## TRABAJO COLABORATIVO
 
-# Compromiso con la Innovación
+VALORAMOS EL TRABAJO EN EQUIPO Y EL INTERCAMBIO DE CONOCIMIENTOS ENTRE TODAS LAS ÁREAS DE LA ORGANIZACIÓN.
 
-ORION NOVA Technologies fomentará espacios para la experimentación, el desarrollo de prototipos, la investigación aplicada y la colaboración con universidades, empresas y centros de investigación.
+## APRENDIZAJE CONTINUO
 
----
+IMPULSAMOS LA FORMACIÓN PERMANENTE DE NUESTROS COLABORADORES EN TECNOLOGÍAS EMERGENTES, METODOLOGÍAS ÁGILES Y BUENAS PRÁCTICAS DE INGENIERÍA.
 
-# Bienestar del Equipo
+## ORIENTACIÓN AL USUARIO
 
-La organización promoverá un ambiente de trabajo basado en el respeto, la confianza y el crecimiento profesional, reconociendo que las personas son el principal activo de la empresa.
+CADA PRODUCTO Y SERVICIO DEBE RESPONDER A NECESIDADES REALES Y OFRECER UNA EXPERIENCIA DE ALTA CALIDAD.
 
----
+## TRANSPARENCIA
 
-# Conclusión
+FOMENTAMOS LA COMUNICACIÓN ABIERTA, LA HONESTIDAD Y LA RESPONSABILIDAD EN TODAS LAS DECISIONES.
 
-La cultura organizacional de ORION NOVA Technologies será el motor que impulse la innovación, la excelencia y el compromiso con el desarrollo de soluciones tecnológicas que generen impacto positivo en la sociedad.
+## DIVERSIDAD E INCLUSIÓN
+
+RESPETAMOS Y PROMOVEMOS LA DIVERSIDAD DE IDEAS, EXPERIENCIAS Y PERSPECTIVAS, FORTALECIENDO UN ENTORNO DE TRABAJO INCLUSIVO.
 
 ---
 
-## Trazabilidad
+# FORMA DE TRABAJAR
 
-### Documentos relacionados
+NUESTRA ORGANIZACIÓN ADOPTARÁ METODOLOGÍAS MODERNAS PARA EL DESARROLLO DE PROYECTOS, INCLUYENDO:
 
-- ONT-FUN-001 - Historia
-- ONT-FUN-004 - Valores
-- ONT-FUN-005 - Filosofía Empresarial
-- ONT-FUN-008 - Identidad Corporativa
-- ONT-TH-001 - Gestión del Talento Humano
+- GESTIÓN ÁGIL (SCRUM Y KANBAN).
+- CONTROL DE VERSIONES CON GIT Y GITHUB.
+- INTEGRACIÓN Y ENTREGA CONTINUA (CI/CD).
+- DOCUMENTACIÓN COMO PARTE DEL DESARROLLO.
+- REVISIÓN DE CÓDIGO Y ASEGURAMIENTO DE LA CALIDAD.
 
 ---
 
-## Control de Cambios
+# COMPROMISO CON LA INNOVACIÓN
 
-| Versión | Fecha | Descripción | Autor |
+ORION NOVA TECHNOLOGIES FOMENTARÁ ESPACIOS PARA LA EXPERIMENTACIÓN, EL DESARROLLO DE PROTOTIPOS, LA INVESTIGACIÓN APLICADA Y LA COLABORACIÓN CON UNIVERSIDADES, EMPRESAS Y CENTROS DE INVESTIGACIÓN.
+
+---
+
+# BIENESTAR DEL EQUIPO
+
+LA ORGANIZACIÓN PROMOVERÁ UN AMBIENTE DE TRABAJO BASADO EN EL RESPETO, LA CONFIANZA Y EL CRECIMIENTO PROFESIONAL, RECONOCIENDO QUE LAS PERSONAS SON EL PRINCIPAL ACTIVO DE LA EMPRESA.
+
+---
+
+# CONCLUSIÓN
+
+LA CULTURA ORGANIZACIONAL DE ORION NOVA TECHNOLOGIES SERÁ EL MOTOR QUE IMPULSE LA INNOVACIÓN, LA EXCELENCIA Y EL COMPROMISO CON EL DESARROLLO DE SOLUCIONES TECNOLÓGICAS QUE GENEREN IMPACTO POSITIVO EN LA SOCIEDAD.
+
+---
+
+## TRAZABILIDAD
+
+### DOCUMENTOS RELACIONADOS
+
+- ONT-FUN-001 - HISTORIA
+- ONT-FUN-004 - VALORES
+- ONT-FUN-005 - FILOSOFÍA EMPRESARIAL
+- ONT-FUN-008 - IDENTIDAD CORPORATIVA
+- ONT-TH-001 - GESTIÓN DEL TALENTO HUMANO
+
+---
+
+## CONTROL DE CAMBIOS
+
+| VERSIÓN | FECHA | DESCRIPCIÓN | AUTOR |
 |----------|--------|-------------|-------|
-| 1.0.0 | Agosto 2026 | Creación inicial del documento | Carlos Culma |
+| 1.0.0 | AGOSTO 2026 | CREACIÓN INICIAL DEL DOCUMENTO | CARLOS CULMA |
 
 ---
 
-**Documento oficial de ORION NOVA Technologies**
+**DOCUMENTO OFICIAL DE ORION NOVA TECHNOLOGIES**
 
-**Clasificación:** Documento Institucional
+**CLASIFICACIÓN:** DOCUMENTO INSTITUCIONAL
 
-**Estado:** Vigente
+**ESTADO:** VIGENTE

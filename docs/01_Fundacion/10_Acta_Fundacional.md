@@ -1,119 +1,119 @@
-# Acta Fundacional de ORION NOVA Technologies
+# ACTA FUNDACIONAL DE ORION NOVA TECHNOLOGIES
 
-| Documento | Información |
+| DOCUMENTO | INFORMACIÓN |
 |-----------|-------------|
-| Código | ONT-FUN-010 |
-| Nombre | Acta Fundacional |
-| Versión | 1.0.0 |
-| Estado | Borrador |
-| Fecha | Agosto de 2026 |
-| Elaborado por | Carlos Culma |
+| CÓDIGO | ONT-FUN-010 |
+| NOMBRE | ACTA FUNDACIONAL |
+| VERSIÓN | 1.0.0 |
+| ESTADO | BORRADOR |
+| FECHA | AGOSTO DE 2026 |
+| ELABORADO POR | CARLOS CULMA |
 
 ---
 
-# Acta Fundacional
+# ACTA FUNDACIONAL
 
-## Introducción
+## INTRODUCCIÓN
 
-La presente Acta Fundacional formaliza la creación del proyecto empresarial ORION NOVA Technologies, estableciendo los principios, objetivos y compromisos que servirán como base para su constitución legal y desarrollo.
-
----
-
-# Fundadores
-
-**Fundador Principal**
-
-- Carlos Daniel Culma
-
-**Equipo Fundador**
-
-- En proceso de conformación.
+LA PRESENTE ACTA FUNDACIONAL FORMALIZA LA CREACIÓN DEL PROYECTO EMPRESARIAL ORION NOVA TECHNOLOGIES, ESTABLECIENDO LOS PRINCIPIOS, OBJETIVOS Y COMPROMISOS QUE SERVIRÁN COMO BASE PARA SU CONSTITUCIÓN LEGAL Y DESARROLLO.
 
 ---
 
-# Nombre de la Empresa
+# FUNDADORES
 
-**ORION NOVA Technologies**
+**FUNDADOR PRINCIPAL**
 
----
+- CARLOS DANIEL CULMA
 
-# Naturaleza
+**EQUIPO FUNDADOR**
 
-Empresa dedicada a la investigación, desarrollo e innovación tecnológica (I+D+i).
-
----
-
-# Áreas de Especialización
-
-- Inteligencia Artificial
-- Desarrollo de Software
-- Computación en la Nube
-- Internet de las Cosas (IoT)
-- Robótica
-- Automatización
-- Ciberseguridad
-- Ciencia de Datos
+- EN PROCESO DE CONFORMACIÓN.
 
 ---
 
-# Objetivo General
+# NOMBRE DE LA EMPRESA
 
-Desarrollar soluciones tecnológicas innovadoras que contribuyan al crecimiento científico, tecnológico y económico de Colombia y del mundo.
-
----
-
-# Compromisos
-
-Los fundadores se comprometen a:
-
-- Promover la innovación.
-- Mantener altos estándares éticos.
-- Desarrollar tecnología de calidad.
-- Fomentar la investigación.
-- Respetar la propiedad intelectual.
-- Impulsar la transformación digital.
+**ORION NOVA TECHNOLOGIES**
 
 ---
 
-# Visión Fundacional
+# NATURALEZA
 
-Construir una empresa reconocida internacionalmente por el desarrollo de tecnologías inteligentes que generen impacto positivo en la sociedad.
-
----
-
-# Vigencia
-
-Esta acta permanecerá vigente hasta la constitución legal de la empresa y será actualizada cuando se formalice la creación de ORION NOVA Technologies.
+EMPRESA DEDICADA A LA INVESTIGACIÓN, DESARROLLO E INNOVACIÓN TECNOLÓGICA (I+D+I).
 
 ---
 
-# Firmas
+# ÁREAS DE ESPECIALIZACIÓN
 
-**Fundador Principal**
+- INTELIGENCIA ARTIFICIAL
+- DESARROLLO DE SOFTWARE
+- COMPUTACIÓN EN LA NUBE
+- INTERNET DE LAS COSAS (IOT)
+- ROBÓTICA
+- AUTOMATIZACIÓN
+- CIBERSEGURIDAD
+- CIENCIA DE DATOS
+
+---
+
+# OBJETIVO GENERAL
+
+DESARROLLAR SOLUCIONES TECNOLÓGICAS INNOVADORAS QUE CONTRIBUYAN AL CRECIMIENTO CIENTÍFICO, TECNOLÓGICO Y ECONÓMICO DE COLOMBIA Y DEL MUNDO.
+
+---
+
+# COMPROMISOS
+
+LOS FUNDADORES SE COMPROMETEN A:
+
+- PROMOVER LA INNOVACIÓN.
+- MANTENER ALTOS ESTÁNDARES ÉTICOS.
+- DESARROLLAR TECNOLOGÍA DE CALIDAD.
+- FOMENTAR LA INVESTIGACIÓN.
+- RESPETAR LA PROPIEDAD INTELECTUAL.
+- IMPULSAR LA TRANSFORMACIÓN DIGITAL.
+
+---
+
+# VISIÓN FUNDACIONAL
+
+CONSTRUIR UNA EMPRESA RECONOCIDA INTERNACIONALMENTE POR EL DESARROLLO DE TECNOLOGÍAS INTELIGENTES QUE GENEREN IMPACTO POSITIVO EN LA SOCIEDAD.
+
+---
+
+# VIGENCIA
+
+ESTA ACTA PERMANECERÁ VIGENTE HASTA LA CONSTITUCIÓN LEGAL DE LA EMPRESA Y SERÁ ACTUALIZADA CUANDO SE FORMALICE LA CREACIÓN DE ORION NOVA TECHNOLOGIES.
+
+---
+
+# FIRMAS
+
+**FUNDADOR PRINCIPAL**
 
 _____________________________
 
-Carlos Daniel Culma
+CARLOS DANIEL CULMA
 
-Fecha: _______________________
-
----
-
-## Trazabilidad
-
-- ONT-FUN-001 - Historia
-- ONT-FUN-002 - Misión
-- ONT-FUN-003 - Visión
-- ONT-FUN-006 - Objetivos Estratégicos
+FECHA: _______________________
 
 ---
 
-## Control de Cambios
+## TRAZABILIDAD
 
-| Versión | Fecha | Descripción | Autor |
+- ONT-FUN-001 - HISTORIA
+- ONT-FUN-002 - MISIÓN
+- ONT-FUN-003 - VISIÓN
+- ONT-FUN-006 - OBJETIVOS ESTRATÉGICOS
+
+---
+
+## CONTROL DE CAMBIOS
+
+| VERSIÓN | FECHA | DESCRIPCIÓN | AUTOR |
 |----------|--------|-------------|-------|
-| 1.0.0 | Agosto de 2026 | Creación del documento | Carlos Culma |
+| 1.0.0 | AGOSTO DE 2026 | CREACIÓN DEL DOCUMENTO | CARLOS CULMA |
 
 ---
 
-**Documento oficial de ORION NOVA Technologies**
+**DOCUMENTO OFICIAL DE ORION NOVA TECHNOLOGIES**

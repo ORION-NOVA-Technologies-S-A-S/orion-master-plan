@@ -1,139 +1,139 @@
-# Historia de ORION NOVA Technologies 
+# HISTORIA DE ORION NOVA TECHNOLOGIES 
 
-| Documento | Información |
+| DOCUMENTO | INFORMACIÓN |
 |-----------|-------------|
-| Código | ONT-FUN-001 |
-| Nombre | Historia de ORION NOVA Technologies  |
-| Versión | 1.0.0 |
-| Estado | Aprobado para el Proyecto Fundacional |
-| Fecha | Agosto de 2026 |
-| Elaborado por | Carlos Culma |
-| Revisión | Pendiente |
-| Aprobación | Pendiente |
+| CÓDIGO | ONT-FUN-001 |
+| NOMBRE | HISTORIA DE ORION NOVA TECHNOLOGIES  |
+| VERSIÓN | 1.0.0 |
+| ESTADO | APROBADO PARA EL PROYECTO FUNDACIONAL |
+| FECHA | AGOSTO DE 2026 |
+| ELABORADO POR | CARLOS CULMA |
+| REVISIÓN | PENDIENTE |
+| APROBACIÓN | PENDIENTE |
 
 ---
 
-# Historia
+# HISTORIA
 
-## Introducción
+## INTRODUCCIÓN
 
-ORION NOVA Technologies  nace como una iniciativa orientada a la investigación, el desarrollo y la innovación tecnológica, con el propósito de crear soluciones de alto impacto basadas en Inteligencia Artificial, Automatización, Robótica, Computación en la Nube e Internet de las Cosas (IoT).
+ORION NOVA TECHNOLOGIES NACE COMO UNA INICIATIVA ORIENTADA A LA INVESTIGACIÓN, EL DESARROLLO Y LA INNOVACIÓN TECNOLÓGICA, CON EL PROPÓSITO DE CREAR SOLUCIONES DE ALTO IMPACTO BASADAS EN INTELIGENCIA ARTIFICIAL, AUTOMATIZACIÓN, ROBÓTICA, COMPUTACIÓN EN LA NUBE E INTERNET DE LAS COSAS (IOT).
 
-La empresa surge a partir de la visión de construir un ecosistema tecnológico capaz de integrar múltiples disciplinas de la ingeniería en una plataforma inteligente, escalable y centrada en las personas. Desde sus inicios, ORION NOVA Technologies busca desarrollar tecnología propia que contribuya al avance científico, académico, empresarial y social.
-
----
-
-# Origen
-
-El proyecto ORION tiene su origen en la necesidad de disponer de un asistente inteligente que vaya más allá de las capacidades tradicionales de los asistentes virtuales existentes.
-
-La visión inicial plantea el desarrollo de un sistema capaz de comprender el contexto, aprender continuamente, colaborar en procesos académicos y profesionales, automatizar tareas, integrarse con dispositivos físicos y ofrecer una experiencia de interacción natural mediante interfaces conversacionales y representaciones humanoides.
-
-Este concepto evolucionó hacia la creación de un ecosistema completo de productos tecnológicos bajo una misma arquitectura de software e inteligencia artificial.
+LA EMPRESA SURGE A PARTIR DE LA VISIÓN DE CONSTRUIR UN ECOSISTEMA TECNOLÓGICO CAPAZ DE INTEGRAR MÚLTIPLES DISCIPLINAS DE LA INGENIERÍA EN UNA PLATAFORMA INTELIGENTE, ESCALABLE Y CENTRADA EN LAS PERSONAS. DESDE SUS INICIOS, ORION NOVA TECHNOLOGIES BUSCA DESARROLLAR TECNOLOGÍA PROPIA QUE CONTRIBUYA AL AVANCE CIENTÍFICO, ACADÉMICO, EMPRESARIAL Y SOCIAL.
 
 ---
 
-# Fundación
+# ORIGEN
 
-ORION NOVA Technologies. Se constituye con la finalidad de convertirse en una empresa especializada en Investigación, Desarrollo e Innovación (I+D+i), promoviendo la creación de soluciones tecnológicas propias que respondan a las necesidades de personas, instituciones educativas, empresas y organizaciones públicas y privadas.
+EL PROYECTO ORION TIENE SU ORIGEN EN LA NECESIDAD DE DISPONER DE UN ASISTENTE INTELIGENTE QUE VAYA MÁS ALLÁ DE LAS CAPACIDADES TRADICIONALES DE LOS ASISTENTES VIRTUALES EXISTENTES.
 
-Desde su fundación, la empresa adopta como principio fundamental la innovación responsable, entendiendo la Inteligencia Artificial como una herramienta para potenciar las capacidades humanas y contribuir al desarrollo sostenible.
+LA VISIÓN INICIAL PLANTEA EL DESARROLLO DE UN SISTEMA CAPAZ DE COMPRENDER EL CONTEXTO, APRENDER CONTINUAMENTE, COLABORAR EN PROCESOS ACADÉMICOS Y PROFESIONALES, AUTOMATIZAR TAREAS, INTEGRARSE CON DISPOSITIVOS FÍSICOS Y OFRECER UNA EXPERIENCIA DE INTERACCIÓN NATURAL MEDIANTE INTERFACES CONVERSACIONALES Y REPRESENTACIONES HUMANOIDES.
 
----
-
-# Motivación
-
-La rápida evolución de la Inteligencia Artificial, el crecimiento del Internet de las Cosas, la automatización de procesos y la robótica inteligente representan una oportunidad para transformar la manera en que las personas aprenden, trabajan y se relacionan con la tecnología.
-
-ORION NOVA Technologies nace con el compromiso de participar activamente en esta transformación mediante el diseño y desarrollo de soluciones innovadoras, accesibles y seguras.
+ESTE CONCEPTO EVOLUCIONÓ HACIA LA CREACIÓN DE UN ECOSISTEMA COMPLETO DE PRODUCTOS TECNOLÓGICOS BAJO UNA MISMA ARQUITECTURA DE SOFTWARE E INTELIGENCIA ARTIFICIAL.
 
 ---
 
-# Propósito
+# FUNDACIÓN
 
-El propósito de ORION NOVA Technologies es investigar, diseñar, desarrollar e implementar tecnologías inteligentes que faciliten la interacción entre las personas y los sistemas digitales, contribuyendo al progreso científico, tecnológico y social.
+ORION NOVA TECHNOLOGIES. SE CONSTITUYE CON LA FINALIDAD DE CONVERTIRSE EN UNA EMPRESA ESPECIALIZADA EN INVESTIGACIÓN, DESARROLLO E INNOVACIÓN (I+D+I), PROMOVIENDO LA CREACIÓN DE SOLUCIONES TECNOLÓGICAS PROPIAS QUE RESPONDAN A LAS NECESIDADES DE PERSONAS, INSTITUCIONES EDUCATIVAS, EMPRESAS Y ORGANIZACIONES PÚBLICAS Y PRIVADAS.
 
-La empresa busca consolidar un ecosistema tecnológico donde la Inteligencia Artificial, la automatización, el análisis de datos, la robótica y la conectividad trabajen de manera integrada para resolver problemas reales.
-
----
-
-# Primer Proyecto
-
-El primer gran proyecto de la organización será:
-
-# ORION Nexus AI
-
-ORION Nexus AI será un asistente inteligente de nueva generación concebido como el núcleo del ecosistema ORION.
-
-Su objetivo será ofrecer una plataforma capaz de:
-
-- Asistir en procesos académicos.
-- Apoyar el desarrollo de software.
-- Automatizar procesos.
-- Integrarse con dispositivos IoT.
-- Gestionar información.
-- Aprender continuamente.
-- Interactuar mediante voz y lenguaje natural.
-- Evolucionar hacia una representación humanoide virtual.
+DESDE SU FUNDACIÓN, LA EMPRESA ADOPTA COMO PRINCIPIO FUNDAMENTAL LA INNOVACIÓN RESPONSABLE, ENTENDIENDO LA INTELIGENCIA ARTIFICIAL COMO UNA HERRAMIENTA PARA POTENCIAR LAS CAPACIDADES HUMANAS Y CONTRIBUIR AL DESARROLLO SOSTENIBLE.
 
 ---
 
-# Visión Tecnológica
+# MOTIVACIÓN
 
-ORION NOVA Technologies proyecta desarrollar un ecosistema tecnológico compuesto por diferentes plataformas y productos especializados.
+LA RÁPIDA EVOLUCIÓN DE LA INTELIGENCIA ARTIFICIAL, EL CRECIMIENTO DEL INTERNET DE LAS COSAS, LA AUTOMATIZACIÓN DE PROCESOS Y LA ROBÓTICA INTELIGENTE REPRESENTAN UNA OPORTUNIDAD PARA TRANSFORMAR LA MANERA EN QUE LAS PERSONAS APRENDEN, TRABAJAN Y SE RELACIONAN CON LA TECNOLOGÍA.
 
-Entre ellos se contemplan:
+ORION NOVA TECHNOLOGIES NACE CON EL COMPROMISO DE PARTICIPAR ACTIVAMENTE EN ESTA TRANSFORMACIÓN MEDIANTE EL DISEÑO Y DESARROLLO DE SOLUCIONES INNOVADORAS, ACCESIBLES Y SEGURAS.
 
-- ORION Core
-- ORION Nexus AI
-- ORION Cloud
+---
+
+# PROPÓSITO
+
+EL PROPÓSITO DE ORION NOVA TECHNOLOGIES ES INVESTIGAR, DISEÑAR, DESARROLLAR E IMPLEMENTAR TECNOLOGÍAS INTELIGENTES QUE FACILITEN LA INTERACCIÓN ENTRE LAS PERSONAS Y LOS SISTEMAS DIGITALES, CONTRIBUYENDO AL PROGRESO CIENTÍFICO, TECNOLÓGICO Y SOCIAL.
+
+LA EMPRESA BUSCA CONSOLIDAR UN ECOSISTEMA TECNOLÓGICO DONDE LA INTELIGENCIA ARTIFICIAL, LA AUTOMATIZACIÓN, EL ANÁLISIS DE DATOS, LA ROBÓTICA Y LA CONECTIVIDAD TRABAJEN DE MANERA INTEGRADA PARA RESOLVER PROBLEMAS REALES.
+
+---
+
+# PRIMER PROYECTO
+
+EL PRIMER GRAN PROYECTO DE LA ORGANIZACIÓN SERÁ:
+
+# ORION NEXUS AI
+
+ORION NEXUS AI SERÁ UN ASISTENTE INTELIGENTE DE NUEVA GENERACIÓN CONCEBIDO COMO EL NÚCLEO DEL ECOSISTEMA ORION.
+
+SU OBJETIVO SERÁ OFRECER UNA PLATAFORMA CAPAZ DE:
+
+- ASISTIR EN PROCESOS ACADÉMICOS.
+- APOYAR EL DESARROLLO DE SOFTWARE.
+- AUTOMATIZAR PROCESOS.
+- INTEGRARSE CON DISPOSITIVOS IOT.
+- GESTIONAR INFORMACIÓN.
+- APRENDER CONTINUAMENTE.
+- INTERACTUAR MEDIANTE VOZ Y LENGUAJE NATURAL.
+- EVOLUCIONAR HACIA UNA REPRESENTACIÓN HUMANOIDE VIRTUAL.
+
+---
+
+# VISIÓN TECNOLÓGICA
+
+ORION NOVA TECHNOLOGIES PROYECTA DESARROLLAR UN ECOSISTEMA TECNOLÓGICO COMPUESTO POR DIFERENTES PLATAFORMAS Y PRODUCTOS ESPECIALIZADOS.
+
+ENTRE ELLOS SE CONTEMPLAN:
+
+- ORION CORE
+- ORION NEXUS AI
+- ORION CLOUD
 - ORION OS
-- ORION Vision
-- ORION Robotics
-- ORION Home
-- ORION Secure
-- ORION Edu
+- ORION VISION
+- ORION ROBOTICS
+- ORION HOME
+- ORION SECURE
+- ORION EDU
 
-Cada uno de estos componentes formará parte de una arquitectura modular diseñada para garantizar escalabilidad, interoperabilidad y evolución tecnológica.
-
----
-
-# Compromiso
-
-ORION NOVA Technologies asume el compromiso de desarrollar tecnologías con responsabilidad, transparencia y altos estándares de calidad, promoviendo el aprendizaje continuo, la innovación y el respeto por las personas.
-
-La organización reconoce que el desarrollo tecnológico debe estar acompañado de principios éticos, seguridad de la información y protección de los datos.
+CADA UNO DE ESTOS COMPONENTES FORMARÁ PARTE DE UNA ARQUITECTURA MODULAR DISEÑADA PARA GARANTIZAR ESCALABILIDAD, INTEROPERABILIDAD Y EVOLUCIÓN TECNOLÓGICA.
 
 ---
 
-# Proyección
+# COMPROMISO
 
-En el mediano y largo plazo, ORION NOVA Technologies aspira a consolidarse como una empresa líder en investigación y desarrollo tecnológico en América Latina, participando en proyectos de Inteligencia Artificial, automatización, robótica, educación digital e innovación empresarial.
+ORION NOVA TECHNOLOGIES ASUME EL COMPROMISO DE DESARROLLAR TECNOLOGÍAS CON RESPONSABILIDAD, TRANSPARENCIA Y ALTOS ESTÁNDARES DE CALIDAD, PROMOVIENDO EL APRENDIZAJE CONTINUO, LA INNOVACIÓN Y EL RESPETO POR LAS PERSONAS.
 
-Su visión contempla la construcción de laboratorios de investigación, alianzas estratégicas con universidades, centros tecnológicos y organizaciones internacionales, así como el desarrollo de productos con alcance global.
-
----
-
-# Conclusión
-
-La historia de ORION NOVA Technologies apenas comienza.
-
-Este documento representa el punto de partida de una organización concebida para investigar, innovar y desarrollar tecnologías que contribuyan al crecimiento de las personas, las empresas y la sociedad.
-
-Cada proyecto desarrollado por la organización buscará reflejar los principios de excelencia técnica, responsabilidad e innovación que inspiran la creación de ORION NOVA Technologies.
+LA ORGANIZACIÓN RECONOCE QUE EL DESARROLLO TECNOLÓGICO DEBE ESTAR ACOMPAÑADO DE PRINCIPIOS ÉTICOS, SEGURIDAD DE LA INFORMACIÓN Y PROTECCIÓN DE LOS DATOS.
 
 ---
 
-## Control de Cambios
+# PROYECCIÓN
 
-| Versión | Fecha | Descripción | Autor |
+EN EL MEDIANO Y LARGO PLAZO, ORION NOVA TECHNOLOGIES ASPIRA A CONSOLIDARSE COMO UNA EMPRESA LÍDER EN INVESTIGACIÓN Y DESARROLLO TECNOLÓGICO EN AMÉRICA LATINA, PARTICIPANDO EN PROYECTOS DE INTELIGENCIA ARTIFICIAL, AUTOMATIZACIÓN, ROBÓTICA, EDUCACIÓN DIGITAL E INNOVACIÓN EMPRESARIAL.
+
+SU VISIÓN CONTEMPLA LA CONSTRUCCIÓN DE LABORATORIOS DE INVESTIGACIÓN, ALIANZAS ESTRATÉGICAS CON UNIVERSIDADES, CENTROS TECNOLÓGICOS Y ORGANIZACIONES INTERNACIONALES, ASÍ COMO EL DESARROLLO DE PRODUCTOS CON ALCANCE GLOBAL.
+
+---
+
+# CONCLUSIÓN
+
+LA HISTORIA DE ORION NOVA TECHNOLOGIES APENAS COMIENZA.
+
+ESTE DOCUMENTO REPRESENTA EL PUNTO DE PARTIDA DE UNA ORGANIZACIÓN CONCEBIDA PARA INVESTIGAR, INNOVAR Y DESARROLLAR TECNOLOGÍAS QUE CONTRIBUYAN AL CRECIMIENTO DE LAS PERSONAS, LAS EMPRESAS Y LA SOCIEDAD.
+
+CADA PROYECTO DESARROLLADO POR LA ORGANIZACIÓN BUSCARÁ REFLEJAR LOS PRINCIPIOS DE EXCELENCIA TÉCNICA, RESPONSABILIDAD E INNOVACIÓN QUE INSPIRAN LA CREACIÓN DE ORION NOVA TECHNOLOGIES.
+
+---
+
+## CONTROL DE CAMBIOS
+
+| VERSIÓN | FECHA | DESCRIPCIÓN | AUTOR |
 |----------|--------|-------------|-------|
-| 1.0.0 | Agosto 2026 | Creación inicial del documento | Carlos Culma|
+| 1.0.0 | AGOSTO 2026 | CREACIÓN INICIAL DEL DOCUMENTO | CARLOS CULMA|
 
 ---
 
-**Documento oficial de ORION NOVA Technologies**
+**DOCUMENTO OFICIAL DE ORION NOVA TECHNOLOGIES**
 
-**Clasificación:** Documento Institucional
+**CLASIFICACIÓN:** DOCUMENTO INSTITUCIONAL
 
-**Estado:** Vigente
+**ESTADO:** VIGENTE

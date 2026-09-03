@@ -1,138 +1,138 @@
-# Visión de ORION NOVA Technologies
+# VISIÓN DE ORION NOVA TECHNOLOGIES
 
-| Documento | Información |
+| DOCUMENTO | INFORMACIÓN |
 |-----------|-------------|
-| Código | ONT-FUN-003 |
-| Nombre | Visión de ORION NOVA Technologies |
-| Versión | 1.0.0 |
-| Estado | Aprobado para el Proyecto Fundacional |
-| Fecha | Agosto de 2026 |
-| Elaborado por | Carlos Culma |
-| Revisión | Pendiente |
-| Aprobación | Pendiente |
+| CÓDIGO | ONT-FUN-003 |
+| NOMBRE | VISIÓN DE ORION NOVA TECHNOLOGIES |
+| VERSIÓN | 1.0.0 |
+| ESTADO | APROBADO PARA EL PROYECTO FUNDACIONAL |
+| FECHA | AGOSTO DE 2026 |
+| ELABORADO POR | CARLOS CULMA |
+| REVISIÓN | PENDIENTE |
+| APROBACIÓN | PENDIENTE |
 
 ---
 
-# Visión
+# VISIÓN
 
-## Declaración de la Visión
+## DECLARACIÓN DE LA VISIÓN
 
-Para el año 2035, ORION NOVA Technologies será reconocida como una empresa líder en América Latina en investigación, desarrollo e innovación tecnológica, destacándose por la creación de soluciones de Inteligencia Artificial, Robótica, Internet de las Cosas (IoT), Computación en la Nube y Automatización Inteligente.
+PARA EL AÑO 2035, ORION NOVA TECHNOLOGIES SERÁ RECONOCIDA COMO UNA EMPRESA LÍDER EN AMÉRICA LATINA EN INVESTIGACIÓN, DESARROLLO E INNOVACIÓN TECNOLÓGICA, DESTACÁNDOSE POR LA CREACIÓN DE SOLUCIONES DE INTELIGENCIA ARTIFICIAL, ROBÓTICA, INTERNET DE LAS COSAS (IOT), COMPUTACIÓN EN LA NUBE Y AUTOMATIZACIÓN INTELIGENTE.
 
-La organización desarrollará un ecosistema tecnológico propio, compuesto por plataformas, asistentes inteligentes, sistemas autónomos y tecnologías de última generación que contribuyan a la transformación digital de empresas, instituciones educativas, entidades gubernamentales y personas.
-
----
-
-# Visión Estratégica
-
-ORION NOVA Technologies buscará consolidarse como una empresa referente en el diseño de tecnologías capaces de colaborar con los seres humanos de manera ética, segura y eficiente.
-
-Nuestra visión contempla la construcción de un ecosistema donde la Inteligencia Artificial no solo responda preguntas, sino que participe activamente en procesos de aprendizaje, investigación, desarrollo de software, automatización industrial y toma de decisiones.
+LA ORGANIZACIÓN DESARROLLARÁ UN ECOSISTEMA TECNOLÓGICO PROPIO, COMPUESTO POR PLATAFORMAS, ASISTENTES INTELIGENTES, SISTEMAS AUTÓNOMOS Y TECNOLOGÍAS DE ÚLTIMA GENERACIÓN QUE CONTRIBUYAN A LA TRANSFORMACIÓN DIGITAL DE EMPRESAS, INSTITUCIONES EDUCATIVAS, ENTIDADES GUBERNAMENTALES Y PERSONAS.
 
 ---
 
-# Proyección Internacional
+# VISIÓN ESTRATÉGICA
 
-La empresa proyecta expandir sus operaciones y alianzas estratégicas hacia mercados internacionales, estableciendo relaciones con universidades, centros de investigación, organizaciones tecnológicas y empresas del sector privado.
+ORION NOVA TECHNOLOGIES BUSCARÁ CONSOLIDARSE COMO UNA EMPRESA REFERENTE EN EL DISEÑO DE TECNOLOGÍAS CAPACES DE COLABORAR CON LOS SERES HUMANOS DE MANERA ÉTICA, SEGURA Y EFICIENTE.
 
-El objetivo es posicionar los productos ORION como soluciones tecnológicas competitivas a nivel global.
+NUESTRA VISIÓN CONTEMPLA LA CONSTRUCCIÓN DE UN ECOSISTEMA DONDE LA INTELIGENCIA ARTIFICIAL NO SOLO RESPONDA PREGUNTAS, SINO QUE PARTICIPE ACTIVAMENTE EN PROCESOS DE APRENDIZAJE, INVESTIGACIÓN, DESARROLLO DE SOFTWARE, AUTOMATIZACIÓN INDUSTRIAL Y TOMA DE DECISIONES.
 
 ---
 
-# Ecosistema Tecnológico
+# PROYECCIÓN INTERNACIONAL
 
-La visión contempla el desarrollo progresivo de los siguientes productos y plataformas:
+LA EMPRESA PROYECTA EXPANDIR SUS OPERACIONES Y ALIANZAS ESTRATÉGICAS HACIA MERCADOS INTERNACIONALES, ESTABLECIENDO RELACIONES CON UNIVERSIDADES, CENTROS DE INVESTIGACIÓN, ORGANIZACIONES TECNOLÓGICAS Y EMPRESAS DEL SECTOR PRIVADO.
 
-- ORION Core
-- ORION Nexus AI
-- ORION Cloud
+EL OBJETIVO ES POSICIONAR LOS PRODUCTOS ORION COMO SOLUCIONES TECNOLÓGICAS COMPETITIVAS A NIVEL GLOBAL.
+
+---
+
+# ECOSISTEMA TECNOLÓGICO
+
+LA VISIÓN CONTEMPLA EL DESARROLLO PROGRESIVO DE LOS SIGUIENTES PRODUCTOS Y PLATAFORMAS:
+
+- ORION CORE
+- ORION NEXUS AI
+- ORION CLOUD
 - ORION OS
-- ORION Vision
-- ORION Robotics
-- ORION Home
-- ORION Secure
-- ORION Edu
-- ORION Labs
+- ORION VISION
+- ORION ROBOTICS
+- ORION HOME
+- ORION SECURE
+- ORION EDU
+- ORION LABS
 
-Todos estos componentes estarán integrados mediante una arquitectura modular, escalable y segura.
-
----
-
-# Innovación
-
-ORION NOVA Technologies fomentará una cultura de innovación permanente, promoviendo la investigación científica, el aprendizaje continuo y la generación de conocimiento como pilares fundamentales para el crecimiento sostenible de la organización.
+TODOS ESTOS COMPONENTES ESTARÁN INTEGRADOS MEDIANTE UNA ARQUITECTURA MODULAR, ESCALABLE Y SEGURA.
 
 ---
 
-# Impacto Social
+# INNOVACIÓN
 
-La empresa buscará generar un impacto positivo mediante el desarrollo de tecnologías accesibles que contribuyan a:
-
-- Mejorar la educación.
-- Optimizar procesos empresariales.
-- Impulsar la transformación digital.
-- Promover el desarrollo científico.
-- Facilitar la automatización responsable.
-- Fortalecer la competitividad tecnológica de la región.
+ORION NOVA TECHNOLOGIES FOMENTARÁ UNA CULTURA DE INNOVACIÓN PERMANENTE, PROMOVIENDO LA INVESTIGACIÓN CIENTÍFICA, EL APRENDIZAJE CONTINUO Y LA GENERACIÓN DE CONOCIMIENTO COMO PILARES FUNDAMENTALES PARA EL CRECIMIENTO SOSTENIBLE DE LA ORGANIZACIÓN.
 
 ---
 
-# Investigación y Desarrollo
+# IMPACTO SOCIAL
 
-La visión de ORION contempla la creación de laboratorios especializados en investigación y desarrollo (I+D+i), orientados a la exploración de nuevas tecnologías como:
+LA EMPRESA BUSCARÁ GENERAR UN IMPACTO POSITIVO MEDIANTE EL DESARROLLO DE TECNOLOGÍAS ACCESIBLES QUE CONTRIBUYAN A:
 
-- Inteligencia Artificial Avanzada.
-- Robótica Humanoide.
-- Visión Artificial.
-- Computación Espacial.
-- Sistemas Autónomos.
-- Internet de las Cosas.
-- Gemelos Digitales.
-- Computación Cuántica (visión futura).
+- MEJORAR LA EDUCACIÓN.
+- OPTIMIZAR PROCESOS EMPRESARIALES.
+- IMPULSAR LA TRANSFORMACIÓN DIGITAL.
+- PROMOVER EL DESARROLLO CIENTÍFICO.
+- FACILITAR LA AUTOMATIZACIÓN RESPONSABLE.
+- FORTALECER LA COMPETITIVIDAD TECNOLÓGICA DE LA REGIÓN.
 
 ---
 
-# Objetivos de Largo Plazo
+# INVESTIGACIÓN Y DESARROLLO
 
-Para cumplir esta visión, ORION NOVA Technologies trabajará en:
+LA VISIÓN DE ORION CONTEMPLA LA CREACIÓN DE LABORATORIOS ESPECIALIZADOS EN INVESTIGACIÓN Y DESARROLLO (I+D+I), ORIENTADOS A LA EXPLORACIÓN DE NUEVAS TECNOLOGÍAS COMO:
 
-- Desarrollar tecnología propia.
-- Crear un ecosistema de productos interoperables.
-- Consolidar una comunidad de innovación.
-- Establecer alianzas estratégicas nacionales e internacionales.
-- Proteger la propiedad intelectual de sus desarrollos.
-- Formar talento especializado en tecnologías emergentes.
-
----
-
-# Conclusión
-
-La visión de ORION NOVA Technologies representa el compromiso de construir una organización capaz de transformar la manera en que las personas interactúan con la tecnología, impulsando el desarrollo de soluciones inteligentes que generen valor para la sociedad y contribuyan al avance científico y tecnológico.
+- INTELIGENCIA ARTIFICIAL AVANZADA.
+- ROBÓTICA HUMANOIDE.
+- VISIÓN ARTIFICIAL.
+- COMPUTACIÓN ESPACIAL.
+- SISTEMAS AUTÓNOMOS.
+- INTERNET DE LAS COSAS.
+- GEMELOS DIGITALES.
+- COMPUTACIÓN CUÁNTICA (VISIÓN FUTURA).
 
 ---
 
-## Trazabilidad
+# OBJETIVOS DE LARGO PLAZO
 
-### Documentos relacionados
+PARA CUMPLIR ESTA VISIÓN, ORION NOVA TECHNOLOGIES TRABAJARÁ EN:
 
-- ONT-FUN-001 - Historia
-- ONT-FUN-002 - Misión
-- ONT-FUN-004 - Valores
-- ONT-STR-001 - Plan Estratégico
-- ONT-ARC-001 - Arquitectura Empresarial
+- DESARROLLAR TECNOLOGÍA PROPIA.
+- CREAR UN ECOSISTEMA DE PRODUCTOS INTEROPERABLES.
+- CONSOLIDAR UNA COMUNIDAD DE INNOVACIÓN.
+- ESTABLECER ALIANZAS ESTRATÉGICAS NACIONALES E INTERNACIONALES.
+- PROTEGER LA PROPIEDAD INTELECTUAL DE SUS DESARROLLOS.
+- FORMAR TALENTO ESPECIALIZADO EN TECNOLOGÍAS EMERGENTES.
 
 ---
 
-## Control de Cambios
+# CONCLUSIÓN
 
-| Versión | Fecha | Descripción | Autor |
+LA VISIÓN DE ORION NOVA TECHNOLOGIES REPRESENTA EL COMPROMISO DE CONSTRUIR UNA ORGANIZACIÓN CAPAZ DE TRANSFORMAR LA MANERA EN QUE LAS PERSONAS INTERACTÚAN CON LA TECNOLOGÍA, IMPULSANDO EL DESARROLLO DE SOLUCIONES INTELIGENTES QUE GENEREN VALOR PARA LA SOCIEDAD Y CONTRIBUYAN AL AVANCE CIENTÍFICO Y TECNOLÓGICO.
+
+---
+
+## TRAZABILIDAD
+
+### DOCUMENTOS RELACIONADOS
+
+- ONT-FUN-001 - HISTORIA
+- ONT-FUN-002 - MISIÓN
+- ONT-FUN-004 - VALORES
+- ONT-STR-001 - PLAN ESTRATÉGICO
+- ONT-ARC-001 - ARQUITECTURA EMPRESARIAL
+
+---
+
+## CONTROL DE CAMBIOS
+
+| VERSIÓN | FECHA | DESCRIPCIÓN | AUTOR |
 |----------|--------|-------------|-------|
-| 1.0.0 | Agosto 2026 | Creación inicial del documento | Carlos Culma |
+| 1.0.0 | AGOSTO 2026 | CREACIÓN INICIAL DEL DOCUMENTO | CARLOS CULMA |
 
 ---
 
-**Documento oficial de ORION NOVA Technologies**
+**DOCUMENTO OFICIAL DE ORION NOVA TECHNOLOGIES**
 
-**Clasificación:** Documento Institucional
+**CLASIFICACIÓN:** DOCUMENTO INSTITUCIONAL
 
-**Estado:** Vigente
+**ESTADO:** VIGENTE

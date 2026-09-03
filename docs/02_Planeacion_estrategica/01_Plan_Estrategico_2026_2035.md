@@ -15,7 +15,7 @@
 
 # Introducción
 
-El presente Plan Estratégico define la hoja de ruta de ORION NOVA Technologies S.A.S. para el periodo 2026–2035.
+El presente Plan Estratégico define la hoja de ruta de ORION NOVA Technologies  para el periodo 2026–2035.
 
 Este documento establece las prioridades estratégicas, los objetivos de crecimiento, las líneas de investigación, el desarrollo de productos y las metas organizacionales que permitirán consolidar a ORION como una empresa líder en innovación tecnológica.
 

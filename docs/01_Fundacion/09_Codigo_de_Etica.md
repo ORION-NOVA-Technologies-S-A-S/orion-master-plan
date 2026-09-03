@@ -1,116 +1,116 @@
-# Código de Ética de ORION NOVA Technologies
+# CÓDIGO DE ÉTICA DE ORION NOVA TECHNOLOGIES
 
-| Documento | Información |
+| DOCUMENTO | INFORMACIÓN |
 |-----------|-------------|
-| Código | ONT-FUN-009 |
-| Nombre | Código de Ética |
-| Versión | 1.0.0 |
-| Estado | Aprobado para el Proyecto Fundacional |
-| Fecha | Agosto de 2026 |
-| Elaborado por | Carlos Culma |
-| Revisión | Pendiente |
-| Aprobación | Pendiente |
+| CÓDIGO | ONT-FUN-009 |
+| NOMBRE | CÓDIGO DE ÉTICA |
+| VERSIÓN | 1.0.0 |
+| ESTADO | APROBADO PARA EL PROYECTO FUNDACIONAL |
+| FECHA | AGOSTO DE 2026 |
+| ELABORADO POR | CARLOS CULMA |
+| REVISIÓN | PENDIENTE |
+| APROBACIÓN | PENDIENTE |
 
 ---
 
-# Introducción
+# INTRODUCCIÓN
 
-El Código de Ética de ORION NOVA Technologies establece los principios y normas de conducta que deben orientar las actuaciones de todos los integrantes de la organización.
+EL CÓDIGO DE ÉTICA DE ORION NOVA TECHNOLOGIES ESTABLECE LOS PRINCIPIOS Y NORMAS DE CONDUCTA QUE DEBEN ORIENTAR LAS ACTUACIONES DE TODOS LOS INTEGRANTES DE LA ORGANIZACIÓN.
 
-Su propósito es promover una cultura basada en la integridad, la responsabilidad, el respeto y la transparencia en todas las actividades empresariales y tecnológicas.
-
----
-
-# Principios Éticos
-
-## Integridad
-
-Actuar con honestidad, transparencia y coherencia en todas las decisiones.
-
-## Respeto
-
-Valorar la dignidad, diversidad y derechos de todas las personas.
-
-## Responsabilidad
-
-Asumir las consecuencias de nuestras decisiones y acciones.
-
-## Innovación Responsable
-
-Desarrollar tecnologías que beneficien a la sociedad y minimicen riesgos.
-
-## Confidencialidad
-
-Proteger la información de clientes, colaboradores y aliados.
-
-## Cumplimiento Normativo
-
-Respetar la legislación vigente y los estándares nacionales e internacionales aplicables.
+SU PROPÓSITO ES PROMOVER UNA CULTURA BASADA EN LA INTEGRIDAD, LA RESPONSABILIDAD, EL RESPETO Y LA TRANSPARENCIA EN TODAS LAS ACTIVIDADES EMPRESARIALES Y TECNOLÓGICAS.
 
 ---
 
-# Ética en Inteligencia Artificial
+# PRINCIPIOS ÉTICOS
 
-ORION NOVA Technologies se compromete a desarrollar sistemas de Inteligencia Artificial que:
+## INTEGRIDAD
 
-- Sean transparentes y explicables cuando sea posible.
-- Respeten la privacidad de los usuarios.
-- Eviten sesgos injustificados.
-- Promuevan la seguridad y la confiabilidad.
-- Mantengan supervisión humana en decisiones críticas.
+ACTUAR CON HONESTIDAD, TRANSPARENCIA Y COHERENCIA EN TODAS LAS DECISIONES.
 
----
+## RESPETO
 
-# Conducta Esperada
+VALORAR LA DIGNIDAD, DIVERSIDAD Y DERECHOS DE TODAS LAS PERSONAS.
 
-Todos los colaboradores deberán:
+## RESPONSABILIDAD
 
-- Actuar con profesionalismo.
-- Evitar conflictos de interés.
-- Proteger los activos de la empresa.
-- Respetar la propiedad intelectual.
-- Fomentar un ambiente de trabajo colaborativo.
+ASUMIR LAS CONSECUENCIAS DE NUESTRAS DECISIONES Y ACCIONES.
 
----
+## INNOVACIÓN RESPONSABLE
 
-# Conflictos de Interés
+DESARROLLAR TECNOLOGÍAS QUE BENEFICIEN A LA SOCIEDAD Y MINIMICEN RIESGOS.
 
-Las decisiones deberán tomarse priorizando los intereses de la empresa y evitando beneficios personales que comprometan la objetividad.
+## CONFIDENCIALIDAD
+
+PROTEGER LA INFORMACIÓN DE CLIENTES, COLABORADORES Y ALIADOS.
+
+## CUMPLIMIENTO NORMATIVO
+
+RESPETAR LA LEGISLACIÓN VIGENTE Y LOS ESTÁNDARES NACIONALES E INTERNACIONALES APLICABLES.
 
 ---
 
-# Protección de la Información
+# ÉTICA EN INTELIGENCIA ARTIFICIAL
 
-Toda la información estratégica, técnica, financiera y comercial deberá manejarse con estricta confidencialidad.
+ORION NOVA TECHNOLOGIES SE COMPROMETE A DESARROLLAR SISTEMAS DE INTELIGENCIA ARTIFICIAL QUE:
 
----
-
-# Cumplimiento
-
-El incumplimiento de este Código de Ética podrá dar lugar a acciones disciplinarias conforme a la normativa interna y la legislación aplicable.
-
----
-
-# Conclusión
-
-El Código de Ética constituye un compromiso permanente con el desarrollo responsable de tecnologías que generen confianza y valor para la sociedad.
+- SEAN TRANSPARENTES Y EXPLICABLES CUANDO SEA POSIBLE.
+- RESPETEN LA PRIVACIDAD DE LOS USUARIOS.
+- EVITEN SESGOS INJUSTIFICADOS.
+- PROMUEVAN LA SEGURIDAD Y LA CONFIABILIDAD.
+- MANTENGAN SUPERVISIÓN HUMANA EN DECISIONES CRÍTICAS.
 
 ---
 
-## Trazabilidad
+# CONDUCTA ESPERADA
 
-- ONT-FUN-004 - Valores
-- ONT-FUN-005 - Filosofía Empresarial
-- ONT-SEC-001 - Política de Seguridad de la Información (Futuro)
+TODOS LOS COLABORADORES DEBERÁN:
+
+- ACTUAR CON PROFESIONALISMO.
+- EVITAR CONFLICTOS DE INTERÉS.
+- PROTEGER LOS ACTIVOS DE LA EMPRESA.
+- RESPETAR LA PROPIEDAD INTELECTUAL.
+- FOMENTAR UN AMBIENTE DE TRABAJO COLABORATIVO.
 
 ---
 
-## Control de Cambios
+# CONFLICTOS DE INTERÉS
 
-| Versión | Fecha | Descripción | Autor |
+LAS DECISIONES DEBERÁN TOMARSE PRIORIZANDO LOS INTERESES DE LA EMPRESA Y EVITANDO BENEFICIOS PERSONALES QUE COMPROMETAN LA OBJETIVIDAD.
+
+---
+
+# PROTECCIÓN DE LA INFORMACIÓN
+
+TODA LA INFORMACIÓN ESTRATÉGICA, TÉCNICA, FINANCIERA Y COMERCIAL DEBERÁ MANEJARSE CON ESTRICTA CONFIDENCIALIDAD.
+
+---
+
+# CUMPLIMIENTO
+
+EL INCUMPLIMIENTO DE ESTE CÓDIGO DE ÉTICA PODRÁ DAR LUGAR A ACCIONES DISCIPLINARIAS CONFORME A LA NORMATIVA INTERNA Y LA LEGISLACIÓN APLICABLE.
+
+---
+
+# CONCLUSIÓN
+
+EL CÓDIGO DE ÉTICA CONSTITUYE UN COMPROMISO PERMANENTE CON EL DESARROLLO RESPONSABLE DE TECNOLOGÍAS QUE GENEREN CONFIANZA Y VALOR PARA LA SOCIEDAD.
+
+---
+
+## TRAZABILIDAD
+
+- ONT-FUN-004 - VALORES
+- ONT-FUN-005 - FILOSOFÍA EMPRESARIAL
+- ONT-SEC-001 - POLÍTICA DE SEGURIDAD DE LA INFORMACIÓN (FUTURO)
+
+---
+
+## CONTROL DE CAMBIOS
+
+| VERSIÓN | FECHA | DESCRIPCIÓN | AUTOR |
 |----------|--------|-------------|-------|
-| 1.0.0 | Agosto 2026 | Creación inicial | Carlos Culma |
+| 1.0.0 | AGOSTO 2026 | CREACIÓN INICIAL | CARLOS CULMA |
 
 ---
 
-**Documento oficial de ORION NOVA Technologies**
+**DOCUMENTO OFICIAL DE ORION NOVA TECHNOLOGIES**

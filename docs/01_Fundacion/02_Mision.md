@@ -1,9 +1,9 @@
-# Misión de ORION NOVA Technologies 
+# Misión de ORION NOVA TECHNOLOGIES 
 
 | Documento | Información |
 |-----------|-------------|
 | Código | ONT-FUN-002 |
-| Nombre | Misión de ORION NOVA Technologies |
+| Nombre | Misión de ORION NOVA TECHNOLOGIES |
 | Versión | 1.0.0 |
 | Estado | Aprobado para el Proyecto Fundacional |
 | Fecha | Agosto de 2026 |
@@ -17,7 +17,7 @@
 
 ## Declaración de la Misión
 
-ORION NOVA Technologies tiene como misión investigar, diseñar, desarrollar e implementar soluciones tecnológicas innovadoras basadas en Inteligencia Artificial, Automatización, Robótica, Internet de las Cosas (IoT), Computación en la Nube y Desarrollo de Software, con el propósito de mejorar la calidad de vida de las personas, impulsar la transformación digital de las organizaciones y contribuir al desarrollo científico y tecnológico de Colombia y del mundo.
+ORION NOVA TECHNOLOGIES tiene como misión investigar, diseñar, desarrollar e implementar soluciones tecnológicas innovadoras basadas en Inteligencia Artificial, Automatización, Robótica, Internet de las Cosas (IoT), Computación en la Nube y Desarrollo de Software, con el propósito de mejorar la calidad de vida de las personas, impulsar la transformación digital de las organizaciones y contribuir al desarrollo científico y tecnológico de Colombia y del mundo.
 
 Nuestra organización trabaja bajo principios de innovación responsable, excelencia técnica, ética, seguridad y aprendizaje continuo, desarrollando productos que integren múltiples disciplinas de la ingeniería para resolver problemas reales mediante tecnología inteligente.
 
@@ -25,7 +25,7 @@ Nuestra organización trabaja bajo principios de innovación responsable, excele
 
 # Propósito Institucional
 
-El propósito de ORION NOVA Technologies es construir un ecosistema tecnológico que permita crear soluciones capaces de aprender, adaptarse y colaborar con las personas, promoviendo una interacción más natural entre los seres humanos y la tecnología.
+El propósito de ORION NOVA TECHNOLOGIES es construir un ecosistema tecnológico que permita crear soluciones capaces de aprender, adaptarse y colaborar con las personas, promoviendo una interacción más natural entre los seres humanos y la tecnología.
 
 ---
 
@@ -45,7 +45,7 @@ La empresa asume los siguientes compromisos:
 
 # Áreas Estratégicas
 
-ORION NOVA Technologies enfocará sus esfuerzos en las siguientes áreas:
+ORION NOVA TECHNOLOGIES enfocará sus esfuerzos en las siguientes áreas:
 
 ## Inteligencia Artificial
 
@@ -75,7 +75,7 @@ Protección de la información, gestión de identidades, privacidad de datos y s
 
 # Beneficiarios
 
-Las soluciones desarrolladas por ORION NOVA Technologies estarán orientadas a:
+Las soluciones desarrolladas por ORION NOVA TECHNOLOGIES estarán orientadas a:
 
 - Personas.
 - Estudiantes.
@@ -91,7 +91,7 @@ Las soluciones desarrolladas por ORION NOVA Technologies estarán orientadas a:
 
 # Nuestra Filosofía de Trabajo
 
-Cada producto desarrollado por ORION NOVA Technologies deberá cumplir los siguientes principios:
+Cada producto desarrollado por ORION NOVA TECHNOLOGIES deberá cumplir los siguientes principios:
 
 - Innovación.
 - Calidad.
@@ -114,7 +114,7 @@ La misión de la organización evolucionará continuamente conforme avance la in
 
 # Conclusión
 
-La misión de ORION NOVA Technologies representa el compromiso permanente de la organización con la innovación, la investigación y el desarrollo de tecnologías que permitan construir un futuro donde la Inteligencia Artificial y la automatización trabajen al servicio de las personas.
+La misión de ORION NOVA TECHNOLOGIES representa el compromiso permanente de la organización con la innovación, la investigación y el desarrollo de tecnologías que permitan construir un futuro donde la Inteligencia Artificial y la automatización trabajen al servicio de las personas.
 
 ---
 
@@ -126,7 +126,7 @@ La misión de ORION NOVA Technologies representa el compromiso permanente de la 
 
 ---
 
-**Documento oficial de ORION NOVA Technologies**
+**Documento oficial de ORION NOVA TECHNOLOGIES**
 
 **Clasificación:** Documento Institucional
 
