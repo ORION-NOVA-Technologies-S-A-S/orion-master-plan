@@ -17,13 +17,13 @@
 
 ## INTRODUCCIÓN
 
-LOS OBJETIVOS ESTRATÉGICOS ESTABLECEN LA DIRECCIÓN QUE SEGUIRÁ ORION NOVA TECHNOLOGIES DURANTE LOS PRÓXIMOS AÑOS. ESTOS OBJETIVOS ORIENTAN LAS DECISIONES DE NEGOCIO, INVESTIGACIÓN, DESARROLLO TECNOLÓGICO Y CRECIMIENTO ORGANIZACIONAL.
+Los objetivos estratégicos establecen la dirección que seguirá ORION NOVA TECHNOLOGIES durante los próximos años. estos objetivos orientan las decisiones de negocio, investigación, desarrollo tecnológico y crecimiento organizacional.
 
 ---
 
 # OBJETIVO GENERAL
 
-CONSOLIDAR A ORION NOVA TECHNOLOGIES COMO UNA EMPRESA LÍDER EN INVESTIGACIÓN, DESARROLLO E INNOVACIÓN TECNOLÓGICA MEDIANTE LA CREACIÓN DE UN ECOSISTEMA DE INTELIGENCIA ARTIFICIAL, SOFTWARE, ROBÓTICA, INTERNET DE LAS COSAS (IOT) Y COMPUTACIÓN EN LA NUBE, GENERANDO SOLUCIONES QUE IMPULSEN LA TRANSFORMACIÓN DIGITAL Y EL DESARROLLO SOSTENIBLE.
+Consolidar a ORION NOVA TECHNOLOGIES como una empresa líder en investigación, desarrollo e innovación tecnológica mediante la creación de un ecosistema de inteligencia artificial, software, robótica, internet de las cosas (iot) y computación en la nube, generando soluciones que impulsen la transformación digital y el desarrollo sostenible.
 
 ---
 
@@ -31,105 +31,105 @@ CONSOLIDAR A ORION NOVA TECHNOLOGIES COMO UNA EMPRESA LÍDER EN INVESTIGACIÓN, 
 
 ## 1. INVESTIGACIÓN
 
-DESARROLLAR LÍNEAS DE INVESTIGACIÓN EN INTELIGENCIA ARTIFICIAL, ROBÓTICA, IOT, CIENCIA DE DATOS Y AUTOMATIZACIÓN.
+Desarrollar líneas de investigación en inteligencia artificial, robótica, iot, ciencia de datos y automatización.
 
 ---
 
 ## 2. DESARROLLO TECNOLÓGICO
 
-DISEÑAR Y CONSTRUIR PLATAFORMAS TECNOLÓGICAS ESCALABLES, SEGURAS Y MODULARES QUE PERMITAN LA EVOLUCIÓN CONTINUA DEL ECOSISTEMA ORION.
+Diseñar y construir plataformas tecnológicas escalables, seguras y modulares que permitan la evolución continua del ecosistema orion.
 
 ---
 
 ## 3. INNOVACIÓN
 
-CREAR PRODUCTOS INNOVADORES QUE RESUELVAN NECESIDADES REALES DE PERSONAS, EMPRESAS E INSTITUCIONES.
+Crear productos innovadores que resuelvan necesidades reales de personas, empresas e instituciones.
 
 ---
 
 ## 4. EDUCACIÓN
 
-IMPULSAR HERRAMIENTAS TECNOLÓGICAS QUE FORTALEZCAN EL APRENDIZAJE, LA INVESTIGACIÓN Y LA FORMACIÓN PROFESIONAL.
+Impulsar herramientas tecnológicas que fortalezcan el aprendizaje, la investigación y la formación profesional.
 
 ---
 
 ## 5. AUTOMATIZACIÓN
 
-DESARROLLAR SOLUCIONES QUE OPTIMICEN PROCESOS MEDIANTE INTELIGENCIA ARTIFICIAL Y TECNOLOGÍAS IOT.
+Desarrollar soluciones que optimicen procesos mediante inteligencia artificial y tecnologías iot.
 
 ---
 
 ## 6. CIBERSEGURIDAD
 
-GARANTIZAR QUE TODOS LOS PRODUCTOS INCORPOREN PRINCIPIOS DE SEGURIDAD, PRIVACIDAD Y PROTECCIÓN DE DATOS DESDE SU DISEÑO.
+Garantizar que todos los productos incorporen principios de seguridad, privacidad y protección de datos desde su diseño.
 
 ---
 
 ## 7. EXPANSIÓN
 
-POSICIONAR A ORION NOVA TECHNOLOGIES EN EL MERCADO NACIONAL E INTERNACIONAL MEDIANTE ALIANZAS ESTRATÉGICAS Y PROYECTOS DE ALTO IMPACTO.
+Posicionar a ORION NOVA TECHNOLOGIES en el mercado nacional e internacional mediante alianzas estratégicas y proyectos de alto impacto.
 
 ---
 
 ## 8. TALENTO HUMANO
 
-CONSTRUIR UN EQUIPO MULTIDISCIPLINARIO COMPROMETIDO CON LA EXCELENCIA, LA INNOVACIÓN Y EL APRENDIZAJE CONTINUO.
+Construir un equipo multidisciplinario comprometido con la excelencia, la innovación y el aprendizaje continuo.
 
 ---
 
 # OBJETIVOS TECNOLÓGICOS
 
-LA ORGANIZACIÓN DESARROLLARÁ PROGRESIVAMENTE LOS SIGUIENTES COMPONENTES:
+La organización desarrollará progresivamente los siguientes componentes:
 
-- ORION CORE
-- ORION NEXUS AI
-- ORION OS
-- ORION CLOUD
-- ORION VISION
-- ORION ROBOTICS
-- ORION HOME
-- ORION SECURE
-- ORION EDU
-- ORION LABS
+- orion core
+- orion nexus ai
+- orion os
+- orion cloud
+- orion vision
+- orion robotics
+- orion home
+- orion secure
+- orion edu
+- orion labs
 
 ---
 
 # OBJETIVOS EMPRESARIALES
 
-- CONSTITUIR LEGALMENTE LA EMPRESA.
-- REGISTRAR LA MARCA ORION.
-- OBTENER PROPIEDAD INTELECTUAL SOBRE LOS DESARROLLOS.
-- CREAR UNA INFRAESTRUCTURA TECNOLÓGICA ESCALABLE.
-- ESTABLECER ALIANZAS ESTRATÉGICAS CON UNIVERSIDADES Y EMPRESAS.
-- PARTICIPAR EN CONVOCATORIAS NACIONALES E INTERNACIONALES DE INNOVACIÓN.
+- Constituir legalmente la empresa.
+- Registrar la marca orion.
+- Obtener propiedad intelectual sobre los desarrollos.
+- Crear una infraestructura tecnológica escalable.
+- Establecer alianzas estratégicas con universidades y empresas.
+- Participar en convocatorias nacionales e internacionales de innovación.
 
 ---
 
 # INDICADORES ESTRATÉGICOS (KPIS)
 
-PARA EVALUAR EL CUMPLIMIENTO DE LOS OBJETIVOS, LA ORGANIZACIÓN UTILIZARÁ INDICADORES COMO:
+Para evaluar el cumplimiento de los objetivos, la organización utilizará indicadores como:
 
-- NÚMERO DE PRODUCTOS DESARROLLADOS.
-- NÚMERO DE INVESTIGACIONES REALIZADAS.
-- PROYECTOS IMPLEMENTADOS.
-- CLIENTES ACTIVOS.
-- ALIANZAS ESTRATÉGICAS.
-- PUBLICACIONES TÉCNICAS.
-- PATENTES REGISTRADAS.
-- SATISFACCIÓN DEL CLIENTE.
-- DISPONIBILIDAD DE LOS SERVICIOS.
+- Número de productos desarrollados.
+- Número de investigaciones realizadas.
+- Proyectos implementados.
+- Clientes activos.
+- Alianzas estratégicas.
+- Publicaciones técnicas.
+- Patentes registradas.
+- Satisfacción del cliente.
+- Disponibilidad de los servicios.
 
 ---
 
 # COMPROMISO
 
-TODOS LOS PROYECTOS DE ORION NOVA TECHNOLOGIES DEBERÁN CONTRIBUIR AL CUMPLIMIENTO DE ESTOS OBJETIVOS ESTRATÉGICOS, GARANTIZANDO COHERENCIA ENTRE LA VISIÓN DE LA EMPRESA Y SUS ACCIONES.
+Todos los proyectos de ORION NOVA TECHNOLOGIES deberán contribuir al cumplimiento de estos objetivos estratégicos, garantizando coherencia entre la visión de la empresa y sus acciones.
 
 ---
 
 # CONCLUSIÓN
 
-LOS OBJETIVOS ESTRATÉGICOS REPRESENTAN LA HOJA DE RUTA QUE PERMITIRÁ A ORION NOVA TECHNOLOGIES CRECER DE MANERA SOSTENIBLE, CONSOLIDANDO UN ECOSISTEMA TECNOLÓGICO INNOVADOR Y COMPETITIVO.
+Los objetivos estratégicos representan la hoja de ruta que permitirá a ORION NOVA TECHNOLOGIES crecer de manera sostenible, consolidando un ecosistema tecnológico innovador y competitivo.
 
 ---
 
@@ -137,19 +137,19 @@ LOS OBJETIVOS ESTRATÉGICOS REPRESENTAN LA HOJA DE RUTA QUE PERMITIRÁ A ORION N
 
 ### DOCUMENTOS RELACIONADOS
 
-- ONT-FUN-001 - HISTORIA
-- ONT-FUN-002 - MISIÓN
-- ONT-FUN-003 - VISIÓN
-- ONT-FUN-005 - FILOSOFÍA EMPRESARIAL
-- ONT-STR-001 - PLAN ESTRATÉGICO
+- Ont-fun-001 - Historia
+- Ont-fun-002 - Misión
+- Ont-fun-003 - Visión
+- Ont-fun-005 - Filosofía empresarial
+- Ont-str-001 - Plan estratégico
 
 ---
 
 ## CONTROL DE CAMBIOS
 
-| VERSIÓN | FECHA | DESCRIPCIÓN | AUTOR |
+| versión | fecha | descripción | autor |
 |----------|--------|-------------|-------|
-| 1.0.0 | AGOSTO 2026 | CREACIÓN INICIAL DEL DOCUMENTO | CARLOS CULMA|
+| 1.0.0 | agosto 2026 | creación inicial del documento | carlos culma|
 
 ---
 
