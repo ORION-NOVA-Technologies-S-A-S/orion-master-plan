@@ -2,7 +2,7 @@
 
 ## 1. Descripción general
 
-Orion Nova Technologies buscará alianzas con empresas, profesionales, instituciones educativas, proveedores tecnológicos y organizaciones de apoyo empresarial.
+ORION NOVA TECHNOLOGIES se buscará alianzas con empresas, profesionales, instituciones educativas, proveedores tecnológicos y organizaciones de apoyo empresarial.
 
 Estas alianzas permitirán ampliar el portafolio, encontrar nuevos clientes, participar en proyectos de mayor tamaño, reducir costos, acceder a conocimientos especializados y fortalecer la presencia de la empresa en Neiva, Huila y Colombia.
 
