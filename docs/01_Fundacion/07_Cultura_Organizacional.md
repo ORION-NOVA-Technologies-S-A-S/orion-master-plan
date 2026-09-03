@@ -17,15 +17,15 @@
 
 ## INTRODUCCIÓN
 
-LA CULTURA ORGANIZACIONAL DE ORION NOVA TECHNOLOGIES REPRESENTA EL CONJUNTO DE PRINCIPIOS, COMPORTAMIENTOS, HÁBITOS Y FORMAS DE TRABAJO QUE ORIENTAN EL CRECIMIENTO DE LA ORGANIZACIÓN. NUESTRA CULTURA BUSCA FOMENTAR LA INNOVACIÓN, LA COLABORACIÓN Y EL DESARROLLO TECNOLÓGICO CON UN ENFOQUE ÉTICO Y CENTRADO EN LAS PERSONAS.
+La cultura organizacional de ORION NOVA TECHNOLOGIES representa el conjunto de principios, comportamientos, hábitos y formas de trabajo que orientan el crecimiento de la organización. nuestra cultura busca fomentar la innovación, la colaboración y el desarrollo tecnológico con un enfoque ético y centrado en las personas.
 
 ---
 
 # NUESTRA CULTURA
 
-EN ORION NOVA TECHNOLOGIES CREEMOS QUE LAS MEJORES SOLUCIONES TECNOLÓGICAS NACEN DE EQUIPOS COMPROMETIDOS, DIVERSOS Y EN CONSTANTE APRENDIZAJE.
+En ORION NOVA TECHNOLOGIES creemos que las mejores soluciones tecnológicas nacen de equipos comprometidos, diversos y en constante aprendizaje.
 
-PROMOVEMOS UN AMBIENTE DONDE LA CREATIVIDAD, LA INVESTIGACIÓN Y LA MEJORA CONTINUA SEAN PARTE DEL TRABAJO DIARIO.
+Promovemos un ambiente donde la creatividad, la investigación y la mejora continua sean parte del trabajo diario.
 
 ---
 
@@ -33,57 +33,57 @@ PROMOVEMOS UN AMBIENTE DONDE LA CREATIVIDAD, LA INVESTIGACIÓN Y LA MEJORA CONTI
 
 ## INNOVACIÓN PERMANENTE
 
-BUSCAMOS NUEVAS FORMAS DE RESOLVER PROBLEMAS MEDIANTE LA INVESTIGACIÓN Y EL DESARROLLO TECNOLÓGICO.
+Buscamos nuevas formas de resolver problemas mediante la investigación y el desarrollo tecnológico.
 
 ## TRABAJO COLABORATIVO
 
-VALORAMOS EL TRABAJO EN EQUIPO Y EL INTERCAMBIO DE CONOCIMIENTOS ENTRE TODAS LAS ÁREAS DE LA ORGANIZACIÓN.
+Valoramos el trabajo en equipo y el intercambio de conocimientos entre todas las áreas de la organización.
 
 ## APRENDIZAJE CONTINUO
 
-IMPULSAMOS LA FORMACIÓN PERMANENTE DE NUESTROS COLABORADORES EN TECNOLOGÍAS EMERGENTES, METODOLOGÍAS ÁGILES Y BUENAS PRÁCTICAS DE INGENIERÍA.
+Impulsamos la formación permanente de nuestros colaboradores en tecnologías emergentes, metodologías ágiles y buenas prácticas de ingeniería.
 
 ## ORIENTACIÓN AL USUARIO
 
-CADA PRODUCTO Y SERVICIO DEBE RESPONDER A NECESIDADES REALES Y OFRECER UNA EXPERIENCIA DE ALTA CALIDAD.
+Cada producto y servicio debe responder a necesidades reales y ofrecer una experiencia de alta calidad.
 
 ## TRANSPARENCIA
 
-FOMENTAMOS LA COMUNICACIÓN ABIERTA, LA HONESTIDAD Y LA RESPONSABILIDAD EN TODAS LAS DECISIONES.
+Fomentamos la comunicación abierta, la honestidad y la responsabilidad en todas las decisiones.
 
 ## DIVERSIDAD E INCLUSIÓN
 
-RESPETAMOS Y PROMOVEMOS LA DIVERSIDAD DE IDEAS, EXPERIENCIAS Y PERSPECTIVAS, FORTALECIENDO UN ENTORNO DE TRABAJO INCLUSIVO.
+Respetamos y promovemos la diversidad de ideas, experiencias y perspectivas, fortaleciendo un entorno de trabajo inclusivo.
 
 ---
 
 # FORMA DE TRABAJAR
 
-NUESTRA ORGANIZACIÓN ADOPTARÁ METODOLOGÍAS MODERNAS PARA EL DESARROLLO DE PROYECTOS, INCLUYENDO:
+Nuestra organización adoptará metodologías modernas para el desarrollo de proyectos, incluyendo:
 
-- GESTIÓN ÁGIL (SCRUM Y KANBAN).
-- CONTROL DE VERSIONES CON GIT Y GITHUB.
-- INTEGRACIÓN Y ENTREGA CONTINUA (CI/CD).
-- DOCUMENTACIÓN COMO PARTE DEL DESARROLLO.
-- REVISIÓN DE CÓDIGO Y ASEGURAMIENTO DE LA CALIDAD.
+- Gestión ágil (scrum y kanban).
+- Control de versiones con git y github.
+- Integración y entrega continua (ci/cd).
+- Documentación como parte del desarrollo.
+- Revisión de código y aseguramiento de la calidad.
 
 ---
 
 # COMPROMISO CON LA INNOVACIÓN
 
-ORION NOVA TECHNOLOGIES FOMENTARÁ ESPACIOS PARA LA EXPERIMENTACIÓN, EL DESARROLLO DE PROTOTIPOS, LA INVESTIGACIÓN APLICADA Y LA COLABORACIÓN CON UNIVERSIDADES, EMPRESAS Y CENTROS DE INVESTIGACIÓN.
+ORION NOVA TECHNOLOGIES fomentará espacios para la experimentación, el desarrollo de prototipos, la investigación aplicada y la colaboración con universidades, empresas y centros de investigación.
 
 ---
 
 # BIENESTAR DEL EQUIPO
 
-LA ORGANIZACIÓN PROMOVERÁ UN AMBIENTE DE TRABAJO BASADO EN EL RESPETO, LA CONFIANZA Y EL CRECIMIENTO PROFESIONAL, RECONOCIENDO QUE LAS PERSONAS SON EL PRINCIPAL ACTIVO DE LA EMPRESA.
+La organización promoverá un ambiente de trabajo basado en el respeto, la confianza y el crecimiento profesional, reconociendo que las personas son el principal activo de la empresa.
 
 ---
 
 # CONCLUSIÓN
 
-LA CULTURA ORGANIZACIONAL DE ORION NOVA TECHNOLOGIES SERÁ EL MOTOR QUE IMPULSE LA INNOVACIÓN, LA EXCELENCIA Y EL COMPROMISO CON EL DESARROLLO DE SOLUCIONES TECNOLÓGICAS QUE GENEREN IMPACTO POSITIVO EN LA SOCIEDAD.
+La cultura organizacional de ORION NOVA TECHNOLOGIES será el motor que impulse la innovación, la excelencia y el compromiso con el desarrollo de soluciones tecnológicas que generen impacto positivo en la sociedad.
 
 ---
 
@@ -91,19 +91,19 @@ LA CULTURA ORGANIZACIONAL DE ORION NOVA TECHNOLOGIES SERÁ EL MOTOR QUE IMPULSE 
 
 ### DOCUMENTOS RELACIONADOS
 
-- ONT-FUN-001 - HISTORIA
-- ONT-FUN-004 - VALORES
-- ONT-FUN-005 - FILOSOFÍA EMPRESARIAL
-- ONT-FUN-008 - IDENTIDAD CORPORATIVA
-- ONT-TH-001 - GESTIÓN DEL TALENTO HUMANO
+- Ont-fun-001 - Historia
+- Ont-fun-004 - Valores
+- Ont-fun-005 - Filosofía empresarial
+- Ont-fun-008 - Identidad corporativa
+- Ont-th-001 - Gestión del talento humano
 
 ---
 
 ## CONTROL DE CAMBIOS
 
-| VERSIÓN | FECHA | DESCRIPCIÓN | AUTOR |
+| versión | fecha | descripción | autor |
 |----------|--------|-------------|-------|
-| 1.0.0 | AGOSTO 2026 | CREACIÓN INICIAL DEL DOCUMENTO | CARLOS CULMA |
+| 1.0.0 | agosto 2026 | creación inicial del documento | carlos culma |
 
 ---
 
