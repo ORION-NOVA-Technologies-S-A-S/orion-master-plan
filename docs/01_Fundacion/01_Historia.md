@@ -17,9 +17,9 @@
 
 ## INTRODUCCIÓN
 
-ORION NOVA TECHNOLOGIES NACE COMO UNA INICIATIVA ORIENTADA A LA INVESTIGACIÓN, EL DESARROLLO Y LA INNOVACIÓN TECNOLÓGICA, CON EL PROPÓSITO DE CREAR SOLUCIONES DE ALTO IMPACTO BASADAS EN INTELIGENCIA ARTIFICIAL, AUTOMATIZACIÓN, ROBÓTICA, COMPUTACIÓN EN LA NUBE E INTERNET DE LAS COSAS (IOT).
+ORION NOVA TECHNOLOGIES nace como una iniciativa orientada a la investigación, el desarrollo y la innovación tecnológica, con el propósito de crear soluciones de alto impacto basadas en inteligencia artificial, automatización, robótica, computación en la nube e internet de las cosas (iot).
 
-LA EMPRESA SURGE A PARTIR DE LA VISIÓN DE CONSTRUIR UN ECOSISTEMA TECNOLÓGICO CAPAZ DE INTEGRAR MÚLTIPLES DISCIPLINAS DE LA INGENIERÍA EN UNA PLATAFORMA INTELIGENTE, ESCALABLE Y CENTRADA EN LAS PERSONAS. DESDE SUS INICIOS, ORION NOVA TECHNOLOGIES BUSCA DESARROLLAR TECNOLOGÍA PROPIA QUE CONTRIBUYA AL AVANCE CIENTÍFICO, ACADÉMICO, EMPRESARIAL Y SOCIAL.
+la empresa surge a partir de la visión de construir un ecosistema tecnológico capaz de integrar múltiples disciplinas de la ingeniería en una plataforma inteligente, escalable y centrada en las personas. Desde sus inicios, ORION NOVA TECHNOLOGIES busca desarrollar tecnología propia que contribuya al avance científico, académico, empresarial y social.
 
 ---
 
