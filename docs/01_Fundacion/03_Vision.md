@@ -17,9 +17,9 @@
 
 ## DECLARACIÓN DE LA VISIÓN
 
-para el año 2035, ORION NOVA TECHNOLOGIES será reconocida como una empresa líder en américa latina en investigación, desarrollo e innovación tecnológica, destacándose por la creación de soluciones de inteligencia artificial, robótica, internet de las cosas (iot), computación en la nube y automatización inteligente.
+Para el año 2035, ORION NOVA TECHNOLOGIES será reconocida como una empresa líder en américa latina en investigación, desarrollo e innovación tecnológica, destacándose por la creación de soluciones de inteligencia artificial, robótica, internet de las cosas (iot), computación en la nube y automatización inteligente.
 
-la organización desarrollará un ecosistema tecnológico propio, compuesto por plataformas, asistentes inteligentes, sistemas autónomos y tecnologías de última generación que contribuyan a la transformación digital de empresas, instituciones educativas, entidades gubernamentales y personas.
+La organización desarrollará un ecosistema tecnológico propio, compuesto por plataformas, asistentes inteligentes, sistemas autónomos y tecnologías de última generación que contribuyan a la transformación digital de empresas, instituciones educativas, entidades gubernamentales y personas.
 
 ---
 
@@ -27,21 +27,21 @@ la organización desarrollará un ecosistema tecnológico propio, compuesto por 
 
 ORION NOVA TECHNOLOGIES buscará consolidarse como una empresa referente en el diseño de tecnologías capaces de colaborar con los seres humanos de manera ética, segura y eficiente.
 
-nuestra visión contempla la construcción de un ecosistema donde la inteligencia artificial no solo responda preguntas, sino que participe activamente en procesos de aprendizaje, investigación, desarrollo de software, automatización industrial y toma de decisiones.
+Nuestra visión contempla la construcción de un ecosistema donde la inteligencia artificial no solo responda preguntas, sino que participe activamente en procesos de aprendizaje, investigación, desarrollo de software, automatización industrial y toma de decisiones.
 
 ---
 
 # PROYECCIÓN INTERNACIONAL
 
-la empresa proyecta expandir sus operaciones y alianzas estratégicas hacia mercados internacionales, estableciendo relaciones con universidades, centros de investigación, organizaciones tecnológicas y empresas del sector privado.
+La empresa proyecta expandir sus operaciones y alianzas estratégicas hacia mercados internacionales, estableciendo relaciones con universidades, centros de investigación, organizaciones tecnológicas y empresas del sector privado.
 
-el objetivo es posicionar los productos orion como soluciones tecnológicas competitivas a nivel global.
+El objetivo es posicionar los productos orion como soluciones tecnológicas competitivas a nivel global.
 
 ---
 
 # ECOSISTEMA TECNOLÓGICO
 
-la visión contempla el desarrollo progresivo de los siguientes productos y plataformas:
+La visión contempla el desarrollo progresivo de los siguientes productos y plataformas:
 
 - orion core
 - orion nexus ai
@@ -66,7 +66,7 @@ ORION NOVA TECHNOLOGIES fomentará una cultura de innovación permanente, promov
 
 # IMPACTO SOCIAL
 
-la empresa buscará generar un impacto positivo mediante el desarrollo de tecnologías accesibles que contribuyan a:
+La empresa buscará generar un impacto positivo mediante el desarrollo de tecnologías accesibles que contribuyan a:
 
 - mejorar la educación.
 - optimizar procesos empresariales.
@@ -79,7 +79,7 @@ la empresa buscará generar un impacto positivo mediante el desarrollo de tecnol
 
 # INVESTIGACIÓN Y DESARROLLO
 
-la visión de orion contempla la creación de laboratorios especializados en investigación y desarrollo (i+d+i), orientados a la exploración de nuevas tecnologías como:
+La visión de orion contempla la creación de laboratorios especializados en investigación y desarrollo (i+d+i), orientados a la exploración de nuevas tecnologías como:
 
 - inteligencia artificial avanzada.
 - robótica humanoide.
@@ -94,7 +94,7 @@ la visión de orion contempla la creación de laboratorios especializados en inv
 
 # OBJETIVOS DE LARGO PLAZO
 
-para cumplir esta visión, ORION NOVA TECHNOLOGIES trabajará en:
+Para cumplir esta visión, ORION NOVA TECHNOLOGIES trabajará en:
 
 - desarrollar tecnología propia.
 - crear un ecosistema de productos interoperables.
@@ -107,7 +107,7 @@ para cumplir esta visión, ORION NOVA TECHNOLOGIES trabajará en:
 
 # CONCLUSIÓN
 
-la visión de ORION NOVA TECHNOLOGIES representa el compromiso de construir una organización capaz de transformar la manera en que las personas interactúan con la tecnología, impulsando el desarrollo de soluciones inteligentes que generen valor para la sociedad y contribuyan al avance científico y tecnológico.
+La visión de ORION NOVA TECHNOLOGIES representa el compromiso de construir una organización capaz de transformar la manera en que las personas interactúan con la tecnología, impulsando el desarrollo de soluciones inteligentes que generen valor para la sociedad y contribuyan al avance científico y tecnológico.
 
 ---
 
