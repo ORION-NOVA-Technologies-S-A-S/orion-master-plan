@@ -25,11 +25,11 @@ La empresa surge a partir de la visión de construir un ecosistema tecnológico 
 
 # ORIGEN
 
-EL PROYECTO ORION TIENE SU ORIGEN EN LA NECESIDAD DE DISPONER DE UN ASISTENTE INTELIGENTE QUE VAYA MÁS ALLÁ DE LAS CAPACIDADES TRADICIONALES DE LOS ASISTENTES VIRTUALES EXISTENTES.
+el proyecto orion tiene su origen en la necesidad de disponer de un asistente inteligente que vaya más allá de las capacidades tradicionales de los asistentes virtuales existentes.
 
-LA VISIÓN INICIAL PLANTEA EL DESARROLLO DE UN SISTEMA CAPAZ DE COMPRENDER EL CONTEXTO, APRENDER CONTINUAMENTE, COLABORAR EN PROCESOS ACADÉMICOS Y PROFESIONALES, AUTOMATIZAR TAREAS, INTEGRARSE CON DISPOSITIVOS FÍSICOS Y OFRECER UNA EXPERIENCIA DE INTERACCIÓN NATURAL MEDIANTE INTERFACES CONVERSACIONALES Y REPRESENTACIONES HUMANOIDES.
+la visión inicial plantea el desarrollo de un sistema capaz de comprender el contexto, aprender continuamente, colaborar en procesos académicos y profesionales, automatizar tareas, integrarse con dispositivos físicos y ofrecer una experiencia de interacción natural mediante interfaces conversacionales y representaciones humanoides.
 
-ESTE CONCEPTO EVOLUCIONÓ HACIA LA CREACIÓN DE UN ECOSISTEMA COMPLETO DE PRODUCTOS TECNOLÓGICOS BAJO UNA MISMA ARQUITECTURA DE SOFTWARE E INTELIGENCIA ARTIFICIAL.
+este concepto evolucionó hacia la creación de un ecosistema completo de productos tecnológicos bajo una misma arquitectura de software e inteligencia artificial.
 
 ---
 
