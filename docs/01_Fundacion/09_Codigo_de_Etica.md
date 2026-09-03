@@ -15,9 +15,9 @@
 
 # INTRODUCCIÓN
 
-EL CÓDIGO DE ÉTICA DE ORION NOVA TECHNOLOGIES ESTABLECE LOS PRINCIPIOS Y NORMAS DE CONDUCTA QUE DEBEN ORIENTAR LAS ACTUACIONES DE TODOS LOS INTEGRANTES DE LA ORGANIZACIÓN.
+El código de ética de ORION NOVA TECHNOLOGIES establece los principios y normas de conducta que deben orientar las actuaciones de todos los integrantes de la organización.
 
-SU PROPÓSITO ES PROMOVER UNA CULTURA BASADA EN LA INTEGRIDAD, LA RESPONSABILIDAD, EL RESPETO Y LA TRANSPARENCIA EN TODAS LAS ACTIVIDADES EMPRESARIALES Y TECNOLÓGICAS.
+Su propósito es promover una cultura basada en la integridad, la responsabilidad, el respeto y la transparencia en todas las actividades empresariales y tecnológicas.
 
 ---
 
@@ -25,91 +25,91 @@ SU PROPÓSITO ES PROMOVER UNA CULTURA BASADA EN LA INTEGRIDAD, LA RESPONSABILIDA
 
 ## INTEGRIDAD
 
-ACTUAR CON HONESTIDAD, TRANSPARENCIA Y COHERENCIA EN TODAS LAS DECISIONES.
+Actuar con honestidad, transparencia y coherencia en todas las decisiones.
 
 ## RESPETO
 
-VALORAR LA DIGNIDAD, DIVERSIDAD Y DERECHOS DE TODAS LAS PERSONAS.
+Valorar la dignidad, diversidad y derechos de todas las personas.
 
 ## RESPONSABILIDAD
 
-ASUMIR LAS CONSECUENCIAS DE NUESTRAS DECISIONES Y ACCIONES.
+Asumir las consecuencias de nuestras decisiones y acciones.
 
 ## INNOVACIÓN RESPONSABLE
 
-DESARROLLAR TECNOLOGÍAS QUE BENEFICIEN A LA SOCIEDAD Y MINIMICEN RIESGOS.
+Desarrollar tecnologías que beneficien a la sociedad y minimicen riesgos.
 
 ## CONFIDENCIALIDAD
 
-PROTEGER LA INFORMACIÓN DE CLIENTES, COLABORADORES Y ALIADOS.
+Proteger la información de clientes, colaboradores y aliados.
 
 ## CUMPLIMIENTO NORMATIVO
 
-RESPETAR LA LEGISLACIÓN VIGENTE Y LOS ESTÁNDARES NACIONALES E INTERNACIONALES APLICABLES.
+Respetar la legislación vigente y los estándares nacionales e internacionales aplicables.
 
 ---
 
 # ÉTICA EN INTELIGENCIA ARTIFICIAL
 
-ORION NOVA TECHNOLOGIES SE COMPROMETE A DESARROLLAR SISTEMAS DE INTELIGENCIA ARTIFICIAL QUE:
+ORION NOVA TECHNOLOGIES se compromete a desarrollar sistemas de inteligencia artificial que:
 
-- SEAN TRANSPARENTES Y EXPLICABLES CUANDO SEA POSIBLE.
-- RESPETEN LA PRIVACIDAD DE LOS USUARIOS.
-- EVITEN SESGOS INJUSTIFICADOS.
-- PROMUEVAN LA SEGURIDAD Y LA CONFIABILIDAD.
-- MANTENGAN SUPERVISIÓN HUMANA EN DECISIONES CRÍTICAS.
+- Sean transparentes y explicables cuando sea posible.
+- Respeten la privacidad de los usuarios.
+- Eviten sesgos injustificados.
+- Promuevan la seguridad y la confiabilidad.
+- Mantengan supervisión humana en decisiones críticas.
 
 ---
 
 # CONDUCTA ESPERADA
 
-TODOS LOS COLABORADORES DEBERÁN:
+Todos los colaboradores deberán:
 
-- ACTUAR CON PROFESIONALISMO.
-- EVITAR CONFLICTOS DE INTERÉS.
-- PROTEGER LOS ACTIVOS DE LA EMPRESA.
-- RESPETAR LA PROPIEDAD INTELECTUAL.
-- FOMENTAR UN AMBIENTE DE TRABAJO COLABORATIVO.
+- Actuar con profesionalismo.
+- Evitar conflictos de interés.
+- Proteger los activos de la empresa.
+- Respetar la propiedad intelectual.
+- Fomentar un ambiente de trabajo colaborativo.
 
 ---
 
 # CONFLICTOS DE INTERÉS
 
-LAS DECISIONES DEBERÁN TOMARSE PRIORIZANDO LOS INTERESES DE LA EMPRESA Y EVITANDO BENEFICIOS PERSONALES QUE COMPROMETAN LA OBJETIVIDAD.
+Las decisiones deberán tomarse priorizando los intereses de la empresa y evitando beneficios personales que comprometan la objetividad.
 
 ---
 
 # PROTECCIÓN DE LA INFORMACIÓN
 
-TODA LA INFORMACIÓN ESTRATÉGICA, TÉCNICA, FINANCIERA Y COMERCIAL DEBERÁ MANEJARSE CON ESTRICTA CONFIDENCIALIDAD.
+Toda la información estratégica, técnica, financiera y comercial deberá manejarse con estricta confidencialidad.
 
 ---
 
 # CUMPLIMIENTO
 
-EL INCUMPLIMIENTO DE ESTE CÓDIGO DE ÉTICA PODRÁ DAR LUGAR A ACCIONES DISCIPLINARIAS CONFORME A LA NORMATIVA INTERNA Y LA LEGISLACIÓN APLICABLE.
+El incumplimiento de este código de ética podrá dar lugar a acciones disciplinarias conforme a la normativa interna y la legislación aplicable.
 
 ---
 
 # CONCLUSIÓN
 
-EL CÓDIGO DE ÉTICA CONSTITUYE UN COMPROMISO PERMANENTE CON EL DESARROLLO RESPONSABLE DE TECNOLOGÍAS QUE GENEREN CONFIANZA Y VALOR PARA LA SOCIEDAD.
+El código de ética constituye un compromiso permanente con el desarrollo responsable de tecnologías que generen confianza y valor para la sociedad.
 
 ---
 
 ## TRAZABILIDAD
 
-- ONT-FUN-004 - VALORES
-- ONT-FUN-005 - FILOSOFÍA EMPRESARIAL
-- ONT-SEC-001 - POLÍTICA DE SEGURIDAD DE LA INFORMACIÓN (FUTURO)
+- ont-fun-004 - Valores
+- ont-fun-005 - Filosofía empresarial
+- ont-sec-001 - Política de seguridad de la información (futuro)
 
 ---
 
 ## CONTROL DE CAMBIOS
 
-| VERSIÓN | FECHA | DESCRIPCIÓN | AUTOR |
+| versión | fecha | descripción | autor |
 |----------|--------|-------------|-------|
-| 1.0.0 | AGOSTO 2026 | CREACIÓN INICIAL | CARLOS CULMA |
+| 1.0.0 | agosto 2026 | creación inicial | carlos culma |
 
 ---
 
