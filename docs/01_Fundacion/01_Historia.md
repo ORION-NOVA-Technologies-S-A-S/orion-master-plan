@@ -100,27 +100,27 @@ cada uno de estos componentes formará parte de una arquitectura modular diseña
 
 # COMPROMISO
 
-ORION NOVA TECHNOLOGIES ASUME EL COMPROMISO DE DESARROLLAR TECNOLOGÍAS CON RESPONSABILIDAD, TRANSPARENCIA Y ALTOS ESTÁNDARES DE CALIDAD, PROMOVIENDO EL APRENDIZAJE CONTINUO, LA INNOVACIÓN Y EL RESPETO POR LAS PERSONAS.
+ORION NOVA TECHNOLOGIES asume el compromiso de desarrollar tecnologías con responsabilidad, transparencia y altos estándares de calidad, promoviendo el aprendizaje continuo, la innovación y el respeto por las personas.
 
-LA ORGANIZACIÓN RECONOCE QUE EL DESARROLLO TECNOLÓGICO DEBE ESTAR ACOMPAÑADO DE PRINCIPIOS ÉTICOS, SEGURIDAD DE LA INFORMACIÓN Y PROTECCIÓN DE LOS DATOS.
+La organización reconoce que el desarrollo tecnológico debe estar acompañado de principios éticos, seguridad de la información y protección de los datos.
 
 ---
 
 # PROYECCIÓN
 
-EN EL MEDIANO Y LARGO PLAZO, ORION NOVA TECHNOLOGIES ASPIRA A CONSOLIDARSE COMO UNA EMPRESA LÍDER EN INVESTIGACIÓN Y DESARROLLO TECNOLÓGICO EN AMÉRICA LATINA, PARTICIPANDO EN PROYECTOS DE INTELIGENCIA ARTIFICIAL, AUTOMATIZACIÓN, ROBÓTICA, EDUCACIÓN DIGITAL E INNOVACIÓN EMPRESARIAL.
+En el mediano y largo plazo, ORION NOVA TECHNOLOGIES aspira a consolidarse como una empresa líder en investigación y desarrollo tecnológico en américa latina, participando en proyectos de inteligencia artificial, automatización, robótica, educación digital e innovación empresarial.
 
-SU VISIÓN CONTEMPLA LA CONSTRUCCIÓN DE LABORATORIOS DE INVESTIGACIÓN, ALIANZAS ESTRATÉGICAS CON UNIVERSIDADES, CENTROS TECNOLÓGICOS Y ORGANIZACIONES INTERNACIONALES, ASÍ COMO EL DESARROLLO DE PRODUCTOS CON ALCANCE GLOBAL.
+Su visión contempla la construcción de laboratorios de investigación, alianzas estratégicas con universidades, centros tecnológicos y organizaciones internacionales, así como el desarrollo de productos con alcance global.
 
 ---
 
 # CONCLUSIÓN
 
-LA HISTORIA DE ORION NOVA TECHNOLOGIES APENAS COMIENZA.
+La historia de ORION NOVA TECHNOLOGIES apenas comienza.
 
-ESTE DOCUMENTO REPRESENTA EL PUNTO DE PARTIDA DE UNA ORGANIZACIÓN CONCEBIDA PARA INVESTIGAR, INNOVAR Y DESARROLLAR TECNOLOGÍAS QUE CONTRIBUYAN AL CRECIMIENTO DE LAS PERSONAS, LAS EMPRESAS Y LA SOCIEDAD.
+Este documento representa el punto de partida de una organización concebida para investigar, innovar y desarrollar tecnologías que contribuyan al crecimiento de las personas, las empresas y la sociedad.
 
-CADA PROYECTO DESARROLLADO POR LA ORGANIZACIÓN BUSCARÁ REFLEJAR LOS PRINCIPIOS DE EXCELENCIA TÉCNICA, RESPONSABILIDAD E INNOVACIÓN QUE INSPIRAN LA CREACIÓN DE ORION NOVA TECHNOLOGIES.
+Cada proyecto desarrollado por la organización buscará reflejar los principios de excelencia técnica, responsabilidad e innovación que inspiran la creación de ORION NOVA TECHNOLOGIES.
 
 ---
 
