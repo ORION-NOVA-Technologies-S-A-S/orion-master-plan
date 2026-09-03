@@ -17,93 +17,93 @@
 
 ## INTRODUCCIÓN
 
-LOS VALORES CORPORATIVOS REPRESENTAN LOS PRINCIPIOS QUE ORIENTAN TODAS LAS DECISIONES DE ORION NOVA TECHNOLOGIES. ESTOS VALORES DEFINEN NUESTRA CULTURA ORGANIZACIONAL Y SIRVEN COMO GUÍA PARA EL DESARROLLO DE TECNOLOGÍA, LA RELACIÓN CON NUESTROS CLIENTES, COLABORADORES, ALIADOS ESTRATÉGICOS Y LA SOCIEDAD.
+Los valores corporativos representan los principios que orientan todas las decisiones de ORION NOVA TECHNOLOGIES. estos valores definen nuestra cultura organizacional y sirven como guía para el desarrollo de tecnología, la relación con nuestros clientes, colaboradores, aliados estratégicos y la sociedad.
 
 ---
 
 # 1. INNOVACIÓN
 
-PROMOVEMOS LA BÚSQUEDA CONSTANTE DE NUEVAS IDEAS, TECNOLOGÍAS Y SOLUCIONES QUE GENEREN IMPACTO POSITIVO Y APORTEN VALOR A LAS PERSONAS Y ORGANIZACIONES.
+Promovemos la búsqueda constante de nuevas ideas, tecnologías y soluciones que generen impacto positivo y aporten valor a las personas y organizaciones.
 
 ---
 
 # 2. EXCELENCIA
 
-TRABAJAMOS CON ALTOS ESTÁNDARES DE CALIDAD EN CADA PROYECTO, PROCURANDO LA MEJORA CONTINUA DE NUESTROS PROCESOS, PRODUCTOS Y SERVICIOS.
+Trabajamos con altos estándares de calidad en cada proyecto, procurando la mejora continua de nuestros procesos, productos y servicios.
 
 ---
 
 # 3. ÉTICA
 
-DESARROLLAMOS TECNOLOGÍAS RESPONSABLES, TRANSPARENTES Y RESPETUOSAS DE LOS DERECHOS HUMANOS, GARANTIZANDO UN USO ADECUADO DE LA INTELIGENCIA ARTIFICIAL.
+Desarrollamos tecnologías responsables, transparentes y respetuosas de los derechos humanos, garantizando un uso adecuado de la inteligencia artificial.
 
 ---
 
 # 4. INTEGRIDAD
 
-ACTUAMOS CON HONESTIDAD, COHERENCIA Y RESPONSABILIDAD EN TODAS NUESTRAS ACTIVIDADES Y RELACIONES INSTITUCIONALES.
+Actuamos con honestidad, coherencia y responsabilidad en todas nuestras actividades y relaciones institucionales.
 
 ---
 
 # 5. SEGURIDAD
 
-LA PROTECCIÓN DE LA INFORMACIÓN, LA PRIVACIDAD Y LA CIBERSEGURIDAD SON PILARES FUNDAMENTALES EN EL DISEÑO DE NUESTRAS SOLUCIONES.
+La protección de la información, la privacidad y la ciberseguridad son pilares fundamentales en el diseño de nuestras soluciones.
 
 ---
 
 # 6. APRENDIZAJE CONTINUO
 
-FOMENTAMOS EL ESTUDIO PERMANENTE, LA INVESTIGACIÓN Y EL INTERCAMBIO DE CONOCIMIENTO COMO MOTORES DE CRECIMIENTO PERSONAL Y ORGANIZACIONAL.
+Fomentamos el estudio permanente, la investigación y el intercambio de conocimiento como motores de crecimiento personal y organizacional.
 
 ---
 
 # 7. COLABORACIÓN
 
-CREEMOS EN EL TRABAJO EN EQUIPO, LA COOPERACIÓN INTERDISCIPLINARIA Y LAS ALIANZAS ESTRATÉGICAS PARA ALCANZAR OBJETIVOS COMUNES.
+Creemos en el trabajo en equipo, la cooperación interdisciplinaria y las alianzas estratégicas para alcanzar objetivos comunes.
 
 ---
 
 # 8. ORIENTACIÓN AL USUARIO
 
-DISEÑAMOS PRODUCTOS PENSANDO EN LAS NECESIDADES REALES DE LAS PERSONAS, BUSCANDO OFRECER EXPERIENCIAS INTUITIVAS, ACCESIBLES Y ÚTILES.
+Diseñamos productos pensando en las necesidades reales de las personas, buscando ofrecer experiencias intuitivas, accesibles y útiles.
 
 ---
 
 # 9. SOSTENIBILIDAD
 
-PROMOVEMOS EL DESARROLLO DE TECNOLOGÍAS RESPONSABLES CON EL MEDIO AMBIENTE Y COMPROMETIDAS CON EL BIENESTAR DE LAS FUTURAS GENERACIONES.
+Promovemos el desarrollo de tecnologías responsables con el medio ambiente y comprometidas con el bienestar de las futuras generaciones.
 
 ---
 
 # 10. RESPONSABILIDAD SOCIAL
 
-CONTRIBUIMOS AL DESARROLLO TECNOLÓGICO Y EDUCATIVO MEDIANTE PROYECTOS QUE GENEREN IMPACTO POSITIVO EN LA SOCIEDAD.
+Contribuimos al desarrollo tecnológico y educativo mediante proyectos que generen impacto positivo en la sociedad.
 
 ---
 
 # APLICACIÓN DE LOS VALORES
 
-ESTOS VALORES DEBERÁN REFLEJARSE EN:
+Estos valores deberán reflejarse en:
 
-- LA TOMA DE DECISIONES ESTRATÉGICAS.
-- EL DESARROLLO DE SOFTWARE.
-- LA INVESTIGACIÓN CIENTÍFICA.
-- LA ATENCIÓN A CLIENTES.
-- LA GESTIÓN DEL TALENTO HUMANO.
-- LA RELACIÓN CON ALIADOS E INVERSIONISTAS.
-- LA CULTURA ORGANIZACIONAL.
+- la toma de decisiones estratégicas.
+- el desarrollo de software.
+- la investigación científica.
+- la atención a clientes.
+- la gestión del talento humano.
+- la relación con aliados e inversionistas.
+- la cultura organizacional.
 
 ---
 
 # COMPROMISO
 
-CADA INTEGRANTE DE ORION NOVA TECHNOLOGIES SE COMPROMETE A ACTUAR CONFORME A ESTOS VALORES, FORTALECIENDO UNA CULTURA BASADA EN LA CONFIANZA, EL RESPETO, LA INNOVACIÓN Y LA EXCELENCIA.
+Cada integrante de ORION NOVA TECHNOLOGIES se compromete a actuar conforme a estos valores, fortaleciendo una cultura basada en la confianza, el respeto, la innovación y la excelencia.
 
 ---
 
 # CONCLUSIÓN
 
-LOS VALORES CORPORATIVOS CONSTITUYEN LA BASE ÉTICA Y CULTURAL DE ORION NOVA TECHNOLOGIES, GUIANDO EL CRECIMIENTO SOSTENIBLE DE LA ORGANIZACIÓN Y ASEGURANDO QUE CADA SOLUCIÓN TECNOLÓGICA CONTRIBUYA POSITIVAMENTE A LA SOCIEDAD.
+Los valores corporativos constituyen la base ética y cultural de ORION NOVA TECHNOLOGIES, guiando el crecimiento sostenible de la organización y asegurando que cada solución tecnológica contribuya positivamente a la sociedad.
 
 ---
 
@@ -111,19 +111,19 @@ LOS VALORES CORPORATIVOS CONSTITUYEN LA BASE ÉTICA Y CULTURAL DE ORION NOVA TEC
 
 ### DOCUMENTOS RELACIONADOS
 
-- ONT-FUN-001 - HISTORIA
-- ONT-FUN-002 - MISIÓN
-- ONT-FUN-003 - VISIÓN
-- ONT-FUN-005 - FILOSOFÍA EMPRESARIAL
-- ONT-ETH-001 - CÓDIGO DE ÉTICA
+- ont-fun-001 - historia
+- ont-fun-002 - misión
+- ont-fun-003 - visión
+- ont-fun-005 - filosofía empresarial
+- ont-eth-001 - código de ética
 
 ---
 
 ## CONTROL DE CAMBIOS
 
-| VERSIÓN | FECHA | DESCRIPCIÓN | AUTOR |
+| versión | fecha | descripción | autor |
 |----------|--------|-------------|-------|
-| 1.0.0 | AGOSTO 2026 | CREACIÓN INICIAL DEL DOCUMENTO | CARLOS CULMA |
+| 1.0.0 | agosto 2026 | creación inicial del documento | carlos culma |
 
 ---
 
