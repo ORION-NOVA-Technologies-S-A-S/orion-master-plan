@@ -17,9 +17,9 @@
 
 ## INTRODUCCIÓN
 
-LA IDENTIDAD CORPORATIVA DE ORION NOVA TECHNOLOGIES REPRESENTA EL CONJUNTO DE ELEMENTOS QUE DEFINEN QUIÉNES SOMOS COMO ORGANIZACIÓN, CÓMO QUEREMOS SER RECONOCIDOS Y CUÁLES SON LOS PRINCIPIOS QUE PROYECTAMOS HACIA NUESTROS CLIENTES, ALIADOS, COLABORADORES Y LA SOCIEDAD.
+La identidad corporativa de ORION NOVA TECHNOLOGIES representa el conjunto de elementos que definen quiénes somos como organización, cómo queremos ser reconocidos y cuáles son los principios que proyectamos hacia nuestros clientes, aliados, colaboradores y la sociedad.
 
-NUESTRA IDENTIDAD COMBINA INNOVACIÓN, INGENIERÍA, INVESTIGACIÓN Y TECNOLOGÍA PARA CONSTRUIR SOLUCIONES INTELIGENTES CON IMPACTO GLOBAL.
+Nuestra identidad combina innovación, ingeniería, investigación y tecnología para construir soluciones inteligentes con impacto global.
 
 ---
 
@@ -27,105 +27,105 @@ NUESTRA IDENTIDAD COMBINA INNOVACIÓN, INGENIERÍA, INVESTIGACIÓN Y TECNOLOGÍA
 
 **ORION NOVA TECHNOLOGIES**
 
-EL NOMBRE REPRESENTA NUESTRA VISIÓN DE CONSTRUIR UNA NUEVA GENERACIÓN DE TECNOLOGÍAS INTELIGENTES.
+El nombre representa nuestra visión de construir una nueva generación de tecnologías inteligentes.
 
-- **ORION** SIMBOLIZA EXPLORACIÓN, CONOCIMIENTO, LIDERAZGO E INNOVACIÓN.
-- **NOVA** REPRESENTA TRANSFORMACIÓN, EVOLUCIÓN Y CREACIÓN DE NUEVAS OPORTUNIDADES.
-- **TECHNOLOGIES** REFLEJA NUESTRO COMPROMISO CON EL DESARROLLO TECNOLÓGICO MULTIDISCIPLINARIO.
+- **ORION** simboliza exploración, conocimiento, liderazgo e innovación.
+- **NOVA** representa transformación, evolución y creación de nuevas oportunidades.
+- **TECHNOLOGIES** refleja nuestro compromiso con el desarrollo tecnológico multidisciplinario.
 
 ---
 
 # ESLOGAN CORPORATIVO
 
-**"INTELIGENCIA QUE CONSTRUYE EL FUTURO."**
+**"inteligencia que construye el futuro."**
 
-ESTE ESLOGAN REPRESENTA NUESTRO COMPROMISO CON LA CREACIÓN DE SOLUCIONES TECNOLÓGICAS QUE POTENCIEN LAS CAPACIDADES HUMANAS MEDIANTE LA INTELIGENCIA ARTIFICIAL Y LA INNOVACIÓN.
+Este eslogan representa nuestro compromiso con la creación de soluciones tecnológicas que potencien las capacidades humanas mediante la inteligencia artificial y la innovación.
 
 ---
 
 # IDENTIDAD INSTITUCIONAL
 
-ORION NOVA TECHNOLOGIES SE DEFINE COMO UNA EMPRESA DE INVESTIGACIÓN, DESARROLLO E INNOVACIÓN (I+D+I), ESPECIALIZADA EN:
+ORION NOVA TECHNOLOGIES se define como una empresa de investigación, desarrollo e innovación (i+d+i), especializada en:
 
-- INTELIGENCIA ARTIFICIAL.
-- DESARROLLO DE SOFTWARE.
-- ROBÓTICA.
-- INTERNET DE LAS COSAS (IOT).
-- COMPUTACIÓN EN LA NUBE.
-- CIBERSEGURIDAD.
-- CIENCIA DE DATOS.
-- AUTOMATIZACIÓN INTELIGENTE.
+- Inteligencia artificial.
+- Desarrollo de software.
+- Robótica.
+- Internet de las cosas (iot).
+- Computación en la nube.
+- Ciberseguridad.
+- Ciencia de datos.
+- Automatización inteligente.
 
 ---
 
 # PERSONALIDAD DE LA MARCA
 
-NUESTRA MARCA TRANSMITE:
+Nuestra marca transmite:
 
-- INNOVACIÓN.
-- CONFIANZA.
-- PROFESIONALISMO.
-- SEGURIDAD.
-- CREATIVIDAD.
-- CERCAÑA.
-- RESPONSABILIDAD.
-- EXCELENCIA TÉCNICA.
+- Innovación.
+- Confianza.
+- Profesionalismo.
+- Seguridad.
+- Creatividad.
+- Cercaña.
+- Responsabilidad.
+- Excelencia técnica.
 
 ---
 
 # PRINCIPIOS DE MARCA
 
-LA IDENTIDAD DE ORION ESTARÁ BASADA EN LOS SIGUIENTES PRINCIPIOS:
+La identidad de orion estará basada en los siguientes principios:
 
-- TECNOLOGÍA AL SERVICIO DE LAS PERSONAS.
-- INNOVACIÓN RESPONSABLE.
-- CALIDAD EN CADA DESARROLLO.
-- SEGURIDAD DESDE EL DISEÑO.
-- INVESTIGACIÓN PERMANENTE.
-- APRENDIZAJE CONTINUO.
-- TRANSPARENCIA.
-- COLABORACIÓN.
+- Tecnología al servicio de las personas.
+- Innovación responsable.
+- Calidad en cada desarrollo.
+- Seguridad desde el diseño.
+- Investigación permanente.
+- Aprendizaje continuo.
+- Transparencia.
+- Colaboración.
 
 ---
 
 # IDENTIDAD VISUAL
 
-LA IDENTIDAD VISUAL SERÁ DESARROLLADA MEDIANTE UN MANUAL DE MARCA INDEPENDIENTE.
+La identidad visual será desarrollada mediante un manual de marca independiente.
 
-ESTE MANUAL DEFINIRÁ:
+Este manual definirá:
 
-- LOGOTIPO OFICIAL.
-- VERSIONES DEL LOGOTIPO.
-- COLORES INSTITUCIONALES.
-- TIPOGRAFÍA CORPORATIVA.
-- ICONOGRAFÍA.
-- USO CORRECTO DE LA MARCA.
-- APLICACIONES INSTITUCIONALES.
+- Logotipo oficial.
+- Versiones del logotipo.
+- Colores institucionales.
+- Tipografía corporativa.
+- Iconografía.
+- Uso correcto de la marca.
+- Aplicaciones institucionales.
 
 ---
 
 # COMUNICACIÓN INSTITUCIONAL
 
-TODA COMUNICACIÓN REALIZADA POR ORION NOVA TECHNOLOGIES DEBERÁ MANTENER UN LENGUAJE:
+Toda comunicación realizada por ORION NOVA TECHNOLOGIES deberá mantener un lenguaje:
 
-- PROFESIONAL.
-- CLARO.
-- TÉCNICO CUANDO SEA NECESARIO.
-- CERCANO AL USUARIO.
-- ÉTICO.
-- INCLUSIVO.
+- Profesional.
+- Claro.
+- Técnico cuando sea necesario.
+- Cercano al usuario.
+- Ético.
+- Inclusivo.
 
 ---
 
 # OBJETIVO DE LA IDENTIDAD
 
-LA IDENTIDAD CORPORATIVA BUSCA FORTALECER EL RECONOCIMIENTO DE ORION NOVA TECHNOLOGIES COMO UNA ORGANIZACIÓN INNOVADORA, CONFIABLE Y COMPROMETIDA CON EL DESARROLLO TECNOLÓGICO SOSTENIBLE.
+La identidad corporativa busca fortalecer el reconocimiento de ORION NOVA TECHNOLOGIES como una organización innovadora, confiable y comprometida con el desarrollo tecnológico sostenible.
 
 ---
 
 # CONCLUSIÓN
 
-LA IDENTIDAD CORPORATIVA CONSTITUYE UNO DE LOS ACTIVOS ESTRATÉGICOS MÁS IMPORTANTES DE ORION NOVA TECHNOLOGIES, PERMITIENDO CONSTRUIR UNA IMAGEN SÓLIDA Y COHERENTE EN TODOS LOS ESCENARIOS DONDE LA ORGANIZACIÓN TENGA PRESENCIA.
+La identidad corporativa constituye uno de los activos estratégicos más importantes de ORION NOVA TECHNOLOGIES, permitiendo construir una imagen sólida y coherente en todos los escenarios donde la organización tenga presencia.
 
 ---
 
@@ -133,20 +133,20 @@ LA IDENTIDAD CORPORATIVA CONSTITUYE UNO DE LOS ACTIVOS ESTRATÉGICOS MÁS IMPORT
 
 ### DOCUMENTOS RELACIONADOS
 
-- ONT-FUN-001 - HISTORIA
-- ONT-FUN-002 - MISIÓN
-- ONT-FUN-003 - VISIÓN
-- ONT-FUN-004 - VALORES
-- ONT-FUN-005 - FILOSOFÍA EMPRESARIAL
-- ONT-MAR-001 - MANUAL DE IDENTIDAD VISUAL (FUTURO)
+- ont-fun-001 - Historia
+- ont-fun-002 - Misión
+- ont-fun-003 - Visión
+- ont-fun-004 - Valores
+- ont-fun-005 - Filosofía empresarial
+- ont-mar-001 - Manual de identidad visual (futuro)
 
 ---
 
 ## CONTROL DE CAMBIOS
 
-| VERSIÓN | FECHA | DESCRIPCIÓN | AUTOR |
+| versión | fecha | descripción | autor |
 |----------|--------|-------------|-------|
-| 1.0.0 | AGOSTO 2026 | CREACIÓN INICIAL DEL DOCUMENTO | EQUIPO FUNDADOR |
+| 1.0.0 | agosto 2026 | IDENTIDAD CORPORATIVA | CARLOS CULMA |
 
 ---
 
