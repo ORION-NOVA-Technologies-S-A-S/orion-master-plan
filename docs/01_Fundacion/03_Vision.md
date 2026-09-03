@@ -125,9 +125,9 @@ La visión de ORION NOVA TECHNOLOGIES representa el compromiso de construir una 
 
 ## CONTROL DE CAMBIOS
 
-| VERSIÓN | FECHA | DESCRIPCIÓN | AUTOR |
+| versión | fecha | descripción | autor |
 |----------|--------|-------------|-------|
-| 1.0.0 | AGOSTO 2026 | CREACIÓN INICIAL DEL DOCUMENTO | CARLOS CULMA |
+| 1.0.0 | agosto 2026 | creación inicial del documento | carlos culma |
 
 ---
 
