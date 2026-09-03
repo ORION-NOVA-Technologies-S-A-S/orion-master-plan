@@ -5,7 +5,7 @@
 | CÓDIGO | ONT-FUN-010 |
 | NOMBRE | ACTA FUNDACIONAL |
 | VERSIÓN | 1.0.0 |
-| ESTADO | BORRADOR |
+| ESTADO | ACTIVO |
 | FECHA | AGOSTO DE 2026 |
 | ELABORADO POR | CARLOS CULMA |
 
@@ -15,7 +15,7 @@
 
 ## INTRODUCCIÓN
 
-LA PRESENTE ACTA FUNDACIONAL FORMALIZA LA CREACIÓN DEL PROYECTO EMPRESARIAL ORION NOVA TECHNOLOGIES, ESTABLECIENDO LOS PRINCIPIOS, OBJETIVOS Y COMPROMISOS QUE SERVIRÁN COMO BASE PARA SU CONSTITUCIÓN LEGAL Y DESARROLLO.
+La presente acta fundacional formaliza la creación del proyecto empresarial ORION NOVA TECHNOLOGIES, estableciendo los principios, objetivos y compromisos que servirán como base para su constitución legal y desarrollo.
 
 ---
 
@@ -27,7 +27,7 @@ LA PRESENTE ACTA FUNDACIONAL FORMALIZA LA CREACIÓN DEL PROYECTO EMPRESARIAL ORI
 
 **EQUIPO FUNDADOR**
 
-- EN PROCESO DE CONFORMACIÓN.
+- En proceso de conformación.
 
 ---
 
@@ -39,51 +39,51 @@ LA PRESENTE ACTA FUNDACIONAL FORMALIZA LA CREACIÓN DEL PROYECTO EMPRESARIAL ORI
 
 # NATURALEZA
 
-EMPRESA DEDICADA A LA INVESTIGACIÓN, DESARROLLO E INNOVACIÓN TECNOLÓGICA (I+D+I).
+Empresa dedicada a la investigación, desarrollo e innovación tecnológica (i+d+i).
 
 ---
 
 # ÁREAS DE ESPECIALIZACIÓN
 
-- INTELIGENCIA ARTIFICIAL
-- DESARROLLO DE SOFTWARE
-- COMPUTACIÓN EN LA NUBE
-- INTERNET DE LAS COSAS (IOT)
-- ROBÓTICA
-- AUTOMATIZACIÓN
-- CIBERSEGURIDAD
-- CIENCIA DE DATOS
+- Inteligencia artificial
+- Desarrollo de software
+- Computación en la nube
+- Internet de las cosas (iot)
+- Robótica
+- Automatización
+- Ciberseguridad
+- Ciencia de datos
 
 ---
 
 # OBJETIVO GENERAL
 
-DESARROLLAR SOLUCIONES TECNOLÓGICAS INNOVADORAS QUE CONTRIBUYAN AL CRECIMIENTO CIENTÍFICO, TECNOLÓGICO Y ECONÓMICO DE COLOMBIA Y DEL MUNDO.
+Desarrollar soluciones tecnológicas innovadoras que contribuyan al crecimiento científico, tecnológico y económico de colombia y del mundo.
 
 ---
 
 # COMPROMISOS
 
-LOS FUNDADORES SE COMPROMETEN A:
+Los fundadores se comprometen a:
 
-- PROMOVER LA INNOVACIÓN.
-- MANTENER ALTOS ESTÁNDARES ÉTICOS.
-- DESARROLLAR TECNOLOGÍA DE CALIDAD.
-- FOMENTAR LA INVESTIGACIÓN.
-- RESPETAR LA PROPIEDAD INTELECTUAL.
-- IMPULSAR LA TRANSFORMACIÓN DIGITAL.
+- Promover la innovación.
+- Mantener altos estándares éticos.
+- Desarrollar tecnología de calidad.
+- Fomentar la investigación.
+- Respetar la propiedad intelectual.
+- Impulsar la transformación digital.
 
 ---
 
 # VISIÓN FUNDACIONAL
 
-CONSTRUIR UNA EMPRESA RECONOCIDA INTERNACIONALMENTE POR EL DESARROLLO DE TECNOLOGÍAS INTELIGENTES QUE GENEREN IMPACTO POSITIVO EN LA SOCIEDAD.
+Construir una empresa reconocida internacionalmente por el desarrollo de tecnologías inteligentes que generen impacto positivo en la sociedad.
 
 ---
 
 # VIGENCIA
 
-ESTA ACTA PERMANECERÁ VIGENTE HASTA LA CONSTITUCIÓN LEGAL DE LA EMPRESA Y SERÁ ACTUALIZADA CUANDO SE FORMALICE LA CREACIÓN DE ORION NOVA TECHNOLOGIES.
+Esta acta permanecerá vigente hasta la constitución legal de la empresa y será actualizada cuando se formalice la creación de ORION NOVA TECHNOLOGIES.
 
 ---
 
@@ -101,18 +101,18 @@ FECHA: _______________________
 
 ## TRAZABILIDAD
 
-- ONT-FUN-001 - HISTORIA
-- ONT-FUN-002 - MISIÓN
-- ONT-FUN-003 - VISIÓN
-- ONT-FUN-006 - OBJETIVOS ESTRATÉGICOS
+- ont-fun-001 - Historia
+- ont-fun-002 - Misión
+- ont-fun-003 - Visión
+- ont-fun-006 - Objetivos estratégicos
 
 ---
 
 ## CONTROL DE CAMBIOS
 
-| VERSIÓN | FECHA | DESCRIPCIÓN | AUTOR |
+| versión | fecha | descripción | autor |
 |----------|--------|-------------|-------|
-| 1.0.0 | AGOSTO DE 2026 | CREACIÓN DEL DOCUMENTO | CARLOS CULMA |
+| 1.0.0 | agosto de 2026 | acta de funcionalidad | carlos culma |
 
 ---
 
