@@ -1,4 +1,4 @@
-# Plan Estratégico 2026–2035 de ORION NOVA Technologies.
+# Plan Estratégico 2026–2035 de ORION NOVA TECHNOLOGIES.
 
 | Documento | Información |
 |-----------|-------------|
@@ -15,7 +15,7 @@
 
 # Introducción
 
-El presente Plan Estratégico define la hoja de ruta de ORION NOVA Technologies  para el periodo 2026–2035.
+El presente Plan Estratégico define la hoja de ruta de ORION NOVA TECHNOLOGIES  para el periodo 2026–2035.
 
 Este documento establece las prioridades estratégicas, los objetivos de crecimiento, las líneas de investigación, el desarrollo de productos y las metas organizacionales que permitirán consolidar a ORION como una empresa líder en innovación tecnológica.
 
@@ -177,7 +177,7 @@ El Plan Estratégico será revisado anualmente para evaluar el cumplimiento de m
 
 # Conclusión
 
-El presente Plan Estratégico constituye la guía para el crecimiento sostenible de ORION NOVA Technologies S.A.S., orientando las decisiones empresariales y tecnológicas durante el periodo 2026–2035.
+El presente Plan Estratégico constituye la guía para el crecimiento sostenible de ORION NOVA TECHNOLOGIES, orientando las decisiones empresariales y tecnológicas durante el periodo 2026–2035.
 
 ---
 
@@ -195,8 +195,8 @@ El presente Plan Estratégico constituye la guía para el crecimiento sostenible
 
 | Versión | Fecha | Descripción | Autor |
 |----------|--------|-------------|-------|
-| 1.0.0 | Agosto 2026 | Creación inicial | Carlos Culma|
+| 1.0.0 | Agosto 2026 | Plan Estrategico | Carlos Culma|
 
 ---
 
-**Documento oficial de ORION NOVA Technologies **
+**Documento oficial de ORION NOVA TECHNOLOGIES **

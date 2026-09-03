@@ -1,4 +1,4 @@
-# Portafolio de Productos de ORION NOVA Technologies
+# Portafolio de Productos de ORION NOVA TECHNOLOGIES
 
 | Documento | Información |
 |-----------|-------------|
@@ -15,7 +15,7 @@
 
 # Introducción
 
-El presente documento describe el portafolio oficial de productos de ORION NOVA Technologies.
+El presente documento describe el portafolio oficial de productos de ORION NOVA TECHNOLOGIES.
 
 Cada producto forma parte del Ecosistema ORION, una plataforma tecnológica diseñada para integrar Inteligencia Artificial, Computación en la Nube, Internet de las Cosas (IoT), Robótica, Ciberseguridad y Analítica de Datos, ofreciendo soluciones innovadoras para personas, empresas e instituciones.
 
@@ -351,4 +351,4 @@ La integración entre productos permitirá ofrecer soluciones completas, escalab
 
 ---
 
-**Documento oficial de ORION NOVA Technologies**
+**Documento oficial de ORION NOVA TECHNOLOGIES**

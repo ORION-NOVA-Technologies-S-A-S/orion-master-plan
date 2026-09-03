@@ -1,4 +1,4 @@
-# Resumen Ejecutivo de ORION NOVA Technologies.
+# Resumen Ejecutivo de ORION NOVA TECHNOLOGIES.
 
 | Documento | Información |
 |-----------|-------------|
@@ -136,8 +136,8 @@ ORION NOVA Technologies S.A.S. aspira a convertirse en un referente en innovaci�
 
 | Versión | Fecha | Descripción | Autor |
 |----------|--------|-------------|-------|
-| 1.0.0 | Agosto 2026 | Creación inicial | Carlos Culma |
+| 1.0.0 | Agosto 2026 | Resumen ejecutivo | Carlos Culma |
 
 ---
 
-**Documento oficial de ORION NOVA Technologies.**
+**Documento oficial de ORION NOVA TECHNOLOGIES.**

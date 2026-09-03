@@ -224,8 +224,8 @@ El Business Model Canvas establece las bases del modelo de negocio de ORION NOVA
 
 | Versión | Fecha | Descripción | Autor |
 |----------|--------|-------------|-------|
-| 1.0.0 | Agosto 2026 | Creación inicial | Carlos Culma |
+| 1.0.0 | Agosto 2026 | MODELO CANVAS DE NEGOCIOS | Carlos Culma |
 
 ---
 
-**Documento oficial de ORION NOVA Technologies **
+**Documento oficial de ORION NOVA TECHNOLOGIES **

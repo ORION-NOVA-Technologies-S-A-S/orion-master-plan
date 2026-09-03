@@ -1,4 +1,4 @@
-# Portafolio de Servicios de ORION NOVA Technologies
+# Portafolio de Servicios de ORION NOVA TECHNOLOGIES
 
 | Documento | Información |
 |-----------|-------------|
@@ -15,7 +15,7 @@
 
 # Introducción
 
-El presente documento describe el portafolio de servicios de ORION NOVA Technologies.
+El presente documento describe el portafolio de servicios de ORION NOVA TECHNOLOGIES.
 
 El objetivo es ofrecer soluciones tecnológicas innovadoras que permitan impulsar la transformación digital de personas, empresas, instituciones educativas, entidades gubernamentales y organizaciones privadas mediante el uso de tecnologías emergentes.
 
@@ -330,4 +330,4 @@ La diversidad de servicios permitirá atender diferentes sectores económicos, i
 
 ---
 
-**Documento oficial de ORION NOVA Technologies**
+**Documento oficial de ORION NOVA TECHNOLOGIES**

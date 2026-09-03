@@ -320,4 +320,4 @@ La identificación temprana de riesgos y la implementación de medidas preventiv
 
 ---
 
-**Documento oficial de ORION NOVA Technologies **
+**Documento oficial de ORION NOVA TECHNOLOGIES **

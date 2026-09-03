@@ -1,4 +1,4 @@
-# Modelo de Ingresos de ORION NOVA Technologies
+# Modelo de Ingresos de ORION NOVA TECHNOLOGIES
 
 | Documento | Información |
 |-----------|-------------|
@@ -15,7 +15,7 @@
 
 # Introducción
 
-El Modelo de Ingresos define las fuentes mediante las cuales ORION NOVA Technologies. generará recursos económicos para garantizar su sostenibilidad, crecimiento e inversión en investigación, innovación y desarrollo tecnológico.
+El Modelo de Ingresos define las fuentes mediante las cuales ORION NOVA TECHNOLOGIES. generará recursos económicos para garantizar su sostenibilidad, crecimiento e inversión en investigación, innovación y desarrollo tecnológico.
 
 El modelo está diseñado para diversificar los ingresos, reduciendo la dependencia de una única línea de negocio y fortaleciendo la competitividad de la empresa en el mercado tecnológico.
 
@@ -275,4 +275,4 @@ La diversificación de ingresos permitirá reducir riesgos, impulsar la innovaci
 
 ---
 
-**Documento oficial de ORION NOVA Technologies**
+**Documento oficial de ORION NOVA TECHNOLOGIES**

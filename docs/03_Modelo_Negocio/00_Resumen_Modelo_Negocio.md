@@ -1,4 +1,4 @@
-# Resumen del Modelo de Negocio de ORION NOVA Technologies.
+# Resumen del Modelo de Negocio de ORION NOVA TECHNOLOGIES.
 
 | Documento | Información |
 |-----------|-------------|
@@ -13,29 +13,29 @@
 
 ---
 
-# Introducción
+# INTRODUCCIÓN
 
-El presente documento describe el Modelo de Negocio de ORION NOVA Technologies, estableciendo la forma en que la organización crea, entrega y captura valor mediante el desarrollo de soluciones tecnológicas innovadoras.
+El presente documento describe el Modelo de Negocio de ORION NOVA TECHNOLOGIES, estableciendo la forma en que la organización crea, entrega y captura valor mediante el desarrollo de soluciones tecnológicas innovadoras.
 
 El modelo está orientado a la investigación, el desarrollo y la innovación (I+D+i), integrando Inteligencia Artificial, Computación en la Nube, Internet de las Cosas (IoT), Robótica, Ciencia de Datos y Ciberseguridad para atender las necesidades de personas, empresas e instituciones.
 
 ---
 
-# Propósito
+# PROPÓSITO
 
 Construir un ecosistema tecnológico integrado que facilite la transformación digital mediante soluciones escalables, seguras e inteligentes.
 
 ---
 
-# Nuestra Propuesta
+# NUESTRA PROPUESTA
 
-ORION NOVA Technologies desarrollará un ecosistema compuesto por plataformas interoperables que compartirán una arquitectura común.
+ORION NOVA TECHNOLOGIES desarrollará un ecosistema compuesto por plataformas interoperables que compartirán una arquitectura común.
 
 Este ecosistema permitirá ofrecer soluciones conectadas que simplifiquen la gestión de información, automaticen procesos y mejoren la toma de decisiones.
 
 ---
 
-# Clientes
+# CLIENTES
 
 La empresa enfocará sus productos y servicios en:
 
@@ -50,7 +50,7 @@ La empresa enfocará sus productos y servicios en:
 
 ---
 
-# Productos Estratégicos
+# PRODUCTOS ESTRATÉGICOS
 
 El ecosistema ORION estará conformado por:
 
@@ -68,7 +68,7 @@ Cada producto será desarrollado de forma modular e interoperable.
 
 ---
 
-# Servicios
+# SERVICIOS
 
 ORION NOVA Technologies ofrecerá servicios profesionales como:
 
@@ -88,7 +88,7 @@ ORION NOVA Technologies ofrecerá servicios profesionales como:
 
 ---
 
-# Modelo de Ingresos
+# MODELO DE INGRESO
 
 La empresa combinará diversas fuentes de ingresos:
 
@@ -103,7 +103,7 @@ La empresa combinará diversas fuentes de ingresos:
 
 ---
 
-# Recursos Clave
+# RECURSOS CLAVES
 
 Los principales recursos de ORION incluyen:
 
@@ -117,7 +117,7 @@ Los principales recursos de ORION incluyen:
 
 ---
 
-# Actividades Clave
+# ACTIVIDADES CLAVES
 
 Las actividades principales de la organización serán:
 
@@ -133,7 +133,7 @@ Las actividades principales de la organización serán:
 
 ---
 
-# Socios Estratégicos
+# SOCIOS ESTRATÉGICOS
 
 ORION buscará establecer alianzas con:
 
@@ -147,9 +147,9 @@ ORION buscará establecer alianzas con:
 
 ---
 
-# Ventaja Competitiva
+# VENTAJA COMPETITIVA
 
-ORION NOVA Technologies se diferenciará por:
+ORION NOVA TECHNOLOGIES se diferenciará por:
 
 - Ecosistema tecnológico integrado.
 - Arquitectura modular.
@@ -162,7 +162,7 @@ ORION NOVA Technologies se diferenciará por:
 
 ---
 
-# Objetivos del Modelo de Negocio
+# OBJETIVOS DEL MODELO DE NEGOCIO
 
 - Generar valor para clientes y aliados.
 - Desarrollar tecnologías propias.
@@ -173,7 +173,7 @@ ORION NOVA Technologies se diferenciará por:
 
 ---
 
-# Conclusión
+# CONCLUSIÓN
 
 El Modelo de Negocio de ORION NOVA Technologies,constituye la base para el crecimiento sostenible de la organización.
 
@@ -181,7 +181,7 @@ Su enfoque en la innovación, el desarrollo tecnológico y la generación de val
 
 ---
 
-## Trazabilidad
+## TRAZABILIDAD
 
 - ONT-STR-000 - Resumen Ejecutivo
 - ONT-STR-001 - Plan Estratégico 2026–2035
@@ -191,12 +191,12 @@ Su enfoque en la innovación, el desarrollo tecnológico y la generación de val
 
 ---
 
-## Control de Cambios
+## CONTROL DE CAMBIOS
 
 | Versión | Fecha | Descripción | Autor |
 |----------|--------|-------------|--------|
-| 1.0.0 | Agosto 2026 | Creación inicial del documento. | Carlos Culma |
+| 1.0.0 | Agosto 2026 | Resumen del Modelo de Negocios | Carlos Culma |
 
 ---
 
-**Documento oficial de ORION NOVA Technologies**
+**Documento oficial de ORION NOVA TECHNOLOGIES**

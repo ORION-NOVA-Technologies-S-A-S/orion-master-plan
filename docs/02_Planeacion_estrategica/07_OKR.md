@@ -1,4 +1,4 @@
-# Objetivos y Resultados Clave (OKR) de ORION NOVA Technologies 
+# Objetivos y Resultados Clave (OKR) de ORION NOVA TECHNOLOGIES 
 
 | Documento | Información |
 |-----------|-------------|
@@ -15,7 +15,7 @@
 
 # Introducción
 
-Los Objetivos y Resultados Clave (Objectives and Key Results - OKR) constituyen el marco de gestión estratégica adoptado por ORION NOVA Technologies. Para alinear los esfuerzos de la organización con su visión empresarial.
+Los Objetivos y Resultados Clave (Objectives and Key Results - OKR) constituyen el marco de gestión estratégica adoptado por ORION NOVA TECHNOLOGIES. Para alinear los esfuerzos de la organización con su visión empresarial.
 
 Los OKR permiten convertir la estrategia en objetivos claros, medibles y alcanzables, promoviendo el enfoque, la transparencia y la mejora continua.
 
@@ -223,4 +223,4 @@ Su aplicación permitirá que ORION NOVA Technologies S.A.S. mantenga el enfoque
 
 ---
 
-**Documento oficial de ORION NOVA Technologies **
+**Documento oficial de ORION NOVA TECHNOLOGIES **

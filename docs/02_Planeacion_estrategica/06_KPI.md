@@ -1,4 +1,4 @@
-# Indicadores Clave de Desempeño (KPI) de ORION NOVA Technologies 
+# Indicadores Clave de Desempeño (KPI) de ORION NOVA TECHNOLOGIES 
 
 | Documento | Información |
 |-----------|-------------|

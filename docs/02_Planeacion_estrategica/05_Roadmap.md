@@ -195,8 +195,8 @@ Este Roadmap será revisado anualmente para adaptarlo a la evolución tecnológi
 
 | Versión | Fecha | Descripción | Autor |
 |----------|--------|-------------|-------|
-| 1.0.0 | Agosto 2026 | Creación inicial | Carlos Culma |
+| 1.0.0 | Agosto 2026 | ROADMAP | Carlos Culma |
 
 ---
 
-**Documento oficial de ORION NOVA Technologies **
+**Documento oficial de ORION NOVA TECHNOLOGIES **
