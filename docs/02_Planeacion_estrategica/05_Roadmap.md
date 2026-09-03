@@ -1,4 +1,4 @@
-# Roadmap Empresarial y Tecnológico 2026–2035 de ORION NOVA Technologies S.A.S.
+# Roadmap Empresarial y Tecnológico 2026–2035 de ORION NOVA Technologies 
 
 | Documento | Información |
 |-----------|-------------|
@@ -13,7 +13,7 @@
 
 # Introducción
 
-El Roadmap Empresarial y Tecnológico define la evolución de ORION NOVA Technologies S.A.S. durante el período 2026–2035.
+El Roadmap Empresarial y Tecnológico define la evolución de ORION NOVA Technologies  durante el período 2026–2035.
 
 Este documento establece las fases de crecimiento de la empresa, el desarrollo de sus productos, la incorporación de nuevas tecnologías y la expansión nacional e internacional.
 
@@ -39,7 +39,7 @@ Crear las bases legales, técnicas y organizacionales de la empresa.
 
 ### Entregables
 
-- Constitución legal de ORION NOVA Technologies S.A.S.
+- Constitución legal de ORION NOVA Technologies 
 - Registro de marca.
 - Página web institucional.
 - Organización GitHub.
@@ -199,4 +199,4 @@ Este Roadmap será revisado anualmente para adaptarlo a la evolución tecnológi
 
 ---
 
-**Documento oficial de ORION NOVA Technologies S.A.S.**
+**Documento oficial de ORION NOVA Technologies **

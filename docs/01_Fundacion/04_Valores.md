@@ -1,4 +1,4 @@
-# Valores Corporativos de ORION NOVA Technologies S.A.S.
+# Valores Corporativos de ORION NOVA Technologies
 
 | Documento | Información |
 |-----------|-------------|
@@ -17,7 +17,7 @@
 
 ## Introducción
 
-Los valores corporativos representan los principios que orientan todas las decisiones de ORION NOVA Technologies S.A.S. Estos valores definen nuestra cultura organizacional y sirven como guía para el desarrollo de tecnología, la relación con nuestros clientes, colaboradores, aliados estratégicos y la sociedad.
+Los valores corporativos representan los principios que orientan todas las decisiones de ORION NOVA Technologies. Estos valores definen nuestra cultura organizacional y sirven como guía para el desarrollo de tecnología, la relación con nuestros clientes, colaboradores, aliados estratégicos y la sociedad.
 
 ---
 
@@ -97,13 +97,13 @@ Estos valores deberán reflejarse en:
 
 # Compromiso
 
-Cada integrante de ORION NOVA Technologies S.A.S. se compromete a actuar conforme a estos valores, fortaleciendo una cultura basada en la confianza, el respeto, la innovación y la excelencia.
+Cada integrante de ORION NOVA Technologies se compromete a actuar conforme a estos valores, fortaleciendo una cultura basada en la confianza, el respeto, la innovación y la excelencia.
 
 ---
 
 # Conclusión
 
-Los valores corporativos constituyen la base ética y cultural de ORION NOVA Technologies S.A.S., guiando el crecimiento sostenible de la organización y asegurando que cada solución tecnológica contribuya positivamente a la sociedad.
+Los valores corporativos constituyen la base ética y cultural de ORION NOVA Technologies, guiando el crecimiento sostenible de la organización y asegurando que cada solución tecnológica contribuya positivamente a la sociedad.
 
 ---
 
@@ -127,7 +127,7 @@ Los valores corporativos constituyen la base ética y cultural de ORION NOVA Tec
 
 ---
 
-**Documento oficial de ORION NOVA Technologies S.A.S.**
+**Documento oficial de ORION NOVA Technologies**
 
 **Clasificación:** Documento Institucional
 

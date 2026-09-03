@@ -1,4 +1,4 @@
-# Plan Estratégico 2026–2035 de ORION NOVA Technologies S.A.S.
+# Plan Estratégico 2026–2035 de ORION NOVA Technologies.
 
 | Documento | Información |
 |-----------|-------------|
@@ -199,4 +199,4 @@ El presente Plan Estratégico constituye la guía para el crecimiento sostenible
 
 ---
 
-**Documento oficial de ORION NOVA Technologies S.A.S.**
+**Documento oficial de ORION NOVA Technologies **

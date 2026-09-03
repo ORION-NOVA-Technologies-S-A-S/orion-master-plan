@@ -3,7 +3,7 @@
 | Documento | Información |
 |-----------|-------------|
 | Código | ONT-FUN-003 |
-| Nombre | Visión de ORION NOVA Technologies S.A.S. |
+| Nombre | Visión de ORION NOVA Technologies |
 | Versión | 1.0.0 |
 | Estado | Aprobado para el Proyecto Fundacional |
 | Fecha | Agosto de 2026 |
@@ -17,7 +17,7 @@
 
 ## Declaración de la Visión
 
-Para el año 2035, ORION NOVA Technologies S.A.S. será reconocida como una empresa líder en América Latina en investigación, desarrollo e innovación tecnológica, destacándose por la creación de soluciones de Inteligencia Artificial, Robótica, Internet de las Cosas (IoT), Computación en la Nube y Automatización Inteligente.
+Para el año 2035, ORION NOVA Technologies será reconocida como una empresa líder en América Latina en investigación, desarrollo e innovación tecnológica, destacándose por la creación de soluciones de Inteligencia Artificial, Robótica, Internet de las Cosas (IoT), Computación en la Nube y Automatización Inteligente.
 
 La organización desarrollará un ecosistema tecnológico propio, compuesto por plataformas, asistentes inteligentes, sistemas autónomos y tecnologías de última generación que contribuyan a la transformación digital de empresas, instituciones educativas, entidades gubernamentales y personas.
 
@@ -107,7 +107,7 @@ Para cumplir esta visión, ORION NOVA Technologies trabajará en:
 
 # Conclusión
 
-La visión de ORION NOVA Technologies S.A.S. representa el compromiso de construir una organización capaz de transformar la manera en que las personas interactúan con la tecnología, impulsando el desarrollo de soluciones inteligentes que generen valor para la sociedad y contribuyan al avance científico y tecnológico.
+La visión de ORION NOVA Technologies representa el compromiso de construir una organización capaz de transformar la manera en que las personas interactúan con la tecnología, impulsando el desarrollo de soluciones inteligentes que generen valor para la sociedad y contribuyan al avance científico y tecnológico.
 
 ---
 
@@ -131,7 +131,7 @@ La visión de ORION NOVA Technologies S.A.S. representa el compromiso de constru
 
 ---
 
-**Documento oficial de ORION NOVA Technologies S.A.S.**
+**Documento oficial de ORION NOVA Technologies**
 
 **Clasificación:** Documento Institucional
 

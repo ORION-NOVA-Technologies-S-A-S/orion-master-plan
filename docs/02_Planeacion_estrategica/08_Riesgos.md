@@ -1,4 +1,4 @@
-# Gestión de Riesgos Estratégicos de ORION NOVA Technologies S.A.S.
+# Gestión de Riesgos Estratégicos de ORION NOVA Technologies 
 
 | Documento | Información |
 |-----------|-------------|
@@ -320,4 +320,4 @@ La identificación temprana de riesgos y la implementación de medidas preventiv
 
 ---
 
-**Documento oficial de ORION NOVA Technologies S.A.S.**
+**Documento oficial de ORION NOVA Technologies **

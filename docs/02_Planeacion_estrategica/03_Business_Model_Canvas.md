@@ -1,4 +1,4 @@
-# Business Model Canvas de ORION NOVA Technologies S.A.S.
+# Business Model Canvas de ORION NOVA Technologies 
 
 | Documento | Información |
 |-----------|-------------|
@@ -15,7 +15,7 @@
 
 # Introducción
 
-El Business Model Canvas describe la forma en que ORION NOVA Technologies S.A.S. crea, entrega y captura valor. Este documento servirá como referencia para la planificación estratégica, la toma de decisiones y la presentación del modelo de negocio ante inversionistas, entidades de apoyo al emprendimiento y aliados estratégicos.
+El Business Model Canvas describe la forma en que ORION NOVA Technologies  crea, entrega y captura valor. Este documento servirá como referencia para la planificación estratégica, la toma de decisiones y la presentación del modelo de negocio ante inversionistas, entidades de apoyo al emprendimiento y aliados estratégicos.
 
 ---
 
@@ -228,4 +228,4 @@ El Business Model Canvas establece las bases del modelo de negocio de ORION NOVA
 
 ---
 
-**Documento oficial de ORION NOVA Technologies S.A.S.**
+**Documento oficial de ORION NOVA Technologies **

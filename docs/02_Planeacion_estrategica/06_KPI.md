@@ -1,4 +1,4 @@
-# Indicadores Clave de Desempeño (KPI) de ORION NOVA Technologies S.A.S.
+# Indicadores Clave de Desempeño (KPI) de ORION NOVA Technologies 
 
 | Documento | Información |
 |-----------|-------------|
@@ -15,7 +15,7 @@
 
 # Introducción
 
-Los Indicadores Clave de Desempeño (Key Performance Indicators - KPI) constituyen el conjunto de métricas utilizadas por ORION NOVA Technologies S.A.S. para medir el avance, desempeño y cumplimiento de los objetivos establecidos en el Plan Estratégico 2026–2035.
+Los Indicadores Clave de Desempeño (Key Performance Indicators - KPI) constituyen el conjunto de métricas utilizadas por ORION NOVA Technologies. para medir el avance, desempeño y cumplimiento de los objetivos establecidos en el Plan Estratégico 2026–2035.
 
 Los KPI permiten transformar la estrategia corporativa en resultados medibles, facilitando la toma de decisiones basada en datos y promoviendo una cultura organizacional orientada a la mejora continua.
 
@@ -23,7 +23,7 @@ Los KPI permiten transformar la estrategia corporativa en resultados medibles, f
 
 # Objetivo
 
-Definir un conjunto de indicadores cuantitativos y cualitativos que permitan evaluar el desempeño estratégico, financiero, comercial, tecnológico y operativo de ORION NOVA Technologies S.A.S., asegurando el cumplimiento de su visión empresarial.
+Definir un conjunto de indicadores cuantitativos y cualitativos que permitan evaluar el desempeño estratégico, financiero, comercial, tecnológico y operativo de ORION NOVA Technologies; asegurando el cumplimiento de su visión empresarial.
 
 ---
 
@@ -276,4 +276,4 @@ El seguimiento continuo de estos indicadores permitirá fortalecer la innovació
 
 ---
 
-**Documento oficial de ORION NOVA Technologies S.A.S.**
+**Documento oficial de ORION NOVA Technologies **

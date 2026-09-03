@@ -3,7 +3,7 @@
 | Documento | Información |
 |-----------|-------------|
 | Código | ONT-FUN-001 |
-| Nombre | Historia de ORION NOVA Technologies S.A.S. |
+| Nombre | Historia de ORION NOVA Technologies  |
 | Versión | 1.0.0 |
 | Estado | Aprobado para el Proyecto Fundacional |
 | Fecha | Agosto de 2026 |
@@ -17,7 +17,7 @@
 
 ## Introducción
 
-ORION NOVA Technologies S.A.S. nace como una iniciativa orientada a la investigación, el desarrollo y la innovación tecnológica, con el propósito de crear soluciones de alto impacto basadas en Inteligencia Artificial, Automatización, Robótica, Computación en la Nube e Internet de las Cosas (IoT).
+ORION NOVA Technologies  nace como una iniciativa orientada a la investigación, el desarrollo y la innovación tecnológica, con el propósito de crear soluciones de alto impacto basadas en Inteligencia Artificial, Automatización, Robótica, Computación en la Nube e Internet de las Cosas (IoT).
 
 La empresa surge a partir de la visión de construir un ecosistema tecnológico capaz de integrar múltiples disciplinas de la ingeniería en una plataforma inteligente, escalable y centrada en las personas. Desde sus inicios, ORION NOVA Technologies busca desarrollar tecnología propia que contribuya al avance científico, académico, empresarial y social.
 
@@ -35,7 +35,7 @@ Este concepto evolucionó hacia la creación de un ecosistema completo de produc
 
 # Fundación
 
-ORION NOVA Technologies S.A.S. se constituye con la finalidad de convertirse en una empresa especializada en Investigación, Desarrollo e Innovación (I+D+i), promoviendo la creación de soluciones tecnológicas propias que respondan a las necesidades de personas, instituciones educativas, empresas y organizaciones públicas y privadas.
+ORION NOVA Technologies. Se constituye con la finalidad de convertirse en una empresa especializada en Investigación, Desarrollo e Innovación (I+D+i), promoviendo la creación de soluciones tecnológicas propias que respondan a las necesidades de personas, instituciones educativas, empresas y organizaciones públicas y privadas.
 
 Desde su fundación, la empresa adopta como principio fundamental la innovación responsable, entendiendo la Inteligencia Artificial como una herramienta para potenciar las capacidades humanas y contribuir al desarrollo sostenible.
 
@@ -120,7 +120,7 @@ La historia de ORION NOVA Technologies apenas comienza.
 
 Este documento representa el punto de partida de una organización concebida para investigar, innovar y desarrollar tecnologías que contribuyan al crecimiento de las personas, las empresas y la sociedad.
 
-Cada proyecto desarrollado por la organización buscará reflejar los principios de excelencia técnica, responsabilidad e innovación que inspiran la creación de ORION NOVA Technologies S.A.S.
+Cada proyecto desarrollado por la organización buscará reflejar los principios de excelencia técnica, responsabilidad e innovación que inspiran la creación de ORION NOVA Technologies.
 
 ---
 
@@ -132,7 +132,7 @@ Cada proyecto desarrollado por la organización buscará reflejar los principios
 
 ---
 
-**Documento oficial de ORION NOVA Technologies S.A.S.**
+**Documento oficial de ORION NOVA Technologies**
 
 **Clasificación:** Documento Institucional
 

@@ -1,4 +1,4 @@
-# Filosofía Empresarial de ORION NOVA Technologies S.A.S.
+# Filosofía Empresarial de ORION NOVA Technologies
 
 | Documento | Información |
 |-----------|-------------|
@@ -17,7 +17,7 @@
 
 ## Introducción
 
-La filosofía empresarial de ORION NOVA Technologies S.A.S. define la forma en que concebimos la tecnología, la innovación y el impacto que queremos generar en la sociedad. Es el conjunto de principios que orientan nuestras decisiones estratégicas, técnicas y humanas.
+La filosofía empresarial de ORION NOVA Technologies define la forma en que concebimos la tecnología, la innovación y el impacto que queremos generar en la sociedad. Es el conjunto de principios que orientan nuestras decisiones estratégicas, técnicas y humanas.
 
 Creemos que la tecnología debe estar al servicio de las personas, potenciando sus capacidades sin reemplazar su creatividad, pensamiento crítico ni autonomía.
 
@@ -107,7 +107,7 @@ La filosofía empresarial de ORION NOVA Technologies constituye el fundamento so
 
 ---
 
-**Documento oficial de ORION NOVA Technologies S.A.S.**
+**Documento oficial de ORION NOVA Technologies**
 
 **Clasificación:** Documento Institucional
 

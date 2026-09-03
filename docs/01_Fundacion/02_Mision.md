@@ -3,7 +3,7 @@
 | Documento | Información |
 |-----------|-------------|
 | Código | ONT-FUN-002 |
-| Nombre | Misión de ORION NOVA Technologies S.A.S. |
+| Nombre | Misión de ORION NOVA Technologies |
 | Versión | 1.0.0 |
 | Estado | Aprobado para el Proyecto Fundacional |
 | Fecha | Agosto de 2026 |
@@ -17,7 +17,7 @@
 
 ## Declaración de la Misión
 
-ORION NOVA Technologies S.A.S. tiene como misión investigar, diseñar, desarrollar e implementar soluciones tecnológicas innovadoras basadas en Inteligencia Artificial, Automatización, Robótica, Internet de las Cosas (IoT), Computación en la Nube y Desarrollo de Software, con el propósito de mejorar la calidad de vida de las personas, impulsar la transformación digital de las organizaciones y contribuir al desarrollo científico y tecnológico de Colombia y del mundo.
+ORION NOVA Technologies tiene como misión investigar, diseñar, desarrollar e implementar soluciones tecnológicas innovadoras basadas en Inteligencia Artificial, Automatización, Robótica, Internet de las Cosas (IoT), Computación en la Nube y Desarrollo de Software, con el propósito de mejorar la calidad de vida de las personas, impulsar la transformación digital de las organizaciones y contribuir al desarrollo científico y tecnológico de Colombia y del mundo.
 
 Nuestra organización trabaja bajo principios de innovación responsable, excelencia técnica, ética, seguridad y aprendizaje continuo, desarrollando productos que integren múltiples disciplinas de la ingeniería para resolver problemas reales mediante tecnología inteligente.
 
@@ -25,7 +25,7 @@ Nuestra organización trabaja bajo principios de innovación responsable, excele
 
 # Propósito Institucional
 
-El propósito de ORION NOVA Technologies S.A.S. es construir un ecosistema tecnológico que permita crear soluciones capaces de aprender, adaptarse y colaborar con las personas, promoviendo una interacción más natural entre los seres humanos y la tecnología.
+El propósito de ORION NOVA Technologies es construir un ecosistema tecnológico que permita crear soluciones capaces de aprender, adaptarse y colaborar con las personas, promoviendo una interacción más natural entre los seres humanos y la tecnología.
 
 ---
 
@@ -126,7 +126,7 @@ La misión de ORION NOVA Technologies representa el compromiso permanente de la 
 
 ---
 
-**Documento oficial de ORION NOVA Technologies S.A.S.**
+**Documento oficial de ORION NOVA Technologies**
 
 **Clasificación:** Documento Institucional
 

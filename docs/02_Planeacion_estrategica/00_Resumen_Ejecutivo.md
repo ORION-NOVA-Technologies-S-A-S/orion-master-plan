@@ -1,4 +1,4 @@
-# Resumen Ejecutivo de ORION NOVA Technologies S.A.S.
+# Resumen Ejecutivo de ORION NOVA Technologies.
 
 | Documento | Información |
 |-----------|-------------|
@@ -17,7 +17,7 @@
 
 ## Introducción
 
-ORION NOVA Technologies S.A.S. es una startup tecnológica colombiana enfocada en la investigación, el desarrollo y la innovación (I+D+i), con el propósito de crear un ecosistema de soluciones inteligentes basadas en Inteligencia Artificial, Internet de las Cosas (IoT), Robótica, Computación en la Nube y Ciberseguridad.
+ORION NOVA Technologies  es una startup tecnológica colombiana enfocada en la investigación, el desarrollo y la innovación (I+D+i), con el propósito de crear un ecosistema de soluciones inteligentes basadas en Inteligencia Artificial, Internet de las Cosas (IoT), Robótica, Computación en la Nube y Ciberseguridad.
 
 La empresa nace con la visión de desarrollar tecnologías propias que impulsen la transformación digital de personas, empresas e instituciones, contribuyendo al progreso tecnológico de Colombia y su proyección internacional.
 
@@ -140,4 +140,4 @@ ORION NOVA Technologies S.A.S. aspira a convertirse en un referente en innovaci�
 
 ---
 
-**Documento oficial de ORION NOVA Technologies S.A.S.**
+**Documento oficial de ORION NOVA Technologies.**

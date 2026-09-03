@@ -1,4 +1,4 @@
-# Análisis FODA de ORION NOVA Technologies S.A.S.
+# Análisis FODA de ORION NOVA Technologies.
 
 | Documento | Información |
 |-----------|-------------|
@@ -15,7 +15,7 @@
 
 # Introducción
 
-El análisis FODA (Fortalezas, Oportunidades, Debilidades y Amenazas) permite identificar los factores internos y externos que pueden influir en el desarrollo y crecimiento de ORION NOVA Technologies S.A.S.
+El análisis FODA (Fortalezas, Oportunidades, Debilidades y Amenazas) permite identificar los factores internos y externos que pueden influir en el desarrollo y crecimiento de ORION NOVA Technologies.
 
 Este documento servirá como base para la formulación de estrategias empresariales, el modelo de negocio y la gestión de riesgos.
 
@@ -23,7 +23,7 @@ Este documento servirá como base para la formulación de estrategias empresaria
 
 # Objetivo
 
-Evaluar la situación estratégica de ORION NOVA Technologies S.A.S. para identificar ventajas competitivas, áreas de mejora y oportunidades de crecimiento en el mercado tecnológico.
+Evaluar la situación estratégica de ORION NOVA Technologies para identificar ventajas competitivas, áreas de mejora y oportunidades de crecimiento en el mercado tecnológico.
 
 ---
 
@@ -154,4 +154,4 @@ El análisis FODA evidencia que ORION NOVA Technologies posee un alto potencial 
 
 ---
 
-**Documento Oficial de ORION NOVA Technologies S.A.S.**
+**Documento Oficial de ORION NOVA Technologies **

@@ -1,4 +1,4 @@
-# Identidad Corporativa de ORION NOVA Technologies S.A.S.
+# Identidad Corporativa de ORION NOVA Technologies
 
 | Documento | Información |
 |-----------|-------------|
@@ -17,7 +17,7 @@
 
 ## Introducción
 
-La identidad corporativa de ORION NOVA Technologies S.A.S. representa el conjunto de elementos que definen quiénes somos como organización, cómo queremos ser reconocidos y cuáles son los principios que proyectamos hacia nuestros clientes, aliados, colaboradores y la sociedad.
+La identidad corporativa de ORION NOVA Technologies representa el conjunto de elementos que definen quiénes somos como organización, cómo queremos ser reconocidos y cuáles son los principios que proyectamos hacia nuestros clientes, aliados, colaboradores y la sociedad.
 
 Nuestra identidad combina innovación, ingeniería, investigación y tecnología para construir soluciones inteligentes con impacto global.
 
@@ -25,7 +25,7 @@ Nuestra identidad combina innovación, ingeniería, investigación y tecnología
 
 # Nombre Comercial
 
-**ORION NOVA Technologies S.A.S.**
+**ORION NOVA Technologies**
 
 El nombre representa nuestra visión de construir una nueva generación de tecnologías inteligentes.
 
@@ -150,7 +150,7 @@ La identidad corporativa constituye uno de los activos estratégicos más import
 
 ---
 
-**Documento oficial de ORION NOVA Technologies S.A.S.**
+**Documento oficial de ORION NOVA Technologies**
 
 **Clasificación:** Documento Institucional
 

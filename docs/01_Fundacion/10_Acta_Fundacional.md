@@ -1,4 +1,4 @@
-# Acta Fundacional de ORION NOVA Technologies S.A.S.
+# Acta Fundacional de ORION NOVA Technologies
 
 | Documento | Información |
 |-----------|-------------|
@@ -15,7 +15,7 @@
 
 ## Introducción
 
-La presente Acta Fundacional formaliza la creación del proyecto empresarial ORION NOVA Technologies S.A.S., estableciendo los principios, objetivos y compromisos que servirán como base para su constitución legal y desarrollo.
+La presente Acta Fundacional formaliza la creación del proyecto empresarial ORION NOVA Technologies, estableciendo los principios, objetivos y compromisos que servirán como base para su constitución legal y desarrollo.
 
 ---
 
@@ -33,7 +33,7 @@ La presente Acta Fundacional formaliza la creación del proyecto empresarial ORI
 
 # Nombre de la Empresa
 
-**ORION NOVA Technologies S.A.S.**
+**ORION NOVA Technologies**
 
 ---
 
@@ -83,7 +83,7 @@ Construir una empresa reconocida internacionalmente por el desarrollo de tecnolo
 
 # Vigencia
 
-Esta acta permanecerá vigente hasta la constitución legal de la empresa y será actualizada cuando se formalice la creación de ORION NOVA Technologies S.A.S.
+Esta acta permanecerá vigente hasta la constitución legal de la empresa y será actualizada cuando se formalice la creación de ORION NOVA Technologies.
 
 ---
 
@@ -116,4 +116,4 @@ Fecha: _______________________
 
 ---
 
-**Documento oficial de ORION NOVA Technologies S.A.S.**
+**Documento oficial de ORION NOVA Technologies**

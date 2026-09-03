@@ -1,4 +1,4 @@
-# Objetivos Estratégicos de ORION NOVA Technologies S.A.S.
+# Objetivos Estratégicos de ORION NOVA Technologies
 
 | Documento | Información |
 |-----------|-------------|
@@ -17,13 +17,13 @@
 
 ## Introducción
 
-Los objetivos estratégicos establecen la dirección que seguirá ORION NOVA Technologies S.A.S. durante los próximos años. Estos objetivos orientan las decisiones de negocio, investigación, desarrollo tecnológico y crecimiento organizacional.
+Los objetivos estratégicos establecen la dirección que seguirá ORION NOVA Technologies durante los próximos años. Estos objetivos orientan las decisiones de negocio, investigación, desarrollo tecnológico y crecimiento organizacional.
 
 ---
 
 # Objetivo General
 
-Consolidar a ORION NOVA Technologies S.A.S. como una empresa líder en investigación, desarrollo e innovación tecnológica mediante la creación de un ecosistema de Inteligencia Artificial, Software, Robótica, Internet de las Cosas (IoT) y Computación en la Nube, generando soluciones que impulsen la transformación digital y el desarrollo sostenible.
+Consolidar a ORION NOVA Technologies como una empresa líder en investigación, desarrollo e innovación tecnológica mediante la creación de un ecosistema de Inteligencia Artificial, Software, Robótica, Internet de las Cosas (IoT) y Computación en la Nube, generando soluciones que impulsen la transformación digital y el desarrollo sostenible.
 
 ---
 
@@ -153,7 +153,7 @@ Los objetivos estratégicos representan la hoja de ruta que permitirá a ORION N
 
 ---
 
-**Documento oficial de ORION NOVA Technologies S.A.S.**
+**Documento oficial de ORION NOVA Technologies**
 
 **Clasificación:** Documento Institucional
 

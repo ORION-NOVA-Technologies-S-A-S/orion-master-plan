@@ -1,4 +1,4 @@
-# Cultura Organizacional de ORION NOVA Technologies S.A.S.
+# Cultura Organizacional de ORION NOVA Technologies
 
 | Documento | Información |
 |-----------|-------------|
@@ -17,7 +17,7 @@
 
 ## Introducción
 
-La cultura organizacional de ORION NOVA Technologies S.A.S. representa el conjunto de principios, comportamientos, hábitos y formas de trabajo que orientan el crecimiento de la organización. Nuestra cultura busca fomentar la innovación, la colaboración y el desarrollo tecnológico con un enfoque ético y centrado en las personas.
+La cultura organizacional de ORION NOVA Technologies representa el conjunto de principios, comportamientos, hábitos y formas de trabajo que orientan el crecimiento de la organización. Nuestra cultura busca fomentar la innovación, la colaboración y el desarrollo tecnológico con un enfoque ético y centrado en las personas.
 
 ---
 
@@ -107,7 +107,7 @@ La cultura organizacional de ORION NOVA Technologies será el motor que impulse 
 
 ---
 
-**Documento oficial de ORION NOVA Technologies S.A.S.**
+**Documento oficial de ORION NOVA Technologies**
 
 **Clasificación:** Documento Institucional
 

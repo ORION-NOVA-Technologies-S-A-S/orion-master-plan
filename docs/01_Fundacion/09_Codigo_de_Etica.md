@@ -1,4 +1,4 @@
-# Código de Ética de ORION NOVA Technologies S.A.S.
+# Código de Ética de ORION NOVA Technologies
 
 | Documento | Información |
 |-----------|-------------|
@@ -15,7 +15,7 @@
 
 # Introducción
 
-El Código de Ética de ORION NOVA Technologies S.A.S. establece los principios y normas de conducta que deben orientar las actuaciones de todos los integrantes de la organización.
+El Código de Ética de ORION NOVA Technologies establece los principios y normas de conducta que deben orientar las actuaciones de todos los integrantes de la organización.
 
 Su propósito es promover una cultura basada en la integridad, la responsabilidad, el respeto y la transparencia en todas las actividades empresariales y tecnológicas.
 
@@ -113,4 +113,4 @@ El Código de Ética constituye un compromiso permanente con el desarrollo respo
 
 ---
 
-**Documento oficial de ORION NOVA Technologies S.A.S.**
+**Documento oficial de ORION NOVA Technologies**
