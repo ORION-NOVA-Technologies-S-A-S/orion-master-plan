@@ -1,9 +1,9 @@
 <div align="center">
   <img
-    src="assets/imagenes/image.png"
-    alt="Logo de Orion Nova Technologies"
-    width="260"
-  >
+    src="../../../assets/imagenes/image.png"
+    alt="Logo oficial de Orion Nova Technologies"
+    width="280"
+  />
 
   <h1>CONTRATO DE PRESTACIÓN DE SERVICIOS TECNOLÓGICOS</h1>
   <h2>ORION NOVA TECHNOLOGIES</h2>
@@ -11,6 +11,15 @@
   <p><em>Innovamos • Desarrollamos • Conectamos</em></p>
 </div>
 
+---
+
+**Contrato número:** [NÚMERO]  
+**Proyecto:** [NOMBRE DEL PROYECTO]  
+**Lugar y fecha:** Neiva, Huila, [FECHA]
+
+> Esta es una plantilla. Antes de firmarla deben completarse todos los campos entre corchetes y ajustarse las condiciones al proyecto correspondiente.
+
+---
 **Contrato número:** [NÚMERO]
 **Proyecto:** [NOMBRE DEL PROYECTO]
 **Lugar y fecha:** Neiva, Huila, [FECHA]
