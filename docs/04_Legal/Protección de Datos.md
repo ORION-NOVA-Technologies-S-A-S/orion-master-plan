@@ -1,9 +1,4 @@
 <div align="center">
-  <img
-    src="../assets/imagenes/image.png"
-    alt="Logo oficial de Orion Nova Technologies"
-    width="280"
-  >
 
   <h1>POLÍTICA DE TRATAMIENTO Y PROTECCIÓN DE DATOS PERSONALES</h1>
   <h2>ORION NOVA TECHNOLOGIES</h2>
