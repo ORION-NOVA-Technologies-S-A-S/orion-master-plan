@@ -1,5 +1,4 @@
 <div align="center">
-  <img src="../../../assets/imagenes/image.png" alt="Logo de Orion Nova Technologies" width="280">
 
   <h1>CUMPLIMIENTO NORMATIVO</h1>
   <h2>ORION NOVA TECHNOLOGIES</h2>
