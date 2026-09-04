@@ -1,6 +1,6 @@
 <div align="center">
   <img
-    src="../../../assets/imagenes/ image.png"
+    src="assets/imagenes/image.png"
     alt="Logo de Orion Nova Technologies"
     width="260"
   >
