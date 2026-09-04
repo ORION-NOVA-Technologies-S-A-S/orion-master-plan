@@ -1,4 +1,4 @@
-# ORION NOVA Technologies
+# ORION NOVA TECHNOLOGIES
 
 <p align="center">
 
