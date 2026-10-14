@@ -561,6 +561,23 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
 #chatForm .send{flex:none;width:44px;height:44px;padding:0;border-radius:12px}
 @media (max-width:520px){.chat{right:12px!important;bottom:12px!important;height:calc(100vh - 24px)!important}}
 @media (prefers-reduced-motion:reduce){.nova-av.talk .av-mouth,.character.talking .mouth{animation:none;transform:scaleY(1.3)}}
+
+/* ---------- ORI con vida: mirada, pico, alas, cejas y voz propia ---------- */
+.ori-host{--ox:0;--oy:0}
+.ori-pupil{transform:translate(calc(var(--ox)*6px),calc(var(--oy)*5px));transition:transform .3s ease-out}
+.ori-jaw{transform-box:fill-box;transform-origin:center top;animation:var(--jaw,none)}
+.ori-brow{transform:var(--brow,none);transition:transform .25s ease}
+.ori-wing{transform-box:view-box;transform-origin:62px 300px;animation:var(--flap,none)}
+.ori-tuft{transform-box:fill-box;transform-origin:center bottom;transform:var(--tuft,none);transition:transform .25s ease}
+.ori-ring{animation-duration:var(--ring,9s)}
+.ori-host.ori-talking{--jaw:jaw .17s ease-in-out infinite alternate;--brow:translateY(-5px)}
+.ori-host.ori-flap{--flap:flap .45s ease-in-out 3}
+.ori-host.ori-scan{--ring:1.2s;--brow:translateY(-3px)}
+.ori-host:hover,.ori-host.ori-alert{--tuft:rotate(-8deg) scaleY(1.12)}
+@keyframes jaw{from{transform:translateY(0) scaleY(.6)}to{transform:translateY(4px) scaleY(1.15)}}
+@keyframes flap{0%,100%{transform:rotate(0)}50%{transform:rotate(-24deg)}}
+.character.ori .bubble.ori-says{border-color:rgba(245,181,68,.55)}
+@media (prefers-reduced-motion:reduce){.ori-host{--jaw:none!important;--flap:none!important}.ori-pupil{transition:none}}
 </style>
 </head>
 <body>
@@ -629,30 +646,31 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
       <circle cx="176" cy="262" r="5" fill="#53c6ff"/>
       <text x="176" y="300" text-anchor="middle" font-family="Sora, Arial, sans-serif" font-weight="700" font-size="18" fill="#cdd4e6" letter-spacing="1">ORI</text>
       <!-- ala con pulgar arriba -->
-      <path d="M50 300 Q30 250 60 222 Q74 260 72 304 Z" fill="url(#g-owl)"/>
+      <path class="ori-wing" d="M50 300 Q30 250 60 222 Q74 260 72 304 Z" fill="url(#g-owl)"/>
       <g id="ori-head">
         <!-- penachos -->
-        <path d="M64 70 L50 18 L98 52 Z" fill="#6b4529"/>
-        <path d="M196 70 L210 18 L162 52 Z" fill="#6b4529"/>
+        <path class="ori-tuft l" d="M64 70 L50 18 L98 52 Z" fill="#6b4529"/>
+        <path class="ori-tuft r" d="M196 70 L210 18 L162 52 Z" fill="#6b4529"/>
         <ellipse cx="130" cy="112" rx="92" ry="80" fill="url(#g-owl)"/>
         <!-- disco facial -->
         <path d="M130 70 Q60 56 52 116 Q56 168 130 170 Q204 168 208 116 Q200 56 130 70 Z" fill="#c99d6c"/>
         <path d="M130 74 L130 96" stroke="#8a5e3a" stroke-width="4" stroke-linecap="round"/>
         <!-- cejas -->
-        <path d="M70 80 Q96 64 120 84" stroke="#4a2f1b" stroke-width="7" fill="none" stroke-linecap="round"/>
-        <path d="M140 84 Q164 64 190 80" stroke="#4a2f1b" stroke-width="7" fill="none" stroke-linecap="round"/>
+        <path class="ori-brow" d="M70 80 Q96 64 120 84" stroke="#4a2f1b" stroke-width="7" fill="none" stroke-linecap="round"/>
+        <path class="ori-brow" d="M140 84 Q164 64 190 80" stroke="#4a2f1b" stroke-width="7" fill="none" stroke-linecap="round"/>
         <!-- ojo izquierdo -->
-        <g class="blink late"><circle cx="96" cy="116" r="28" fill="#f4efe6"/><circle cx="98" cy="118" r="18" fill="url(#g-iris)"/><circle cx="98" cy="118" r="8" fill="#050816"/><circle cx="92" cy="111" r="4.5" fill="#fff"/></g>
+        <g class="blink late"><circle cx="96" cy="116" r="28" fill="#f4efe6"/><g class="ori-pupil"><circle cx="98" cy="118" r="18" fill="url(#g-iris)"/><circle cx="98" cy="118" r="8" fill="#050816"/><circle cx="92" cy="111" r="4.5" fill="#fff"/></g></g>
         <!-- ojo derecho con monóculo cibernético -->
-        <g class="blink late"><circle cx="164" cy="116" r="28" fill="#f4efe6"/><circle cx="162" cy="118" r="18" fill="url(#g-iris)"/><circle cx="162" cy="118" r="8" fill="#050816"/><circle cx="156" cy="111" r="4.5" fill="#fff"/></g>
+        <g class="blink late"><circle cx="164" cy="116" r="28" fill="#f4efe6"/><g class="ori-pupil"><circle cx="162" cy="118" r="18" fill="url(#g-iris)"/><circle cx="162" cy="118" r="8" fill="#050816"/><circle cx="156" cy="111" r="4.5" fill="#fff"/></g></g>
         <g filter="url(#glow)">
           <circle cx="164" cy="116" r="35" fill="none" stroke="#53c6ff" stroke-width="4"/>
-          <g class="ring-spin"><circle cx="164" cy="116" r="41" fill="none" stroke="#53c6ff" stroke-width="2" stroke-dasharray="6 9" opacity=".8"/></g>
+          <g class="ring-spin ori-ring"><circle cx="164" cy="116" r="41" fill="none" stroke="#53c6ff" stroke-width="2" stroke-dasharray="6 9" opacity=".8"/></g>
           <path d="M199 116 H222 L230 128" stroke="#53c6ff" stroke-width="3" fill="none" stroke-linecap="round"/>
           <circle cx="230" cy="128" r="3.5" fill="#53c6ff"/>
         </g>
         <!-- pico -->
-        <path d="M120 140 Q130 134 140 140 L130 164 Z" fill="#e3a43a"/>
+        <path class="ori-jaw" d="M123 150 L137 150 L130 165 Z" fill="#c98a24"/>
+        <path d="M120 140 Q130 134 140 140 L130 156 Z" fill="#e3a43a"/>
         <path d="M120 140 Q130 134 140 140" stroke="#b97b1e" stroke-width="2" fill="none"/>
       </g>
     </symbol>
@@ -812,7 +830,7 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
         <svg viewBox="0 0 260 340" role="img" aria-label="NOVA, el humanoide de Orion Nova"><use href="#nova"/></svg>
         <span class="tag">NOVA · humanoide IA</span>
       </button>
-      <button class="character ori float delay" id="heroOri" type="button" aria-label="ORI, toca para un consejo de seguridad">
+      <button class="character ori ori-host float delay" id="heroOri" type="button" aria-label="ORI, toca para un consejo de seguridad">
         <span class="bubble" id="oriSay">Soy <b>ORI</b>. Tócame y te doy un consejo de seguridad.</span>
         <svg viewBox="0 0 260 340" role="img" aria-label="ORI, el búho de Orion Nova"><use href="#ori"/></svg>
         <span class="tag">ORI · seguridad</span>
@@ -965,7 +983,7 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
         </div>
       </article>
       <article class="proj" data-estado="preview">
-        <div class="shot art"><svg viewBox="0 0 260 340" role="img" aria-label="Ilustración de ORI"><use href="#ori"/></svg></div>
+        <div class="shot art"><svg class="ori-host" viewBox="0 0 260 340" role="img" aria-label="Ilustración de ORI"><use href="#ori"/></svg></div>
         <div class="body">
           <div class="row"><h3>ORI Security</h3><span class="status preview">Vista previa</span></div>
           <dl>
@@ -1023,7 +1041,7 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
         </div>
       </article>
       <article class="mascot">
-        <svg viewBox="0 0 260 340" aria-hidden="true"><use href="#ori"/></svg>
+        <svg class="ori-host" id="mascotOri" viewBox="0 0 260 340" aria-hidden="true"><use href="#ori"/></svg>
         <div>
           <p class="eyebrow" style="color:var(--warn)">Búho · Conocimiento y seguridad</p>
           <h3>ORI</h3>
@@ -1208,7 +1226,7 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
   <div class="dialog">
     <aside>
       <p class="eyebrow" style="color:var(--warn)">ORI SECURITY</p>
-      <svg viewBox="0 0 260 340" aria-hidden="true"><use href="#ori"/></svg>
+      <svg class="ori-host" viewBox="0 0 260 340" aria-hidden="true"><use href="#ori"/></svg>
       <div class="bubble" id="oriGuard">Estoy vigilando tu acceso. Nunca compartas tu contraseña, ni siquiera con el equipo de Orion.</div>
       <p class="fine">Tu cuenta Orion es la misma de NOVA Restaurantes: un solo usuario y contraseña para todo el ecosistema.</p>
     </aside>
@@ -1415,11 +1433,29 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
     el.classList.remove("wave"); void el.offsetWidth; el.classList.add("wave"); speak($("#novaSay").textContent);
   });
   $("#heroOri").addEventListener("click",e=>{
-    const el=e.currentTarget; ti=(ti+1)%tips.length; $("#oriSay").innerHTML="<b>Consejo:</b> "+tips[ti];
-    el.classList.remove("tilt"); void el.offsetWidth; el.classList.add("tilt");
+    const el=e.currentTarget; ti=(ti+1)%tips.length; $("#oriSay").innerHTML="<b>Consejo:</b> "+tips[ti]; $("#oriSay").classList.add("ori-says");
+    el.classList.remove("tilt"); void el.offsetWidth; el.classList.add("tilt"); oriDo("flap");
+    speak(tips[ti],"ori");
   });
   let tj=0;
-  $("#nextTip").addEventListener("click",()=>{ tj=(tj+1)%tips.length; $("#oriTip").textContent=tips[tj]; });
+  $("#nextTip").addEventListener("click",()=>{ tj=(tj+1)%tips.length; $("#oriTip").textContent=tips[tj]; oriDo("flap"); speak(tips[tj],"ori"); });
+
+  /* ---------- ORI con vida ---------- */
+  function oriDo(act,host){
+    const hs=host?[host]:$$(".ori-host"); const cls={flap:"ori-flap",scan:"ori-scan",alert:"ori-alert"}[act]; if(!cls) return;
+    hs.forEach(h=>{ h.classList.remove(cls); void h.getBoundingClientRect(); h.classList.add(cls); clearTimeout(h["_t"+act]); h["_t"+act]=setTimeout(()=>h.classList.remove(cls),act==="flap"?1400:2600); });
+  }
+  // sus ojos siguen el puntero
+  addEventListener("pointermove",e=>{ $$(".ori-host").forEach(h=>{ const r=h.getBoundingClientRect(); if(!r.width||r.bottom<0||r.top>innerHeight) return;
+    const dx=(e.clientX-(r.left+r.width/2))/innerWidth, dy=(e.clientY-(r.top+r.height*.35))/innerHeight;
+    h.style.setProperty("--ox",Math.max(-1,Math.min(1,dx*2.6)).toFixed(2)); h.style.setProperty("--oy",Math.max(-1,Math.min(1,dy*2.6)).toFixed(2)); }); },{passive:true});
+  // vigila solo: de vez en cuando escanea, aletea o se pone alerta
+  if(!matchMedia("(prefers-reduced-motion: reduce)").matches) (function idle(){ setTimeout(()=>{ if(!document.hidden){ const a=["scan","flap","alert","look"][Math.floor(Math.random()*4)];
+      if(a==="look"){ const x=(Math.random()*2-1).toFixed(2), y=(Math.random()*1.2-.6).toFixed(2); $$(".ori-host").forEach(h=>{ h.style.setProperty("--ox",x); h.style.setProperty("--oy",y); }); } else oriDo(a); }
+    idle(); },6500+Math.random()*5000); })();
+  // en la ventana de acceso, ORI mueve el pico cada vez que da un aviso
+  (function(){ const g=$("#oriGuard"); if(!g||!("MutationObserver" in window)) return; const host=g.parentElement.querySelector(".ori-host"); let t=0;
+    new MutationObserver(()=>{ host.classList.add("ori-talking"); oriDo(/intentos|fallid|no coincide/i.test(g.textContent)?"alert":"scan",host); clearTimeout(t); t=setTimeout(()=>host.classList.remove("ori-talking"),Math.min(2600,300+g.textContent.length*28)); }).observe(g,{childList:true,characterData:true,subtree:true}); })();
 
   /* ---------- héroe: constelación de Orión como red de datos ---------- */
   const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -1870,24 +1906,35 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
     st.className=txt[0]; st.lastChild.textContent=txt[1];
   }
   let speakTok=0;
-  function stopSpeech(){ speakTok++; try{ if(hasTTS()) speechSynthesis.cancel(); }catch(e){} avSet("talk",false); }
+  function stopSpeech(){ speakTok++; try{ if(hasTTS()) speechSynthesis.cancel(); }catch(e){} avSet("talk",false); $$(".ori-host").forEach(h=>h.classList.remove("ori-talking")); }
   function speakable(t){ return String(t).replace(/https?:\/\/\S+/g,"").replace(/300 444 0009/g,"tres cero cero, cuatro cuatro cuatro, cero cero cero nueve").replace(/[•·→←|]/g,",").replace(/\s+/g," ").trim(); }
-  function speak(text){
-    if(!VOICE.on||!hasTTS()) return;
-    const tok=++speakTok, parts=speakable(text).match(/[^.!?¿¡]+[.!?]?/g)||[], v=pickVoice(); let i=0;
-    try{ speechSynthesis.cancel(); }catch(e){}
+  /* ORI tiene su propia voz: más aguda y ágil, y otra voz si el navegador la tiene */
+  function pickOriVoice(){
+    const nv=pickVoice(); let best=null,bs=-1e9;
+    VOICE.voices.forEach(v=>{ const l=v.lang.replace("_","-").toLowerCase(); let s=l==="es-co"?30:l==="es-mx"?26:l==="es-us"?24:l==="es-419"?22:12;
+      if(nv&&v.name===nv.name) s-=25; if(/natural|neural|online/i.test(v.name)) s+=8; if(s>bs){ bs=s; best=v; } });
+    return best||nv;
+  }
+  function setTalking(who,on){ if(who==="ori") $$(".ori-host").forEach(h=>h.classList.toggle("ori-talking",on)); else avSet("talk",on); }
+  function speak(text,who){
+    who=who==="ori"?"ori":"nova";
+    // sin voz (silenciada o sin voces en el navegador): igual mueve la boca un momento
+    if(!VOICE.on||!hasTTS()||!VOICE.voices.length){ const tk=++speakTok; setTalking(who,true); setTimeout(()=>{ if(tk===speakTok) setTalking(who,false); },Math.min(2600,400+String(text).length*30)); return; }
+    const tok=++speakTok, parts=speakable(text).match(/[^.!?¿¡]+[.!?]?/g)||[], v=who==="ori"?pickOriVoice():pickVoice(); let i=0;
+    try{ speechSynthesis.cancel(); }catch(e){} setTalking("nova",false); setTalking("ori",false);
     (function next(){
-      if(tok!==speakTok||i>=parts.length){ if(tok===speakTok) avSet("talk",false); return; }
+      if(tok!==speakTok||i>=parts.length){ if(tok===speakTok) setTalking(who,false); return; }
       const s=parts[i++].trim(); if(s.length<2) return next();
       const u=new SpeechSynthesisUtterance(s); if(v){ u.voice=v; u.lang=v.lang; } else u.lang="es-CO";
-      u.rate=1.02; u.pitch=.95;
-      let ok=false; const guard=setTimeout(()=>{ if(!ok){ avSet("talk",false); } },2500);
-      u.onstart=()=>{ ok=true; clearTimeout(guard); avSet("talk",true); };
+      if(who==="ori"){ u.rate=1.08; u.pitch=1.45; } else { u.rate=1.02; u.pitch=.95; }
+      let ok=false; const guard=setTimeout(()=>{ if(!ok){ setTalking(who,false); } },2500);
+      u.onstart=()=>{ ok=true; clearTimeout(guard); setTalking(who,true); };
       u.onend=()=>{ clearTimeout(guard); next(); };
-      u.onerror=()=>{ clearTimeout(guard); if(tok===speakTok) avSet("talk",false); };
+      u.onerror=()=>{ clearTimeout(guard); if(tok===speakTok) setTalking(who,false); };
       try{ speechSynthesis.speak(u); }catch(e){ clearTimeout(guard); }
     })();
   }
+
   /* botón de voz */
   const ICO_ON='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9v6h4l5 4V5L8 9z"/><path d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12"/></svg>';
   const ICO_OFF='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9v6h4l5 4V5L8 9z"/><path d="M17 9l5 6M22 9l-5 6"/></svg>';
@@ -1935,7 +1982,7 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
     const t=add("nova typing",'<i></i><i></i><i></i>');
     const plain=html.replace(/<[^>]+>/g,""); const wait=Math.min(1400,420+plain.length*6);
     clearTimeout(busyTimer);
-    busyTimer=setTimeout(()=>{ t.remove(); avSet("think",false); add(who,html,acts); if(who==="ori"){ speak("Habla ORI. "+plain); } else speak(plain); },wait);
+    busyTimer=setTimeout(()=>{ t.remove(); avSet("think",false); add(who,html,acts); speak(plain,who); if(who==="ori") oriDo("flap"); },wait);
   }
   function quick(list){ const q=$("#quick"); q.innerHTML=""; list.forEach(t=>{ const b=document.createElement("button"); b.type="button"; b.textContent=t; b.addEventListener("click",()=>ask(t)); q.appendChild(b); }); }
   const base=["Servicios","Cotizar","Proyectos","Precios","¿Cómo trabajan?","¿Quién es ORI?","Contacto"];
