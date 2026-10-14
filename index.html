@@ -304,6 +304,7 @@ input:focus,select:focus,textarea:focus{outline:none;border-color:var(--cyan);bo
 .ptabs button[aria-current="true"]{color:var(--fg);border-color:var(--line);background:var(--surface)}
 .ptabs .adm{color:color-mix(in srgb,var(--warn) 80%,var(--muted))}
 .pview{margin-top:20px}
+.notice{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;border:1px solid color-mix(in srgb,var(--warn) 50%,var(--line));background:color-mix(in srgb,var(--warn) 8%,transparent);border-radius:12px;padding:12px 16px;margin-bottom:16px;font-size:.92rem}
 .pgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;margin-top:16px}
 .pcard{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:22px;display:grid;gap:14px;align-content:start;min-width:0;max-width:760px}
 .pcard h3{font-size:1.5rem}
@@ -315,7 +316,7 @@ input:focus,select:focus,textarea:focus{outline:none;border-color:var(--cyan);bo
 .flow li::before{content:counter(f);position:absolute;top:10px;right:12px;font-family:var(--f-display);font-weight:800;font-size:1.4rem;color:var(--line)}
 .flow li:not(:last-child)::after{content:"";position:absolute;right:-9px;top:50%;width:8px;height:2px;background:var(--cyan)}
 .flow .who{font-family:var(--f-mono);font-size:.64rem;letter-spacing:.12em;text-transform:uppercase;color:var(--cyan)}
-.flow li:nth-child(3) .who,.flow li:nth-child(5) .who{color:#ff6f8a}
+.flow li:nth-child(3) .who{color:#2fd27a}
 .flow b{font-size:.95rem;line-height:1.25}
 .flow small{color:var(--muted);font-size:.8rem;line-height:1.45}
 @media (max-width:1000px){.flow{grid-template-columns:repeat(3,minmax(0,1fr))}.flow li:nth-child(3)::after{display:none}}
@@ -478,10 +479,11 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
       <button type="button" data-view="datos">Mis datos</button>
       <button type="button" data-view="seguridad">Seguridad</button>
       <button type="button" data-view="solicitudes" class="adm" hidden>Solicitudes</button>
-      <button type="button" data-view="twilio" class="adm" hidden>WhatsApp y Twilio</button>
+      <button type="button" data-view="twilio" class="adm" hidden>Recuperación por correo</button>
     </nav>
 
     <div class="pview" data-pview="inicio">
+      <div class="notice" id="noMail" hidden><span>Agrega tu correo para poder recuperar tu contraseña si la olvidas.</span><button class="btn btn-ghost" type="button" data-view-go="datos">Agregar correo</button></div>
       <div class="grid">
         <a class="tile" href="https://orion-nova-technologies-s-a-s.github.io/NOVA-IA/" target="_blank" rel="noopener"><b>NOVA Restaurantes →</b><span id="tileNova">Pide en restaurantes de Neiva con el mismo usuario y contraseña.</span></a>
         <a class="tile" href="https://orion-nova-technologies-s-a-s.github.io/NOVA-COURSE/" target="_blank" rel="noopener"><b>Orion Nova Academy →</b><span>Cursos con certificado de Orion Nova Technologies.</span></a>
@@ -493,12 +495,12 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
     <div class="pview" data-pview="datos" hidden>
       <form id="formDatos" class="pcard" novalidate>
         <h3>Mis datos</h3>
-        <p class="fine">Estos datos son los mismos en NOVA Restaurantes. El celular es al que llega el código si olvidas tu contraseña.</p>
+        <p class="fine">Estos datos son los mismos en NOVA Restaurantes. Si olvidas tu contraseña, el código llega a tu correo.</p>
         <label>Usuario<input id="dtUser" type="text" disabled></label>
         <label>Nombre<input id="dtName" type="text" autocomplete="name" maxlength="60"></label>
         <div class="row2">
           <label>Celular<input id="dtPhone" type="tel" inputmode="numeric" maxlength="14" autocomplete="tel"></label>
-          <label>Recuperar contraseña por<select id="dtCh"><option value="whatsapp">WhatsApp</option><option value="sms">Mensaje de texto</option></select></label>
+          <label>Correo (para recuperar tu contraseña)<input id="dtEmail" type="email" autocomplete="email" maxlength="80"></label>
         </div>
         <p class="msg" id="dtMsg" role="alert"></p>
         <button class="btn btn-primary" type="submit" id="dtBtn">Guardar cambios</button>
@@ -529,14 +531,14 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
     </div>
 
     <div class="pview" data-pview="twilio" hidden>
-      <div class="admin-head"><h3>Recuperación por WhatsApp y SMS</h3><button class="btn btn-ghost" type="button" id="reloadTw">Revisar estado</button></div>
-      <p class="fine" style="max-width:70ch">Así viaja un código cuando alguien olvida su contraseña. Tus claves de Twilio viven solo en Supabase; la página nunca las ve.</p>
+      <div class="admin-head"><h3>Recuperación por correo</h3><button class="btn btn-ghost" type="button" id="reloadTw">Revisar estado</button></div>
+      <p class="fine" style="max-width:70ch">Así viaja un código cuando alguien olvida su contraseña. La clave de Brevo vive solo en Supabase; la página nunca la ve.</p>
       <ol class="flow" aria-label="Recorrido del código">
         <li><span class="who">Página</span><b>Pide el código</b><small>La persona escribe su usuario en "¿Olvidaste tu contraseña?".</small></li>
-        <li><span class="who">Supabase</span><b>Revisa y frena abusos</b><small>La función recuperar-clave busca el celular de la cuenta y aplica los límites por hora.</small></li>
-        <li><span class="who">Twilio Verify</span><b>Envía el código</b><small>Por WhatsApp o SMS, según lo que eligió. Si WhatsApp falla, sale por SMS.</small></li>
-        <li><span class="who">Página</span><b>Escribe código y clave nueva</b><small>El código vence a los 10 minutos.</small></li>
-        <li><span class="who">Twilio Verify</span><b>Confirma el código</b><small>Solo Twilio sabe si el código es correcto.</small></li>
+        <li><span class="who">Supabase</span><b>Crea el código</b><small>La función recuperar-clave aplica los límites por hora y guarda solo la huella cifrada del código.</small></li>
+        <li><span class="who">Brevo</span><b>Envía el correo</b><small>Llega desde el correo de Orion Nova al correo de la cuenta.</small></li>
+        <li><span class="who">Página</span><b>Escribe código y clave nueva</b><small>El código vence a los 10 minutos y se bloquea a los 5 fallos.</small></li>
+        <li><span class="who">Supabase</span><b>Confirma el código</b><small>Compara la huella; el código sirve una sola vez.</small></li>
         <li><span class="who">Supabase</span><b>Cambia la contraseña</b><small>Actualiza la cuenta real y lo anota en la auditoría.</small></li>
       </ol>
       <div class="pgrid">
@@ -836,7 +838,7 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
         </div>
         <div class="row2">
           <label>Celular<input id="upPhone" type="tel" autocomplete="tel" inputmode="numeric" maxlength="14" placeholder="300 000 0000" required></label>
-          <label>Recuperar contraseña por<select id="upRecovery"><option value="whatsapp">WhatsApp</option><option value="sms">Mensaje de texto</option></select></label>
+          <label>Correo (para recuperar tu contraseña)<input id="upEmail" type="email" autocomplete="email" maxlength="80" placeholder="tucorreo@gmail.com" required></label>
         </div>
         <label>Tipo de cuenta<select id="upRole"><option value="cliente">Cliente: pido comida o reservo hotel</option><option value="usuario">Negocio aliado: tengo un restaurante u hotel</option></select></label>
         <div class="row2">
@@ -852,7 +854,7 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
       </form>
       <form id="formReset" novalidate hidden>
         <h2 style="font-size:1.9rem">Recupera tu contraseña</h2>
-        <p class="fine" style="font-size:.86rem">Escribe tu usuario. Te enviamos un código al celular de tu cuenta, por WhatsApp o mensaje de texto según lo que elegiste al registrarte.</p>
+        <p class="fine" style="font-size:.86rem">Escribe tu usuario. Te enviamos un código de 6 dígitos al correo de tu cuenta. Si no lo ves, revisa la carpeta de spam.</p>
         <label>Usuario<input id="rsUser" type="text" autocomplete="username" autocapitalize="none" spellcheck="false" maxlength="20" required></label>
         <div id="rsStep2" hidden style="display:grid;gap:14px">
           <label>Código que te llegó<input id="rsCode" type="text" inputmode="numeric" maxlength="10" autocomplete="one-time-code" placeholder="123456"></label>
@@ -1058,6 +1060,7 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
     if(cls<3) return {ok:false,score:Math.min(score,2),msg:"Combina al menos tres tipos: minúscula, mayúscula, número y símbolo."};
     return {ok:true,score:Math.max(score,3),msg:""};
   }
+  const emailOk = v => /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v) && v.length<=80 && !/@usuarios\.novaia\.app$/.test(v);
   const phoneOf = v => String(v||"").replace(/[\s()+-]/g,"").replace(/^57(?=3\d{9}$)/,"");
   function updMeter(){
     const v=$("#upPass").value, pol=pwPolicy(v,$("#upUser").value.trim()), bar=$("#meterBar");
@@ -1072,10 +1075,11 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
 
   $("#formUp").addEventListener("submit",async e=>{
     e.preventDefault(); const m=$("#upMsg"), btn=$("#upBtn");
-    const name=$("#upName").value.trim(), u=$("#upUser").value.trim().toLowerCase(), ph=phoneOf($("#upPhone").value), pw=$("#upPass").value;
+    const name=$("#upName").value.trim(), u=$("#upUser").value.trim().toLowerCase(), ph=phoneOf($("#upPhone").value), pw=$("#upPass").value, em=$("#upEmail").value.trim().toLowerCase();
     if(name.length<2) return setMsg(m,"Escribe tu nombre.","err");
     if(!/^[a-z0-9_.]{3,20}$/.test(u)) return setMsg(m,"El usuario debe tener de 3 a 20 caracteres: letras, números, punto o guion bajo.","err");
     if(!/^3\d{9}$/.test(ph)) return setMsg(m,"Escribe tu celular colombiano de 10 dígitos (empieza por 3).","err");
+    if(!emailOk(em)) return setMsg(m,"Revisa tu correo: debe verse como nombre@gmail.com.","err");
     const pol=pwPolicy(pw,u); if(!pol.ok) return setMsg(m,pol.msg,"err");
     if(pw!==$("#upPass2").value) return setMsg(m,"Las contraseñas no coinciden.","err");
     if(!$("#upTerms").checked) return setMsg(m,"Necesitamos tu autorización de tratamiento de datos para crear la cuenta.","err");
@@ -1083,7 +1087,7 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
     try{
       const s=await Auth.signUp(u,pw);
       const role=$("#upRole").value==="usuario"?"usuario":"cliente";
-      await Docs.set("data/users/"+s.user.id+"/account",{phone:"+57"+ph,ch:$("#upRecovery").value,username:u,role,name,created:Date.now(),origin:"web-orion"});
+      await Docs.set("data/users/"+s.user.id+"/account",{phone:"+57"+ph,ch:"whatsapp",email:em,username:u,role,name,created:Date.now(),origin:"web-orion"});
       audit("registro",role+" · web Orion");
       $("#upPass").value=""; $("#upPass2").value=""; updMeter();
       await afterLogin(true);
@@ -1109,7 +1113,7 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
       setMsg(m,err.msg||err.message||"No se pudo ingresar.","err");
     }finally{ busy(btn,false); }
   });
-  /* ---------- recuperar contraseña: función recuperar-clave (Twilio Verify por WhatsApp o SMS) ---------- */
+  /* ---------- recuperar contraseña: función recuperar-clave (código por correo con Brevo) ---------- */
   let rsStep=1, rsLast=0;
   function showReset(on){
     $("#formReset").hidden=!on; $("#formIn").hidden=on; $(".tabs").hidden=on;
@@ -1139,7 +1143,7 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
   $("#formReset").addEventListener("submit",async e=>{
     e.preventDefault(); if(rsStep===1) return rsSend();
     const m=$("#rsMsg"), u=$("#rsUser").value.trim().toLowerCase(), code=$("#rsCode").value.replace(/\D/g,""), pw=$("#rsPass").value;
-    if(code.length<4) return setMsg(m,"Escribe el código que te llegó.","err");
+    if(code.length!==6) return setMsg(m,"Escribe el código de 6 dígitos que te llegó al correo.","err");
     const pol=pwPolicy(pw,u); if(!pol.ok) return setMsg(m,pol.msg,"err");
     if(pw!==$("#rsPass2").value) return setMsg(m,"Las contraseñas no coinciden.","err");
     busy($("#rsBtn"),true,"Cambiando…");
@@ -1167,9 +1171,11 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
     edit:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 20h4L19 9l-4-4L4 16Z"/></svg>',
     lock:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>',
     inbox:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 13h5l1 3h6l1-3h5"/><path d="M5 5h14l2 8v6H3v-6Z"/></svg>',
+    mail:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>',
     chat:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12Z"/></svg>',
     down:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg>'
   };
+  const maskMail=e=>{ const [a,d]=String(e).split("@"); return (a.length<=2?a[0]+"•":a.slice(0,2)+"•••")+"@"+d; };
   const maskPhone=p=>{ p=String(p||"").replace(/^\+57/,""); return p.length===10?p.slice(0,3)+" ••• "+p.slice(-4):"Sin celular"; };
   function renderAuth(){
     const area=$("#authArea");
@@ -1183,13 +1189,13 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
           '<button role="menuitem" type="button" data-go="inicio">'+ICON.user+'Mi cuenta</button>'+
           '<button role="menuitem" type="button" data-go="datos">'+ICON.edit+'Editar mis datos</button>'+
           '<button role="menuitem" type="button" data-go="seguridad">'+ICON.lock+'Seguridad y contraseña</button>'+
-          (me.admin?'<div class="sep"></div><button role="menuitem" type="button" data-go="solicitudes">'+ICON.inbox+'Solicitudes de contacto</button><button role="menuitem" type="button" data-go="twilio">'+ICON.chat+'WhatsApp y Twilio</button>':'')+
+          (me.admin?'<div class="sep"></div><button role="menuitem" type="button" data-go="solicitudes">'+ICON.inbox+'Solicitudes de contacto</button><button role="menuitem" type="button" data-go="twilio">'+ICON.mail+'Recuperación por correo</button>':'')+
         '</div>'+
         '<button class="btn btn-ghost out" type="button" id="logout">Cerrar sesión</button>'+
       '</div></div>';
     $$(".av",area).forEach(a=>a.textContent=ini);
     $(".nm",area).textContent=first; $(".fn",area).textContent=me.name; $(".un",area).textContent="@"+me.username;
-    $(".ph",area).textContent=maskPhone(acct&&acct.phone)+" · "+((acct&&acct.ch)==="sms"?"SMS":"WhatsApp");
+    $(".ph",area).textContent=(acct&&acct.email)?maskMail(acct.email):"Sin correo de recuperación";
     const chip=$(".chip-role",area); chip.textContent=roleTxt[me.role]; if(me.admin) chip.classList.add("admin");
     wireMenu();
     $("#logout").addEventListener("click",async()=>{ closeMenu(); audit("salida","web Orion"); await Auth.signOut(); me=null; acct=null; renderAuth(); toast("Cerraste sesión."); });
@@ -1198,6 +1204,7 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
     $("#panelSub").textContent=roleTxt[me.role]+" · usuario "+me.username+" · tu cuenta sirve también en NOVA Restaurantes.";
     $("#tileNova").textContent = me.role==="usuario" ? "Administra tu restaurante u hotel: pedidos y carta." : me.admin ? "Panel de administración de NOVA." : "Pide en restaurantes de Neiva con el mismo usuario y contraseña.";
     $$("#ptabs .adm").forEach(b=>b.hidden=!me.admin);
+    $("#noMail").hidden=!!(acct&&acct.email);
     $("#panel").hidden=false;
   }
   /* en computador se abre al pasar el mouse; en celular, al tocar */
@@ -1226,24 +1233,26 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
     $("#panel").scrollIntoView({behavior:reduce?"auto":"smooth"});
   }
   $$("#ptabs button").forEach(b=>b.addEventListener("click",()=>showView(b.dataset.view)));
+  $$("[data-view-go]").forEach(b=>b.addEventListener("click",()=>showView(b.dataset.viewGo)));
   $("#closePanel").addEventListener("click",()=>{ $("#panel").hidden=true; scrollTo({top:0,behavior:reduce?"auto":"smooth"}); });
 
   /* ---- Mis datos ---- */
   function fillDatos(){
     $("#dtUser").value=me.username; $("#dtName").value=(acct&&acct.name)||"";
-    $("#dtPhone").value=String((acct&&acct.phone)||"").replace(/^\+57/,""); $("#dtCh").value=(acct&&acct.ch)==="sms"?"sms":"whatsapp"; setMsg($("#dtMsg"),"");
+    $("#dtPhone").value=String((acct&&acct.phone)||"").replace(/^\+57/,""); $("#dtEmail").value=(acct&&acct.email)||""; setMsg($("#dtMsg"),"");
   }
   $("#formDatos").addEventListener("submit",async e=>{
     e.preventDefault(); const m=$("#dtMsg"), btn=$("#dtBtn");
-    const name=$("#dtName").value.trim(), ph=phoneOf($("#dtPhone").value), ch=$("#dtCh").value==="sms"?"sms":"whatsapp";
+    const name=$("#dtName").value.trim(), ph=phoneOf($("#dtPhone").value), em=$("#dtEmail").value.trim().toLowerCase();
     if(name.length<2) return setMsg(m,"Escribe tu nombre.","err");
     if(!/^3\d{9}$/.test(ph)) return setMsg(m,"Escribe tu celular colombiano de 10 dígitos (empieza por 3).","err");
+    if(!emailOk(em)) return setMsg(m,"Revisa tu correo: debe verse como nombre@gmail.com.","err");
     busy(btn,true,"Guardando…");
     try{
-      const patch={name,phone:"+57"+ph,ch};
+      const patch={name,phone:"+57"+ph,email:em};
       await api("POST","/rest/v1/rpc/doc_merge",{p_path:"data/users/"+me.id+"/account",p_patch:patch});
-      const changedPhone=acct.phone!==patch.phone; Object.assign(acct,patch); me.name=name;
-      audit(changedPhone?"celular-cambiado":"datos-actualizados","web Orion");
+      const changed=acct.email!==patch.email?"correo-cambiado":acct.phone!==patch.phone?"celular-cambiado":"datos-actualizados"; Object.assign(acct,patch); me.name=name;
+      audit(changed,"web Orion");
       renderAuth(); setMsg($("#dtMsg"),"Datos guardados.","ok");
     }catch(err){ setMsg(m,"No se pudieron guardar los datos. Intenta de nuevo.","err"); }
     finally{ busy(btn,false); }
@@ -1266,7 +1275,7 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
     }catch(err){ setMsg(m,err.code==="bad"?err.msg:(err.msg&&/weak|password/i.test(err.msg)?"El servidor pide una contraseña más fuerte.":"No se pudo cambiar la contraseña."),"err"); }
     finally{ busy(btn,false); }
   });
-  const evTxt={registro:"Cuenta creada",ingreso:"Ingreso",salida:"Cierre de sesión","contrasena-cambiada":"Contraseña cambiada","recuperacion-completada":"Contraseña recuperada","recuperacion-solicitada":"Pidió recuperar contraseña","celular-cambiado":"Celular cambiado","datos-actualizados":"Datos actualizados"};
+  const evTxt={registro:"Cuenta creada",ingreso:"Ingreso",salida:"Cierre de sesión","contrasena-cambiada":"Contraseña cambiada","recuperacion-completada":"Contraseña recuperada","recuperacion-solicitada":"Pidió recuperar contraseña","celular-cambiado":"Celular cambiado","correo-cambiado":"Correo cambiado","datos-actualizados":"Datos actualizados"};
   async function loadActivity(){
     const ol=$("#activity");
     try{
@@ -1279,33 +1288,32 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
     }catch(err){ ol.innerHTML="<li>No se pudo cargar la actividad.</li>"; }
   }
 
-  /* ---- WhatsApp y Twilio (solo administración) ---- */
+  /* ---- Recuperación por correo (solo administración) ---- */
   async function loadTwilio(){
     const ul=$("#twChecks"), st=$("#twStats"); ul.innerHTML='<li class="wait">Revisando…</li>'; st.textContent="";
     let r, j={};
     try{ const t=await token(); r=await fetch(CFG.url+"/functions/v1/recuperar-clave",{method:"POST",headers:{apikey:CFG.key,"Content-Type":"application/json",Authorization:"Bearer "+t},body:JSON.stringify({accion:"estado"})}); j=await r.json().catch(()=>({})); }
     catch(e){ ul.innerHTML='<li class="no">No hay conexión con Supabase.</li>'; return; }
     if(!r.ok||!j.ok){ ul.innerHTML='<li class="no"></li>'; ul.firstChild.textContent=j.msg||"No se pudo revisar el estado."; return; }
-    const items=[
-      [j.env.sid,"Secreto TWILIO_ACCOUNT_SID guardado en Supabase"],
-      [j.env.token,"Secreto TWILIO_AUTH_TOKEN guardado en Supabase"],
-      [j.env.verify,"Secreto TWILIO_VERIFY_SID guardado en Supabase"],
-    ];
-    if(j.env.sid&&j.env.token&&j.env.verify){
-      if(j.service){ items.push([true,'Twilio responde: servicio Verify "'+j.service.name+'"']);
-        items.push([j.service.whatsapp?true:"warn", j.service.whatsapp?"Remitente de WhatsApp conectado al servicio":"Sin remitente de WhatsApp todavía: los códigos salen por SMS"]); }
-      else items.push([false, j.err==="credenciales"?"Twilio rechazó las credenciales: revisa el Account SID y el Auth Token":"Twilio no encontró el servicio Verify: revisa el TWILIO_VERIFY_SID"]);
-    } else items.push(["wait","Twilio se revisa cuando estén los tres secretos"]);
+    const items=[[j.env.key,"Secreto BREVO_API_KEY guardado en Supabase"],[j.env.from,j.env.from?"Secreto CORREO_REMITENTE: "+j.env.remitente:"Secreto CORREO_REMITENTE guardado en Supabase"]];
+    if(j.env.key&&j.env.from){
+      if(j.cuenta){ items.push([true,"Brevo responde: plan "+j.cuenta.plan+(j.cuenta.creditos!=null?" · "+j.cuenta.creditos+" envíos disponibles":"")]);
+        items.push([j.remitenteOk?true:j.remitenteOk===false?false:"warn", j.remitenteOk?"El remitente está verificado en Brevo":j.remitenteOk===false?"El remitente no está verificado en Brevo: confírmalo en Senders":"No se pudo revisar el remitente"]); }
+      else items.push([false, j.err==="clave"?"Brevo rechazó la clave: revisa BREVO_API_KEY":"No se pudo conectar con Brevo"]);
+    } else items.push(["wait","Brevo se revisa cuando estén los dos secretos"]);
     ul.innerHTML="";
     items.forEach(([ok,t])=>{ const li=document.createElement("li"); li.className=ok===true?"ok":ok==="warn"?"warn":ok==="wait"?"wait":"no"; li.textContent=t; ul.appendChild(li); });
-    const s=j.stats||{}; st.textContent="Últimos 7 días: "+(s.enviar||0)+" códigos pedidos, "+(s.confirmar||0)+" intentos de confirmación, "+(s.exito||0)+" contraseñas recuperadas.";
-    $("#twTest").disabled=!(j.env.sid&&j.env.token&&j.env.verify&&j.service);
+    const s=j.stats||{};
+    st.textContent="Cuentas con correo de recuperación: "+(s.con_correo||0)+" de "+(s.cuentas||0)+". Últimos 7 días: "+(s.enviar||0)+" códigos pedidos, "+(s.exito||0)+" contraseñas recuperadas.";
+    $("#twTest").disabled=!(j.env.key&&j.env.from&&j.cuenta);
   }
   $("#reloadTw").addEventListener("click",loadTwilio);
   $("#twTest").addEventListener("click",async()=>{
-    const m=$("#twMsg"); busy($("#twTest"),true,"Enviando…");
+    const m=$("#twMsg");
+    if(!(acct&&acct.email)) return setMsg(m,"Primero agrega tu correo en Mis datos.","err");
+    busy($("#twTest"),true,"Enviando…");
     const r=await recFn({accion:"enviar",usuario:me.username}); busy($("#twTest"),false);
-    setMsg(m, r.ok ? "Listo. Si todo está bien, te llega un código al "+maskPhone(acct&&acct.phone)+". Para completar la prueba usa \"¿Olvidaste tu contraseña?\" al ingresar." : r.msg, r.ok?"ok":"err");
+    setMsg(m, r.ok ? "Listo. Revisa "+acct.email+" (también en spam). Para completar la prueba usa \"¿Olvidaste tu contraseña?\" al ingresar." : r.msg, r.ok?"ok":"err");
     loadTwilio();
   });
 
