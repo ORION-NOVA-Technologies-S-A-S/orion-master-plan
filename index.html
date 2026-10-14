@@ -95,8 +95,14 @@ section[id],[id].anchor{scroll-margin-top:84px}
 /* ---------- Encabezado ---------- */
 header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:40;background:rgba(8,17,31,.78);backdrop-filter:blur(14px) saturate(140%);-webkit-backdrop-filter:blur(14px) saturate(140%);border-bottom:1px solid rgba(30,44,74,.7)}
 .top .wrap{display:flex;align-items:center;gap:18px;min-height:76px}
-.brand{display:flex;align-items:center;flex:none;text-decoration:none}
-.brand img{height:62px;width:auto;mix-blend-mode:lighten;display:block}
+.brand{display:flex;align-items:center;gap:12px;flex:none;text-decoration:none;min-width:0}
+.brand img{height:62px;width:auto;mix-blend-mode:lighten;display:block;flex:none}
+.wordmark{display:grid;line-height:1.05;white-space:nowrap}
+.wm-1{font-family:var(--f-display);font-weight:700;font-size:1.12rem;letter-spacing:.08em;color:#E8EEF8}
+.wm-1 b{font-weight:700;background:linear-gradient(90deg,#4F7CFF,#67E8F9);-webkit-background-clip:text;background-clip:text;color:transparent}
+.wm-2{font-family:var(--f-mono);font-size:.62rem;letter-spacing:.42em;color:#8FA7D8;margin-top:4px}
+@media (max-width:1180px) and (min-width:1061px){.wordmark{display:none}}
+@media (max-width:420px){.wm-1{font-size:.92rem}.wm-2{font-size:.5rem;letter-spacing:.3em}.brand{gap:7px}.brand img{height:42px}.top .wrap{gap:8px}#openLogin{padding:.62em .8em;font-size:.88rem}#openLogin svg{display:none}.menu-btn{width:40px;height:40px}}
 nav.main{display:flex;gap:2px;margin-left:auto}
 nav.main a{text-decoration:none;color:var(--muted);font-weight:600;font-size:.93rem;padding:.55em .85em;border-radius:10px;transition:color .2s,background .2s}
 nav.main a:hover,nav.main a[aria-current="true"]{color:var(--fg);background:rgba(255,255,255,.04)}
@@ -659,7 +665,8 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
 <header class="top">
   <div class="wrap">
     <a class="brand" href="#inicio" aria-label="Orion Nova Technologies, ir al inicio">
-      <img src="assets/imagenes/image.png" alt="Orion Nova Technologies" width="462" height="407">
+      <img src="assets/imagenes/image.png" alt="" width="462" height="407">
+      <span class="wordmark"><span class="wm-1">ORION <b>NOVA</b></span><span class="wm-2">TECHNOLOGIES</span></span>
     </a>
     <nav class="main" id="mainNav" aria-label="Principal">
       <a href="#servicios">Servicios</a>
@@ -672,7 +679,7 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
     <div class="actions">
       <a class="btn btn-primary cta-top" href="#contacto">Solicitar cotización</a>
       <div id="authArea">
-        <button class="btn btn-ghost" id="openLogin" type="button">
+        <button class="btn btn-primary" id="openLogin" type="button">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg>
           Ingresar
         </button>
