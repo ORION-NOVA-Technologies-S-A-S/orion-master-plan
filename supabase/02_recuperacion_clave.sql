@@ -25,7 +25,7 @@ returns boolean
 language plpgsql security definer set search_path = public, privado as $$
 declare n_user int; n_ip int;
 begin
-  delete from privado.recovery_log where created_at < now() - interval '2 days';
+  delete from privado.recovery_log where created_at < now() - interval '8 days';
   select count(*) into n_user from privado.recovery_log where username = lower(p_username) and kind = p_kind and created_at > now() - interval '1 hour';
   select count(*) into n_ip from privado.recovery_log where ip_hash = p_ip_hash and kind = p_kind and created_at > now() - interval '1 hour';
   if (p_kind = 'enviar' and (n_user >= 3 or n_ip >= 10)) or (p_kind = 'confirmar' and (n_user >= 8 or n_ip >= 20)) then
@@ -38,3 +38,14 @@ revoke execute on function public.recovery_lookup(text) from public, anon, authe
 revoke execute on function public.recovery_guard(text, text, text) from public, anon, authenticated;
 grant execute on function public.recovery_lookup(text) to service_role;
 grant execute on function public.recovery_guard(text, text, text) to service_role;
+
+-- Estadísticas de 7 días para la vista "WhatsApp y Twilio" (solo servidor)
+create or replace function public.recovery_stats()
+returns jsonb
+language sql stable security definer set search_path = public, privado as $$
+  select coalesce(jsonb_object_agg(kind, n), '{}'::jsonb)
+  from (select kind, count(*) n from privado.recovery_log where created_at > now() - interval '7 days' group by kind) t;
+$$;
+revoke execute on function public.recovery_stats() from public, anon, authenticated;
+grant execute on function public.recovery_stats() to service_role;
+-- Nota: recovery_guard conserva 8 días de registros (ver migración recuperacion_estadisticas).

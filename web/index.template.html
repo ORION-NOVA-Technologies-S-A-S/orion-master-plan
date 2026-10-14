@@ -267,6 +267,65 @@ input:focus,select:focus,textarea:focus{outline:none;border-color:var(--cyan);bo
 
 .toast{position:fixed;left:50%;bottom:calc(90px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--surface);border:1px solid var(--ok);color:var(--fg);padding:.7em 1.1em;border-radius:12px;z-index:70;font-size:.9rem;max-width:calc(100vw - 32px)}
 
+/* Submenú de la cuenta */
+.umenu{position:relative}
+.ubtn{display:flex;align-items:center;gap:8px;background:none;border:1px solid transparent;border-radius:999px;padding:3px 10px 3px 3px;color:var(--silver);font:500 .9rem var(--f-body);cursor:pointer}
+.ubtn:hover,.ubtn[aria-expanded="true"]{border-color:var(--line);background:var(--surface)}
+.ubtn .av,.udrop .av{border-radius:50%;display:grid;place-items:center;background:linear-gradient(135deg,var(--indigo),var(--cyan));color:#fff;font-weight:700;flex:none}
+.ubtn .av{width:34px;height:34px}
+.ubtn svg{width:14px;height:14px;opacity:.7}
+.udrop{position:absolute;right:0;top:calc(100% + 8px);width:min(310px,calc(100vw - 32px));background:var(--bg-2);border:1px solid var(--line);border-radius:16px;padding:14px;display:grid;gap:12px;box-shadow:0 24px 60px -20px rgba(0,0,0,.85);z-index:45}
+.udrop::before{content:"";position:absolute;top:-10px;left:0;right:0;height:10px}
+.udrop-head{display:flex;gap:12px;align-items:center}
+.udrop-head .av{width:52px;height:52px;font-size:1.3rem}
+.udrop-head div{display:grid;gap:2px;min-width:0}
+.udrop-head b{overflow-wrap:anywhere}
+.udrop-head small{color:var(--muted);font-size:.8rem;overflow-wrap:anywhere}
+.chip-role{justify-self:start;margin-top:4px;font-family:var(--f-mono);font-size:.64rem;letter-spacing:.1em;text-transform:uppercase;padding:.3em .7em;border-radius:999px;border:1px solid var(--line);color:var(--silver)}
+.chip-role.admin{color:var(--warn);border-color:color-mix(in srgb,var(--warn) 50%,transparent);background:color-mix(in srgb,var(--warn) 10%,transparent)}
+.udrop-links{display:grid;border-top:1px solid var(--line);padding-top:6px}
+.udrop-links button{background:none;border:0;color:var(--fg);text-align:left;font:500 .92rem var(--f-body);padding:9px 8px;border-radius:8px;cursor:pointer;display:flex;gap:10px;align-items:center}
+.udrop-links button:hover,.udrop-links button:focus-visible{background:var(--surface)}
+.udrop-links svg{width:16px;height:16px;color:var(--cyan);flex:none}
+.udrop-links .sep{border-top:1px solid var(--line);margin:6px 0}
+.udrop .out{width:100%;justify-content:center;border-color:color-mix(in srgb,var(--bad) 45%,var(--line));color:var(--bad)}
+@media (max-width:920px){.ubtn .nm,.ubtn svg{display:none}.ubtn{padding:3px}}
+
+/* Vistas del panel */
+.panel-top{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;flex-wrap:wrap}
+.ptabs{display:flex;gap:6px;flex-wrap:wrap;margin:22px 0 4px;border-bottom:1px solid var(--line);padding-bottom:10px}
+.ptabs button{background:none;border:1px solid transparent;color:var(--muted);font:600 .9rem var(--f-body);padding:.5em .9em;border-radius:999px;cursor:pointer}
+.ptabs button:hover{color:var(--fg)}
+.ptabs button[aria-current="true"]{color:var(--fg);border-color:var(--line);background:var(--surface)}
+.ptabs .adm{color:color-mix(in srgb,var(--warn) 80%,var(--muted))}
+.pview{margin-top:20px}
+.pgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;margin-top:16px}
+.pcard{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:22px;display:grid;gap:14px;align-content:start;min-width:0;max-width:760px}
+.pcard h3{font-size:1.5rem}
+.activity{margin:0;padding:0;list-style:none;display:grid;gap:8px;font-size:.88rem}
+.activity li{display:flex;justify-content:space-between;gap:12px;border-bottom:1px dashed var(--line);padding-bottom:8px}
+.activity time{color:var(--muted);font-variant-numeric:tabular-nums;white-space:nowrap}
+.flow{list-style:none;margin:18px 0 0;padding:0;display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:10px;counter-reset:f}
+.flow li{position:relative;background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:14px;display:grid;gap:6px;align-content:start;counter-increment:f}
+.flow li::before{content:counter(f);position:absolute;top:10px;right:12px;font-family:var(--f-display);font-weight:800;font-size:1.4rem;color:var(--line)}
+.flow li:not(:last-child)::after{content:"";position:absolute;right:-9px;top:50%;width:8px;height:2px;background:var(--cyan)}
+.flow .who{font-family:var(--f-mono);font-size:.64rem;letter-spacing:.12em;text-transform:uppercase;color:var(--cyan)}
+.flow li:nth-child(3) .who,.flow li:nth-child(5) .who{color:#ff6f8a}
+.flow b{font-size:.95rem;line-height:1.25}
+.flow small{color:var(--muted);font-size:.8rem;line-height:1.45}
+@media (max-width:1000px){.flow{grid-template-columns:repeat(3,minmax(0,1fr))}.flow li:nth-child(3)::after{display:none}}
+@media (max-width:560px){.flow{grid-template-columns:1fr}.flow li::after{display:none}}
+.checks{list-style:none;margin:0;padding:0;display:grid;gap:8px;font-size:.92rem}
+.checks li{display:flex;gap:10px;align-items:flex-start}
+.checks li::before{flex:none;width:20px;height:20px;border-radius:50%;display:grid;place-items:center;font-size:.72rem;font-weight:700;margin-top:2px}
+.checks li.ok::before{content:"✓";background:color-mix(in srgb,var(--ok) 20%,transparent);color:var(--ok)}
+.checks li.no::before{content:"!";background:color-mix(in srgb,var(--bad) 20%,transparent);color:var(--bad)}
+.checks li.wait::before{content:"…";background:var(--line);color:var(--muted)}
+.checks li.warn::before{content:"·";background:color-mix(in srgb,var(--warn) 20%,transparent);color:var(--warn)}
+.steps{margin:0;padding-left:1.2em;display:grid;gap:10px;font-size:.9rem;color:var(--silver)}
+.steps b{color:var(--fg)}
+code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:.1em .4em;overflow-wrap:anywhere}
+
 @media (prefers-reduced-motion:reduce){
   *,*::before,*::after{animation:none!important;transition:none!important}
   html{scroll-behavior:auto}
@@ -398,18 +457,100 @@ input:focus,select:focus,textarea:focus{outline:none;border-color:var(--cyan);bo
 <!-- ================= Panel del usuario (tras iniciar sesión) ================= -->
 <section id="panel" hidden aria-live="polite">
   <div class="wrap">
-    <p class="eyebrow">Mi cuenta Orion</p>
-    <h2 id="panelHello">Hola</h2>
-    <p style="color:var(--muted);margin-top:8px" id="panelSub">Tu cuenta Orion sirve en todo el ecosistema Orion Nova.</p>
-    <div class="grid">
-      <a class="tile" href="https://orion-nova-technologies-s-a-s.github.io/NOVA-IA/" target="_blank" rel="noopener"><b>NOVA Restaurantes →</b><span id="tileNova">Pide en restaurantes de Neiva con el mismo usuario y contraseña.</span></a>
-      <a class="tile" href="https://orion-nova-technologies-s-a-s.github.io/NOVA-COURSE/" target="_blank" rel="noopener"><b>Orion Nova Academy →</b><span>Cursos con certificado de Orion Nova Technologies.</span></a>
-      <a class="tile" href="https://orion-nova-technologies-s-a-s.github.io/Tr-nsito-IA/" target="_blank" rel="noopener"><b>Alerta Tránsito →</b><span>Reportes de tránsito de la comunidad.</span></a>
-      <button class="tile" type="button" data-open-chat><b>Soporte</b><span>Habla con NOVA o escríbenos por WhatsApp.</span></button>
+    <div class="panel-top">
+      <div>
+        <p class="eyebrow">Mi cuenta Orion</p>
+        <h2 id="panelHello">Hola</h2>
+        <p style="color:var(--muted);margin-top:8px" id="panelSub">Tu cuenta Orion sirve en todo el ecosistema Orion Nova.</p>
+      </div>
+      <button class="btn btn-ghost" type="button" id="closePanel">Ocultar panel</button>
     </div>
-    <div id="adminBox" hidden>
+    <nav class="ptabs" aria-label="Secciones de mi cuenta" id="ptabs">
+      <button type="button" data-view="inicio" aria-current="true">Inicio</button>
+      <button type="button" data-view="datos">Mis datos</button>
+      <button type="button" data-view="seguridad">Seguridad</button>
+      <button type="button" data-view="solicitudes" class="adm" hidden>Solicitudes</button>
+      <button type="button" data-view="twilio" class="adm" hidden>WhatsApp y Twilio</button>
+    </nav>
+
+    <div class="pview" data-pview="inicio">
+      <div class="grid">
+        <a class="tile" href="https://orion-nova-technologies-s-a-s.github.io/NOVA-IA/" target="_blank" rel="noopener"><b>NOVA Restaurantes →</b><span id="tileNova">Pide en restaurantes de Neiva con el mismo usuario y contraseña.</span></a>
+        <a class="tile" href="https://orion-nova-technologies-s-a-s.github.io/NOVA-COURSE/" target="_blank" rel="noopener"><b>Orion Nova Academy →</b><span>Cursos con certificado de Orion Nova Technologies.</span></a>
+        <a class="tile" href="https://orion-nova-technologies-s-a-s.github.io/Tr-nsito-IA/" target="_blank" rel="noopener"><b>Alerta Tránsito →</b><span>Reportes de tránsito de la comunidad.</span></a>
+        <button class="tile" type="button" data-open-chat><b>Soporte</b><span>Habla con NOVA o escríbenos por WhatsApp.</span></button>
+      </div>
+    </div>
+
+    <div class="pview" data-pview="datos" hidden>
+      <form id="formDatos" class="pcard" novalidate>
+        <h3>Mis datos</h3>
+        <p class="fine">Estos datos son los mismos en NOVA Restaurantes. El celular es al que llega el código si olvidas tu contraseña.</p>
+        <label>Usuario<input id="dtUser" type="text" disabled></label>
+        <label>Nombre<input id="dtName" type="text" autocomplete="name" maxlength="60"></label>
+        <div class="row2">
+          <label>Celular<input id="dtPhone" type="tel" inputmode="numeric" maxlength="14" autocomplete="tel"></label>
+          <label>Recuperar contraseña por<select id="dtCh"><option value="whatsapp">WhatsApp</option><option value="sms">Mensaje de texto</option></select></label>
+        </div>
+        <p class="msg" id="dtMsg" role="alert"></p>
+        <button class="btn btn-primary" type="submit" id="dtBtn">Guardar cambios</button>
+      </form>
+    </div>
+
+    <div class="pview" data-pview="seguridad" hidden>
+      <div class="pgrid">
+        <form id="formPw" class="pcard" novalidate>
+          <h3>Cambiar contraseña</h3>
+          <label>Contraseña actual<input id="pwOld" type="password" autocomplete="current-password" maxlength="72"></label>
+          <label>Contraseña nueva<input id="pwNew" type="password" autocomplete="new-password" maxlength="72"></label>
+          <label>Repite la contraseña nueva<input id="pwNew2" type="password" autocomplete="new-password" maxlength="72"></label>
+          <p class="msg" id="pwMsg" role="alert"></p>
+          <button class="btn btn-primary" type="submit" id="pwBtn">Cambiar contraseña</button>
+        </form>
+        <div class="pcard">
+          <h3>Actividad de mi cuenta</h3>
+          <p class="fine">ORI registra los ingresos y cambios de tu cuenta. Si ves algo que no hiciste, cambia tu contraseña.</p>
+          <ol class="activity" id="activity"><li>Cargando…</li></ol>
+        </div>
+      </div>
+    </div>
+
+    <div class="pview" data-pview="solicitudes" hidden>
       <div class="admin-head"><h3>Solicitudes de contacto</h3><button class="btn btn-ghost" type="button" id="reloadLeads">Actualizar</button></div>
       <div class="table-wrap"><table><thead><tr><th>Fecha</th><th>Nombre</th><th>Celular</th><th>Servicio</th><th>Mensaje</th><th>Estado</th></tr></thead><tbody id="leadRows"><tr><td colspan="6">Cargando…</td></tr></tbody></table></div>
+    </div>
+
+    <div class="pview" data-pview="twilio" hidden>
+      <div class="admin-head"><h3>Recuperación por WhatsApp y SMS</h3><button class="btn btn-ghost" type="button" id="reloadTw">Revisar estado</button></div>
+      <p class="fine" style="max-width:70ch">Así viaja un código cuando alguien olvida su contraseña. Tus claves de Twilio viven solo en Supabase; la página nunca las ve.</p>
+      <ol class="flow" aria-label="Recorrido del código">
+        <li><span class="who">Página</span><b>Pide el código</b><small>La persona escribe su usuario en "¿Olvidaste tu contraseña?".</small></li>
+        <li><span class="who">Supabase</span><b>Revisa y frena abusos</b><small>La función recuperar-clave busca el celular de la cuenta y aplica los límites por hora.</small></li>
+        <li><span class="who">Twilio Verify</span><b>Envía el código</b><small>Por WhatsApp o SMS, según lo que eligió. Si WhatsApp falla, sale por SMS.</small></li>
+        <li><span class="who">Página</span><b>Escribe código y clave nueva</b><small>El código vence a los 10 minutos.</small></li>
+        <li><span class="who">Twilio Verify</span><b>Confirma el código</b><small>Solo Twilio sabe si el código es correcto.</small></li>
+        <li><span class="who">Supabase</span><b>Cambia la contraseña</b><small>Actualiza la cuenta real y lo anota en la auditoría.</small></li>
+      </ol>
+      <div class="pgrid">
+        <div class="pcard">
+          <h3>Estado de la conexión</h3>
+          <ul class="checks" id="twChecks"><li class="wait">Revisando…</li></ul>
+          <div id="twStats" class="fine"></div>
+          <button class="btn btn-ghost" type="button" id="twTest" style="margin-top:14px">Enviarme un código de prueba</button>
+          <p class="msg" id="twMsg" role="status"></p>
+        </div>
+        <div class="pcard">
+          <h3>Cómo configurarlo</h3>
+          <ol class="steps">
+            <li><b>Copia tus credenciales.</b> En twilio.com/console, en la página de inicio, copia el <code>Account SID</code> (empieza por AC) y el <code>Auth Token</code>.</li>
+            <li><b>Crea el servicio Verify.</b> En Twilio: Verify → Services → Create new. Nombre: "Orion Nova". Activa SMS y WhatsApp. Copia el <code>Service SID</code> (empieza por VA).</li>
+            <li><b>Guarda los secretos en Supabase.</b> Proyecto NOVA → Edge Functions → Secrets → Add new secret. Crea <code>TWILIO_ACCOUNT_SID</code>, <code>TWILIO_AUTH_TOKEN</code> y <code>TWILIO_VERIFY_SID</code>. No los pegues en ningún chat.</li>
+            <li><b>Prueba por SMS.</b> Vuelve aquí, pulsa "Revisar estado" y luego "Enviarme un código de prueba". Con cuenta de prueba, el celular debe estar verificado en Twilio (Phone Numbers → Verified Caller IDs).</li>
+            <li><b>Registra tu WhatsApp.</b> En Twilio: Messaging → Senders → WhatsApp senders → crea el remitente con tu Meta Business y un número que no use la app normal de WhatsApp. Cuando Meta lo apruebe, en tu servicio Verify ve a WhatsApp y elige ese remitente.</li>
+            <li><b>Recarga saldo.</b> Para enviar a clientes reales, la cuenta de Twilio debe salir del modo de prueba.</li>
+          </ol>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -1012,30 +1153,164 @@ input:focus,select:focus,textarea:focus{outline:none;border-color:var(--cyan);bo
     setMsg($("#inMsg"),r.msg,"ok");
   });
 
-  const roleTxt={cliente:"Cliente",usuario:"Negocio aliado",admin:"Administración"};
+  const roleTxt={cliente:"Cliente",usuario:"Negocio aliado",admin:"Administrador"};
+  let acct=null;
   async function afterLogin(isNew){
-    let acct=null, admin=false;
+    let admin=false;
+    acct=null;
     try{ acct=await Docs.get("data/users/"+sess.user.id+"/account"); }catch(e){}
     if(!acct){ acct={username:sess.user.username,role:"cliente",created:Date.now()}; try{ await Docs.set("data/users/"+sess.user.id+"/account",acct); }catch(e){} }
     try{ admin=!!(await api("POST","/rest/v1/rpc/is_admin",{})); }catch(e){}
     me={id:sess.user.id,username:acct.username||sess.user.username,name:acct.name||acct.username||sess.user.username,role:admin?"admin":(acct.role==="cliente"?"cliente":"usuario"),admin};
-    if(!modal.hidden){ closeLogin(); toast((isNew?"Cuenta creada. ":"Sesión iniciada. ")+"¡Bienvenido, "+me.name.split(" ")[0]+"!"); $("#panel").scrollIntoView({behavior:reduce?"auto":"smooth"}); }
+    if(!modal.hidden){ closeLogin(); toast((isNew?"Cuenta creada. ":"Sesión iniciada. ")+"¡Bienvenido, "+me.name.split(" ")[0]+"!"); showView("inicio"); }
     renderAuth();
   }
+  const ICON={
+    user:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg>',
+    edit:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 20h4L19 9l-4-4L4 16Z"/></svg>',
+    lock:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>',
+    inbox:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 13h5l1 3h6l1-3h5"/><path d="M5 5h14l2 8v6H3v-6Z"/></svg>',
+    chat:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12Z"/></svg>',
+    down:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg>'
+  };
+  const maskPhone=p=>{ p=String(p||"").replace(/^\+57/,""); return p.length===10?p.slice(0,3)+" ••• "+p.slice(-4):"Sin celular"; };
   function renderAuth(){
     const area=$("#authArea");
     if(!me){ $("#panel").hidden=true; area.innerHTML=""; area.appendChild(loginBtn); return; }
-    const first=me.name.split(" ")[0];
-    area.innerHTML='<span class="user-chip"><span class="av"></span><span class="nm"></span></span><button class="btn btn-ghost" type="button" id="logout">Salir</button>';
-    $(".av",area).textContent=first[0].toUpperCase(); $(".nm",area).textContent=first;
-    $("#logout").addEventListener("click",async()=>{ audit("salida","web Orion"); await Auth.signOut(); me=null; renderAuth(); toast("Cerraste sesión."); });
+    const first=me.name.split(" ")[0], ini=first[0].toUpperCase();
+    area.innerHTML='<div class="umenu" id="umenu">'+
+      '<button class="ubtn" id="ubtn" type="button" aria-haspopup="menu" aria-expanded="false"><span class="av"></span><span class="nm"></span>'+ICON.down+'</button>'+
+      '<div class="udrop" id="udrop" role="menu" hidden>'+
+        '<div class="udrop-head"><span class="av"></span><div><b class="fn"></b><small class="un"></small><small class="ph"></small><span class="chip-role"></span></div></div>'+
+        '<div class="udrop-links">'+
+          '<button role="menuitem" type="button" data-go="inicio">'+ICON.user+'Mi cuenta</button>'+
+          '<button role="menuitem" type="button" data-go="datos">'+ICON.edit+'Editar mis datos</button>'+
+          '<button role="menuitem" type="button" data-go="seguridad">'+ICON.lock+'Seguridad y contraseña</button>'+
+          (me.admin?'<div class="sep"></div><button role="menuitem" type="button" data-go="solicitudes">'+ICON.inbox+'Solicitudes de contacto</button><button role="menuitem" type="button" data-go="twilio">'+ICON.chat+'WhatsApp y Twilio</button>':'')+
+        '</div>'+
+        '<button class="btn btn-ghost out" type="button" id="logout">Cerrar sesión</button>'+
+      '</div></div>';
+    $$(".av",area).forEach(a=>a.textContent=ini);
+    $(".nm",area).textContent=first; $(".fn",area).textContent=me.name; $(".un",area).textContent="@"+me.username;
+    $(".ph",area).textContent=maskPhone(acct&&acct.phone)+" · "+((acct&&acct.ch)==="sms"?"SMS":"WhatsApp");
+    const chip=$(".chip-role",area); chip.textContent=roleTxt[me.role]; if(me.admin) chip.classList.add("admin");
+    wireMenu();
+    $("#logout").addEventListener("click",async()=>{ closeMenu(); audit("salida","web Orion"); await Auth.signOut(); me=null; acct=null; renderAuth(); toast("Cerraste sesión."); });
+    $$("[data-go]",area).forEach(b=>b.addEventListener("click",()=>{ closeMenu(); showView(b.dataset.go); }));
     $("#panelHello").textContent="Hola, "+first;
     $("#panelSub").textContent=roleTxt[me.role]+" · usuario "+me.username+" · tu cuenta sirve también en NOVA Restaurantes.";
     $("#tileNova").textContent = me.role==="usuario" ? "Administra tu restaurante u hotel: pedidos y carta." : me.admin ? "Panel de administración de NOVA." : "Pide en restaurantes de Neiva con el mismo usuario y contraseña.";
+    $$("#ptabs .adm").forEach(b=>b.hidden=!me.admin);
     $("#panel").hidden=false;
-    $("#adminBox").hidden=!me.admin; if(me.admin) loadLeads();
   }
-  const loginBtn=$("#openLogin");
+  /* en computador se abre al pasar el mouse; en celular, al tocar */
+  let menuTimer=0, hovered=false;
+  function closeMenu(){ const d=$("#udrop"), b=$("#ubtn"); if(d){ d.hidden=true; b.setAttribute("aria-expanded","false"); } }
+  function openMenu(){ const d=$("#udrop"), b=$("#ubtn"); d.hidden=false; b.setAttribute("aria-expanded","true"); }
+  function wireMenu(){
+    const box=$("#umenu"), b=$("#ubtn");
+    box.addEventListener("pointerenter",e=>{ if(e.pointerType!=="mouse") return; clearTimeout(menuTimer); hovered=true; openMenu(); });
+    box.addEventListener("pointerleave",e=>{ if(e.pointerType!=="mouse") return; hovered=false; menuTimer=setTimeout(closeMenu,250); });
+    b.addEventListener("click",()=>{ if(hovered){ openMenu(); return; } $("#udrop").hidden?openMenu():closeMenu(); });
+  }
+  document.addEventListener("pointerdown",e=>{ const box=$("#umenu"); if(box&&!box.contains(e.target)) closeMenu(); });
+  document.addEventListener("keydown",e=>{ if(e.key==="Escape") closeMenu(); });
+
+  function showView(v){
+    if(!me) return;
+    if((v==="solicitudes"||v==="twilio")&&!me.admin) v="inicio";
+    $("#panel").hidden=false;
+    $$("#ptabs button").forEach(b=>b.setAttribute("aria-current",b.dataset.view===v?"true":"false"));
+    $$(".pview").forEach(p=>p.hidden=p.dataset.pview!==v);
+    if(v==="datos") fillDatos();
+    if(v==="seguridad") loadActivity();
+    if(v==="solicitudes") loadLeads();
+    if(v==="twilio") loadTwilio();
+    $("#panel").scrollIntoView({behavior:reduce?"auto":"smooth"});
+  }
+  $$("#ptabs button").forEach(b=>b.addEventListener("click",()=>showView(b.dataset.view)));
+  $("#closePanel").addEventListener("click",()=>{ $("#panel").hidden=true; scrollTo({top:0,behavior:reduce?"auto":"smooth"}); });
+
+  /* ---- Mis datos ---- */
+  function fillDatos(){
+    $("#dtUser").value=me.username; $("#dtName").value=(acct&&acct.name)||"";
+    $("#dtPhone").value=String((acct&&acct.phone)||"").replace(/^\+57/,""); $("#dtCh").value=(acct&&acct.ch)==="sms"?"sms":"whatsapp"; setMsg($("#dtMsg"),"");
+  }
+  $("#formDatos").addEventListener("submit",async e=>{
+    e.preventDefault(); const m=$("#dtMsg"), btn=$("#dtBtn");
+    const name=$("#dtName").value.trim(), ph=phoneOf($("#dtPhone").value), ch=$("#dtCh").value==="sms"?"sms":"whatsapp";
+    if(name.length<2) return setMsg(m,"Escribe tu nombre.","err");
+    if(!/^3\d{9}$/.test(ph)) return setMsg(m,"Escribe tu celular colombiano de 10 dígitos (empieza por 3).","err");
+    busy(btn,true,"Guardando…");
+    try{
+      const patch={name,phone:"+57"+ph,ch};
+      await api("POST","/rest/v1/rpc/doc_merge",{p_path:"data/users/"+me.id+"/account",p_patch:patch});
+      const changedPhone=acct.phone!==patch.phone; Object.assign(acct,patch); me.name=name;
+      audit(changedPhone?"celular-cambiado":"datos-actualizados","web Orion");
+      renderAuth(); setMsg($("#dtMsg"),"Datos guardados.","ok");
+    }catch(err){ setMsg(m,"No se pudieron guardar los datos. Intenta de nuevo.","err"); }
+    finally{ busy(btn,false); }
+  });
+
+  /* ---- Seguridad ---- */
+  $("#formPw").addEventListener("submit",async e=>{
+    e.preventDefault(); const m=$("#pwMsg"), btn=$("#pwBtn");
+    const old=$("#pwOld").value, nw=$("#pwNew").value;
+    if(!old) return setMsg(m,"Escribe tu contraseña actual.","err");
+    const pol=pwPolicy(nw,me.username); if(!pol.ok) return setMsg(m,pol.msg,"err");
+    if(nw!==$("#pwNew2").value) return setMsg(m,"Las contraseñas nuevas no coinciden.","err");
+    if(nw===old) return setMsg(m,"La contraseña nueva debe ser distinta de la actual.","err");
+    busy(btn,true,"Cambiando…");
+    try{
+      try{ await Auth.signIn(me.username,old); }catch(err){ throw errx("bad","La contraseña actual no es correcta."); }
+      await api("PUT","/auth/v1/user",{password:nw});
+      audit("contrasena-cambiada","web Orion");
+      $("#formPw").reset(); setMsg(m,"Contraseña cambiada. Úsala también en NOVA Restaurantes.","ok"); loadActivity();
+    }catch(err){ setMsg(m,err.code==="bad"?err.msg:(err.msg&&/weak|password/i.test(err.msg)?"El servidor pide una contraseña más fuerte.":"No se pudo cambiar la contraseña."),"err"); }
+    finally{ busy(btn,false); }
+  });
+  const evTxt={registro:"Cuenta creada",ingreso:"Ingreso",salida:"Cierre de sesión","contrasena-cambiada":"Contraseña cambiada","recuperacion-completada":"Contraseña recuperada","recuperacion-solicitada":"Pidió recuperar contraseña","celular-cambiado":"Celular cambiado","datos-actualizados":"Datos actualizados"};
+  async function loadActivity(){
+    const ol=$("#activity");
+    try{
+      const d=await Docs.get("audit/"+me.id), ev=(d&&Array.isArray(d.events)?d.events:[]).slice(-15).reverse();
+      if(!ev.length){ ol.innerHTML="<li>Aún no hay actividad registrada.</li>"; return; }
+      ol.innerHTML="";
+      ev.forEach(x=>{ const li=document.createElement("li"), s=document.createElement("span"), t=document.createElement("time");
+        s.textContent=(evTxt[x.e]||x.e)+(x.d?" · "+x.d:""); t.textContent=new Date(x.t).toLocaleString("es-CO",{dateStyle:"short",timeStyle:"short",timeZone:"America/Bogota"});
+        li.append(s,t); ol.appendChild(li); });
+    }catch(err){ ol.innerHTML="<li>No se pudo cargar la actividad.</li>"; }
+  }
+
+  /* ---- WhatsApp y Twilio (solo administración) ---- */
+  async function loadTwilio(){
+    const ul=$("#twChecks"), st=$("#twStats"); ul.innerHTML='<li class="wait">Revisando…</li>'; st.textContent="";
+    let r, j={};
+    try{ const t=await token(); r=await fetch(CFG.url+"/functions/v1/recuperar-clave",{method:"POST",headers:{apikey:CFG.key,"Content-Type":"application/json",Authorization:"Bearer "+t},body:JSON.stringify({accion:"estado"})}); j=await r.json().catch(()=>({})); }
+    catch(e){ ul.innerHTML='<li class="no">No hay conexión con Supabase.</li>'; return; }
+    if(!r.ok||!j.ok){ ul.innerHTML='<li class="no"></li>'; ul.firstChild.textContent=j.msg||"No se pudo revisar el estado."; return; }
+    const items=[
+      [j.env.sid,"Secreto TWILIO_ACCOUNT_SID guardado en Supabase"],
+      [j.env.token,"Secreto TWILIO_AUTH_TOKEN guardado en Supabase"],
+      [j.env.verify,"Secreto TWILIO_VERIFY_SID guardado en Supabase"],
+    ];
+    if(j.env.sid&&j.env.token&&j.env.verify){
+      if(j.service){ items.push([true,'Twilio responde: servicio Verify "'+j.service.name+'"']);
+        items.push([j.service.whatsapp?true:"warn", j.service.whatsapp?"Remitente de WhatsApp conectado al servicio":"Sin remitente de WhatsApp todavía: los códigos salen por SMS"]); }
+      else items.push([false, j.err==="credenciales"?"Twilio rechazó las credenciales: revisa el Account SID y el Auth Token":"Twilio no encontró el servicio Verify: revisa el TWILIO_VERIFY_SID"]);
+    } else items.push(["wait","Twilio se revisa cuando estén los tres secretos"]);
+    ul.innerHTML="";
+    items.forEach(([ok,t])=>{ const li=document.createElement("li"); li.className=ok===true?"ok":ok==="warn"?"warn":ok==="wait"?"wait":"no"; li.textContent=t; ul.appendChild(li); });
+    const s=j.stats||{}; st.textContent="Últimos 7 días: "+(s.enviar||0)+" códigos pedidos, "+(s.confirmar||0)+" intentos de confirmación, "+(s.exito||0)+" contraseñas recuperadas.";
+    $("#twTest").disabled=!(j.env.sid&&j.env.token&&j.env.verify&&j.service);
+  }
+  $("#reloadTw").addEventListener("click",loadTwilio);
+  $("#twTest").addEventListener("click",async()=>{
+    const m=$("#twMsg"); busy($("#twTest"),true,"Enviando…");
+    const r=await recFn({accion:"enviar",usuario:me.username}); busy($("#twTest"),false);
+    setMsg(m, r.ok ? "Listo. Si todo está bien, te llega un código al "+maskPhone(acct&&acct.phone)+". Para completar la prueba usa \"¿Olvidaste tu contraseña?\" al ingresar." : r.msg, r.ok?"ok":"err");
+    loadTwilio();
+  });
 
   /* ---------- solicitudes de contacto (tabla leads) ---------- */
   const svcTxt={web:"Página web",app:"App móvil",asistente:"Asistente IA",automatizacion:"Automatización",ciberseguridad:"Ciberseguridad",iot:"IoT",marketing:"Marketing","nova-restaurantes":"Unirse a NOVA",otro:"Otro"};

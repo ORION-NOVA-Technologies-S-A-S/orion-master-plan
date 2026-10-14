@@ -56,13 +56,37 @@ Deno.serve(async (req) => {
   if (req.method === "OPTIONS") return new Response(null, { status: 204, headers: cors });
   if (req.method !== "POST") return reply(405, { ok: false, msg: "Método no permitido." });
 
-  if (!Deno.env.get("TWILIO_ACCOUNT_SID") || !Deno.env.get("TWILIO_AUTH_TOKEN") || !Deno.env.get("TWILIO_VERIFY_SID")) {
-    return reply(503, { ok: false, msg: "La recuperación por WhatsApp o SMS todavía no está activada. Escríbenos al WhatsApp 300 444 0009." });
-  }
-
   let body: Record<string, unknown>;
   try { body = await req.json(); } catch { return reply(400, { ok: false, msg: "Solicitud inválida." }); }
   const accion = String(body.accion || "");
+
+  // Estado de la conexión con Twilio: solo para administradores con sesión iniciada
+  if (accion === "estado") {
+    const db0 = createClient(Deno.env.get("SUPABASE_URL")!, Deno.env.get("SUPABASE_SERVICE_ROLE_KEY")!, { auth: { persistSession: false } });
+    const jwt = (req.headers.get("authorization") || "").replace(/^Bearer\s+/i, "");
+    const { data: who } = jwt ? await db0.auth.getUser(jwt) : { data: null };
+    if (!who?.user) return reply(401, { ok: false, msg: "Inicia sesión como administrador." });
+    const { data: adm } = await db0.from("admins").select("uid").eq("uid", who.user.id).maybeSingle();
+    if (!adm) return reply(403, { ok: false, msg: "Solo administración puede ver este estado." });
+    const env = { sid: !!Deno.env.get("TWILIO_ACCOUNT_SID"), token: !!Deno.env.get("TWILIO_AUTH_TOKEN"), verify: !!Deno.env.get("TWILIO_VERIFY_SID") };
+    let service: { name: string; whatsapp: boolean } | null = null, err: string | null = null;
+    if (env.sid && env.token && env.verify) {
+      try {
+        const r = await fetch("https://verify.twilio.com/v2/Services/" + Deno.env.get("TWILIO_VERIFY_SID"), {
+          headers: { Authorization: "Basic " + btoa(Deno.env.get("TWILIO_ACCOUNT_SID") + ":" + Deno.env.get("TWILIO_AUTH_TOKEN")) },
+        });
+        const j = await r.json().catch(() => ({}));
+        if (r.ok) service = { name: String(j.friendly_name || "Verify"), whatsapp: !!(j.whatsapp && (j.whatsapp.from || j.whatsapp.msg_service_sid)) };
+        else err = r.status === 401 ? "credenciales" : "servicio";
+      } catch (_) { err = "red"; }
+    }
+    const { data: stats } = await db0.rpc("recovery_stats");
+    return reply(200, { ok: true, env, service, err, stats: stats || {} });
+  }
+
+  if (!Deno.env.get("TWILIO_ACCOUNT_SID") || !Deno.env.get("TWILIO_AUTH_TOKEN") || !Deno.env.get("TWILIO_VERIFY_SID")) {
+    return reply(503, { ok: false, msg: "La recuperación por WhatsApp o SMS todavía no está activada. Escríbenos al WhatsApp 300 444 0009." });
+  }
   const usuario = String(body.usuario || "").trim().toLowerCase();
   if (!USER_RE.test(usuario)) return reply(400, { ok: false, msg: "Escribe un usuario válido." });
 
