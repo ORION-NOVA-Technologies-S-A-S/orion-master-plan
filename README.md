@@ -68,3 +68,12 @@ Un asistente inteligente humanoide capaz de colaborar con personas, automatizar 
 ORION NOVA Technologies S.A.S.
 
 Todos los derechos reservados.
+
+---
+
+## Página web
+
+- `index.html` — página principal de Orion Nova Technologies (NOVA, ORI, login y contacto). Se publica con GitHub Pages desde la rama `main`, carpeta raíz.
+- Usa el mismo proyecto de Supabase que NOVA Restaurantes: una sola cuenta Orion para todo el ecosistema. Solo lleva la clave pública (`sb_publishable_…`).
+- `supabase/01_orion_web_leads.sql` — tabla de solicitudes de contacto con RLS (solo administración las ve).
+- `web/` — plantilla fuente y logos.

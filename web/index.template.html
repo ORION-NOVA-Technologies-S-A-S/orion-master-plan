@@ -1,0 +1,1081 @@
+<title>Orion Nova Technologies</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Orion Nova Technologies: inteligencia artificial, software, robótica, IoT y ciberseguridad desde Neiva, Huila, Colombia.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Michroma&family=Saira+Condensed:wght@600;700;800&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: espacio profundo de marca. Héroe con NOVA y ORI a los lados del mensaje,
+   luego bandas de contenido sobre negro azulado; un solo brillo índigo-cian como acento. */
+:root{
+  --bg:#05070f;          /* negro espacial */
+  --bg-2:#0a0f20;        /* banda alterna */
+  --surface:#0e1530;     /* paneles */
+  --line:#1f2a52;        /* bordes */
+  --fg:#e9edf8;          /* texto */
+  --muted:#97a3c7;       /* texto secundario */
+  --silver:#cdd4e6;      /* plata del logo */
+  --indigo:#3d5cff;      /* azul Orion */
+  --cyan:#53c6ff;        /* brillo de visor */
+  --violet:#8b62ff;      /* degradado "real" */
+  --ok:#2fd27a;          /* WhatsApp / válido */
+  --warn:#ffb547;
+  --bad:#ff5f7a;
+  --f-display:"Saira Condensed","Arial Narrow",Impact,sans-serif;
+  --f-mark:"Michroma","Eurostile","Arial",sans-serif;
+  --f-body:"Manrope",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"JetBrains Mono",ui-monospace,"SFMono-Regular",Consolas,monospace;
+  --radius:14px;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth}
+section{scroll-margin-top:76px}
+body{background:var(--bg);color:var(--fg);font-family:var(--f-body);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:inherit}
+h1,h2,h3{font-family:var(--f-display);text-transform:uppercase;line-height:1.02;letter-spacing:.01em;text-wrap:balance;margin:0}
+p{margin:0}
+:focus-visible{outline:2px solid var(--cyan);outline-offset:3px;border-radius:6px}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.eyebrow{font-family:var(--f-mono);font-size:.74rem;letter-spacing:.18em;text-transform:uppercase;color:var(--cyan)}
+.btn{display:inline-flex;align-items:center;gap:.55em;border:1px solid transparent;border-radius:999px;padding:.78em 1.35em;font:600 .95rem/1 var(--f-body);cursor:pointer;text-decoration:none;transition:transform .15s,background .2s,border-color .2s,box-shadow .2s;white-space:nowrap}
+.btn:hover{transform:translateY(-1px)}
+.btn-primary{background:linear-gradient(135deg,var(--indigo),var(--violet));color:#fff;box-shadow:0 8px 28px -10px var(--indigo)}
+.btn-ghost{background:transparent;color:var(--fg);border-color:var(--line)}
+.btn-ghost:hover{border-color:var(--cyan)}
+.btn-wa{background:var(--ok);color:#04140b}
+.btn svg{width:18px;height:18px;flex:none}
+
+/* ---------- Encabezado ---------- */
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:40;background:color-mix(in srgb,var(--bg) 82%,transparent);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid color-mix(in srgb,var(--line) 70%,transparent)}
+.top .wrap{display:flex;align-items:center;gap:20px;min-height:68px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;min-width:0}
+.brand img{width:46px;height:auto;mix-blend-mode:screen}
+.brand .wm{font-family:var(--f-mark);font-size:.86rem;letter-spacing:.06em;line-height:1.15;white-space:nowrap}
+.brand .wm b{font-weight:400;color:var(--indigo);filter:brightness(1.35)}
+.brand .wm small{display:block;font-size:.5rem;letter-spacing:.42em;color:var(--muted)}
+nav.main{display:flex;gap:4px;margin-left:auto}
+nav.main a{text-decoration:none;color:var(--muted);font-weight:500;font-size:.92rem;padding:.5em .8em;border-radius:8px}
+nav.main a:hover{color:var(--fg);background:var(--surface)}
+.top .actions{display:flex;gap:10px;align-items:center}
+.user-chip{display:flex;align-items:center;gap:8px;font-size:.9rem;color:var(--silver)}
+.user-chip .av{width:32px;height:32px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(135deg,var(--indigo),var(--cyan));color:#fff;font-weight:700}
+.menu-btn{display:none;background:none;border:1px solid var(--line);color:var(--fg);border-radius:10px;width:42px;height:42px;cursor:pointer}
+@media (max-width:920px){
+  nav.main{position:absolute;left:0;right:0;top:100%;flex-direction:column;background:var(--bg-2);border-bottom:1px solid var(--line);padding:8px max(16px,env(safe-area-inset-right,0px)) 14px max(16px,env(safe-area-inset-left,0px));display:none}
+  nav.main.open{display:flex}
+  .menu-btn{display:grid;place-items:center;margin-left:auto}
+  .top .actions .user-chip span.nm{display:none}
+}
+@media (max-width:440px){.brand .wm{display:none}}
+
+/* ---------- Héroe ---------- */
+.hero{position:relative;overflow:hidden;padding-block:56px 40px;border-bottom:1px solid var(--line)}
+.hero canvas{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.hero::after{content:"";position:absolute;left:50%;bottom:-340px;width:1200px;height:520px;transform:translateX(-50%);background:radial-gradient(closest-side,color-mix(in srgb,var(--indigo) 45%,transparent),transparent);pointer-events:none}
+.hero .wrap{position:relative;z-index:1;display:grid;grid-template-columns:minmax(150px,1fr) minmax(0,1.6fr) minmax(150px,1fr);align-items:end;gap:12px}
+.hero-copy{text-align:center;padding-bottom:16px;min-width:0}
+.hero-copy .logo{width:min(300px,70%);mix-blend-mode:screen;margin:0 auto 10px;display:block}
+.hero h1{font-size:clamp(2.3rem,5.4vw,4.4rem);font-weight:800;margin-top:14px}
+.hero h1 .grad{display:block;font-size:1.2em;overflow-wrap:anywhere;background:linear-gradient(90deg,var(--cyan),var(--indigo) 45%,var(--violet));-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero .lead{color:var(--muted);max-width:52ch;margin:16px auto 0;font-size:1.05rem}
+.hero .ctas{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:26px}
+.slogan{font-family:var(--f-mono);font-size:.78rem;letter-spacing:.24em;color:var(--silver);text-transform:uppercase}
+.slogan i{font-style:normal;color:var(--cyan);margin:0 .5em}
+
+.character{position:relative;display:flex;flex-direction:column;align-items:center;cursor:pointer;background:none;border:0;padding:0;color:inherit;font:inherit}
+.character svg{width:100%;max-width:250px;height:auto;filter:drop-shadow(0 20px 40px rgba(0,0,0,.6))}
+.character .tag{font-family:var(--f-mono);font-size:.7rem;letter-spacing:.2em;color:var(--muted);margin-top:4px}
+.bubble{position:relative;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:10px 14px;font-size:.88rem;line-height:1.45;max-width:240px;margin-bottom:12px;min-height:3.6em;text-align:left}
+.bubble::after{content:"";position:absolute;bottom:-7px;left:50%;width:12px;height:12px;background:var(--surface);border-right:1px solid var(--line);border-bottom:1px solid var(--line);transform:translateX(-50%) rotate(45deg)}
+.bubble b{color:var(--cyan);font-weight:600}
+.ori .bubble b{color:var(--warn)}
+.float{animation:float 6s ease-in-out infinite}
+.float.delay{animation-delay:-3s}
+@keyframes float{50%{transform:translateY(-10px)}}
+.blink{transform-box:fill-box;transform-origin:center;animation:blink 5s infinite}
+.blink.late{animation-delay:1.7s}
+@keyframes blink{0%,93%,100%{transform:scaleY(1)}96%{transform:scaleY(.1)}}
+#nova-arm{transform-box:view-box;transform-origin:72px 214px;animation:var(--wave,none)}
+.character.wave{--wave:wave .9s ease-in-out 2}
+@keyframes wave{0%,100%{transform:rotate(0)}30%{transform:rotate(-22deg)}70%{transform:rotate(12deg)}}
+#ori-head{transform-box:view-box;transform-origin:130px 170px;animation:var(--tilt,none)}
+.character.tilt{--tilt:tilt 1.2s ease-in-out}
+@keyframes tilt{30%{transform:rotate(-9deg)}70%{transform:rotate(6deg)}}
+.ring-spin{transform-box:fill-box;transform-origin:center;animation:spin 9s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+@media (max-width:860px){
+  .hero .wrap{grid-template-columns:1fr 1fr;align-items:start}
+  .hero-copy{grid-column:1/-1;grid-row:1}
+  .character svg{max-width:170px}
+  .bubble{font-size:.82rem}
+}
+
+/* ---------- Secciones ---------- */
+section.band{padding-block:84px}
+section.alt{background:var(--bg-2);border-block:1px solid var(--line)}
+.sec-head{display:grid;gap:12px;max-width:760px;margin-bottom:40px}
+.sec-head h2{font-size:clamp(2rem,4vw,3.1rem);font-weight:800}
+.sec-head p{color:var(--muted)}
+
+/* Servicios: cada uno con su color de neón, como en la pieza publicitaria */
+.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
+.svc{--c:var(--cyan);position:relative;border:1px solid color-mix(in srgb,var(--c) 45%,var(--line));border-radius:var(--radius);padding:22px;background:linear-gradient(180deg,color-mix(in srgb,var(--c) 9%,transparent),transparent 60%);min-width:0;display:flex;flex-direction:column;gap:10px}
+.svc svg{width:38px;height:38px;color:var(--c)}
+.svc h3{font-size:1.45rem;color:var(--c);font-weight:700}
+.svc p{color:var(--muted);font-size:.93rem}
+.svc .who{margin-top:auto;font-family:var(--f-mono);font-size:.7rem;letter-spacing:.08em;color:var(--fg);opacity:.75}
+
+/* Proyectos */
+.projects{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+.proj{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:24px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.proj .row{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;flex-wrap:wrap}
+.proj .row h3{min-width:0}
+.proj h3{font-size:1.6rem}
+.proj p{color:var(--muted);font-size:.94rem}
+.proj ul{margin:0;padding-left:1.1em;color:var(--silver);font-size:.9rem;display:grid;gap:4px}
+.pill{font-family:var(--f-mono);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;padding:.35em .75em;border-radius:999px;border:1px solid;white-space:nowrap}
+.pill.live{color:var(--ok);border-color:color-mix(in srgb,var(--ok) 50%,transparent);background:color-mix(in srgb,var(--ok) 10%,transparent)}
+.pill.build{color:var(--warn);border-color:color-mix(in srgb,var(--warn) 50%,transparent);background:color-mix(in srgb,var(--warn) 10%,transparent)}
+.pill.plan{color:var(--muted);border-color:var(--line)}
+
+/* Ecosistema ORION: tabla de módulos como "constelación" */
+.eco{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+.eco div{background:var(--bg);padding:18px;min-width:0}
+.eco b{display:block;font-family:var(--f-mark);font-size:.78rem;letter-spacing:.06em;font-weight:400;margin-bottom:6px}
+.eco b span{color:var(--cyan)}
+.eco small{color:var(--muted);font-size:.85rem;line-height:1.45;display:block}
+@media (max-width:900px){.eco{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:680px){.eco{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:420px){.eco{grid-template-columns:1fr}}
+.roadmap{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px;font-family:var(--f-mono);font-size:.74rem}
+.roadmap span{border:1px solid var(--line);border-radius:8px;padding:.45em .8em;color:var(--muted)}
+.roadmap span.now{color:var(--fg);border-color:var(--indigo);background:color-mix(in srgb,var(--indigo) 16%,transparent)}
+
+/* NOVA y ORI */
+.duo{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.mascot{display:grid;grid-template-columns:150px minmax(0,1fr);gap:20px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:24px}
+.mascot svg{width:100%;height:auto}
+.mascot h3{font-size:2.2rem}
+.mascot .role{color:var(--muted);margin:6px 0 12px;font-size:.95rem}
+.mascot ul{margin:0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:6px}
+.mascot li{font-size:.8rem;border:1px solid var(--line);border-radius:999px;padding:.3em .8em;color:var(--silver)}
+.ori-tip{margin-top:18px;display:flex;gap:14px;align-items:flex-start;border:1px dashed color-mix(in srgb,var(--warn) 55%,var(--line));border-radius:var(--radius);padding:16px 18px;background:color-mix(in srgb,var(--warn) 6%,transparent)}
+.ori-tip .k{font-family:var(--f-mono);font-size:.7rem;letter-spacing:.14em;color:var(--warn);white-space:nowrap;padding-top:3px}
+.ori-tip p{font-size:.95rem;min-width:0}
+.ori-tip button{margin-left:auto;flex:none}
+@media (max-width:860px){.duo{grid-template-columns:1fr}.mascot{grid-template-columns:110px minmax(0,1fr)}.ori-tip{flex-wrap:wrap}}
+
+/* Misión y visión */
+.mv{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+.mv h3{font-size:1.9rem;margin-bottom:12px}
+.mv p{color:var(--muted)}
+.mv .year{font-family:var(--f-display);font-size:5rem;font-weight:800;line-height:1;color:transparent;-webkit-text-stroke:1px var(--indigo);display:block;margin-bottom:6px}
+@media (max-width:760px){.mv{grid-template-columns:1fr}}
+
+/* Panel del usuario */
+#panel{padding-block:44px;background:linear-gradient(180deg,color-mix(in srgb,var(--indigo) 14%,var(--bg)),var(--bg));border-bottom:1px solid var(--line)}
+#panel .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-top:22px}
+#panel .tile{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:18px;display:flex;flex-direction:column;gap:6px;text-decoration:none;color:var(--fg);text-align:left;font:inherit;cursor:pointer;transition:border-color .2s}
+#panel .tile:hover{border-color:var(--cyan)}
+#adminBox{margin-top:34px}
+.admin-head{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:12px}
+.admin-head h3{font-size:1.6rem}
+.table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px}
+table{width:100%;border-collapse:collapse;font-size:.88rem;min-width:720px}
+th,td{padding:10px 12px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-family:var(--f-mono);font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:500}
+td select{padding:.4em .6em;font-size:.85rem;width:auto}
+td:nth-child(3){font-variant-numeric:tabular-nums;white-space:nowrap}
+#panel .tile b{font-family:var(--f-display);text-transform:uppercase;font-size:1.3rem}
+#panel .tile span{color:var(--muted);font-size:.88rem}
+#panel h2{font-size:clamp(1.8rem,3.4vw,2.6rem)}
+
+/* Contacto */
+.contact{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:28px;align-items:center;border:1px solid color-mix(in srgb,var(--ok) 40%,var(--line));border-radius:20px;padding:36px;background:radial-gradient(120% 140% at 0% 0%,color-mix(in srgb,var(--ok) 10%,transparent),transparent 60%)}
+.contact h2{font-size:clamp(2rem,4.4vw,3.4rem)}
+.phone{font-family:var(--f-display);font-weight:800;font-size:clamp(2.2rem,5vw,3.6rem);color:var(--ok);letter-spacing:.02em;line-height:1;margin-top:10px;font-variant-numeric:tabular-nums}
+.lead-form{grid-column:1/-1;border-top:1px solid var(--line);padding-top:24px}
+.contact dl{display:grid;gap:14px;margin:0}
+.contact dt{font-family:var(--f-mono);font-size:.7rem;letter-spacing:.14em;color:var(--muted);text-transform:uppercase}
+.contact dd{margin:2px 0 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;word-break:break-word}
+.copy{background:none;border:1px solid var(--line);color:var(--muted);border-radius:8px;font:500 .72rem var(--f-mono);padding:.3em .6em;cursor:pointer}
+.copy:hover{color:var(--fg);border-color:var(--cyan)}
+@media (max-width:760px){.contact{grid-template-columns:1fr;padding:24px}}
+
+footer{padding-block:34px 40px;color:var(--muted);font-size:.85rem;border-top:1px solid var(--line)}
+footer .wrap{display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;align-items:center}
+footer .seg{font-family:var(--f-mono);font-size:.7rem;letter-spacing:.2em}
+
+/* ---------- Modal de acceso ---------- */
+.modal{position:fixed;inset:0;z-index:60;display:grid;place-items:center;background:rgba(2,4,10,.72);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);padding:max(16px,env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) max(16px,env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));overflow-y:auto}
+.dialog{width:min(860px,100%);display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);background:var(--bg-2);border:1px solid var(--line);border-radius:20px;overflow:hidden;box-shadow:0 40px 80px -20px rgba(0,0,0,.8)}
+.dialog aside{padding:28px;background:radial-gradient(120% 100% at 0% 0%,color-mix(in srgb,var(--indigo) 30%,transparent),transparent 70%),var(--bg);display:flex;flex-direction:column;gap:14px;border-right:1px solid var(--line)}
+.dialog aside svg{width:150px;align-self:center}
+.dialog aside .bubble{max-width:none;margin:0}
+.dialog aside .bubble::after{display:none}
+.dialog .form-side{padding:28px;position:relative}
+.close{position:absolute;top:14px;right:14px;width:36px;height:36px;border-radius:10px;border:1px solid var(--line);background:none;color:var(--fg);cursor:pointer;font-size:1.2rem}
+.tabs{display:flex;gap:4px;background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:4px;margin-bottom:20px;margin-right:46px}
+.tabs button{flex:1;border:0;background:none;color:var(--muted);font:600 .9rem var(--f-body);padding:.6em;border-radius:9px;cursor:pointer}
+.tabs button[aria-selected="true"]{background:var(--surface);color:var(--fg)}
+form{display:grid;gap:14px}
+label{display:grid;gap:6px;font-size:.84rem;color:var(--silver);font-weight:600}
+input,select,textarea{width:100%;background:var(--bg);border:1px solid var(--line);color:var(--fg);border-radius:10px;padding:.8em .9em;font:400 1rem var(--f-body)}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--cyan);box-shadow:0 0 0 3px color-mix(in srgb,var(--cyan) 22%,transparent)}
+.pw{position:relative}
+.pw input{padding-right:84px}
+.pw button{position:absolute;right:8px;top:50%;transform:translateY(-50%);background:none;border:0;color:var(--muted);font:500 .75rem var(--f-mono);cursor:pointer;padding:.4em}
+.meter{height:6px;background:var(--line);border-radius:6px;overflow:hidden}
+.meter i{display:block;height:100%;width:0;background:var(--bad);transition:width .25s,background .25s}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.msg{font-size:.86rem;min-height:1.3em}
+.msg.err{color:var(--bad)}
+.msg.ok{color:var(--ok)}
+.fine{font-size:.76rem;color:var(--muted);line-height:1.5}
+.linkish{background:none;border:0;color:var(--cyan);font:inherit;cursor:pointer;padding:0;text-decoration:underline;text-underline-offset:3px}
+@media (max-width:720px){.dialog{grid-template-columns:1fr}.dialog aside{flex-direction:row;align-items:center;border-right:0;border-bottom:1px solid var(--line);padding:18px}.dialog aside svg{width:74px;flex:none}.dialog aside .eyebrow,.dialog aside .fine{display:none}.row2{grid-template-columns:1fr}}
+
+/* ---------- Chat con NOVA ---------- */
+.chat-fab{position:fixed;right:calc(18px + env(safe-area-inset-right,0px));bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:50;display:flex;align-items:center;gap:10px;border:1px solid var(--line);background:var(--surface);color:var(--fg);border-radius:999px;padding:6px 16px 6px 6px;cursor:pointer;font:600 .9rem var(--f-body);box-shadow:0 12px 30px -10px rgba(0,0,0,.8)}
+.chat-fab .face{width:42px;height:42px;border-radius:50%;background:#0a0f24;display:grid;place-items:center;border:2px solid var(--cyan)}
+.chat-fab .face svg{width:30px}
+.chat{position:fixed;right:calc(18px + env(safe-area-inset-right,0px));bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:55;width:min(380px,calc(100vw - 32px));height:min(560px,calc(100vh - 110px));display:flex;flex-direction:column;background:var(--bg-2);border:1px solid var(--line);border-radius:18px;overflow:hidden;box-shadow:0 30px 60px -20px rgba(0,0,0,.85)}
+.chat-h{display:flex;align-items:center;gap:10px;padding:12px 14px;border-bottom:1px solid var(--line);background:var(--surface)}
+.chat-h .face{width:38px;height:38px;border-radius:50%;background:#0a0f24;display:grid;place-items:center;border:2px solid var(--cyan);flex:none}
+.chat-h .face svg{width:26px}
+.chat-h b{display:block;font-family:var(--f-display);text-transform:uppercase;font-size:1.15rem;line-height:1}
+.chat-h small{color:var(--ok);font-size:.74rem}
+.chat-h .ctrl{margin-left:auto;display:flex;gap:6px}
+.chat-h .ctrl button{background:none;border:1px solid var(--line);color:var(--muted);border-radius:8px;height:32px;padding:0 8px;cursor:pointer;font:500 .72rem var(--f-mono)}
+.chat-h .ctrl button[aria-pressed="true"]{color:var(--cyan);border-color:var(--cyan)}
+.log{flex:1;overflow-y:auto;padding:14px;display:flex;flex-direction:column;gap:10px}
+.m{max-width:85%;padding:9px 12px;border-radius:14px;font-size:.9rem;line-height:1.45;overflow-wrap:anywhere}
+.m.nova{background:var(--surface);border:1px solid var(--line);align-self:flex-start;border-bottom-left-radius:4px}
+.m.ori{background:color-mix(in srgb,var(--warn) 10%,var(--surface));border:1px solid color-mix(in srgb,var(--warn) 40%,var(--line));align-self:flex-start;border-bottom-left-radius:4px}
+.m.ori::before{content:"ORI · ";font-weight:700;color:var(--warn)}
+.m.me{background:linear-gradient(135deg,var(--indigo),var(--violet));color:#fff;align-self:flex-end;border-bottom-right-radius:4px}
+.m a{color:var(--cyan)}
+.quick{display:flex;gap:6px;overflow-x:auto;padding:8px 12px;border-top:1px solid var(--line)}
+.quick button{flex:none;background:none;border:1px solid var(--line);color:var(--silver);border-radius:999px;padding:.4em .85em;font:500 .8rem var(--f-body);cursor:pointer}
+.quick button:hover{border-color:var(--cyan);color:var(--fg)}
+.chat form{display:flex;gap:8px;padding:10px 12px 12px;grid-template-columns:none}
+.chat form input{flex:1;min-width:0}
+.chat form button{flex:none;border-radius:10px;padding:0 14px}
+
+.toast{position:fixed;left:50%;bottom:calc(90px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--surface);border:1px solid var(--ok);color:var(--fg);padding:.7em 1.1em;border-radius:12px;z-index:70;font-size:.9rem;max-width:calc(100vw - 32px)}
+
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  html{scroll-behavior:auto}
+}
+</style>
+
+<!-- ================= SVG reutilizables ================= -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <linearGradient id="g-shell" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#b9c3da"/></linearGradient>
+    <linearGradient id="g-visor" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#121a3c"/><stop offset="1" stop-color="#050816"/></linearGradient>
+    <radialGradient id="g-pod" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#7fd6ff"/><stop offset=".55" stop-color="#2f5bff"/><stop offset="1" stop-color="#16246b"/></radialGradient>
+    <linearGradient id="g-owl" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8a5e3a"/><stop offset="1" stop-color="#5a3a22"/></linearGradient>
+    <linearGradient id="g-hood" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1b2340"/><stop offset="1" stop-color="#0b0f1f"/></linearGradient>
+    <radialGradient id="g-iris" cx=".45" cy=".4" r=".6"><stop offset="0" stop-color="#9fe3ff"/><stop offset=".5" stop-color="#2f86ff"/><stop offset="1" stop-color="#123a9a"/></radialGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+
+    <!-- NOVA: humanoide blanco con visor oscuro -->
+    <symbol id="nova" viewBox="0 0 260 340">
+      <ellipse cx="130" cy="330" rx="78" ry="8" fill="#000" opacity=".45"/>
+      <!-- brazo derecho (abajo) -->
+      <rect x="190" y="206" width="30" height="78" rx="15" fill="url(#g-shell)"/>
+      <circle cx="205" cy="292" r="16" fill="#1a2138"/>
+      <!-- torso -->
+      <path d="M72 204 Q130 186 188 204 L200 300 Q130 324 60 300 Z" fill="url(#g-shell)"/>
+      <path d="M86 300 Q130 314 174 300 L176 316 Q130 330 84 316 Z" fill="#1a2138"/>
+      <circle cx="130" cy="236" r="19" fill="none" stroke="#2f5bff" stroke-width="5"/>
+      <path d="M118 236 a12 12 0 0 1 20 -9" fill="none" stroke="#53c6ff" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="130" cy="236" r="4" fill="#2f5bff"/>
+      <text x="130" y="282" text-anchor="middle" font-family="Saira Condensed, Arial Narrow, sans-serif" font-weight="800" font-style="italic" font-size="22" fill="#2a49d6" letter-spacing="1">NOVA</text>
+      <!-- cuello -->
+      <rect x="112" y="178" width="36" height="20" rx="6" fill="#8a94b0"/>
+      <!-- brazo izquierdo (saluda) -->
+      <g id="nova-arm">
+        <rect x="40" y="150" width="30" height="80" rx="15" fill="url(#g-shell)" transform="rotate(14 72 214)"/>
+        <g transform="rotate(14 72 214)">
+          <rect x="34" y="122" width="40" height="36" rx="14" fill="#1a2138"/>
+          <rect x="38" y="106" width="9" height="22" rx="4.5" fill="#1a2138"/>
+          <rect x="49" y="102" width="9" height="24" rx="4.5" fill="#1a2138"/>
+          <rect x="60" y="106" width="9" height="22" rx="4.5" fill="#1a2138"/>
+        </g>
+      </g>
+      <!-- cabeza -->
+      <g>
+        <circle cx="50" cy="106" r="22" fill="url(#g-pod)"/>
+        <circle cx="210" cy="106" r="22" fill="url(#g-pod)"/>
+        <circle cx="50" cy="106" r="12" fill="none" stroke="#bfefff" stroke-width="2" opacity=".7"/>
+        <circle cx="210" cy="106" r="12" fill="none" stroke="#bfefff" stroke-width="2" opacity=".7"/>
+        <ellipse cx="130" cy="104" rx="84" ry="80" fill="url(#g-shell)"/>
+        <rect x="64" y="58" width="132" height="96" rx="44" fill="url(#g-visor)"/>
+        <path d="M84 70 Q110 60 136 64" stroke="#fff" stroke-width="4" stroke-linecap="round" opacity=".18" fill="none"/>
+        <g filter="url(#glow)" stroke="#53c6ff" stroke-width="7" stroke-linecap="round" fill="none">
+          <g class="blink"><path d="M90 108 Q104 90 118 108"/></g>
+          <g class="blink"><path d="M142 108 Q156 90 170 108"/></g>
+          <path d="M112 128 Q130 142 148 128" stroke-width="5"/>
+        </g>
+      </g>
+    </symbol>
+
+    <!-- ORI: búho de conocimiento y seguridad, con monóculo cibernético y sudadera -->
+    <symbol id="ori" viewBox="0 0 260 340">
+      <ellipse cx="130" cy="330" rx="80" ry="8" fill="#000" opacity=".45"/>
+      <!-- cuerpo / sudadera -->
+      <path d="M44 330 Q36 214 130 186 Q224 214 216 330 Z" fill="url(#g-hood)"/>
+      <path d="M96 200 Q130 270 164 200 Q150 192 130 190 Q110 192 96 200 Z" fill="#d6b88e"/>
+      <path d="M108 212 q8 6 16 0 M136 212 q8 6 16 0 M118 232 q12 7 24 0" stroke="#a9845b" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <path d="M96 200 Q130 280 164 200" fill="none" stroke="#2a3460" stroke-width="6"/>
+      <circle cx="176" cy="262" r="15" fill="none" stroke="#53c6ff" stroke-width="4" filter="url(#glow)"/>
+      <circle cx="176" cy="262" r="5" fill="#53c6ff"/>
+      <text x="176" y="300" text-anchor="middle" font-family="Saira Condensed, Arial Narrow, sans-serif" font-weight="700" font-size="20" fill="#cdd4e6" letter-spacing="1">ORI</text>
+      <!-- ala con pulgar arriba -->
+      <path d="M50 300 Q30 250 60 222 Q74 260 72 304 Z" fill="url(#g-owl)"/>
+      <g id="ori-head">
+        <!-- penachos -->
+        <path d="M64 70 L50 18 L98 52 Z" fill="#6b4529"/>
+        <path d="M196 70 L210 18 L162 52 Z" fill="#6b4529"/>
+        <ellipse cx="130" cy="112" rx="92" ry="80" fill="url(#g-owl)"/>
+        <!-- disco facial -->
+        <path d="M130 70 Q60 56 52 116 Q56 168 130 170 Q204 168 208 116 Q200 56 130 70 Z" fill="#c99d6c"/>
+        <path d="M130 74 L130 96" stroke="#8a5e3a" stroke-width="4" stroke-linecap="round"/>
+        <!-- cejas -->
+        <path d="M70 80 Q96 64 120 84" stroke="#4a2f1b" stroke-width="7" fill="none" stroke-linecap="round"/>
+        <path d="M140 84 Q164 64 190 80" stroke="#4a2f1b" stroke-width="7" fill="none" stroke-linecap="round"/>
+        <!-- ojo izquierdo -->
+        <g class="blink late"><circle cx="96" cy="116" r="28" fill="#f4efe6"/><circle cx="98" cy="118" r="18" fill="url(#g-iris)"/><circle cx="98" cy="118" r="8" fill="#050816"/><circle cx="92" cy="111" r="4.5" fill="#fff"/></g>
+        <!-- ojo derecho con monóculo cibernético -->
+        <g class="blink late"><circle cx="164" cy="116" r="28" fill="#f4efe6"/><circle cx="162" cy="118" r="18" fill="url(#g-iris)"/><circle cx="162" cy="118" r="8" fill="#050816"/><circle cx="156" cy="111" r="4.5" fill="#fff"/></g>
+        <g filter="url(#glow)">
+          <circle cx="164" cy="116" r="35" fill="none" stroke="#53c6ff" stroke-width="4"/>
+          <g class="ring-spin"><circle cx="164" cy="116" r="41" fill="none" stroke="#53c6ff" stroke-width="2" stroke-dasharray="6 9" opacity=".8"/></g>
+          <path d="M199 116 H222 L230 128" stroke="#53c6ff" stroke-width="3" fill="none" stroke-linecap="round"/>
+          <circle cx="230" cy="128" r="3.5" fill="#53c6ff"/>
+        </g>
+        <!-- pico -->
+        <path d="M120 140 Q130 134 140 140 L130 164 Z" fill="#e3a43a"/>
+        <path d="M120 140 Q130 134 140 140" stroke="#b97b1e" stroke-width="2" fill="none"/>
+      </g>
+    </symbol>
+  </defs>
+</svg>
+
+<!-- ================= Encabezado ================= -->
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#inicio" aria-label="Orion Nova Technologies, inicio">
+      <img src="{{SYMBOL}}" alt="" width="46" height="37">
+      <span class="wm">ORION <b>NOVA</b><small>TECHNOLOGIES</small></span>
+    </a>
+    <button class="menu-btn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false" aria-controls="mainNav">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <nav class="main" id="mainNav" aria-label="Principal">
+      <a href="#servicios">Servicios</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#ecosistema">Ecosistema</a>
+      <a href="#nova-ori">NOVA y ORI</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <div class="actions" id="authArea">
+      <button class="btn btn-primary" id="openLogin" type="button">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg>
+        Ingresar
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ================= Panel del usuario (tras iniciar sesión) ================= -->
+<section id="panel" hidden aria-live="polite">
+  <div class="wrap">
+    <p class="eyebrow">Mi cuenta Orion</p>
+    <h2 id="panelHello">Hola</h2>
+    <p style="color:var(--muted);margin-top:8px" id="panelSub">Tu cuenta Orion sirve en todo el ecosistema Orion Nova.</p>
+    <div class="grid">
+      <a class="tile" href="https://orion-nova-technologies-s-a-s.github.io/NOVA-IA/" target="_blank" rel="noopener"><b>NOVA Restaurantes →</b><span id="tileNova">Pide en restaurantes de Neiva con el mismo usuario y contraseña.</span></a>
+      <a class="tile" href="https://orion-nova-technologies-s-a-s.github.io/NOVA-COURSE/" target="_blank" rel="noopener"><b>Orion Nova Academy →</b><span>Cursos con certificado de Orion Nova Technologies.</span></a>
+      <a class="tile" href="https://orion-nova-technologies-s-a-s.github.io/Tr-nsito-IA/" target="_blank" rel="noopener"><b>Alerta Tránsito →</b><span>Reportes de tránsito de la comunidad.</span></a>
+      <button class="tile" type="button" data-open-chat><b>Soporte</b><span>Habla con NOVA o escríbenos por WhatsApp.</span></button>
+    </div>
+    <div id="adminBox" hidden>
+      <div class="admin-head"><h3>Solicitudes de contacto</h3><button class="btn btn-ghost" type="button" id="reloadLeads">Actualizar</button></div>
+      <div class="table-wrap"><table><thead><tr><th>Fecha</th><th>Nombre</th><th>Celular</th><th>Servicio</th><th>Mensaje</th><th>Estado</th></tr></thead><tbody id="leadRows"><tr><td colspan="6">Cargando…</td></tr></tbody></table></div>
+    </div>
+  </div>
+</section>
+
+<main id="inicio">
+<!-- ================= Héroe ================= -->
+<section class="hero">
+  <canvas id="stars" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <button class="character nova float" id="heroNova" type="button" aria-label="NOVA, toca para que te salude">
+      <div class="bubble" id="novaSay">¡Hola! Soy <b>NOVA</b>. Te muestro lo que hacemos.</div>
+      <svg viewBox="0 0 260 340" role="img" aria-label="NOVA, el humanoide de Orion Nova"><use href="#nova"/></svg>
+      <span class="tag">NOVA · HUMANOIDE IA</span>
+    </button>
+
+    <div class="hero-copy">
+      <img class="logo" src="{{LOGO}}" alt="Logo de Orion Nova Technologies: Innovamos, Desarrollamos, Conectamos" width="300" height="264">
+      <h1>Transformamos tus ideas en <span class="grad">tecnología real</span></h1>
+      <p class="lead">Inteligencia artificial, software, robótica, IoT y ciberseguridad hechos en Neiva, Huila, para que tu negocio llegue al siguiente nivel.</p>
+      <div class="ctas">
+        <button class="btn btn-primary" type="button" data-open-chat>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12Z"/></svg>
+          Hablar con NOVA
+        </button>
+        <a class="btn btn-wa" href="https://wa.me/573004440009?text=Hola%20Orion%20Nova%2C%20quiero%20hablar%20de%20mi%20proyecto" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.3 14.2c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.5-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2.1 1-2.4c.3-.3.6-.3.8-.3h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .5l-.4.6-.4.4c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.6-.1l.9-1.1c.2-.3.4-.2.7-.1l2 1c.3.1.5.2.5.3.1.2.1.8-.1 1.4Z"/></svg>
+          WhatsApp
+        </a>
+      </div>
+      <p class="slogan" style="margin-top:22px">Innovamos<i>·</i>Desarrollamos<i>·</i>Conectamos</p>
+    </div>
+
+    <button class="character ori float delay" id="heroOri" type="button" aria-label="ORI, toca para un consejo de seguridad">
+      <div class="bubble" id="oriSay">Soy <b>ORI</b>. Toca y te doy un consejo de seguridad.</div>
+      <svg viewBox="0 0 260 340" role="img" aria-label="ORI, el búho de Orion Nova"><use href="#ori"/></svg>
+      <span class="tag">ORI · SEGURIDAD Y CONOCIMIENTO</span>
+    </button>
+  </div>
+</section>
+
+<!-- ================= Servicios ================= -->
+<section class="band" id="servicios">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">Servicios</p>
+      <h2>Soluciones tecnológicas a tu medida</h2>
+      <p>Desde la página web de tu negocio hasta un asistente con inteligencia artificial que atiende a tus clientes las 24 horas.</p>
+    </div>
+    <div class="services">
+      <article class="svc" style="--c:#53c6ff">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2" y="4" width="20" height="13" rx="2"/><path d="M8 21h8M12 17v4M9.5 8.5 7 11l2.5 2.5M14.5 8.5 17 11l-2.5 2.5"/></svg>
+        <h3>Desarrollo web</h3>
+        <p>Páginas modernas, rápidas y seguras, adaptadas a celular y computador.</p>
+      </article>
+      <article class="svc" style="--c:#a77bff">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="6" y="2" width="12" height="20" rx="2.5"/><rect x="9" y="6" width="2.5" height="2.5"/><rect x="12.5" y="6" width="2.5" height="2.5"/><rect x="9" y="10" width="2.5" height="2.5"/><rect x="12.5" y="10" width="2.5" height="2.5"/><path d="M11 18.5h2"/></svg>
+        <h3>Aplicaciones móviles</h3>
+        <p>Apps para Android e iOS con buena experiencia de usuario y alto rendimiento.</p>
+      </article>
+      <article class="svc" style="--c:#4fa3ff">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="4" y="7" width="16" height="12" rx="4"/><circle cx="9" cy="13" r="1.4" fill="currentColor"/><circle cx="15" cy="13" r="1.4" fill="currentColor"/><path d="M12 7V4M10 3h4M2 12v3M22 12v3"/></svg>
+        <h3>Asistentes virtuales</h3>
+        <p>Asistentes con IA que atienden 24/7, toman pedidos y automatizan respuestas.</p>
+      </article>
+      <article class="svc" style="--c:#ffb547">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="3.2"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1 7 17M17 7l2.1-2.1"/></svg>
+        <h3>Automatización</h3>
+        <p>Procesos que se hacen solos para ahorrar tiempo, bajar costos y crecer.</p>
+      </article>
+      <article class="svc" style="--c:#2fd27a">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2 4 5v6c0 5 3.4 9.4 8 11 4.6-1.6 8-6 8-11V5Z"/><rect x="9" y="11" width="6" height="5" rx="1"/><path d="M10 11V9.5a2 2 0 0 1 4 0V11"/></svg>
+        <h3>Ciberseguridad</h3>
+        <p>Protegemos sistemas, datos y clientes con monitoreo y buenas prácticas.</p>
+      </article>
+      <article class="svc" style="--c:#36d0e0">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 12 8 8l5 4v7H3Z"/><path d="M13 13l4-3 4 3v6h-8"/><path d="M8.5 4.5a6 6 0 0 1 7 0M10.3 6.6a3 3 0 0 1 3.4 0"/></svg>
+        <h3>IoT</h3>
+        <p>Dispositivos y sensores conectados para hogares, negocios y ciudades.</p>
+      </article>
+      <article class="svc" style="--c:#ff6fa8">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 10v4l11 5V5Z"/><path d="M14 8.5c2 .5 3 2 3 3.5s-1 3-3 3.5M6 15l1.5 5h3L9 16"/><path d="M19 7l2-1.5M19 17l2 1.5M20 12h2"/></svg>
+        <h3>Marketing digital</h3>
+        <p>Estrategias para que más clientes encuentren y recuerden tu marca.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= Proyectos ================= -->
+<section class="band alt" id="proyectos">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">Proyectos en marcha</p>
+      <h2>Lo que estamos construyendo</h2>
+      <p>Productos propios de Orion Nova, pensados para personas y negocios de Neiva y de toda Colombia.</p>
+    </div>
+    <div class="projects">
+      <article class="proj">
+        <div class="row"><h3>NOVA Restaurantes</h3><span class="pill build">En desarrollo</span></div>
+        <p>NOVA FLOW IA atiende a tus clientes por chat, arma el pedido con la carta real del restaurante y lo envía al dueño.</p>
+        <ul><li>Directorio de restaurantes de Neiva</li><li>Pagos por PSE</li><li>Tokens de fidelización para aliados</li></ul>
+      </article>
+      <article class="proj">
+        <div class="row"><h3>Orion Nova Academy</h3><span class="pill build">En desarrollo</span></div>
+        <p>Plataforma de cursos con módulos gratis y de pago, NOVA como tutor y certificado de Orion Nova Technologies.</p>
+        <ul><li>Programación, IA, robótica y más</li><li>Sección de idiomas con NOVA</li><li>Fuentes y referencias por curso</li></ul>
+      </article>
+      <article class="proj">
+        <div class="row"><h3>Alerta Tránsito</h3><span class="pill build">En desarrollo</span></div>
+        <p>Reportes de tránsito hechos por la comunidad para moverse mejor por la ciudad.</p>
+        <ul><li>Versión web</li><li>Reportes en tiempo real</li><li>Para conductores y peatones</li></ul>
+      </article>
+      <article class="proj">
+        <div class="row"><h3>ORION Nexus AI</h3><span class="pill plan">En diseño</span></div>
+        <p>Asistente inteligente humanoide que colabora con personas, automatiza procesos y conecta el mundo digital con el físico.</p>
+        <ul><li>Chat inteligente</li><li>Generación de documentos</li><li>Integración con todo el ecosistema</li></ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= Ecosistema ================= -->
+<section class="band" id="ecosistema">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">Ecosistema ORION · 2026–2035</p>
+      <h2>Una constelación de productos conectados</h2>
+      <p>Cada producto comparte una arquitectura modular, escalable y segura, con ORION Core como núcleo.</p>
+    </div>
+    <div class="eco">
+      <div><b>ORION <span>Core</span></b><small>Usuarios, roles, autenticación y API Gateway.</small></div>
+      <div><b>ORION <span>Nexus AI</span></b><small>Asistente con lenguaje natural y automatización.</small></div>
+      <div><b>ORION <span>Cloud</span></b><small>Servidores, contenedores, bases de datos y respaldos.</small></div>
+      <div><b>ORION <span>Vision</span></b><small>Visión por computador, OCR y video inteligente.</small></div>
+      <div><b>ORION <span>Home</span></b><small>Hogar inteligente: iluminación, sensores y seguridad.</small></div>
+      <div><b>ORION <span>Robotics</span></b><small>Robots móviles, educativos e industriales.</small></div>
+      <div><b>ORION <span>Secure</span></b><small>Accesos, auditoría, vulnerabilidades e incidentes.</small></div>
+      <div><b>ORION <span>Edu</span></b><small>Aprendizaje y formación en tecnologías emergentes.</small></div>
+      <div><b>ORION <span>Analytics</span></b><small>Datos convertidos en decisiones.</small></div>
+      <div><b>ORION <span>API Platform</span></b><small>Servicios abiertos para integrar todo.</small></div>
+      <div><b>ORION <span>Developer Hub</span></b><small>Herramientas para desarrolladores.</small></div>
+      <div><b>ORION <span>IoT Platform</span></b><small>Dispositivos conectados en tiempo real.</small></div>
+    </div>
+    <div class="roadmap" aria-label="Hoja de ruta">
+      <span class="now">Sprint 0 · Fundación</span><span class="now">Sprint 1 · Empresa</span><span>Sprint 2 · Arquitectura</span><span>Sprint 3 · Desarrollo</span><span>Sprint 4 · IA</span><span>Sprint 5 · Avatar</span><span>Sprint 6 · IoT</span>
+    </div>
+  </div>
+</section>
+
+<!-- ================= NOVA y ORI ================= -->
+<section class="band alt" id="nova-ori">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">Nuestros personajes</p>
+      <h2>Conoce a NOVA y ORI</h2>
+      <p>Te acompañan en la web, en los tutoriales y en redes. Los casos complejos y los contratos siempre los atiende una persona del equipo.</p>
+    </div>
+    <div class="duo">
+      <article class="mascot">
+        <svg viewBox="0 0 260 340" aria-hidden="true"><use href="#nova"/></svg>
+        <div>
+          <p class="eyebrow">Humanoide · Innovación e IA</p>
+          <h3>NOVA</h3>
+          <p class="role">Te da la bienvenida, presenta los servicios y te orienta para encontrar la solución que necesitas.</p>
+          <ul><li>Bienvenida</li><li>Explica soluciones</li><li>Tutoriales</li><li>Novedades</li></ul>
+          <button class="btn btn-ghost" style="margin-top:16px" type="button" data-open-chat>Chatear con NOVA</button>
+        </div>
+      </article>
+      <article class="mascot">
+        <svg viewBox="0 0 260 340" aria-hidden="true"><use href="#ori"/></svg>
+        <div>
+          <p class="eyebrow" style="color:var(--warn)">Búho · Conocimiento y seguridad</p>
+          <h3>ORI</h3>
+          <p class="role">Observa, recomienda y te avisa. Comparte alertas de seguridad y buenas prácticas para cuidar tus datos.</p>
+          <ul><li>Alertas de seguridad</li><li>Buenas prácticas</li><li>Recordatorios</li><li>Contenido educativo</li></ul>
+        </div>
+      </article>
+    </div>
+    <div class="ori-tip" aria-live="polite">
+      <span class="k">ORI RECOMIENDA</span>
+      <p id="oriTip">Usa una contraseña distinta para cada cuenta. Si una se filtra, las demás siguen protegidas.</p>
+      <button class="btn btn-ghost" type="button" id="nextTip">Otro consejo</button>
+    </div>
+  </div>
+</section>
+
+<!-- ================= Nosotros ================= -->
+<section class="band" id="nosotros">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">Nosotros</p>
+      <h2>Inteligencia que construye el futuro</h2>
+    </div>
+    <div class="mv">
+      <div>
+        <h3>Misión</h3>
+        <p>Investigar, diseñar, desarrollar e implementar soluciones basadas en inteligencia artificial, automatización, robótica, IoT, computación en la nube y desarrollo de software, para mejorar la calidad de vida de las personas e impulsar la transformación digital de las organizaciones en Colombia y el mundo.</p>
+      </div>
+      <div>
+        <span class="year">2035</span>
+        <h3>Visión</h3>
+        <p>Ser una empresa líder en América Latina en investigación, desarrollo e innovación, con un ecosistema propio de plataformas, asistentes inteligentes y sistemas autónomos que colaboren con las personas de forma ética, segura y eficiente.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= Contacto ================= -->
+<section class="band alt" id="contacto">
+  <div class="wrap">
+    <div class="contact">
+      <div>
+        <p class="eyebrow" style="color:var(--ok)">Escríbenos por WhatsApp</p>
+        <h2>Hablemos de tu proyecto</h2>
+        <p class="phone">300 444 0009</p>
+        <a class="btn btn-wa" style="margin-top:20px" href="https://wa.me/573004440009?text=Hola%20Orion%20Nova%2C%20quiero%20hablar%20de%20mi%20proyecto" target="_blank" rel="noopener">Abrir WhatsApp</a>
+      </div>
+      <dl>
+        <div><dt>WhatsApp</dt><dd><span>+57 300 444 0009</span><button class="copy" type="button" data-copy="+573004440009">Copiar</button></dd></div>
+        <div><dt>Correo</dt><dd><span>orion.nova.techno@gmail.com</span><button class="copy" type="button" data-copy="orion.nova.techno@gmail.com">Copiar</button></dd></div>
+        <div><dt>Ubicación</dt><dd>Neiva, Huila, Colombia</dd></div>
+        <div><dt>Ideal para</dt><dd style="color:var(--muted)">Empresas, emprendedores, tiendas en línea, profesionales e instituciones</dd></div>
+      </dl>
+      <form id="leadForm" class="lead-form" novalidate>
+        <p class="eyebrow">O déjanos tus datos y te llamamos</p>
+        <div class="row2">
+          <label>Nombre<input id="ldName" type="text" autocomplete="name" maxlength="80" required></label>
+          <label>Celular<input id="ldPhone" type="tel" autocomplete="tel" inputmode="numeric" maxlength="14" placeholder="300 000 0000" required></label>
+        </div>
+        <label>¿Qué necesitas?<select id="ldService">
+          <option value="web">Página web</option><option value="app">Aplicación móvil</option><option value="asistente">Asistente virtual con IA</option>
+          <option value="automatizacion">Automatización de procesos</option><option value="ciberseguridad">Ciberseguridad</option><option value="iot">IoT</option>
+          <option value="marketing">Marketing digital</option><option value="nova-restaurantes">Unir mi restaurante u hotel a NOVA</option><option value="otro">Otro</option>
+        </select></label>
+        <label>Cuéntanos tu idea<textarea id="ldMsg" rows="3" maxlength="1000"></textarea></label>
+        <label style="display:flex;gap:8px;align-items:flex-start;font-weight:500"><input id="ldTerms" type="checkbox" style="width:auto;margin-top:4px"> Autorizo que Orion Nova me contacte y trate mis datos según la Ley 1581 de 2012.</label>
+        <p class="msg" id="ldMsgOut" role="alert"></p>
+        <button class="btn btn-primary" type="submit" id="ldBtn" style="justify-content:center">Enviar solicitud</button>
+      </form>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© <span id="yr">2026</span> Orion Nova Technologies · Neiva, Huila</span>
+    <span class="seg">TECNOLOGÍA · INNOVACIÓN · CONEXIÓN</span>
+  </div>
+</footer>
+
+<!-- ================= Modal de acceso ================= -->
+<div class="modal" id="loginModal" hidden role="dialog" aria-modal="true" aria-labelledby="loginTitle">
+  <div class="dialog">
+    <aside>
+      <p class="eyebrow" style="color:var(--warn)">ORI SECURITY</p>
+      <svg viewBox="0 0 260 340" aria-hidden="true"><use href="#ori"/></svg>
+      <div class="bubble" id="oriGuard">Estoy vigilando tu acceso. Nunca compartas tu contraseña, ni siquiera con el equipo de Orion.</div>
+      <p class="fine">Tu cuenta Orion es la misma de NOVA Restaurantes: un solo usuario y contraseña para todo el ecosistema.</p>
+    </aside>
+    <div class="form-side">
+      <button class="close" type="button" id="closeLogin" aria-label="Cerrar">×</button>
+      <div class="tabs" role="tablist">
+        <button role="tab" id="tabIn" aria-selected="true" type="button">Ingresar</button>
+        <button role="tab" id="tabUp" aria-selected="false" type="button">Crear cuenta</button>
+      </div>
+
+      <form id="formIn" novalidate>
+        <h2 id="loginTitle" style="font-size:1.9rem">Bienvenido de nuevo</h2>
+        <label>Usuario<input id="inUser" type="text" autocomplete="username" autocapitalize="none" spellcheck="false" maxlength="40" placeholder="tu usuario" required></label>
+        <label>Contraseña
+          <span class="pw"><input id="inPass" type="password" autocomplete="current-password" maxlength="72" required><button type="button" data-toggle="inPass">Mostrar</button></span>
+        </label>
+        <div style="display:flex;justify-content:flex-end">
+          <button type="button" class="linkish" id="forgot">¿Olvidaste tu contraseña?</button>
+        </div>
+        <p class="msg" id="inMsg" role="alert"></p>
+        <button class="btn btn-primary" type="submit" id="inBtn" style="justify-content:center">Ingresar</button>
+      </form>
+
+      <form id="formUp" novalidate hidden>
+        <h2 style="font-size:1.9rem">Crea tu cuenta Orion</h2>
+        <div class="row2">
+          <label>Nombre<input id="upName" type="text" autocomplete="name" maxlength="60" required></label>
+          <label>Usuario<input id="upUser" type="text" autocomplete="username" autocapitalize="none" spellcheck="false" maxlength="20" placeholder="ej: carlos.neiva" required></label>
+        </div>
+        <div class="row2">
+          <label>Celular<input id="upPhone" type="tel" autocomplete="tel" inputmode="numeric" maxlength="14" placeholder="300 000 0000" required></label>
+          <label>Recuperar contraseña por<select id="upRecovery"><option value="whatsapp">WhatsApp</option><option value="sms">Mensaje de texto</option></select></label>
+        </div>
+        <label>Tipo de cuenta<select id="upRole"><option value="cliente">Cliente: pido comida o reservo hotel</option><option value="usuario">Negocio aliado: tengo un restaurante u hotel</option></select></label>
+        <div class="row2">
+          <label>Contraseña
+            <span class="pw"><input id="upPass" type="password" autocomplete="new-password" maxlength="72" required><button type="button" data-toggle="upPass">Mostrar</button></span>
+          </label>
+          <label>Repite la contraseña<input id="upPass2" type="password" autocomplete="new-password" maxlength="72" required></label>
+        </div>
+        <div class="meter" aria-hidden="true"><i id="meterBar"></i></div>
+        <label style="display:flex;gap:8px;align-items:flex-start;font-weight:500"><input id="upTerms" type="checkbox" style="width:auto;margin-top:4px"> Autorizo el tratamiento de mis datos personales según la Ley 1581 de 2012.</label>
+        <p class="msg" id="upMsg" role="alert"></p>
+        <button class="btn btn-primary" type="submit" id="upBtn" style="justify-content:center">Crear cuenta</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- ================= Chat NOVA ================= -->
+<button class="chat-fab" id="chatFab" type="button" data-open-chat aria-label="Abrir chat con NOVA">
+  <span class="face"><svg viewBox="60 50 140 110" aria-hidden="true"><g stroke="#53c6ff" stroke-width="9" stroke-linecap="round" fill="none"><path d="M90 108 Q104 90 118 108"/><path d="M142 108 Q156 90 170 108"/><path d="M112 128 Q130 142 148 128" stroke-width="7"/></g></svg></span>
+  Pregúntale a NOVA
+</button>
+<section class="chat" id="chat" hidden aria-label="Chat con NOVA">
+  <div class="chat-h">
+    <span class="face"><svg viewBox="60 50 140 110" aria-hidden="true"><g stroke="#53c6ff" stroke-width="9" stroke-linecap="round" fill="none"><path d="M90 108 Q104 90 118 108"/><path d="M142 108 Q156 90 170 108"/><path d="M112 128 Q130 142 148 128" stroke-width="7"/></g></svg></span>
+    <div><b>NOVA</b><small>● En línea</small></div>
+    <div class="ctrl">
+      <button type="button" id="voiceBtn" aria-pressed="false" title="Que NOVA lea sus respuestas">Voz</button>
+      <button type="button" id="closeChat" aria-label="Cerrar chat">✕</button>
+    </div>
+  </div>
+  <div class="log" id="log" aria-live="polite"></div>
+  <div class="quick" id="quick"></div>
+  <form id="chatForm">
+    <input id="chatInput" type="text" placeholder="Escribe tu pregunta…" autocomplete="off" aria-label="Mensaje para NOVA">
+    <button class="btn btn-primary" type="submit">Enviar</button>
+  </form>
+</section>
+
+<div class="toast" id="toast" hidden></div>
+
+<script>
+(function(){
+  "use strict";
+  const $ = (s, r=document) => r.querySelector(s);
+  const $$ = (s, r=document) => Array.from(r.querySelectorAll(s));
+  const WA = "https://wa.me/573004440009";
+  $("#yr").textContent = new Date().getFullYear();
+
+  /* ---------- conexión con Supabase (mismo proyecto y misma sesión que NOVA Restaurantes) ---------- */
+  const CFG = { url:"https://hreaxtlivntifwmaacox.supabase.co", key:"sb_publishable_vxgx-wGMO1I3tOS6lL_r2A_NOAQj8R0" };
+  const LSK = "nova.auth.v1", DOM = "@usuarios.novaia.app";
+  const mem = {};
+  const ls = {
+    get(k){ try{ const v=localStorage.getItem(k); return v?JSON.parse(v):(mem[k]??null); }catch(e){ return mem[k]??null; } },
+    set(k,v){ mem[k]=v; try{ if(v==null) localStorage.removeItem(k); else localStorage.setItem(k,JSON.stringify(v)); }catch(e){} }
+  };
+  const errx = (code,msg,status) => Object.assign(new Error(msg||code),{code,msg,status});
+  const emailOf = u => String(u).toLowerCase().replace(/@.*$/,"") + DOM;
+  const pack = j => ({ access_token:j.access_token, refresh_token:j.refresh_token, exp:Date.now()+(j.expires_in||3600)*1000,
+    user:{ id:j.user.id, username:(j.user.user_metadata&&j.user.user_metadata.username)||String(j.user.email||"").split("@")[0] } });
+  let sess = ls.get(LSK), refreshing = null;
+  async function token(){
+    if(!sess) return null;
+    if(sess.exp-Date.now()>60000) return sess.access_token;
+    if(!refreshing) refreshing=(async()=>{
+      try{
+        const r=await fetch(CFG.url+"/auth/v1/token?grant_type=refresh_token",{method:"POST",headers:{apikey:CFG.key,"Content-Type":"application/json"},body:JSON.stringify({refresh_token:sess.refresh_token})});
+        if(!r.ok){ sess=null; ls.set(LSK,null); return null; }
+        sess=pack(await r.json()); ls.set(LSK,sess); return sess.access_token;
+      }catch(e){ return sess?sess.access_token:null; } finally{ refreshing=null; }
+    })();
+    return refreshing;
+  }
+  async function api(method, path, body, extra){
+    const h={apikey:CFG.key,"Content-Type":"application/json"}, t=await token();
+    if(t) h.Authorization="Bearer "+t;
+    Object.assign(h, extra||{});
+    let r;
+    try{ r=await fetch(CFG.url+path,{method,headers:h,body:body===undefined?undefined:JSON.stringify(body)}); }
+    catch(e){ throw errx("offline","Sin conexión con el servidor. Revisa tu internet."); }
+    if(!r.ok){ let j=null; try{ j=await r.json(); }catch(e){} throw errx(r.status===429?"limit":"error", j&&(j.message||j.msg||j.error_description), r.status); }
+    if(r.status===204) return null;
+    const tx=await r.text(); return tx?JSON.parse(tx):null;
+  }
+  async function authCall(kind, body){
+    let r;
+    try{ r=await fetch(CFG.url+(kind==="signup"?"/auth/v1/signup":"/auth/v1/token?grant_type=password"),{method:"POST",headers:{apikey:CFG.key,"Content-Type":"application/json"},body:JSON.stringify(body)}); }
+    catch(e){ throw errx("offline","Sin conexión con el servidor. Revisa tu internet."); }
+    const j=await r.json().catch(()=>({}));
+    if(!r.ok){
+      const m=String(j.msg||j.message||j.error_description||"");
+      if(r.status===429) throw errx("limit","Demasiados intentos. Espera unos minutos.");
+      if(kind==="signup"&&(/already|registered|exists/i.test(m)||j.error_code==="user_already_exists")) throw errx("exists","Ese usuario ya existe. Elige otro o ingresa.");
+      if(kind==="signup"&&/weak|password/i.test(m)) throw errx("weak","El servidor pide una contraseña más fuerte. Prueba una más larga.");
+      if(kind==="login"&&(r.status===400||r.status===401)) throw errx("bad","Usuario o contraseña incorrectos.");
+      throw errx("error",(kind==="signup"?"No se pudo crear la cuenta. ":"No se pudo ingresar. ")+m);
+    }
+    if(!j.access_token) throw errx("confirm","El servidor pide confirmar el correo. En Supabase desactiva Authentication > Providers > Email > Confirm email.");
+    sess=pack(j); ls.set(LSK,sess); return sess;
+  }
+  const Auth = {
+    signUp:(u,pw)=>authCall("signup",{email:emailOf(u),password:pw,data:{username:u}}),
+    signIn:(u,pw)=>authCall("login",{email:emailOf(u),password:pw}),
+    async signOut(){ const t=sess&&sess.access_token; sess=null; ls.set(LSK,null); if(t){ try{ await fetch(CFG.url+"/auth/v1/logout",{method:"POST",headers:{apikey:CFG.key,Authorization:"Bearer "+t}}); }catch(e){} } }
+  };
+  const Docs = {
+    async get(path){ const r=await api("GET","/rest/v1/docs?path=eq."+encodeURIComponent(path)+"&select=data"); return r&&r[0]?r[0].data:null; },
+    set:(path,data)=>api("POST","/rest/v1/rpc/doc_set",{p_path:path,p_data:data})
+  };
+  async function audit(e,d){
+    if(!sess) return;
+    try{ const path="audit/"+sess.user.id, cur=await Docs.get(path); const ev=(cur&&Array.isArray(cur.events)?cur.events.slice(-39):[]); ev.push({t:Date.now(),e:String(e).slice(0,30),d:String(d||"").slice(0,60)}); await Docs.set(path,{events:ev.slice(-40)}); }catch(err){ /* registro de mejor esfuerzo */ }
+  }
+
+  function toast(t){ const el=$("#toast"); el.textContent=t; el.hidden=false; clearTimeout(toast.t); toast.t=setTimeout(()=>el.hidden=true,2800); }
+
+  /* ---------- menú móvil ---------- */
+  const nav=$("#mainNav"), mb=$("#menuBtn");
+  mb.addEventListener("click",()=>{ const o=nav.classList.toggle("open"); mb.setAttribute("aria-expanded", o); });
+  $$("#mainNav a").forEach(a=>a.addEventListener("click",()=>{ nav.classList.remove("open"); mb.setAttribute("aria-expanded","false"); }));
+
+  /* ---------- cielo estrellado ---------- */
+  const cv=$("#stars"), cx=cv.getContext("2d");
+  const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  let stars=[];
+  function sizeStars(){
+    const r=cv.getBoundingClientRect(), d=Math.min(devicePixelRatio||1,2);
+    cv.width=r.width*d; cv.height=r.height*d; cx.setTransform(d,0,0,d,0,0);
+    const n=Math.round(r.width*r.height/5200);
+    stars=Array.from({length:n},()=>({x:Math.random()*r.width,y:Math.random()*r.height,r:Math.random()*1.3+.2,p:Math.random()*6.28,s:.4+Math.random()*1.2}));
+  }
+  function drawStars(t){
+    const r=cv.getBoundingClientRect(); cx.clearRect(0,0,r.width,r.height);
+    for(const s of stars){ const a=.35+.65*Math.abs(Math.sin(s.p+t/1000*s.s*(reduce?0:1))); cx.globalAlpha=a; cx.fillStyle=s.r>1.2?"#9fd8ff":"#dfe6ff"; cx.beginPath(); cx.arc(s.x,s.y,s.r,0,6.283); cx.fill(); }
+    if(!reduce) requestAnimationFrame(drawStars);
+  }
+  sizeStars(); requestAnimationFrame(drawStars); addEventListener("resize", sizeStars);
+
+  /* ---------- NOVA y ORI en el héroe ---------- */
+  const novaLines=[
+    "¡Hola! Soy <b>NOVA</b>. Te muestro lo que hacemos.",
+    "Creamos <b>páginas web y apps</b> para tu negocio.",
+    "Puedo atender a tus clientes <b>24/7</b> y tomar pedidos.",
+    "¿Tienes una idea? Cuéntamela en el <b>chat</b>.",
+    "Somos de <b>Neiva, Huila</b>. ¡Hecho en Colombia!"
+  ];
+  const tips=[
+    "Usa una contraseña distinta para cada cuenta. Si una se filtra, las demás siguen protegidas.",
+    "Activa la verificación en dos pasos en tu correo y en WhatsApp.",
+    "Desconfía de los enlaces que piden tus datos con urgencia. Así empiezan muchos fraudes.",
+    "Actualiza tu celular y tus apps: cada actualización cierra puertas a los atacantes.",
+    "Haz copias de seguridad de la información de tu negocio al menos una vez por semana.",
+    "Nadie de Orion Nova te pedirá tu contraseña por chat, llamada o correo.",
+    "Una frase larga, como 'MiPerroComeArepas2026!', es más segura que una palabra corta."
+  ];
+  let ni=0, ti=0;
+  $("#heroNova").addEventListener("click",e=>{
+    const el=e.currentTarget; ni=(ni+1)%novaLines.length; $("#novaSay").innerHTML=novaLines[ni];
+    el.classList.remove("wave"); void el.offsetWidth; el.classList.add("wave"); speak($("#novaSay").textContent);
+  });
+  $("#heroOri").addEventListener("click",e=>{
+    const el=e.currentTarget; ti=(ti+1)%tips.length; $("#oriSay").innerHTML="<b>Consejo:</b> "+tips[ti];
+    el.classList.remove("tilt"); void el.offsetWidth; el.classList.add("tilt");
+  });
+  let tj=0;
+  $("#nextTip").addEventListener("click",()=>{ tj=(tj+1)%tips.length; $("#oriTip").textContent=tips[tj]; });
+
+  /* ---------- copiar ---------- */
+  $$("[data-copy]").forEach(b=>b.addEventListener("click",()=>{
+    const v=b.dataset.copy;
+    const ok=()=>{ b.textContent="Copiado"; setTimeout(()=>b.textContent="Copiar",1600); };
+    if(navigator.clipboard&&navigator.clipboard.writeText){ navigator.clipboard.writeText(v).then(ok).catch(()=>sel(b)); } else sel(b);
+  }));
+  function sel(b){ const s=b.previousElementSibling; const r=document.createRange(); r.selectNodeContents(s); const g=getSelection(); g.removeAllRanges(); g.addRange(r); toast("Texto seleccionado. Cópialo con Ctrl+C."); }
+
+  /* ---------- acceso: ingresar / crear cuenta (cuentas reales en Supabase) ---------- */
+  const modal=$("#loginModal");
+  let lastFocus=null, me=null;
+  function openLogin(tab){ lastFocus=document.activeElement; modal.hidden=false; setTab(tab||"in"); setTimeout(()=>(tab==="up"?$("#upName"):$("#inUser")).focus(),30); document.body.style.overflow="hidden"; }
+  function closeLogin(){ modal.hidden=true; document.body.style.overflow=""; if(lastFocus) lastFocus.focus(); }
+  function setTab(t){
+    const inn=t==="in";
+    $("#tabIn").setAttribute("aria-selected",inn); $("#tabUp").setAttribute("aria-selected",!inn);
+    $("#formIn").hidden=!inn; $("#formUp").hidden=inn;
+    $("#oriGuard").textContent = inn ? "Estoy vigilando tu acceso. Nunca compartas tu contraseña, ni siquiera con el equipo de Orion."
+                                     : "Usa 10 o más caracteres y combina mayúsculas, minúsculas, números o símbolos. Yo te digo qué tan fuerte es.";
+  }
+  $("#openLogin").addEventListener("click",()=>openLogin("in"));
+  $("#closeLogin").addEventListener("click",closeLogin);
+  $("#tabIn").addEventListener("click",()=>setTab("in"));
+  $("#tabUp").addEventListener("click",()=>setTab("up"));
+  modal.addEventListener("click",e=>{ if(e.target===modal) closeLogin(); });
+  addEventListener("keydown",e=>{ if(e.key==="Escape"){ if(!modal.hidden) closeLogin(); else if(!$("#chat").hidden) closeChat(); } });
+  $$("[data-toggle]").forEach(b=>b.addEventListener("click",()=>{ const i=$("#"+b.dataset.toggle); const show=i.type==="password"; i.type=show?"text":"password"; b.textContent=show?"Ocultar":"Mostrar"; }));
+
+  /* misma política de contraseñas que NOVA Restaurantes */
+  function pwPolicy(p,user){
+    const cls=(/[a-z]/.test(p)?1:0)+(/[A-Z]/.test(p)?1:0)+(/\d/.test(p)?1:0)+(/[^A-Za-z0-9]/.test(p)?1:0);
+    let score=0; if(p.length>=10)score++; if(p.length>=14)score++; if(cls>=3)score++; if(cls===4)score++;
+    if(user&&user.length>=3&&p.toLowerCase().includes(user.toLowerCase())) return {ok:false,score:0,msg:"La contraseña no puede contener tu usuario."};
+    if(p.length<10) return {ok:false,score:Math.min(score,1),msg:"La contraseña necesita al menos 10 caracteres."};
+    if(cls<3) return {ok:false,score:Math.min(score,2),msg:"Combina al menos tres tipos: minúscula, mayúscula, número y símbolo."};
+    return {ok:true,score:Math.max(score,3),msg:""};
+  }
+  const phoneOf = v => String(v||"").replace(/[\s()+-]/g,"").replace(/^57(?=3\d{9}$)/,"");
+  function updMeter(){
+    const v=$("#upPass").value, pol=pwPolicy(v,$("#upUser").value.trim()), bar=$("#meterBar");
+    const lv=[["8%","var(--bad)"],["30%","var(--bad)"],["55%","var(--warn)"],["80%","var(--ok)"],["100%","var(--ok)"]][pol.score];
+    bar.style.width=v?lv[0]:"0"; bar.style.background=lv[1];
+    $("#oriGuard").textContent = !v ? "Escribe tu contraseña y te digo qué tan segura es." : pol.ok ? (pol.score>=4?"¡Excelente! Difícil de adivinar.":"Buena. Así me gusta.") : pol.msg;
+  }
+  $("#upPass").addEventListener("input",updMeter); $("#upUser").addEventListener("input",updMeter);
+
+  const setMsg=(el,t,kind)=>{ el.className="msg"+(kind?" "+kind:""); el.textContent=t||""; };
+  const busy=(btn,on,txt)=>{ btn.disabled=on; if(on){ btn.dataset.t=btn.textContent; btn.textContent=txt; } else if(btn.dataset.t){ btn.textContent=btn.dataset.t; } };
+
+  $("#formUp").addEventListener("submit",async e=>{
+    e.preventDefault(); const m=$("#upMsg"), btn=$("#upBtn");
+    const name=$("#upName").value.trim(), u=$("#upUser").value.trim().toLowerCase(), ph=phoneOf($("#upPhone").value), pw=$("#upPass").value;
+    if(name.length<2) return setMsg(m,"Escribe tu nombre.","err");
+    if(!/^[a-z0-9_.]{3,20}$/.test(u)) return setMsg(m,"El usuario debe tener de 3 a 20 caracteres: letras, números, punto o guion bajo.","err");
+    if(!/^3\d{9}$/.test(ph)) return setMsg(m,"Escribe tu celular colombiano de 10 dígitos (empieza por 3).","err");
+    const pol=pwPolicy(pw,u); if(!pol.ok) return setMsg(m,pol.msg,"err");
+    if(pw!==$("#upPass2").value) return setMsg(m,"Las contraseñas no coinciden.","err");
+    if(!$("#upTerms").checked) return setMsg(m,"Necesitamos tu autorización de tratamiento de datos para crear la cuenta.","err");
+    busy(btn,true,"Creando tu cuenta…"); setMsg(m,"");
+    try{
+      const s=await Auth.signUp(u,pw);
+      const role=$("#upRole").value==="usuario"?"usuario":"cliente";
+      await Docs.set("data/users/"+s.user.id+"/account",{phone:"+57"+ph,ch:$("#upRecovery").value,username:u,role,name,created:Date.now(),origin:"web-orion"});
+      audit("registro",role+" · web Orion");
+      $("#upPass").value=""; $("#upPass2").value=""; updMeter();
+      await afterLogin(true);
+    }catch(err){ setMsg(m,err.msg||err.message||"No se pudo crear la cuenta.","err"); }
+    finally{ busy(btn,false); }
+  });
+
+  let fails=0, lockUntil=0;
+  $("#formIn").addEventListener("submit",async e=>{
+    e.preventDefault(); const m=$("#inMsg"), btn=$("#inBtn");
+    const u=$("#inUser").value.trim().toLowerCase(), pw=$("#inPass").value;
+    if(!u||!pw) return setMsg(m,"Escribe tu usuario y tu contraseña.","err");
+    if(Date.now()<lockUntil) return setMsg(m,"Demasiados intentos. Espera un minuto antes de volver a intentar.","err");
+    busy(btn,true,"Verificando…"); setMsg(m,"");
+    try{
+      await Auth.signIn(u,pw); fails=0;
+      $("#inPass").value="";
+      await afterLogin(false);
+      audit("ingreso","web Orion");
+    }catch(err){
+      if(err.code==="bad"){ fails++; if(fails>=5){ lockUntil=Date.now()+60000; fails=0; }
+        $("#oriGuard").textContent = fails>=3 ? "Detecto varios intentos fallidos. Si no eres tú, alguien podría estar probando tu cuenta." : "Esa combinación no coincide. Revisa mayúsculas y vuelve a intentar."; }
+      setMsg(m,err.msg||err.message||"No se pudo ingresar.","err");
+    }finally{ busy(btn,false); }
+  });
+  $("#forgot").addEventListener("click",()=>{
+    setMsg($("#inMsg"),"La recuperación por WhatsApp o SMS se activa cuando conectemos Twilio. Mientras tanto, escríbenos al WhatsApp 300 444 0009 desde el celular de tu cuenta y te ayudamos.","ok");
+  });
+
+  const roleTxt={cliente:"Cliente",usuario:"Negocio aliado",admin:"Administración"};
+  async function afterLogin(isNew){
+    let acct=null, admin=false;
+    try{ acct=await Docs.get("data/users/"+sess.user.id+"/account"); }catch(e){}
+    if(!acct){ acct={username:sess.user.username,role:"cliente",created:Date.now()}; try{ await Docs.set("data/users/"+sess.user.id+"/account",acct); }catch(e){} }
+    try{ admin=!!(await api("POST","/rest/v1/rpc/is_admin",{})); }catch(e){}
+    me={id:sess.user.id,username:acct.username||sess.user.username,name:acct.name||acct.username||sess.user.username,role:admin?"admin":(acct.role==="cliente"?"cliente":"usuario"),admin};
+    if(!modal.hidden){ closeLogin(); toast((isNew?"Cuenta creada. ":"Sesión iniciada. ")+"¡Bienvenido, "+me.name.split(" ")[0]+"!"); $("#panel").scrollIntoView({behavior:reduce?"auto":"smooth"}); }
+    renderAuth();
+  }
+  function renderAuth(){
+    const area=$("#authArea");
+    if(!me){ $("#panel").hidden=true; area.innerHTML=""; area.appendChild(loginBtn); return; }
+    const first=me.name.split(" ")[0];
+    area.innerHTML='<span class="user-chip"><span class="av"></span><span class="nm"></span></span><button class="btn btn-ghost" type="button" id="logout">Salir</button>';
+    $(".av",area).textContent=first[0].toUpperCase(); $(".nm",area).textContent=first;
+    $("#logout").addEventListener("click",async()=>{ audit("salida","web Orion"); await Auth.signOut(); me=null; renderAuth(); toast("Cerraste sesión."); });
+    $("#panelHello").textContent="Hola, "+first;
+    $("#panelSub").textContent=roleTxt[me.role]+" · usuario "+me.username+" · tu cuenta sirve también en NOVA Restaurantes.";
+    $("#tileNova").textContent = me.role==="usuario" ? "Administra tu restaurante u hotel: pedidos y carta." : me.admin ? "Panel de administración de NOVA." : "Pide en restaurantes de Neiva con el mismo usuario y contraseña.";
+    $("#panel").hidden=false;
+    $("#adminBox").hidden=!me.admin; if(me.admin) loadLeads();
+  }
+  const loginBtn=$("#openLogin");
+
+  /* ---------- solicitudes de contacto (tabla leads) ---------- */
+  const svcTxt={web:"Página web",app:"App móvil",asistente:"Asistente IA",automatizacion:"Automatización",ciberseguridad:"Ciberseguridad",iot:"IoT",marketing:"Marketing","nova-restaurantes":"Unirse a NOVA",otro:"Otro"};
+  $("#leadForm").addEventListener("submit",async e=>{
+    e.preventDefault(); const m=$("#ldMsgOut"), btn=$("#ldBtn");
+    const name=$("#ldName").value.trim(), ph=phoneOf($("#ldPhone").value);
+    if(name.length<2) return setMsg(m,"Escribe tu nombre.","err");
+    if(!/^3\d{9}$/.test(ph)) return setMsg(m,"Escribe tu celular colombiano de 10 dígitos (empieza por 3).","err");
+    if(!$("#ldTerms").checked) return setMsg(m,"Necesitamos tu autorización para contactarte.","err");
+    busy(btn,true,"Enviando…"); setMsg(m,"");
+    try{
+      await api("POST","/rest/v1/leads",{name,phone:ph,service:$("#ldService").value,message:$("#ldMsg").value.trim().slice(0,1000),source:"web"},{Prefer:"return=minimal"});
+      $("#leadForm").reset(); setMsg(m,"¡Recibido! Te contactaremos pronto al "+ph.replace(/(\d{3})(\d{3})(\d{4})/,"$1 $2 $3")+".","ok");
+    }catch(err){ setMsg(m,(err.msg&&/Demasiadas/.test(err.msg))?err.msg:(err.code==="offline"?err.msg:"No se pudo enviar. Escríbenos por WhatsApp al 300 444 0009."),"err"); }
+    finally{ busy(btn,false); }
+  });
+  async function loadLeads(){
+    const tb=$("#leadRows");
+    try{
+      const rows=await api("GET","/rest/v1/leads?select=id,created_at,name,phone,service,message,status&order=created_at.desc&limit=100");
+      if(!rows.length){ tb.innerHTML='<tr><td colspan="6">Aún no hay solicitudes. Cuando alguien llene el formulario de contacto aparecerá aquí.</td></tr>'; return; }
+      tb.innerHTML="";
+      rows.forEach(r=>{
+        const tr=document.createElement("tr");
+        const d=new Date(r.created_at).toLocaleString("es-CO",{dateStyle:"short",timeStyle:"short",timeZone:"America/Bogota"});
+        [d,r.name,r.phone,svcTxt[r.service]||r.service,r.message||"—"].forEach(v=>{ const td=document.createElement("td"); td.textContent=v; tr.appendChild(td); });
+        const td=document.createElement("td"), sel=document.createElement("select");
+        sel.setAttribute("aria-label","Estado de la solicitud de "+r.name);
+        ["nuevo","contactado","cerrado"].forEach(s=>{ const o=document.createElement("option"); o.value=s; o.textContent=s[0].toUpperCase()+s.slice(1); if(s===r.status) o.selected=true; sel.appendChild(o); });
+        sel.addEventListener("change",async()=>{ try{ await api("PATCH","/rest/v1/leads?id=eq."+r.id,{status:sel.value},{Prefer:"return=minimal"}); toast("Estado guardado."); }catch(err){ toast("No se pudo guardar el estado."); } });
+        td.appendChild(sel); tr.appendChild(td); tb.appendChild(tr);
+      });
+    }catch(err){ tb.innerHTML='<tr><td colspan="6">No se pudieron cargar las solicitudes.</td></tr>'; }
+  }
+  $("#reloadLeads").addEventListener("click",loadLeads);
+
+  if(sess){ token().then(t=>{ if(t) afterLogin(false); else { sess=null; renderAuth(); } }); }
+
+  /* ---------- chat con NOVA ---------- */
+  const chat=$("#chat"), log=$("#log"), fab=$("#chatFab");
+  let started=false, voice=false;
+  function openChat(){ chat.hidden=false; fab.hidden=true; if(!started){ started=true; greet(); } setTimeout(()=>$("#chatInput").focus(),30); }
+  function closeChat(){ chat.hidden=true; fab.hidden=false; }
+  $$("[data-open-chat]").forEach(b=>b.addEventListener("click",openChat));
+  $("#closeChat").addEventListener("click",closeChat);
+  $("#voiceBtn").addEventListener("click",e=>{ voice=!voice; e.currentTarget.setAttribute("aria-pressed",voice); if(!voice&&"speechSynthesis" in window) speechSynthesis.cancel(); });
+
+  function speak(t){
+    if(!voice||!("speechSynthesis" in window)) return;
+    try{ speechSynthesis.cancel(); const u=new SpeechSynthesisUtterance(t.replace(/ORI ·/,"")); u.lang="es-CO";
+      const v=speechSynthesis.getVoices().find(v=>/^es/i.test(v.lang)); if(v) u.voice=v; u.rate=1.02; speechSynthesis.speak(u); }catch(e){}
+  }
+  function add(who, html){
+    const d=document.createElement("div"); d.className="m "+who; d.innerHTML=html; log.appendChild(d); log.scrollTop=log.scrollHeight;
+    if(who!=="me") speak(d.textContent);
+  }
+  function quick(list){ const q=$("#quick"); q.innerHTML=""; list.forEach(t=>{ const b=document.createElement("button"); b.type="button"; b.textContent=t; b.addEventListener("click",()=>ask(t)); q.appendChild(b); }); }
+  const base=["Servicios","Proyectos","Precios","Crear cuenta","¿Quién es ORI?","Contacto"];
+  function greet(){
+    add("nova","¡Hola"+(me?", "+escapeHtml(me.name.split(" ")[0]):"")+"! Soy NOVA, el humanoide de Orion Nova Technologies. ¿En qué te ayudo hoy?");
+    quick(base);
+  }
+  function escapeHtml(t){ return t.replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
+  const norm=t=>t.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"");
+  const intents=[
+    {k:["servicio","hacen","ofrecen"],a:()=>["nova","Hacemos desarrollo web, aplicaciones móviles, asistentes virtuales con IA, automatización de procesos, ciberseguridad, IoT y marketing digital. ¿Cuál te interesa?"],q:["Página web","App móvil","Asistente con IA","Ciberseguridad"]},
+    {k:["web","pagina","sitio"],a:()=>["nova","Hacemos páginas rápidas, seguras y adaptadas al celular, con tu logo, catálogo, WhatsApp y formulario. Cuéntame de tu negocio o <a href='"+WA+"?text=Quiero%20una%20p%C3%A1gina%20web' target='_blank' rel='noopener'>escríbele al equipo por WhatsApp</a>."]},
+    {k:["app","movil","android","ios"],a:()=>["nova","Desarrollamos apps para Android e iOS. Primero definimos qué debe hacer, luego un diseño que puedas probar y después la publicamos en las tiendas."]},
+    {k:["asistente","ia","inteligencia","bot","chatbot","pedido"],a:()=>["nova","Puedo trabajar para tu negocio: atiendo 24/7, respondo preguntas y tomo pedidos con tu carta real. Así funciona NOVA FLOW IA para restaurantes de Neiva."]},
+    {k:["segur","hack","ciber","contrasena","clave","virus","fraude"],a:()=>["ori",tips[Math.floor(Math.random()*tips.length)]+" Si quieres una revisión de seguridad para tu empresa, el equipo te ayuda."]},
+    {k:["iot","sensor","domotica","hogar"],a:()=>["nova","Con IoT conectamos sensores y dispositivos para que tu casa o negocio se monitoree y se automatice en tiempo real."]},
+    {k:["marketing","redes","publicidad","clientes"],a:()=>["nova","Te ayudamos con estrategia digital para que más clientes te encuentren: redes, contenido y una web que convierta visitas en ventas."]},
+    {k:["proyecto","producto","restaurante","academy","curso","transito"],a:()=>["nova","Estamos construyendo NOVA Restaurantes (pedidos y pagos PSE en Neiva), Orion Nova Academy (cursos con certificado) y Alerta Tránsito (reportes de la comunidad). Bájale a la sección <a href='#proyectos'>Proyectos</a>."]},
+    {k:["precio","cuesta","valor","cotiz","cuanto"],a:()=>["nova","Cada proyecto es a la medida, así que el precio depende de lo que necesites. Déjanos tus datos en el <a href='#contacto'>formulario de contacto</a> y te llamamos, o escríbenos al <a href='"+WA+"?text=Quiero%20una%20cotizaci%C3%B3n' target='_blank' rel='noopener'>WhatsApp 300 444 0009</a>."]},
+    {k:["cuenta","registr","login","ingresar","entrar","sesion"],a:()=>{ setTimeout(()=>openLogin("up"),400); return ["nova","Te abro el formulario. ORI va a revisar que tu contraseña sea segura."]; }},
+    {k:["ori","buho"],a:()=>["ori","¡Ese soy yo! Soy el búho de Orion Nova. Observo, comparto buenas prácticas y te aviso cuando algo no se ve seguro."]},
+    {k:["nova","eres","humanoide"],a:()=>["nova","Soy NOVA, el humanoide de Orion Nova Technologies. Doy la bienvenida, explico soluciones y acompaño tutoriales. Para contratos y casos complejos te conecto con una persona."]},
+    {k:["contacto","whatsapp","telefono","correo","donde","ubic","neiva"],a:()=>["nova","Estamos en Neiva, Huila. WhatsApp: <a href='"+WA+"' target='_blank' rel='noopener'>300 444 0009</a> · Correo: orion.nova.techno@gmail.com"]},
+    {k:["mision","vision","empresa","nosotros"],a:()=>["nova","Nuestra meta: para 2035 ser líderes en América Latina en IA, robótica, IoT y nube, creando tecnología ética y segura al servicio de las personas."]},
+    {k:["hola","buenas","hey","saludos"],a:()=>["nova","¡Hola! ¿Te cuento de nuestros servicios o de los proyectos que estamos construyendo?"]},
+    {k:["gracias"],a:()=>["nova","¡Con gusto! Aquí estoy cuando me necesites."]}
+  ];
+  function ask(text){
+    text=text.trim(); if(!text) return;
+    add("me",escapeHtml(text));
+    const t=norm(text);
+    const words=t.split(/[^a-z0-9]+/).filter(Boolean);
+    const hit=intents.find(i=>i.k.some(k=>words.some(w=>w.startsWith(k))));
+    setTimeout(()=>{
+      if(hit){ const [w,a]=hit.a(); add(w,a); quick(hit.q||base); }
+      else { add("nova","Todavía estoy aprendiendo y no tengo esa respuesta. El equipo humano te puede ayudar por <a href='"+WA+"?text="+encodeURIComponent(text)+"' target='_blank' rel='noopener'>WhatsApp</a>."); quick(base); }
+    },420);
+  }
+  $("#chatForm").addEventListener("submit",e=>{ e.preventDefault(); const i=$("#chatInput"); ask(i.value); i.value=""; });
+})();
+</script>
