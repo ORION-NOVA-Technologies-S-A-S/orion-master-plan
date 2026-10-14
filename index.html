@@ -720,6 +720,22 @@ input:focus,select:focus,textarea:focus{outline:none;border-color:var(--cyan);bo
         <p class="msg" id="upMsg" role="alert"></p>
         <button class="btn btn-primary" type="submit" id="upBtn" style="justify-content:center">Crear cuenta</button>
       </form>
+      <form id="formReset" novalidate hidden>
+        <h2 style="font-size:1.9rem">Recupera tu contraseña</h2>
+        <p class="fine" style="font-size:.86rem">Escribe tu usuario. Te enviamos un código al celular de tu cuenta, por WhatsApp o mensaje de texto según lo que elegiste al registrarte.</p>
+        <label>Usuario<input id="rsUser" type="text" autocomplete="username" autocapitalize="none" spellcheck="false" maxlength="20" required></label>
+        <div id="rsStep2" hidden style="display:grid;gap:14px">
+          <label>Código que te llegó<input id="rsCode" type="text" inputmode="numeric" maxlength="10" autocomplete="one-time-code" placeholder="123456"></label>
+          <label>Contraseña nueva
+            <span class="pw"><input id="rsPass" type="password" autocomplete="new-password" maxlength="72"><button type="button" data-toggle="rsPass">Mostrar</button></span>
+          </label>
+          <label>Repite la contraseña nueva<input id="rsPass2" type="password" autocomplete="new-password" maxlength="72"></label>
+          <button type="button" class="linkish" id="rsResend" style="justify-self:start">Enviar otro código</button>
+        </div>
+        <p class="msg" id="rsMsg" role="alert"></p>
+        <button class="btn btn-primary" type="submit" id="rsBtn" style="justify-content:center">Enviar código</button>
+        <button type="button" class="linkish" id="rsBack" style="justify-self:center">Volver a ingresar</button>
+      </form>
     </div>
   </div>
 </div>
@@ -891,7 +907,7 @@ input:focus,select:focus,textarea:focus{outline:none;border-color:var(--cyan);bo
   function setTab(t){
     const inn=t==="in";
     $("#tabIn").setAttribute("aria-selected",inn); $("#tabUp").setAttribute("aria-selected",!inn);
-    $("#formIn").hidden=!inn; $("#formUp").hidden=inn;
+    $("#formIn").hidden=!inn; $("#formUp").hidden=inn; $("#formReset").hidden=true; $(".tabs").hidden=false;
     $("#oriGuard").textContent = inn ? "Estoy vigilando tu acceso. Nunca compartas tu contraseña, ni siquiera con el equipo de Orion."
                                      : "Usa 10 o más caracteres y combina mayúsculas, minúsculas, números o símbolos. Yo te digo qué tan fuerte es.";
   }
@@ -963,8 +979,45 @@ input:focus,select:focus,textarea:focus{outline:none;border-color:var(--cyan);bo
       setMsg(m,err.msg||err.message||"No se pudo ingresar.","err");
     }finally{ busy(btn,false); }
   });
-  $("#forgot").addEventListener("click",()=>{
-    setMsg($("#inMsg"),"La recuperación por WhatsApp o SMS se activa cuando conectemos Twilio. Mientras tanto, escríbenos al WhatsApp 300 444 0009 desde el celular de tu cuenta y te ayudamos.","ok");
+  /* ---------- recuperar contraseña: función recuperar-clave (Twilio Verify por WhatsApp o SMS) ---------- */
+  let rsStep=1, rsLast=0;
+  function showReset(on){
+    $("#formReset").hidden=!on; $("#formIn").hidden=on; $(".tabs").hidden=on;
+    if(on){ rsStep=1; $("#rsStep2").hidden=true; $("#rsBtn").textContent="Enviar código"; setMsg($("#rsMsg"),"");
+      $("#rsUser").value=$("#inUser").value.trim(); $("#rsUser").focus();
+      $("#oriGuard").textContent="Nadie de Orion te pedirá este código. Si alguien te lo pide por chat o llamada, es un fraude."; }
+  }
+  async function recFn(payload){
+    let r;
+    try{ r=await fetch(CFG.url+"/functions/v1/recuperar-clave",{method:"POST",headers:{apikey:CFG.key,"Content-Type":"application/json"},body:JSON.stringify(payload)}); }
+    catch(e){ return {ok:false,msg:"Sin conexión con el servidor. Revisa tu internet."}; }
+    const j=await r.json().catch(()=>({}));
+    return {ok:r.ok&&j.ok!==false, msg:j.msg||"No se pudo completar. Intenta de nuevo."};
+  }
+  async function rsSend(){
+    const u=$("#rsUser").value.trim().toLowerCase(), m=$("#rsMsg");
+    if(!/^[a-z0-9_.]{3,20}$/.test(u)) return setMsg(m,"Escribe tu usuario (3 a 20 caracteres).","err");
+    if(Date.now()-rsLast<30000) return setMsg(m,"Espera unos segundos antes de pedir otro código.","err");
+    busy($("#rsBtn"),true,"Enviando…");
+    const r=await recFn({accion:"enviar",usuario:u}); busy($("#rsBtn"),false); rsLast=Date.now();
+    if(!r.ok) return setMsg(m,r.msg,"err");
+    setMsg(m,r.msg,"ok"); rsStep=2; $("#rsStep2").hidden=false; $("#rsBtn").textContent="Cambiar contraseña"; $("#rsCode").focus();
+  }
+  $("#forgot").addEventListener("click",()=>showReset(true));
+  $("#rsBack").addEventListener("click",()=>{ showReset(false); setTab("in"); });
+  $("#rsResend").addEventListener("click",rsSend);
+  $("#formReset").addEventListener("submit",async e=>{
+    e.preventDefault(); if(rsStep===1) return rsSend();
+    const m=$("#rsMsg"), u=$("#rsUser").value.trim().toLowerCase(), code=$("#rsCode").value.replace(/\D/g,""), pw=$("#rsPass").value;
+    if(code.length<4) return setMsg(m,"Escribe el código que te llegó.","err");
+    const pol=pwPolicy(pw,u); if(!pol.ok) return setMsg(m,pol.msg,"err");
+    if(pw!==$("#rsPass2").value) return setMsg(m,"Las contraseñas no coinciden.","err");
+    busy($("#rsBtn"),true,"Cambiando…");
+    const r=await recFn({accion:"confirmar",usuario:u,codigo:code,clave:pw}); busy($("#rsBtn"),false);
+    if(!r.ok) return setMsg(m,r.msg,"err");
+    $("#rsPass").value=""; $("#rsPass2").value=""; $("#rsCode").value="";
+    showReset(false); setTab("in"); $("#inUser").value=u; $("#inPass").focus();
+    setMsg($("#inMsg"),r.msg,"ok");
   });
 
   const roleTxt={cliente:"Cliente",usuario:"Negocio aliado",admin:"Administración"};

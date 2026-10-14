@@ -76,4 +76,5 @@ Todos los derechos reservados.
 - `index.html` — página principal de Orion Nova Technologies (NOVA, ORI, login y contacto). Se publica con GitHub Pages desde la rama `main`, carpeta raíz.
 - Usa el mismo proyecto de Supabase que NOVA Restaurantes: una sola cuenta Orion para todo el ecosistema. Solo lleva la clave pública (`sb_publishable_…`).
 - `supabase/01_orion_web_leads.sql` — tabla de solicitudes de contacto con RLS (solo administración las ve).
+- `supabase/02_recuperacion_clave.sql` y `supabase/functions/recuperar-clave/` — recuperar contraseña por WhatsApp o SMS con Twilio Verify. Los secretos de Twilio van en Supabase > Edge Functions > Secrets, nunca en este repositorio.
 - `web/` — plantilla fuente y logos.
