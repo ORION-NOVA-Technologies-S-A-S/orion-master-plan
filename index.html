@@ -1485,6 +1485,7 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
 
   /* ---------- acceso: ingresar / crear cuenta (cuentas reales en Supabase) ---------- */
   const modal=$("#loginModal");
+  const loginBtn=$("#openLogin");  /* se guarda una sola vez para volver a mostrarlo al cerrar sesión */
   let lastFocus=null, me=null;
   function openLogin(tab){ lastFocus=document.activeElement; modal.hidden=false; setTab(tab||"in"); setTimeout(()=>(tab==="up"?$("#upName"):$("#inUser")).focus(),30); document.body.style.overflow="hidden"; }
   function closeLogin(){ modal.hidden=true; document.body.style.overflow=""; if(lastFocus) lastFocus.focus(); }
