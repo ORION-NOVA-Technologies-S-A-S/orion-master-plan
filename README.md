@@ -73,9 +73,10 @@ Todos los derechos reservados.
 
 ## Página web
 
-- `index.html` — página principal de Orion Nova Technologies (NOVA, ORI, login y contacto). Se publica con GitHub Pages desde la rama `main`, carpeta raíz.
-- Usa el mismo proyecto de Supabase que NOVA Restaurantes: una sola cuenta Orion para todo el ecosistema. Solo lleva la clave pública (`sb_publishable_…`).
-- `supabase/01_orion_web_leads.sql` — tabla de solicitudes de contacto con RLS (solo administración las ve).
-- `supabase/functions/recuperar-clave/` — recuperar contraseña con un código por correo (Brevo, gratis). Secretos en Supabase > Edge Functions > Secrets: `BREVO_API_KEY` y `CORREO_REMITENTE`. Nunca en este repositorio.
-- `supabase/02_recuperacion_clave.sql` y `03_recuperacion_por_correo.sql` — límites contra abuso y códigos cifrados. La versión con Twilio (WhatsApp/SMS) queda en el historial de Git para cuando se contrate.
-- `web/` — plantilla fuente y logos.
+- `index.html` — página principal de Orion Nova Technologies: servicios, soluciones, portafolio, NOVA y ORI, metodología, preguntas frecuentes y formulario de cotización. También tiene el login, el panel de cuenta y el chat con NOVA. Se publica con GitHub Pages desde la rama `main`, carpeta raíz. Es un solo archivo HTML sin dependencias; se edita directamente.
+- `privacidad.html` — política de tratamiento de datos personales (generada desde `docs/04_Legal/Protección de Datos.md`).
+- `assets/imagenes/image.png` — logo oficial (sin modificar). `assets/portafolio/` — capturas de los productos.
+- Usa el mismo proyecto de Supabase que NOVA Restaurantes. Solo lleva la clave pública (`sb_publishable_…`).
+- `supabase/functions/cotizar/` — recibe las cotizaciones, las guarda en `public.cotizaciones`, frena abusos y avisa por correo (Brevo). Tabla y reglas en `supabase/04_cotizaciones.sql`.
+- `supabase/functions/recuperar-clave/` — recuperar contraseña con un código por correo (Brevo). Secretos en Supabase > Edge Functions > Secrets: `BREVO_API_KEY` y `CORREO_REMITENTE` (opcional `CORREO_AVISOS`). Nunca en este repositorio.
+- `supabase/01…03_*.sql` — solicitudes antiguas, límites contra abuso y códigos cifrados. La versión con Twilio (WhatsApp/SMS) queda en el historial de Git para cuando se contrate.

@@ -3,102 +3,150 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Orion Nova Technologies</title>
-<meta name="claude:viewport-fit-sides" content="cover">
-<meta name="description" content="Orion Nova Technologies: inteligencia artificial, software, robótica, IoT y ciberseguridad desde Neiva, Huila, Colombia.">
+<title>Orion Nova Technologies | Software, IA y ciberseguridad en Neiva</title>
+<meta name="description" content="Diseñamos soluciones de software, inteligencia artificial y ciberseguridad para impulsar negocios. Desarrollo web y móvil, asistentes con IA y automatización desde Neiva, Huila, Colombia.">
+<meta name="theme-color" content="#08111F">
+<link rel="canonical" href="https://orion-nova-technologies-s-a-s.github.io/orion-master-plan/">
+<link rel="icon" type="image/png" href="assets/imagenes/image.png">
+<link rel="apple-touch-icon" href="assets/imagenes/image.png">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_CO">
+<meta property="og:site_name" content="Orion Nova Technologies">
+<meta property="og:title" content="Orion Nova Technologies · Tu próximo gran proyecto comienza con tecnología inteligente">
+<meta property="og:description" content="Software, inteligencia artificial y ciberseguridad para impulsar negocios. Solicita tu cotización.">
+<meta property="og:url" content="https://orion-nova-technologies-s-a-s.github.io/orion-master-plan/">
+<meta property="og:image" content="https://orion-nova-technologies-s-a-s.github.io/orion-master-plan/assets/imagenes/image.png">
+<meta property="og:image:width" content="462">
+<meta property="og:image:height" content="407">
+<meta property="og:image:alt" content="Logo de Orion Nova Technologies">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Orion Nova Technologies">
+<meta name="twitter:description" content="Software, inteligencia artificial y ciberseguridad para impulsar negocios.">
+<meta name="twitter:image" content="https://orion-nova-technologies-s-a-s.github.io/orion-master-plan/assets/imagenes/image.png">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Organization","name":"Orion Nova Technologies","url":"https://orion-nova-technologies-s-a-s.github.io/orion-master-plan/","logo":"https://orion-nova-technologies-s-a-s.github.io/orion-master-plan/assets/imagenes/image.png","email":"orion.nova.techno@gmail.com","telephone":"+57 300 444 0009","slogan":"Innovamos · Desarrollamos · Conectamos","address":{"@type":"PostalAddress","addressLocality":"Neiva","addressRegion":"Huila","addressCountry":"CO"}}
+</script>
+<link rel="preload" as="image" href="assets/imagenes/image.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Michroma&family=Saira+Condensed:wght@600;700;800&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
 <style>
-/* Layout: espacio profundo de marca. Héroe con NOVA y ORI a los lados del mensaje,
-   luego bandas de contenido sobre negro azulado; un solo brillo índigo-cian como acento. */
+/* Orion Nova Technologies · rediseño premium
+   Layout: azul noche con una constelación de Orión como red de datos en el héroe;
+   bandas de contenido sobrias, tarjetas de borde fino, cian eléctrico como único acento fuerte. */
 :root{
-  --bg:#05070f;          /* negro espacial */
-  --bg-2:#0a0f20;        /* banda alterna */
-  --surface:#0e1530;     /* paneles */
-  --line:#1f2a52;        /* bordes */
-  --fg:#e9edf8;          /* texto */
-  --muted:#97a3c7;       /* texto secundario */
-  --silver:#cdd4e6;      /* plata del logo */
-  --indigo:#3d5cff;      /* azul Orion */
-  --cyan:#53c6ff;        /* brillo de visor */
-  --violet:#8b62ff;      /* degradado "real" */
-  --ok:#2fd27a;          /* WhatsApp / válido */
-  --warn:#ffb547;
-  --bad:#ff5f7a;
-  --f-display:"Saira Condensed","Arial Narrow",Impact,sans-serif;
-  --f-mark:"Michroma","Eurostile","Arial",sans-serif;
+  --bg:#08111F;          /* azul noche */
+  --bg-2:#0B1629;        /* banda alterna */
+  --surface:#101B32;     /* azul profundo: tarjetas */
+  --surface-2:#14223F;
+  --line:#1E2C4A;        /* bordes finos */
+  --line-2:#2A3D63;
+  --fg:#FFFFFF;
+  --text:#DCE5F3;
+  --muted:#9AABC6;       /* gris azulado */
+  --silver:#C9D4E6;
+  --cyan:#06B6D4;        /* cian eléctrico */
+  --cyan-2:#67E8F9;      /* cian luminoso */
+  --indigo:#06B6D4;      /* alias para componentes heredados */
+  --violet:#8B5CF6;      /* acento sutil */
+  --ok:#22C55E;
+  --warn:#F5B544;
+  --bad:#F87171;
+  --f-display:"Sora","Segoe UI",system-ui,sans-serif;
   --f-body:"Manrope",system-ui,-apple-system,"Segoe UI",sans-serif;
   --f-mono:"JetBrains Mono",ui-monospace,"SFMono-Regular",Consolas,monospace;
-  --radius:14px;
+  --f-mark:var(--f-display);
+  --radius:16px;
+  --gutter:max(16px,env(safe-area-inset-left,0px));
   color-scheme:dark;
 }
 *{box-sizing:border-box}
 [hidden]{display:none!important}
-html{scroll-behavior:smooth}
-section{scroll-margin-top:76px}
-body{background:var(--bg);color:var(--fg);font-family:var(--f-body);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+body{margin:0;background:var(--bg);color:var(--text);font-family:var(--f-body);font-size:16px;line-height:1.65;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{max-width:100%;height:auto}
 a{color:inherit}
-h1,h2,h3{font-family:var(--f-display);text-transform:uppercase;line-height:1.02;letter-spacing:.01em;text-wrap:balance;margin:0}
+h1,h2,h3,h4{font-family:var(--f-display);color:var(--fg);line-height:1.12;letter-spacing:-.02em;text-wrap:balance;margin:0;font-weight:700}
 p{margin:0}
-:focus-visible{outline:2px solid var(--cyan);outline-offset:3px;border-radius:6px}
-.wrap{max-width:1180px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
-.eyebrow{font-family:var(--f-mono);font-size:.74rem;letter-spacing:.18em;text-transform:uppercase;color:var(--cyan)}
-.btn{display:inline-flex;align-items:center;gap:.55em;border:1px solid transparent;border-radius:999px;padding:.78em 1.35em;font:600 .95rem/1 var(--f-body);cursor:pointer;text-decoration:none;transition:transform .15s,background .2s,border-color .2s,box-shadow .2s;white-space:nowrap}
+section[id],[id].anchor{scroll-margin-top:84px}
+:focus-visible{outline:2px solid var(--cyan-2);outline-offset:3px;border-radius:6px}
+.skip{position:absolute;left:16px;top:-60px;z-index:100;background:var(--cyan);color:#04111d;padding:.6em 1em;border-radius:10px;font-weight:700;text-decoration:none}
+.skip:focus{top:12px}
+.wrap{max-width:1200px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.eyebrow{font-family:var(--f-mono);font-size:.74rem;letter-spacing:.16em;text-transform:uppercase;color:var(--cyan-2);font-weight:500}
+.lead{color:var(--muted);font-size:1.08rem;max-width:62ch}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* Botones */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.55em;border:1px solid transparent;border-radius:12px;padding:.85em 1.3em;font:700 .95rem/1.1 var(--f-body);cursor:pointer;text-decoration:none;transition:transform .15s,background .2s,border-color .2s,box-shadow .2s,color .2s;white-space:nowrap}
 .btn:hover{transform:translateY(-1px)}
-.btn-primary{background:linear-gradient(135deg,var(--indigo),var(--violet));color:#fff;box-shadow:0 8px 28px -10px var(--indigo)}
-.btn-ghost{background:transparent;color:var(--fg);border-color:var(--line)}
-.btn-ghost:hover{border-color:var(--cyan)}
-.btn-wa{background:var(--ok);color:#04140b}
+.btn-primary{background:linear-gradient(135deg,var(--cyan),var(--cyan-2));color:#04111D;box-shadow:0 10px 30px -12px rgba(6,182,212,.75)}
+.btn-primary:hover{box-shadow:0 14px 36px -12px rgba(103,232,249,.8)}
+.btn-ghost{background:rgba(255,255,255,.02);color:var(--fg);border-color:var(--line-2)}
+.btn-ghost:hover{border-color:var(--cyan);background:rgba(6,182,212,.06)}
+.btn-wa{background:#25D366;color:#03140A}
 .btn svg{width:18px;height:18px;flex:none}
+.btn[disabled]{opacity:.6;cursor:progress;transform:none}
+.link-arrow{display:inline-flex;align-items:center;gap:.4em;color:var(--cyan-2);font-weight:700;font-size:.92rem;text-decoration:none}
+.link-arrow:hover{text-decoration:underline;text-underline-offset:4px}
+.link-arrow svg{width:16px;height:16px}
 
 /* ---------- Encabezado ---------- */
-header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:40;background:color-mix(in srgb,var(--bg) 82%,transparent);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid color-mix(in srgb,var(--line) 70%,transparent)}
-.top .wrap{display:flex;align-items:center;gap:20px;min-height:68px}
-.brand{display:flex;align-items:center;gap:10px;text-decoration:none;min-width:0}
-.brand img{width:46px;height:auto;mix-blend-mode:screen}
-.brand .wm{font-family:var(--f-mark);font-size:.86rem;letter-spacing:.06em;line-height:1.15;white-space:nowrap}
-.brand .wm b{font-weight:400;color:var(--indigo);filter:brightness(1.35)}
-.brand .wm small{display:block;font-size:.5rem;letter-spacing:.42em;color:var(--muted)}
-nav.main{display:flex;gap:4px;margin-left:auto}
-nav.main a{text-decoration:none;color:var(--muted);font-weight:500;font-size:.92rem;padding:.5em .8em;border-radius:8px}
-nav.main a:hover{color:var(--fg);background:var(--surface)}
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:40;background:rgba(8,17,31,.78);backdrop-filter:blur(14px) saturate(140%);-webkit-backdrop-filter:blur(14px) saturate(140%);border-bottom:1px solid rgba(30,44,74,.7)}
+.top .wrap{display:flex;align-items:center;gap:18px;min-height:76px}
+.brand{display:flex;align-items:center;flex:none;text-decoration:none}
+.brand img{height:62px;width:auto;mix-blend-mode:lighten;display:block}
+nav.main{display:flex;gap:2px;margin-left:auto}
+nav.main a{text-decoration:none;color:var(--muted);font-weight:600;font-size:.93rem;padding:.55em .85em;border-radius:10px;transition:color .2s,background .2s}
+nav.main a:hover,nav.main a[aria-current="true"]{color:var(--fg);background:rgba(255,255,255,.04)}
+nav.main .nav-cta{display:none}
 .top .actions{display:flex;gap:10px;align-items:center}
-.user-chip{display:flex;align-items:center;gap:8px;font-size:.9rem;color:var(--silver)}
-.user-chip .av{width:32px;height:32px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(135deg,var(--indigo),var(--cyan));color:#fff;font-weight:700}
-.menu-btn{display:none;background:none;border:1px solid var(--line);color:var(--fg);border-radius:10px;width:42px;height:42px;cursor:pointer}
-@media (max-width:920px){
-  nav.main{position:absolute;left:0;right:0;top:100%;flex-direction:column;background:var(--bg-2);border-bottom:1px solid var(--line);padding:8px max(16px,env(safe-area-inset-right,0px)) 14px max(16px,env(safe-area-inset-left,0px));display:none}
+.top .cta-top{padding:.7em 1.1em}
+.menu-btn{display:none;background:none;border:1px solid var(--line-2);color:var(--fg);border-radius:12px;width:44px;height:44px;cursor:pointer;place-items:center}
+@media (max-width:1060px){
+  nav.main{position:absolute;left:0;right:0;top:100%;flex-direction:column;gap:4px;background:var(--bg-2);border-bottom:1px solid var(--line);padding:10px max(16px,env(safe-area-inset-right,0px)) 18px max(16px,env(safe-area-inset-left,0px));display:none;box-shadow:0 30px 40px -20px rgba(0,0,0,.7)}
   nav.main.open{display:flex}
-  .menu-btn{display:grid;place-items:center;margin-left:auto}
-  .top .actions .user-chip span.nm{display:none}
+  nav.main a{padding:.8em .9em;font-size:1rem}
+  nav.main .nav-cta{display:flex;margin-top:8px;color:#04111D}
+  nav.main a.nav-cta:hover{color:#04111D;background:linear-gradient(135deg,var(--cyan),var(--cyan-2))}
+  .menu-btn{display:grid;margin-left:auto}
+  .top .cta-top{display:none}
 }
-@media (max-width:440px){.brand .wm{display:none}}
+@media (max-width:520px){.brand img{height:50px}.top .wrap{gap:10px;min-height:66px}}
 
 /* ---------- Héroe ---------- */
-.hero{position:relative;overflow:hidden;padding-block:56px 40px;border-bottom:1px solid var(--line)}
-.hero canvas{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
-.hero::after{content:"";position:absolute;left:50%;bottom:-340px;width:1200px;height:520px;transform:translateX(-50%);background:radial-gradient(closest-side,color-mix(in srgb,var(--indigo) 45%,transparent),transparent);pointer-events:none}
-.hero .wrap{position:relative;z-index:1;display:grid;grid-template-columns:minmax(150px,1fr) minmax(0,1.6fr) minmax(150px,1fr);align-items:end;gap:12px}
-.hero-copy{text-align:center;padding-bottom:16px;min-width:0}
-.hero-copy .logo{width:min(300px,70%);mix-blend-mode:screen;margin:0 auto 10px;display:block}
-.hero h1{font-size:clamp(2.3rem,5.4vw,4.4rem);font-weight:800;margin-top:14px}
-.hero h1 .grad{display:block;font-size:1.2em;overflow-wrap:anywhere;background:linear-gradient(90deg,var(--cyan),var(--indigo) 45%,var(--violet));-webkit-background-clip:text;background-clip:text;color:transparent}
-.hero .lead{color:var(--muted);max-width:52ch;margin:16px auto 0;font-size:1.05rem}
-.hero .ctas{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:26px}
-.slogan{font-family:var(--f-mono);font-size:.78rem;letter-spacing:.24em;color:var(--silver);text-transform:uppercase}
-.slogan i{font-style:normal;color:var(--cyan);margin:0 .5em}
+.hero{position:relative;overflow:hidden;padding-block:64px 72px;border-bottom:1px solid var(--line);background:
+  radial-gradient(60% 70% at 85% 30%,rgba(6,182,212,.14),transparent 70%),
+  radial-gradient(45% 60% at 10% 90%,rgba(139,92,246,.10),transparent 70%),var(--bg)}
+.hero::before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(103,232,249,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(103,232,249,.045) 1px,transparent 1px);background-size:56px 56px;mask-image:radial-gradient(ellipse 70% 60% at 60% 40%,#000 30%,transparent 80%);-webkit-mask-image:radial-gradient(ellipse 70% 60% at 60% 40%,#000 30%,transparent 80%);pointer-events:none}
+.hero .wrap{position:relative;display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:40px;align-items:center}
+.hero-copy{min-width:0;display:grid;gap:22px;justify-items:start}
+.hero h1{font-size:clamp(2.3rem,5vw,3.9rem);font-weight:800;line-height:1.06}
+.hero h1 .hl{background:linear-gradient(90deg,var(--cyan-2),var(--cyan) 50%,#a78bfa);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero .ctas{display:flex;flex-wrap:wrap;gap:12px}
+.trust{list-style:none;margin:6px 0 0;padding:16px 0 0;display:flex;flex-wrap:wrap;gap:10px 22px;border-top:1px solid var(--line);font-size:.88rem;color:var(--muted);width:100%}
+.trust li{display:flex;align-items:center;gap:8px}
+.trust svg{width:16px;height:16px;color:var(--cyan-2);flex:none}
+.pill-live{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line-2);background:rgba(16,27,50,.7);border-radius:999px;padding:.35em .9em .35em .6em;font-size:.8rem;color:var(--silver)}
+.pill-live i{width:8px;height:8px;border-radius:50%;background:var(--cyan-2);box-shadow:0 0 0 4px rgba(103,232,249,.15)}
 
-.character{position:relative;display:flex;flex-direction:column;align-items:center;cursor:pointer;background:none;border:0;padding:0;color:inherit;font:inherit}
-.character svg{width:100%;max-width:250px;height:auto;filter:drop-shadow(0 20px 40px rgba(0,0,0,.6))}
-.character .tag{font-family:var(--f-mono);font-size:.7rem;letter-spacing:.2em;color:var(--muted);margin-top:4px}
-.bubble{position:relative;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:10px 14px;font-size:.88rem;line-height:1.45;max-width:240px;margin-bottom:12px;min-height:3.6em;text-align:left}
-.bubble::after{content:"";position:absolute;bottom:-7px;left:50%;width:12px;height:12px;background:var(--surface);border-right:1px solid var(--line);border-bottom:1px solid var(--line);transform:translateX(-50%) rotate(45deg)}
-.bubble b{color:var(--cyan);font-weight:600}
+.hero-visual{position:relative;min-width:0;aspect-ratio:1/1.02;max-width:560px;width:100%;justify-self:end}
+.hero-visual canvas{position:absolute;inset:0;width:100%;height:100%;border-radius:28px}
+.hero-visual .frame{position:absolute;inset:0;border-radius:28px;border:1px solid var(--line);background:radial-gradient(80% 60% at 50% 30%,rgba(16,27,50,.6),rgba(8,17,31,.2));pointer-events:none}
+.hero-visual .tag-c{position:absolute;left:18px;top:16px;font-family:var(--f-mono);font-size:.68rem;letter-spacing:.14em;color:var(--muted);text-transform:uppercase}
+.character{position:absolute;bottom:2%;display:flex;flex-direction:column;align-items:center;cursor:pointer;background:none;border:0;padding:0;color:inherit;font:inherit}
+.character.nova{left:4%;width:44%}
+.character.ori{right:3%;width:36%}
+.character svg{width:100%;height:auto;filter:drop-shadow(0 18px 30px rgba(0,0,0,.55))}
+.character .tag{font-family:var(--f-mono);font-size:.64rem;letter-spacing:.16em;color:var(--muted);margin-top:2px;text-transform:uppercase}
+.bubble{position:relative;background:rgba(16,27,50,.92);border:1px solid var(--line-2);border-radius:14px;padding:9px 12px;font-size:.84rem;line-height:1.45;color:var(--text);max-width:100%;margin-bottom:10px;text-align:left;min-height:3.4em;backdrop-filter:blur(6px)}
+.bubble::after{content:"";position:absolute;bottom:-7px;left:50%;width:12px;height:12px;background:inherit;border-right:1px solid var(--line-2);border-bottom:1px solid var(--line-2);transform:translateX(-50%) rotate(45deg)}
+.bubble b{color:var(--cyan-2);font-weight:700}
 .ori .bubble b{color:var(--warn)}
 .float{animation:float 6s ease-in-out infinite}
 .float.delay{animation-delay:-3s}
-@keyframes float{50%{transform:translateY(-10px)}}
+@keyframes float{50%{transform:translateY(-8px)}}
 .blink{transform-box:fill-box;transform-origin:center;animation:blink 5s infinite}
 .blink.late{animation-delay:1.7s}
 @keyframes blink{0%,93%,100%{transform:scaleY(1)}96%{transform:scaleY(.1)}}
@@ -110,76 +158,203 @@ nav.main a:hover{color:var(--fg);background:var(--surface)}
 @keyframes tilt{30%{transform:rotate(-9deg)}70%{transform:rotate(6deg)}}
 .ring-spin{transform-box:fill-box;transform-origin:center;animation:spin 9s linear infinite}
 @keyframes spin{to{transform:rotate(360deg)}}
-
-@media (max-width:860px){
-  .hero .wrap{grid-template-columns:1fr 1fr;align-items:start}
-  .hero-copy{grid-column:1/-1;grid-row:1}
-  .character svg{max-width:170px}
-  .bubble{font-size:.82rem}
+@media (max-width:900px){
+  .hero{padding-block:40px 48px}
+  .hero .wrap{grid-template-columns:1fr}
+  .hero-visual{justify-self:center;max-width:460px}
 }
+@media (max-width:480px){.bubble{font-size:.76rem;padding:7px 9px}.character .tag{font-size:.56rem}}
 
 /* ---------- Secciones ---------- */
-section.band{padding-block:84px}
+section.band{padding-block:96px}
 section.alt{background:var(--bg-2);border-block:1px solid var(--line)}
-.sec-head{display:grid;gap:12px;max-width:760px;margin-bottom:40px}
-.sec-head h2{font-size:clamp(2rem,4vw,3.1rem);font-weight:800}
-.sec-head p{color:var(--muted)}
+.sec-head{display:grid;gap:14px;max-width:760px;margin-bottom:44px}
+.sec-head h2{font-size:clamp(1.9rem,3.6vw,2.7rem)}
+.sec-head .lead{font-size:1.04rem}
+.sec-head.center{margin-inline:auto;text-align:center;justify-items:center}
+@media (max-width:640px){section.band{padding-block:68px}}
 
-/* Servicios: cada uno con su color de neón, como en la pieza publicitaria */
-.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
-.svc{--c:var(--cyan);position:relative;border:1px solid color-mix(in srgb,var(--c) 45%,var(--line));border-radius:var(--radius);padding:22px;background:linear-gradient(180deg,color-mix(in srgb,var(--c) 9%,transparent),transparent 60%);min-width:0;display:flex;flex-direction:column;gap:10px}
-.svc svg{width:38px;height:38px;color:var(--c)}
-.svc h3{font-size:1.45rem;color:var(--c);font-weight:700}
-.svc p{color:var(--muted);font-size:.93rem}
-.svc .who{margin-top:auto;font-family:var(--f-mono);font-size:.7rem;letter-spacing:.08em;color:var(--fg);opacity:.75}
+/* Servicios */
+.services{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.svc{position:relative;display:flex;flex-direction:column;gap:14px;background:linear-gradient(180deg,var(--surface),rgba(16,27,50,.55));border:1px solid var(--line);border-radius:var(--radius);padding:26px;min-width:0;transition:border-color .25s,transform .25s}
+.svc:hover{border-color:rgba(6,182,212,.55);transform:translateY(-2px)}
+.svc .ico{width:48px;height:48px;border-radius:12px;display:grid;place-items:center;background:rgba(6,182,212,.1);border:1px solid rgba(6,182,212,.3);color:var(--cyan-2)}
+.svc .ico svg{width:24px;height:24px}
+.svc h3{font-size:1.18rem}
+.svc p{color:var(--muted);font-size:.95rem}
+.svc ul{margin:0;padding:0;list-style:none;display:grid;gap:6px;font-size:.88rem;color:var(--silver)}
+.svc li{display:flex;gap:8px;align-items:flex-start}
+.svc li::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--cyan);margin-top:.6em;flex:none}
+.svc .link-arrow{margin-top:auto;padding-top:6px}
+.also{margin-top:22px;display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;color:var(--muted);font-size:.92rem}
+.also b{color:var(--fg);font-weight:600}
+@media (max-width:980px){.services{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:620px){.services{grid-template-columns:1fr}}
 
-/* Proyectos */
-.projects{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
-.proj{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:24px;display:flex;flex-direction:column;gap:12px;min-width:0}
-.proj .row{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;flex-wrap:wrap}
-.proj .row h3{min-width:0}
-.proj h3{font-size:1.6rem}
-.proj p{color:var(--muted);font-size:.94rem}
-.proj ul{margin:0;padding-left:1.1em;color:var(--silver);font-size:.9rem;display:grid;gap:4px}
-.pill{font-family:var(--f-mono);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;padding:.35em .75em;border-radius:999px;border:1px solid;white-space:nowrap}
-.pill.live{color:var(--ok);border-color:color-mix(in srgb,var(--ok) 50%,transparent);background:color-mix(in srgb,var(--ok) 10%,transparent)}
-.pill.build{color:var(--warn);border-color:color-mix(in srgb,var(--warn) 50%,transparent);background:color-mix(in srgb,var(--warn) 10%,transparent)}
-.pill.plan{color:var(--muted);border-color:var(--line)}
+/* Soluciones */
+.sol{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:56px;align-items:start}
+.sol .sec-head{margin-bottom:0;position:sticky;top:110px}
+.sol-list{list-style:none;margin:0;padding:0;display:grid;gap:14px}
+.sol-list li{display:grid;grid-template-columns:44px minmax(0,1fr);gap:16px;padding:22px;border:1px solid var(--line);border-radius:var(--radius);background:var(--surface)}
+.sol-list .ico{width:44px;height:44px;border-radius:12px;display:grid;place-items:center;background:rgba(139,92,246,.12);color:#c4b5fd;border:1px solid rgba(139,92,246,.3)}
+.sol-list .ico svg{width:22px;height:22px}
+.sol-list h3{font-size:1.06rem;margin-bottom:6px}
+.sol-list p{color:var(--muted);font-size:.94rem}
+.sol-list .ex{margin-top:8px;font-size:.86rem;color:var(--silver)}
+.sol-list .ex b{color:var(--cyan-2);font-weight:600}
+@media (max-width:900px){.sol{grid-template-columns:1fr;gap:28px}.sol .sec-head{position:static}}
 
-/* Ecosistema ORION: tabla de módulos como "constelación" */
-.eco{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
-.eco div{background:var(--bg);padding:18px;min-width:0}
-.eco b{display:block;font-family:var(--f-mark);font-size:.78rem;letter-spacing:.06em;font-weight:400;margin-bottom:6px}
-.eco b span{color:var(--cyan)}
-.eco small{color:var(--muted);font-size:.85rem;line-height:1.45;display:block}
-@media (max-width:900px){.eco{grid-template-columns:repeat(3,minmax(0,1fr))}}
-@media (max-width:680px){.eco{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media (max-width:420px){.eco{grid-template-columns:1fr}}
-.roadmap{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px;font-family:var(--f-mono);font-size:.74rem}
-.roadmap span{border:1px solid var(--line);border-radius:8px;padding:.45em .8em;color:var(--muted)}
-.roadmap span.now{color:var(--fg);border-color:var(--indigo);background:color-mix(in srgb,var(--indigo) 16%,transparent)}
+/* Portafolio */
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin:-20px 0 26px}
+.filters button{background:none;border:1px solid var(--line-2);color:var(--muted);border-radius:999px;padding:.45em 1em;font:600 .85rem var(--f-body);cursor:pointer}
+.filters button[aria-pressed="true"]{color:#04111D;background:var(--cyan-2);border-color:var(--cyan-2)}
+.projects{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.proj{display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--line);border-radius:20px;overflow:hidden;min-width:0}
+.proj .shot{position:relative;aspect-ratio:16/10;background:#060c18;border-bottom:1px solid var(--line);overflow:hidden}
+.proj .shot img{width:100%;height:100%;object-fit:cover;object-position:top;display:block}
+.proj .shot .browser{position:absolute;left:0;right:0;top:0;height:26px;background:rgba(8,17,31,.85);display:flex;align-items:center;gap:6px;padding:0 10px;border-bottom:1px solid var(--line)}
+.proj .shot .browser i{width:8px;height:8px;border-radius:50%;background:var(--line-2)}
+.proj .shot .browser span{margin-left:8px;font-family:var(--f-mono);font-size:.66rem;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.proj .shot.art{display:grid;place-items:center;background:radial-gradient(60% 70% at 50% 60%,rgba(245,181,68,.12),transparent 70%),#0a1426}
+.proj .shot.art svg{width:42%;height:auto}
+.proj .body{padding:24px;display:grid;gap:14px;flex:1}
+.proj .row{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;flex-wrap:wrap}
+.proj h3{font-size:1.3rem}
+.proj dl{margin:0;display:grid;gap:10px}
+.proj dt{font-family:var(--f-mono);font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.proj dd{margin:2px 0 0;font-size:.93rem;color:var(--text)}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chips span{font-family:var(--f-mono);font-size:.72rem;border:1px solid var(--line-2);border-radius:8px;padding:.25em .6em;color:var(--silver)}
+.proj .foot{display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin-top:auto;padding-top:6px}
+.status{font-family:var(--f-mono);font-size:.68rem;letter-spacing:.08em;text-transform:uppercase;padding:.4em .8em;border-radius:999px;border:1px solid;white-space:nowrap}
+.status.demo{color:var(--cyan-2);border-color:rgba(103,232,249,.45);background:rgba(103,232,249,.08)}
+.status.dev{color:var(--warn);border-color:rgba(245,181,68,.45);background:rgba(245,181,68,.08)}
+.status.preview{color:#c4b5fd;border-color:rgba(167,139,250,.45);background:rgba(139,92,246,.1)}
+.note{margin-top:18px;font-size:.84rem;color:var(--muted)}
+@media (max-width:860px){.projects{grid-template-columns:1fr}}
 
-/* NOVA y ORI */
-.duo{display:grid;grid-template-columns:1fr 1fr;gap:20px}
-.mascot{display:grid;grid-template-columns:150px minmax(0,1fr);gap:20px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:24px}
+/* Nosotros y ecosistema */
+.about{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;margin-bottom:56px}
+.about article{border:1px solid var(--line);border-radius:var(--radius);padding:28px;background:var(--surface)}
+.about h3{font-size:1.3rem;margin-bottom:10px}
+.about p{color:var(--muted)}
+.about .yr{font-family:var(--f-mono);font-size:.74rem;color:var(--cyan-2);letter-spacing:.14em}
+.duo{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.mascot{display:grid;grid-template-columns:140px minmax(0,1fr);gap:22px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:24px}
 .mascot svg{width:100%;height:auto}
-.mascot h3{font-size:2.2rem}
+.mascot h3{font-size:1.6rem}
 .mascot .role{color:var(--muted);margin:6px 0 12px;font-size:.95rem}
 .mascot ul{margin:0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:6px}
-.mascot li{font-size:.8rem;border:1px solid var(--line);border-radius:999px;padding:.3em .8em;color:var(--silver)}
-.ori-tip{margin-top:18px;display:flex;gap:14px;align-items:flex-start;border:1px dashed color-mix(in srgb,var(--warn) 55%,var(--line));border-radius:var(--radius);padding:16px 18px;background:color-mix(in srgb,var(--warn) 6%,transparent)}
-.ori-tip .k{font-family:var(--f-mono);font-size:.7rem;letter-spacing:.14em;color:var(--warn);white-space:nowrap;padding-top:3px}
-.ori-tip p{font-size:.95rem;min-width:0}
-.ori-tip button{margin-left:auto;flex:none}
-@media (max-width:860px){.duo{grid-template-columns:1fr}.mascot{grid-template-columns:110px minmax(0,1fr)}.ori-tip{flex-wrap:wrap}}
+.mascot li{font-size:.78rem;border:1px solid var(--line-2);border-radius:999px;padding:.3em .8em;color:var(--silver)}
+.ori-tip{margin-top:18px;display:flex;gap:14px;align-items:center;border:1px dashed rgba(245,181,68,.45);border-radius:var(--radius);padding:16px 18px;background:rgba(245,181,68,.05)}
+.ori-tip .k{font-family:var(--f-mono);font-size:.7rem;letter-spacing:.14em;color:var(--warn);white-space:nowrap}
+.ori-tip p{font-size:.95rem;min-width:0;flex:1}
+.ori-tip button{flex:none}
+.eco-wrap{margin-top:56px}
+.eco-wrap h3{font-size:1.25rem;margin-bottom:8px}
+.eco-wrap>p{color:var(--muted);margin-bottom:22px;max-width:70ch}
+.eco{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+.eco div{background:var(--bg);padding:18px;min-width:0}
+.eco b{display:block;font-family:var(--f-display);font-size:.9rem;font-weight:600;color:var(--fg);margin-bottom:4px}
+.eco b span{color:var(--cyan-2)}
+.eco small{color:var(--muted);font-size:.84rem;line-height:1.45;display:block}
+.roadmap{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px;font-family:var(--f-mono);font-size:.72rem}
+.roadmap span{border:1px solid var(--line);border-radius:8px;padding:.45em .8em;color:var(--muted)}
+.roadmap span.now{color:var(--fg);border-color:var(--cyan);background:rgba(6,182,212,.1)}
+@media (max-width:980px){.eco{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:860px){.about,.duo{grid-template-columns:1fr}.mascot{grid-template-columns:100px minmax(0,1fr)}.ori-tip{flex-wrap:wrap}}
+@media (max-width:420px){.eco{grid-template-columns:1fr}}
 
-/* Misión y visión */
-.mv{display:grid;grid-template-columns:1fr 1fr;gap:40px}
-.mv h3{font-size:1.9rem;margin-bottom:12px}
-.mv p{color:var(--muted)}
-.mv .year{font-family:var(--f-display);font-size:5rem;font-weight:800;line-height:1;color:transparent;-webkit-text-stroke:1px var(--indigo);display:block;margin-bottom:6px}
-@media (max-width:760px){.mv{grid-template-columns:1fr}}
+/* Metodología */
+.method{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px;counter-reset:m}
+.method li{position:relative;counter-increment:m;border:1px solid var(--line);border-radius:var(--radius);padding:24px 20px;background:var(--surface);display:grid;gap:10px;align-content:start}
+.method li::before{content:"0" counter(m);font-family:var(--f-mono);font-size:.8rem;color:var(--cyan-2);letter-spacing:.1em}
+.method li:not(:last-child)::after{content:"";position:absolute;top:34px;right:-15px;width:16px;height:1px;background:linear-gradient(90deg,var(--cyan),transparent)}
+.method h3{font-size:1.04rem}
+.method p{color:var(--muted);font-size:.9rem}
+@media (max-width:1060px){.method{grid-template-columns:repeat(2,minmax(0,1fr))}.method li::after{display:none}.method li:last-child{grid-column:1/-1}}
+@media (max-width:560px){.method{grid-template-columns:1fr}}
 
+/* Preguntas frecuentes */
+.faq{max-width:860px;margin:0 auto;display:grid;gap:10px}
+.faq details{border:1px solid var(--line);border-radius:14px;background:var(--surface);transition:border-color .2s}
+.faq details[open]{border-color:rgba(6,182,212,.45)}
+.faq summary{cursor:pointer;list-style:none;padding:18px 54px 18px 20px;font-family:var(--f-display);font-weight:600;color:var(--fg);font-size:1rem;position:relative}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"";position:absolute;right:22px;top:50%;width:10px;height:10px;border-right:2px solid var(--cyan-2);border-bottom:2px solid var(--cyan-2);transform:translateY(-70%) rotate(45deg);transition:transform .2s}
+.faq details[open] summary::after{transform:translateY(-30%) rotate(-135deg)}
+.faq .ans{padding:0 20px 20px;color:var(--muted);font-size:.96rem;display:grid;gap:10px}
+.faq .ans a{color:var(--cyan-2)}
+
+/* Contacto y cotizaciones */
+.contact-grid{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,.9fr);gap:28px;align-items:start}
+.qform{background:linear-gradient(180deg,var(--surface),rgba(16,27,50,.7));border:1px solid var(--line-2);border-radius:22px;padding:30px;display:grid;gap:16px;box-shadow:0 30px 60px -30px rgba(0,0,0,.6)}
+.qform h3{font-size:1.35rem}
+.qform .req{color:var(--cyan-2)}
+.qform .opt{color:var(--muted);font-weight:500}
+.field{display:grid;gap:6px;min-width:0}
+.field>label:not(.consent){display:block}
+.ferr{font-size:.8rem;color:var(--bad);min-height:0}
+.field [aria-invalid="true"]{border-color:var(--bad)}
+.counter{font-size:.76rem;color:var(--muted);justify-self:end;font-variant-numeric:tabular-nums}
+.hp{position:absolute!important;left:-9999px;width:1px;height:1px;overflow:hidden}
+.consent{display:flex!important;gap:10px;align-items:flex-start;font-weight:500!important;font-size:.86rem!important;color:var(--muted)!important}
+.consent input{width:auto;margin-top:3px;flex:none}
+.consent a{color:var(--cyan-2)}
+.qdone{border:1px solid rgba(34,197,94,.45);background:rgba(34,197,94,.07);border-radius:16px;padding:22px;display:grid;gap:8px}
+.qdone h3{font-size:1.2rem}
+.qdone .folio{font-family:var(--f-mono);color:var(--cyan-2);font-size:1.1rem}
+.side{display:grid;gap:16px}
+.side .card{border:1px solid var(--line);border-radius:18px;background:var(--surface);padding:24px;display:grid;gap:14px}
+.side h3{font-size:1.1rem}
+.side dl{display:grid;gap:14px;margin:0}
+.side dt{font-family:var(--f-mono);font-size:.68rem;letter-spacing:.14em;color:var(--muted);text-transform:uppercase}
+.side dd{margin:3px 0 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;word-break:break-word;color:var(--fg)}
+.side .wa{border-color:rgba(37,211,102,.4);background:radial-gradient(120% 120% at 0% 0%,rgba(37,211,102,.1),transparent 60%),var(--surface)}
+.side .wa .num{font-family:var(--f-display);font-weight:800;font-size:1.7rem;color:#4ade80;font-variant-numeric:tabular-nums}
+.side .priv{font-size:.82rem;color:var(--muted)}
+.side .priv a{color:var(--cyan-2)}
+.copy{background:none;border:1px solid var(--line-2);color:var(--muted);border-radius:8px;font:500 .72rem var(--f-mono);padding:.3em .6em;cursor:pointer}
+.copy:hover{color:var(--fg);border-color:var(--cyan)}
+@media (max-width:920px){.contact-grid{grid-template-columns:1fr}}
+@media (max-width:560px){.qform{padding:22px}}
+
+/* Banda de llamado intermedio */
+.cta-band{padding-block:56px;background:linear-gradient(90deg,rgba(6,182,212,.12),rgba(139,92,246,.1));border-block:1px solid var(--line)}
+.cta-band .wrap{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
+.cta-band h2{font-size:clamp(1.4rem,2.6vw,1.9rem);max-width:30ch}
+
+/* Footer */
+footer.site{padding-block:56px 36px;background:#060D19;border-top:1px solid var(--line);font-size:.92rem}
+.fgrid{display:grid;grid-template-columns:minmax(0,1.4fr) repeat(3,minmax(0,1fr));gap:32px}
+.fgrid img{height:96px;width:auto;mix-blend-mode:lighten;display:block;margin-bottom:12px}
+.fgrid h4{font-size:.78rem;font-family:var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:500;margin-bottom:12px}
+.fgrid ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.fgrid a{color:var(--text);text-decoration:none}
+.fgrid a:hover{color:var(--cyan-2)}
+.fgrid p{color:var(--muted)}
+.fbottom{margin-top:40px;padding-top:20px;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;color:var(--muted);font-size:.84rem}
+@media (max-width:860px){.fgrid{grid-template-columns:1fr 1fr}.fgrid>div:first-child{grid-column:1/-1}}
+@media (max-width:460px){.fgrid{grid-template-columns:1fr}}
+
+/* Formularios (compartido con login y paneles) */
+form{display:grid;gap:14px}
+label{display:grid;gap:6px;font-size:.86rem;color:var(--silver);font-weight:600}
+input,select,textarea{width:100%;background:rgba(8,17,31,.7);border:1px solid var(--line-2);color:var(--fg);border-radius:12px;padding:.8em .95em;font:400 1rem var(--f-body)}
+textarea{resize:vertical;min-height:120px}
+select{appearance:none;-webkit-appearance:none;background-image:linear-gradient(45deg,transparent 50%,var(--muted) 50%),linear-gradient(135deg,var(--muted) 50%,transparent 50%);background-position:calc(100% - 20px) 55%,calc(100% - 15px) 55%;background-size:5px 5px;background-repeat:no-repeat;padding-right:40px}
+input::placeholder,textarea::placeholder{color:#6b7c99}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--cyan);box-shadow:0 0 0 3px rgba(6,182,212,.22)}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media (max-width:620px){.row2{grid-template-columns:1fr}}
+.msg{font-size:.88rem;min-height:1.3em}
+.msg.err{color:var(--bad)}
+.msg.ok{color:var(--ok)}
+.fine{font-size:.78rem;color:var(--muted);line-height:1.5}
+.linkish{background:none;border:0;color:var(--cyan-2);font:inherit;cursor:pointer;padding:0;text-decoration:underline;text-underline-offset:3px}
+.toast{position:fixed;left:50%;bottom:calc(90px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--surface);border:1px solid var(--ok);color:var(--fg);padding:.7em 1.1em;border-radius:12px;z-index:70;font-size:.9rem;max-width:calc(100vw - 32px)}
+
+/* ---------- Componentes de cuenta (login, panel, chat) ---------- */
 /* Panel del usuario */
 #panel{padding-block:44px;background:linear-gradient(180deg,color-mix(in srgb,var(--indigo) 14%,var(--bg)),var(--bg));border-bottom:1px solid var(--line)}
 #panel .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-top:22px}
@@ -198,22 +373,6 @@ td:nth-child(3){font-variant-numeric:tabular-nums;white-space:nowrap}
 #panel .tile span{color:var(--muted);font-size:.88rem}
 #panel h2{font-size:clamp(1.8rem,3.4vw,2.6rem)}
 
-/* Contacto */
-.contact{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:28px;align-items:center;border:1px solid color-mix(in srgb,var(--ok) 40%,var(--line));border-radius:20px;padding:36px;background:radial-gradient(120% 140% at 0% 0%,color-mix(in srgb,var(--ok) 10%,transparent),transparent 60%)}
-.contact h2{font-size:clamp(2rem,4.4vw,3.4rem)}
-.phone{font-family:var(--f-display);font-weight:800;font-size:clamp(2.2rem,5vw,3.6rem);color:var(--ok);letter-spacing:.02em;line-height:1;margin-top:10px;font-variant-numeric:tabular-nums}
-.lead-form{grid-column:1/-1;border-top:1px solid var(--line);padding-top:24px}
-.contact dl{display:grid;gap:14px;margin:0}
-.contact dt{font-family:var(--f-mono);font-size:.7rem;letter-spacing:.14em;color:var(--muted);text-transform:uppercase}
-.contact dd{margin:2px 0 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;word-break:break-word}
-.copy{background:none;border:1px solid var(--line);color:var(--muted);border-radius:8px;font:500 .72rem var(--f-mono);padding:.3em .6em;cursor:pointer}
-.copy:hover{color:var(--fg);border-color:var(--cyan)}
-@media (max-width:760px){.contact{grid-template-columns:1fr;padding:24px}}
-
-footer{padding-block:34px 40px;color:var(--muted);font-size:.85rem;border-top:1px solid var(--line)}
-footer .wrap{display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;align-items:center}
-footer .seg{font-family:var(--f-mono);font-size:.7rem;letter-spacing:.2em}
-
 /* ---------- Modal de acceso ---------- */
 .modal{position:fixed;inset:0;z-index:60;display:grid;place-items:center;background:rgba(2,4,10,.72);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);padding:max(16px,env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) max(16px,env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));overflow-y:auto}
 .dialog{width:min(860px,100%);display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);background:var(--bg-2);border:1px solid var(--line);border-radius:20px;overflow:hidden;box-shadow:0 40px 80px -20px rgba(0,0,0,.8)}
@@ -226,21 +385,11 @@ footer .seg{font-family:var(--f-mono);font-size:.7rem;letter-spacing:.2em}
 .tabs{display:flex;gap:4px;background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:4px;margin-bottom:20px;margin-right:46px}
 .tabs button{flex:1;border:0;background:none;color:var(--muted);font:600 .9rem var(--f-body);padding:.6em;border-radius:9px;cursor:pointer}
 .tabs button[aria-selected="true"]{background:var(--surface);color:var(--fg)}
-form{display:grid;gap:14px}
-label{display:grid;gap:6px;font-size:.84rem;color:var(--silver);font-weight:600}
-input,select,textarea{width:100%;background:var(--bg);border:1px solid var(--line);color:var(--fg);border-radius:10px;padding:.8em .9em;font:400 1rem var(--f-body)}
-input:focus,select:focus,textarea:focus{outline:none;border-color:var(--cyan);box-shadow:0 0 0 3px color-mix(in srgb,var(--cyan) 22%,transparent)}
 .pw{position:relative}
 .pw input{padding-right:84px}
 .pw button{position:absolute;right:8px;top:50%;transform:translateY(-50%);background:none;border:0;color:var(--muted);font:500 .75rem var(--f-mono);cursor:pointer;padding:.4em}
 .meter{height:6px;background:var(--line);border-radius:6px;overflow:hidden}
 .meter i{display:block;height:100%;width:0;background:var(--bad);transition:width .25s,background .25s}
-.row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-.msg{font-size:.86rem;min-height:1.3em}
-.msg.err{color:var(--bad)}
-.msg.ok{color:var(--ok)}
-.fine{font-size:.76rem;color:var(--muted);line-height:1.5}
-.linkish{background:none;border:0;color:var(--cyan);font:inherit;cursor:pointer;padding:0;text-decoration:underline;text-underline-offset:3px}
 @media (max-width:720px){.dialog{grid-template-columns:1fr}.dialog aside{flex-direction:row;align-items:center;border-right:0;border-bottom:1px solid var(--line);padding:18px}.dialog aside svg{width:74px;flex:none}.dialog aside .eyebrow,.dialog aside .fine{display:none}.row2{grid-template-columns:1fr}}
 
 /* ---------- Chat con NOVA ---------- */
@@ -270,7 +419,6 @@ input:focus,select:focus,textarea:focus{outline:none;border-color:var(--cyan);bo
 .chat form input{flex:1;min-width:0}
 .chat form button{flex:none;border-radius:10px;padding:0 14px}
 
-.toast{position:fixed;left:50%;bottom:calc(90px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--surface);border:1px solid var(--ok);color:var(--fg);padding:.7em 1.1em;border-radius:12px;z-index:70;font-size:.9rem;max-width:calc(100vw - 32px)}
 
 /* Submenú de la cuenta */
 .umenu{position:relative}
@@ -333,14 +481,13 @@ input:focus,select:focus,textarea:focus{outline:none;border-color:var(--cyan);bo
 code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:.1em .4em;overflow-wrap:anywhere}
 
 @media (prefers-reduced-motion:reduce){
+  .hero-visual canvas{display:block}
   *,*::before,*::after{animation:none!important;transition:none!important}
   html{scroll-behavior:auto}
 }
 </style>
 </head>
 <body>
-
-
 <!-- ================= SVG reutilizables ================= -->
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
   <defs>
@@ -364,7 +511,7 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
       <circle cx="130" cy="236" r="19" fill="none" stroke="#2f5bff" stroke-width="5"/>
       <path d="M118 236 a12 12 0 0 1 20 -9" fill="none" stroke="#53c6ff" stroke-width="4" stroke-linecap="round"/>
       <circle cx="130" cy="236" r="4" fill="#2f5bff"/>
-      <text x="130" y="282" text-anchor="middle" font-family="Saira Condensed, Arial Narrow, sans-serif" font-weight="800" font-style="italic" font-size="22" fill="#2a49d6" letter-spacing="1">NOVA</text>
+      <text x="130" y="282" text-anchor="middle" font-family="Sora, Arial, sans-serif" font-weight="800" font-style="italic" font-size="20" fill="#2a49d6" letter-spacing="1">NOVA</text>
       <!-- cuello -->
       <rect x="112" y="178" width="36" height="20" rx="6" fill="#8a94b0"/>
       <!-- brazo izquierdo (saluda) -->
@@ -404,7 +551,7 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
       <path d="M96 200 Q130 280 164 200" fill="none" stroke="#2a3460" stroke-width="6"/>
       <circle cx="176" cy="262" r="15" fill="none" stroke="#53c6ff" stroke-width="4" filter="url(#glow)"/>
       <circle cx="176" cy="262" r="5" fill="#53c6ff"/>
-      <text x="176" y="300" text-anchor="middle" font-family="Saira Condensed, Arial Narrow, sans-serif" font-weight="700" font-size="20" fill="#cdd4e6" letter-spacing="1">ORI</text>
+      <text x="176" y="300" text-anchor="middle" font-family="Sora, Arial, sans-serif" font-weight="700" font-size="18" fill="#cdd4e6" letter-spacing="1">ORI</text>
       <!-- ala con pulgar arriba -->
       <path d="M50 300 Q30 250 60 222 Q74 260 72 304 Z" fill="url(#g-owl)"/>
       <g id="ori-head">
@@ -436,34 +583,37 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
   </defs>
 </svg>
 
+<a class="skip" href="#contenido">Saltar al contenido</a>
+
 <!-- ================= Encabezado ================= -->
 <header class="top">
   <div class="wrap">
-    <a class="brand" href="#inicio" aria-label="Orion Nova Technologies, inicio">
-      <img src="data:image/webp;base64,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" alt="" width="46" height="37">
-      <span class="wm">ORION <b>NOVA</b><small>TECHNOLOGIES</small></span>
+    <a class="brand" href="#inicio" aria-label="Orion Nova Technologies, ir al inicio">
+      <img src="assets/imagenes/image.png" alt="Orion Nova Technologies" width="462" height="407">
     </a>
-    <button class="menu-btn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false" aria-controls="mainNav">
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
-    </button>
     <nav class="main" id="mainNav" aria-label="Principal">
       <a href="#servicios">Servicios</a>
-      <a href="#proyectos">Proyectos</a>
-      <a href="#ecosistema">Ecosistema</a>
-      <a href="#nova-ori">NOVA y ORI</a>
+      <a href="#soluciones">Soluciones</a>
+      <a href="#portafolio">Portafolio</a>
       <a href="#nosotros">Nosotros</a>
       <a href="#contacto">Contacto</a>
+      <a class="btn btn-primary nav-cta" href="#contacto">Solicitar una cotización</a>
     </nav>
-    <div class="actions" id="authArea">
-      <button class="btn btn-primary" id="openLogin" type="button">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg>
-        Ingresar
-      </button>
+    <div class="actions">
+      <a class="btn btn-primary cta-top" href="#contacto">Solicitar cotización</a>
+      <div id="authArea">
+        <button class="btn btn-ghost" id="openLogin" type="button">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg>
+          Ingresar
+        </button>
+      </div>
     </div>
+    <button class="menu-btn" id="menuBtn" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="mainNav">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
   </div>
 </header>
 
-<!-- ================= Panel del usuario (tras iniciar sesión) ================= -->
 <section id="panel" hidden aria-live="polite">
   <div class="wrap">
     <div class="panel-top">
@@ -526,8 +676,8 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
     </div>
 
     <div class="pview" data-pview="solicitudes" hidden>
-      <div class="admin-head"><h3>Solicitudes de contacto</h3><button class="btn btn-ghost" type="button" id="reloadLeads">Actualizar</button></div>
-      <div class="table-wrap"><table><thead><tr><th>Fecha</th><th>Nombre</th><th>Celular</th><th>Servicio</th><th>Mensaje</th><th>Estado</th></tr></thead><tbody id="leadRows"><tr><td colspan="6">Cargando…</td></tr></tbody></table></div>
+      <div class="admin-head"><h3>Solicitudes de cotización</h3><button class="btn btn-ghost" type="button" id="reloadLeads">Actualizar</button></div>
+      <div class="table-wrap"><table><thead><tr><th>Fecha y folio</th><th>Cliente</th><th>Contacto</th><th>Servicio</th><th>Presupuesto · plazo</th><th>Proyecto</th><th>Estado</th></tr></thead><tbody id="leadRows"><tr><td colspan="7">Cargando…</td></tr></tbody></table></div>
     </div>
 
     <div class="pview" data-pview="twilio" hidden>
@@ -554,166 +704,243 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
   </div>
 </section>
 
-<main id="inicio">
+<main id="contenido">
 <!-- ================= Héroe ================= -->
-<section class="hero">
-  <canvas id="stars" aria-hidden="true"></canvas>
+<section class="hero" id="inicio" aria-labelledby="hero-title">
   <div class="wrap">
-    <button class="character nova float" id="heroNova" type="button" aria-label="NOVA, toca para que te salude">
-      <div class="bubble" id="novaSay">¡Hola! Soy <b>NOVA</b>. Te muestro lo que hacemos.</div>
-      <svg viewBox="0 0 260 340" role="img" aria-label="NOVA, el humanoide de Orion Nova"><use href="#nova"/></svg>
-      <span class="tag">NOVA · HUMANOIDE IA</span>
-    </button>
-
     <div class="hero-copy">
-      <img class="logo" src="data:image/webp;base64,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" alt="Logo de Orion Nova Technologies: Innovamos, Desarrollamos, Conectamos" width="300" height="264">
-      <h1>Transformamos tus ideas en <span class="grad">tecnología real</span></h1>
-      <p class="lead">Inteligencia artificial, software, robótica, IoT y ciberseguridad hechos en Neiva, Huila, para que tu negocio llegue al siguiente nivel.</p>
+      <span class="pill-live"><i aria-hidden="true"></i>Software · Inteligencia artificial · Ciberseguridad</span>
+      <h1 id="hero-title">Tu próximo gran proyecto comienza con <span class="hl">tecnología inteligente.</span></h1>
+      <p class="lead">Diseñamos soluciones de software, inteligencia artificial y ciberseguridad para impulsar negocios y convertir ideas en soluciones digitales.</p>
       <div class="ctas">
-        <button class="btn btn-primary" type="button" data-open-chat>
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12Z"/></svg>
-          Hablar con NOVA
-        </button>
-        <a class="btn btn-wa" href="https://wa.me/573004440009?text=Hola%20Orion%20Nova%2C%20quiero%20hablar%20de%20mi%20proyecto" target="_blank" rel="noopener">
-          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.3 14.2c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.5-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2.1 1-2.4c.3-.3.6-.3.8-.3h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .5l-.4.6-.4.4c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.6-.1l.9-1.1c.2-.3.4-.2.7-.1l2 1c.3.1.5.2.5.3.1.2.1.8-.1 1.4Z"/></svg>
-          WhatsApp
+        <a class="btn btn-primary" href="#contacto">
+          Solicitar una cotización
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
         </a>
+        <a class="btn btn-ghost" href="#servicios">Explorar soluciones</a>
       </div>
-      <p class="slogan" style="margin-top:22px">Innovamos<i>·</i>Desarrollamos<i>·</i>Conectamos</p>
+      <ul class="trust" aria-label="Datos de Orion Nova">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12Z"/><circle cx="12" cy="10" r="2.5"/></svg>Empresa de Neiva, Huila, Colombia</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M8 21h8"/></svg>4 productos propios en desarrollo</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12Z"/></svg>Atención directa por WhatsApp</li>
+      </ul>
     </div>
 
-    <button class="character ori float delay" id="heroOri" type="button" aria-label="ORI, toca para un consejo de seguridad">
-      <div class="bubble" id="oriSay">Soy <b>ORI</b>. Toca y te doy un consejo de seguridad.</div>
-      <svg viewBox="0 0 260 340" role="img" aria-label="ORI, el búho de Orion Nova"><use href="#ori"/></svg>
-      <span class="tag">ORI · SEGURIDAD Y CONOCIMIENTO</span>
-    </button>
+    <div class="hero-visual">
+      <canvas id="stars" aria-hidden="true"></canvas>
+      <div class="frame" aria-hidden="true"></div>
+      <span class="tag-c" aria-hidden="true">Constelación de Orión · red de datos</span>
+      <button class="character nova float" id="heroNova" type="button" aria-label="NOVA, toca para que te salude">
+        <span class="bubble" id="novaSay">¡Hola! Soy <b>NOVA</b>. ¿Qué quieres construir?</span>
+        <svg viewBox="0 0 260 340" role="img" aria-label="NOVA, el humanoide de Orion Nova"><use href="#nova"/></svg>
+        <span class="tag">NOVA · humanoide IA</span>
+      </button>
+      <button class="character ori float delay" id="heroOri" type="button" aria-label="ORI, toca para un consejo de seguridad">
+        <span class="bubble" id="oriSay">Soy <b>ORI</b>. Tócame y te doy un consejo de seguridad.</span>
+        <svg viewBox="0 0 260 340" role="img" aria-label="ORI, el búho de Orion Nova"><use href="#ori"/></svg>
+        <span class="tag">ORI · seguridad</span>
+      </button>
+    </div>
   </div>
 </section>
 
 <!-- ================= Servicios ================= -->
-<section class="band" id="servicios">
+<section class="band" id="servicios" aria-labelledby="servicios-title">
   <div class="wrap">
     <div class="sec-head">
-      <p class="eyebrow">Servicios</p>
-      <h2>Soluciones tecnológicas a tu medida</h2>
-      <p>Desde la página web de tu negocio hasta un asistente con inteligencia artificial que atiende a tus clientes las 24 horas.</p>
+      <p class="eyebrow">Servicios tecnológicos</p>
+      <h2 id="servicios-title">Lo que podemos construir para tu negocio</h2>
+      <p class="lead">Desde la página web de tu empresa hasta un asistente con inteligencia artificial que atiende a tus clientes. Cada proyecto se diseña a la medida de lo que necesitas.</p>
     </div>
     <div class="services">
-      <article class="svc" style="--c:#53c6ff">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2" y="4" width="20" height="13" rx="2"/><path d="M8 21h8M12 17v4M9.5 8.5 7 11l2.5 2.5M14.5 8.5 17 11l-2.5 2.5"/></svg>
-        <h3>Desarrollo web</h3>
-        <p>Páginas modernas, rápidas y seguras, adaptadas a celular y computador.</p>
+      <article class="svc">
+        <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="4" y="7" width="16" height="12" rx="4"/><circle cx="9" cy="13" r="1.3" fill="currentColor"/><circle cx="15" cy="13" r="1.3" fill="currentColor"/><path d="M12 7V4M10 3h4"/></svg></span>
+        <h3>Inteligencia artificial y automatización</h3>
+        <p>Asistentes virtuales que atienden a tus clientes 24/7 y procesos que se hacen solos para ahorrar tiempo.</p>
+        <ul><li>Chatbots y asistentes con IA</li><li>Toma de pedidos y respuestas automáticas</li><li>Automatización de tareas repetitivas</li></ul>
+        <a class="link-arrow" href="#contacto" data-servicio="ia-automatizacion">Cotizar este servicio <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
       </article>
-      <article class="svc" style="--c:#a77bff">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="6" y="2" width="12" height="20" rx="2.5"/><rect x="9" y="6" width="2.5" height="2.5"/><rect x="12.5" y="6" width="2.5" height="2.5"/><rect x="9" y="10" width="2.5" height="2.5"/><rect x="12.5" y="10" width="2.5" height="2.5"/><path d="M11 18.5h2"/></svg>
-        <h3>Aplicaciones móviles</h3>
-        <p>Apps para Android e iOS con buena experiencia de usuario y alto rendimiento.</p>
+      <article class="svc">
+        <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="2" y="4" width="14" height="11" rx="2"/><rect x="15" y="9" width="7" height="12" rx="1.5"/><path d="M6 19h6"/></svg></span>
+        <h3>Desarrollo web y aplicaciones móviles</h3>
+        <p>Páginas y aplicaciones rápidas, seguras y adaptadas al celular, pensadas para que tus clientes te encuentren y te compren.</p>
+        <ul><li>Sitios corporativos y tiendas en línea</li><li>Apps para Android e iOS</li><li>Plataformas con registro de usuarios</li></ul>
+        <a class="link-arrow" href="#contacto" data-servicio="web-movil">Cotizar este servicio <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
       </article>
-      <article class="svc" style="--c:#4fa3ff">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="4" y="7" width="16" height="12" rx="4"/><circle cx="9" cy="13" r="1.4" fill="currentColor"/><circle cx="15" cy="13" r="1.4" fill="currentColor"/><path d="M12 7V4M10 3h4M2 12v3M22 12v3"/></svg>
-        <h3>Asistentes virtuales</h3>
-        <p>Asistentes con IA que atienden 24/7, toman pedidos y automatizan respuestas.</p>
+      <article class="svc">
+        <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="m8 8-4 4 4 4M16 8l4 4-4 4M13.5 5l-3 14"/></svg></span>
+        <h3>Software a la medida</h3>
+        <p>Sistemas hechos para la forma en que trabaja tu organización, en lugar de adaptarte a un programa genérico.</p>
+        <ul><li>Plataformas administrativas</li><li>Sistemas de información y CRM</li><li>Sistemas académicos</li></ul>
+        <a class="link-arrow" href="#contacto" data-servicio="software-medida">Cotizar este servicio <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
       </article>
-      <article class="svc" style="--c:#ffb547">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="3.2"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1 7 17M17 7l2.1-2.1"/></svg>
-        <h3>Automatización</h3>
-        <p>Procesos que se hacen solos para ahorrar tiempo, bajar costos y crecer.</p>
-      </article>
-      <article class="svc" style="--c:#2fd27a">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2 4 5v6c0 5 3.4 9.4 8 11 4.6-1.6 8-6 8-11V5Z"/><rect x="9" y="11" width="6" height="5" rx="1"/><path d="M10 11V9.5a2 2 0 0 1 4 0V11"/></svg>
+      <article class="svc">
+        <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 2 4 5v6c0 5 3.4 9.4 8 11 4.6-1.6 8-6 8-11V5Z"/><path d="m9 12 2 2 4-4"/></svg></span>
         <h3>Ciberseguridad</h3>
-        <p>Protegemos sistemas, datos y clientes con monitoreo y buenas prácticas.</p>
+        <p>Protegemos tus sistemas, tus datos y los de tus clientes con revisiones técnicas y buenas prácticas.</p>
+        <ul><li>Revisión de seguridad de sitios y apps</li><li>Pruebas de seguridad con autorización firmada</li><li>Protección de datos personales</li></ul>
+        <a class="link-arrow" href="#contacto" data-servicio="ciberseguridad">Cotizar este servicio <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
       </article>
-      <article class="svc" style="--c:#36d0e0">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 12 8 8l5 4v7H3Z"/><path d="M13 13l4-3 4 3v6h-8"/><path d="M8.5 4.5a6 6 0 0 1 7 0M10.3 6.6a3 3 0 0 1 3.4 0"/></svg>
-        <h3>IoT</h3>
-        <p>Dispositivos y sensores conectados para hogares, negocios y ciudades.</p>
+      <article class="svc">
+        <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M7 18a5 5 0 1 1 .9-9.9A6 6 0 0 1 19 10a4 4 0 0 1-1 8Z"/><path d="M9 14h6"/></svg></span>
+        <h3>Nube y bases de datos</h3>
+        <p>Ponemos tu información en servidores en la nube, con copias de seguridad y accesos controlados.</p>
+        <ul><li>Bases de datos PostgreSQL</li><li>Usuarios, roles y permisos</li><li>Publicación y mantenimiento</li></ul>
+        <a class="link-arrow" href="#contacto" data-servicio="nube-redes">Cotizar este servicio <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
       </article>
-      <article class="svc" style="--c:#ff6fa8">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 10v4l11 5V5Z"/><path d="M14 8.5c2 .5 3 2 3 3.5s-1 3-3 3.5M6 15l1.5 5h3L9 16"/><path d="M19 7l2-1.5M19 17l2 1.5M20 12h2"/></svg>
-        <h3>Marketing digital</h3>
-        <p>Estrategias para que más clientes encuentren y recuerden tu marca.</p>
+      <article class="svc">
+        <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></span>
+        <h3>IoT y analítica de datos</h3>
+        <p>Sensores y dispositivos conectados, y tableros que convierten tus datos en decisiones.</p>
+        <ul><li>Monitoreo con sensores</li><li>Tableros e indicadores</li><li>Reportes automáticos</li></ul>
+        <a class="link-arrow" href="#contacto" data-servicio="iot-datos">Cotizar este servicio <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
       </article>
     </div>
+    <p class="also"><b>También:</b> marketing digital para dar a conocer tu marca y capacitación en tecnología. <a class="link-arrow" href="#contacto" data-servicio="marketing">Preguntar por marketing digital</a></p>
   </div>
 </section>
 
-<!-- ================= Proyectos ================= -->
-<section class="band alt" id="proyectos">
+<!-- ================= Soluciones ================= -->
+<section class="band alt" id="soluciones" aria-labelledby="soluciones-title">
+  <div class="wrap sol">
+    <div class="sec-head">
+      <p class="eyebrow">Soluciones para empresas</p>
+      <h2 id="soluciones-title">Tecnología que se nota en el día a día de tu empresa</h2>
+      <p class="lead">No necesitas saber de programación. Nos cuentas qué te quita tiempo, qué te preocupa o qué quieres lanzar, y proponemos la solución.</p>
+      <div><a class="btn btn-primary" href="#contacto">Contarnos tu caso</a></div>
+    </div>
+    <ul class="sol-list">
+      <li>
+        <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4v6h6M20 20v-6h-6"/><path d="M20 10A8 8 0 0 0 5.6 6.6L4 10m16 4-1.6 3.4A8 8 0 0 1 4 14"/></svg></span>
+        <div><h3>Automatizar procesos</h3><p>Lo que hoy se hace a mano, como responder las mismas preguntas o pasar datos de una hoja a otra, puede hacerse solo.</p><p class="ex"><b>Ejemplo:</b> un asistente que toma pedidos por chat y se los envía al dueño del negocio.</p></div>
+      </li>
+      <li>
+        <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg></span>
+        <div><h3>Mejorar tu seguridad digital</h3><p>Revisamos cómo entran tus usuarios, dónde se guardan tus datos y quién puede verlos, y cerramos los huecos.</p><p class="ex"><b>Ejemplo:</b> contraseñas fuertes, límites contra intentos repetidos y datos separados por cliente.</p></div>
+      </li>
+      <li>
+        <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9 7 7M17 17l2.1 2.1M4.9 19.1 7 17M17 7l2.1-2.1"/></svg></span>
+        <div><h3>Optimizar operaciones</h3><p>Un solo sistema donde tu equipo ve pedidos, clientes y tareas, en vez de mensajes y archivos sueltos.</p><p class="ex"><b>Ejemplo:</b> un panel donde cada restaurante ve solo sus pedidos y cambia su estado.</p></div>
+      </li>
+      <li>
+        <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 19c4-1 6-4 7-8 1 4 3 7 7 8M12 3v8"/><circle cx="12" cy="3" r="1"/></svg></span>
+        <div><h3>Desarrollar productos digitales</h3><p>Convertimos tu idea en una página, app o plataforma que puedas mostrar, probar y vender.</p><p class="ex"><b>Ejemplo:</b> una plataforma de cursos con módulos gratis, pagos y certificados.</p></div>
+      </li>
+      <li>
+        <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 3v18h18"/><path d="m7 15 4-4 3 3 5-6"/></svg></span>
+        <div><h3>Decidir con datos</h3><p>Tableros claros con lo que importa: ventas, clientes, tiempos y alertas, en lugar de adivinar.</p><p class="ex"><b>Ejemplo:</b> indicadores de pedidos por día y por restaurante.</p></div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ================= Portafolio ================= -->
+<section class="band" id="portafolio" aria-labelledby="portafolio-title">
+  <span id="proyectos" class="anchor" aria-hidden="true"></span>
   <div class="wrap">
     <div class="sec-head">
-      <p class="eyebrow">Proyectos en marcha</p>
-      <h2>Lo que estamos construyendo</h2>
-      <p>Productos propios de Orion Nova, pensados para personas y negocios de Neiva y de toda Colombia.</p>
+      <p class="eyebrow">Portafolio</p>
+      <h2 id="portafolio-title">Productos que estamos construyendo</h2>
+      <p class="lead">Son productos propios de Orion Nova. Te mostramos en qué estado está cada uno, sin adornos.</p>
+    </div>
+    <div class="filters" role="group" aria-label="Filtrar proyectos por estado">
+      <button type="button" data-filter="todos" aria-pressed="true">Todos</button>
+      <button type="button" data-filter="demo" aria-pressed="false">Demo publicada</button>
+      <button type="button" data-filter="dev" aria-pressed="false">En desarrollo</button>
+      <button type="button" data-filter="preview" aria-pressed="false">Vista previa</button>
     </div>
     <div class="projects">
-      <article class="proj">
-        <div class="row"><h3>NOVA Restaurantes</h3><span class="pill build">En desarrollo</span></div>
-        <p>NOVA FLOW IA atiende a tus clientes por chat, arma el pedido con la carta real del restaurante y lo envía al dueño.</p>
-        <ul><li>Directorio de restaurantes de Neiva</li><li>Pagos por PSE</li><li>Tokens de fidelización para aliados</li></ul>
+      <article class="proj" data-estado="demo">
+        <div class="shot"><div class="browser" aria-hidden="true"><i></i><i></i><i></i><span>orion-nova-technologies-s-a-s.github.io/NOVA-IA</span></div><img src="assets/portafolio/nova.webp" alt="Captura de la página de NOVA Restaurantes" width="960" height="600" loading="lazy" decoding="async"></div>
+        <div class="body">
+          <div class="row"><h3>NOVA Restaurantes</h3><span class="status demo">Demo publicada</span></div>
+          <dl>
+            <div><dt>Problema</dt><dd>Los restaurantes y hoteles de Neiva pierden pedidos y tiempo atendiendo mensajes uno por uno.</dd></div>
+            <div><dt>Solución</dt><dd>NOVA FLOW IA, un asistente humanoide que muestra la carta, arma el pedido y lo envía al dueño, con panel para cada negocio.</dd></div>
+            <div><dt>Tecnologías</dt><dd class="chips"><span>HTML y JavaScript</span><span>Supabase</span><span>PostgreSQL</span><span>Voz del navegador</span></dd></div>
+          </dl>
+          <p class="fine">Cuentas y pedidos ya funcionan. Pagos por PSE y avisos por WhatsApp están en desarrollo.</p>
+          <div class="foot"><a class="link-arrow" href="https://orion-nova-technologies-s-a-s.github.io/NOVA-IA/" target="_blank" rel="noopener">Ver la demo <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M8 7h9v9"/></svg></a></div>
+        </div>
       </article>
-      <article class="proj">
-        <div class="row"><h3>Orion Nova Academy</h3><span class="pill build">En desarrollo</span></div>
-        <p>Plataforma de cursos con módulos gratis y de pago, NOVA como tutor y certificado de Orion Nova Technologies.</p>
-        <ul><li>Programación, IA, robótica y más</li><li>Sección de idiomas con NOVA</li><li>Fuentes y referencias por curso</li></ul>
+      <article class="proj" data-estado="demo">
+        <div class="shot"><div class="browser" aria-hidden="true"><i></i><i></i><i></i><span>orion-nova-technologies-s-a-s.github.io/NOVA-COURSE</span></div><img src="assets/portafolio/academy.webp" alt="Captura de la página de Orion Nova Academy" width="960" height="600" loading="lazy" decoding="async"></div>
+        <div class="body">
+          <div class="row"><h3>Orion Nova Academy</h3><span class="status demo">Demo publicada</span></div>
+          <dl>
+            <div><dt>Problema</dt><dd>Aprender tecnología e idiomas con calidad suele ser caro o desordenado.</dd></div>
+            <div><dt>Solución</dt><dd>Plataforma de cursos con módulos gratis, módulos de pago, NOVA como tutor y certificado de Orion Nova Technologies.</dd></div>
+            <div><dt>Tecnologías</dt><dd class="chips"><span>React</span><span>TypeScript</span><span>Python FastAPI</span><span>Supabase</span><span>Wompi</span></dd></div>
+          </dl>
+          <div class="foot"><a class="link-arrow" href="https://orion-nova-technologies-s-a-s.github.io/NOVA-COURSE/" target="_blank" rel="noopener">Ver la demo <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M8 7h9v9"/></svg></a></div>
+        </div>
       </article>
-      <article class="proj">
-        <div class="row"><h3>Alerta Tránsito</h3><span class="pill build">En desarrollo</span></div>
-        <p>Reportes de tránsito hechos por la comunidad para moverse mejor por la ciudad.</p>
-        <ul><li>Versión web</li><li>Reportes en tiempo real</li><li>Para conductores y peatones</li></ul>
+      <article class="proj" data-estado="dev">
+        <div class="shot"><div class="browser" aria-hidden="true"><i></i><i></i><i></i><span>orion-nova-technologies-s-a-s.github.io/Tr-nsito-IA</span></div><img src="assets/portafolio/transito.webp" alt="Captura de la pantalla de inicio de Alerta Tránsito" width="960" height="600" loading="lazy" decoding="async"></div>
+        <div class="body">
+          <div class="row"><h3>Alerta Tránsito</h3><span class="status dev">En desarrollo</span></div>
+          <dl>
+            <div><dt>Problema</dt><dd>Los conductores no se enteran a tiempo de controles, accidentes y cierres en la vía.</dd></div>
+            <div><dt>Solución</dt><dd>Comunidad que reporta en un mapa en tiempo real. Se instala en el celular como app desde el navegador.</dd></div>
+            <div><dt>Tecnologías</dt><dd class="chips"><span>App web instalable</span><span>Supabase</span><span>OpenStreetMap</span><span>Leaflet</span></dd></div>
+          </dl>
+          <div class="foot"><a class="link-arrow" href="https://orion-nova-technologies-s-a-s.github.io/Tr-nsito-IA/" target="_blank" rel="noopener">Ver la versión web <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M8 7h9v9"/></svg></a></div>
+        </div>
       </article>
-      <article class="proj">
-        <div class="row"><h3>ORION Nexus AI</h3><span class="pill plan">En diseño</span></div>
-        <p>Asistente inteligente humanoide que colabora con personas, automatiza procesos y conecta el mundo digital con el físico.</p>
-        <ul><li>Chat inteligente</li><li>Generación de documentos</li><li>Integración con todo el ecosistema</li></ul>
+      <article class="proj" data-estado="preview">
+        <div class="shot art"><svg viewBox="0 0 260 340" role="img" aria-label="Ilustración de ORI"><use href="#ori"/></svg></div>
+        <div class="body">
+          <div class="row"><h3>ORI Security</h3><span class="status preview">Vista previa</span></div>
+          <dl>
+            <div><dt>Problema</dt><dd>Muchas personas abren enlaces y correos peligrosos sin saber reconocer las señales de riesgo.</dd></div>
+            <div><dt>Solución</dt><dd>App Android preventiva: analiza en el propio teléfono el enlace o correo que pegas y te explica las señales de riesgo.</dd></div>
+            <div><dt>Tecnologías</dt><dd class="chips"><span>Android</span><span>Análisis en el dispositivo</span></dd></div>
+          </dl>
+          <div class="foot"><a class="link-arrow" href="docs/politica-privacidad.html">Política de privacidad de la app <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+        </div>
       </article>
     </div>
+    <p class="note">Las capturas se tomaron del código de cada proyecto. Los datos en vivo pueden variar.</p>
   </div>
 </section>
 
-<!-- ================= Ecosistema ================= -->
-<section class="band" id="ecosistema">
+<!-- ================= Llamado intermedio ================= -->
+<div class="cta-band">
   <div class="wrap">
-    <div class="sec-head">
-      <p class="eyebrow">Ecosistema ORION · 2026–2035</p>
-      <h2>Una constelación de productos conectados</h2>
-      <p>Cada producto comparte una arquitectura modular, escalable y segura, con ORION Core como núcleo.</p>
-    </div>
-    <div class="eco">
-      <div><b>ORION <span>Core</span></b><small>Usuarios, roles, autenticación y API Gateway.</small></div>
-      <div><b>ORION <span>Nexus AI</span></b><small>Asistente con lenguaje natural y automatización.</small></div>
-      <div><b>ORION <span>Cloud</span></b><small>Servidores, contenedores, bases de datos y respaldos.</small></div>
-      <div><b>ORION <span>Vision</span></b><small>Visión por computador, OCR y video inteligente.</small></div>
-      <div><b>ORION <span>Home</span></b><small>Hogar inteligente: iluminación, sensores y seguridad.</small></div>
-      <div><b>ORION <span>Robotics</span></b><small>Robots móviles, educativos e industriales.</small></div>
-      <div><b>ORION <span>Secure</span></b><small>Accesos, auditoría, vulnerabilidades e incidentes.</small></div>
-      <div><b>ORION <span>Edu</span></b><small>Aprendizaje y formación en tecnologías emergentes.</small></div>
-      <div><b>ORION <span>Analytics</span></b><small>Datos convertidos en decisiones.</small></div>
-      <div><b>ORION <span>API Platform</span></b><small>Servicios abiertos para integrar todo.</small></div>
-      <div><b>ORION <span>Developer Hub</span></b><small>Herramientas para desarrolladores.</small></div>
-      <div><b>ORION <span>IoT Platform</span></b><small>Dispositivos conectados en tiempo real.</small></div>
-    </div>
-    <div class="roadmap" aria-label="Hoja de ruta">
-      <span class="now">Sprint 0 · Fundación</span><span class="now">Sprint 1 · Empresa</span><span>Sprint 2 · Arquitectura</span><span>Sprint 3 · Desarrollo</span><span>Sprint 4 · IA</span><span>Sprint 5 · Avatar</span><span>Sprint 6 · IoT</span>
-    </div>
+    <h2>¿Tienes una idea parecida? Cuéntanos y te ayudamos a hacerla realidad.</h2>
+    <a class="btn btn-primary" href="#contacto">Solicitar una cotización</a>
   </div>
-</section>
+</div>
 
-<!-- ================= NOVA y ORI ================= -->
-<section class="band alt" id="nova-ori">
+<!-- ================= Nosotros y ecosistema ================= -->
+<section class="band alt" id="nosotros" aria-labelledby="nosotros-title">
+  <span id="ecosistema" class="anchor" aria-hidden="true"></span>
   <div class="wrap">
     <div class="sec-head">
-      <p class="eyebrow">Nuestros personajes</p>
-      <h2>Conoce a NOVA y ORI</h2>
-      <p>Te acompañan en la web, en los tutoriales y en redes. Los casos complejos y los contratos siempre los atiende una persona del equipo.</p>
+      <p class="eyebrow">Nosotros · Ecosistema Orion Nova</p>
+      <h2 id="nosotros-title">Inteligencia que construye el futuro</h2>
+      <p class="lead">Orion Nova Technologies es una empresa de Neiva dedicada a investigar, diseñar y desarrollar tecnología con inteligencia artificial, software, IoT y ciberseguridad.</p>
     </div>
+    <div class="about">
+      <article>
+        <h3>Misión</h3>
+        <p>Investigar, diseñar, desarrollar e implementar soluciones tecnológicas basadas en inteligencia artificial, automatización, robótica, IoT, computación en la nube y desarrollo de software, para mejorar la calidad de vida de las personas e impulsar la transformación digital de las organizaciones.</p>
+      </article>
+      <article>
+        <p class="yr">VISIÓN 2035</p>
+        <h3>Visión</h3>
+        <p>Ser reconocida en América Latina por la investigación, el desarrollo y la innovación en inteligencia artificial, robótica, IoT, computación en la nube y automatización, con un ecosistema propio de productos que colaboren con las personas de forma ética, segura y eficiente.</p>
+      </article>
+    </div>
+
+    <span id="nova-ori" class="anchor" aria-hidden="true"></span>
     <div class="duo">
       <article class="mascot">
         <svg viewBox="0 0 260 340" aria-hidden="true"><use href="#nova"/></svg>
         <div>
           <p class="eyebrow">Humanoide · Innovación e IA</p>
           <h3>NOVA</h3>
-          <p class="role">Te da la bienvenida, presenta los servicios y te orienta para encontrar la solución que necesitas.</p>
+          <p class="role">Da la bienvenida, presenta los servicios, explica soluciones y acompaña los tutoriales.</p>
           <ul><li>Bienvenida</li><li>Explica soluciones</li><li>Tutoriales</li><li>Novedades</li></ul>
           <button class="btn btn-ghost" style="margin-top:16px" type="button" data-open-chat>Chatear con NOVA</button>
         </div>
@@ -723,7 +950,7 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
         <div>
           <p class="eyebrow" style="color:var(--warn)">Búho · Conocimiento y seguridad</p>
           <h3>ORI</h3>
-          <p class="role">Observa, recomienda y te avisa. Comparte alertas de seguridad y buenas prácticas para cuidar tus datos.</p>
+          <p class="role">Observa, recomienda y avisa. Comparte alertas de seguridad y buenas prácticas para cuidar tus datos.</p>
           <ul><li>Alertas de seguridad</li><li>Buenas prácticas</li><li>Recordatorios</li><li>Contenido educativo</li></ul>
         </div>
       </article>
@@ -733,71 +960,169 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
       <p id="oriTip">Usa una contraseña distinta para cada cuenta. Si una se filtra, las demás siguen protegidas.</p>
       <button class="btn btn-ghost" type="button" id="nextTip">Otro consejo</button>
     </div>
+
+    <div class="eco-wrap">
+      <h3>Ecosistema ORION · hoja de ruta 2026–2035</h3>
+      <p>Los productos que proyectamos construir, conectados por una arquitectura modular, escalable y segura. Son metas de largo plazo, no servicios disponibles hoy.</p>
+      <div class="eco">
+        <div><b>ORION <span>Core</span></b><small>Usuarios, roles, autenticación y API Gateway.</small></div>
+        <div><b>ORION <span>Nexus AI</span></b><small>Asistente humanoide con lenguaje natural.</small></div>
+        <div><b>ORION <span>Cloud</span></b><small>Servidores, contenedores y respaldos.</small></div>
+        <div><b>ORION <span>Vision</span></b><small>Visión por computador, OCR y video.</small></div>
+        <div><b>ORION <span>Home</span></b><small>Hogar inteligente y sensores.</small></div>
+        <div><b>ORION <span>Robotics</span></b><small>Robots móviles, educativos e industriales.</small></div>
+        <div><b>ORION <span>Secure</span></b><small>Accesos, auditoría e incidentes.</small></div>
+        <div><b>ORION <span>Edu</span></b><small>Formación en tecnologías emergentes.</small></div>
+        <div><b>ORION <span>Analytics</span></b><small>Datos convertidos en decisiones.</small></div>
+        <div><b>ORION <span>API Platform</span></b><small>Servicios abiertos para integrar todo.</small></div>
+        <div><b>ORION <span>Developer Hub</span></b><small>Herramientas para desarrolladores.</small></div>
+        <div><b>ORION <span>IoT Platform</span></b><small>Dispositivos conectados en tiempo real.</small></div>
+      </div>
+      <div class="roadmap" aria-label="Hoja de ruta">
+        <span class="now">Sprint 0 · Fundación</span><span class="now">Sprint 1 · Empresa</span><span>Sprint 2 · Arquitectura</span><span>Sprint 3 · Desarrollo</span><span>Sprint 4 · IA</span><span>Sprint 5 · Avatar</span><span>Sprint 6 · IoT</span>
+      </div>
+    </div>
   </div>
 </section>
 
-<!-- ================= Nosotros ================= -->
-<section class="band" id="nosotros">
+<!-- ================= Metodología ================= -->
+<section class="band" id="metodologia" aria-labelledby="metodologia-title">
   <div class="wrap">
     <div class="sec-head">
-      <p class="eyebrow">Nosotros</p>
-      <h2>Inteligencia que construye el futuro</h2>
+      <p class="eyebrow">Metodología de trabajo</p>
+      <h2 id="metodologia-title">Así trabajamos contigo</h2>
+      <p class="lead">Un proceso claro, con tu participación en cada etapa. Los tiempos y alcances se definen en la propuesta de cada proyecto.</p>
     </div>
-    <div class="mv">
-      <div>
-        <h3>Misión</h3>
-        <p>Investigar, diseñar, desarrollar e implementar soluciones basadas en inteligencia artificial, automatización, robótica, IoT, computación en la nube y desarrollo de software, para mejorar la calidad de vida de las personas e impulsar la transformación digital de las organizaciones en Colombia y el mundo.</p>
-      </div>
-      <div>
-        <span class="year">2035</span>
-        <h3>Visión</h3>
-        <p>Ser una empresa líder en América Latina en investigación, desarrollo e innovación, con un ecosistema propio de plataformas, asistentes inteligentes y sistemas autónomos que colaboren con las personas de forma ética, segura y eficiente.</p>
-      </div>
+    <ol class="method">
+      <li><h3>Descubrimiento y diagnóstico</h3><p>Conversamos sobre tu negocio, el problema que quieres resolver y lo que ya tienes.</p></li>
+      <li><h3>Propuesta y cotización</h3><p>Te enviamos el alcance, las etapas y el valor. Nada empieza sin tu aprobación.</p></li>
+      <li><h3>Diseño y desarrollo</h3><p>Construimos por partes y te mostramos avances para que puedas opinar a tiempo.</p></li>
+      <li><h3>Pruebas y validación</h3><p>Probamos en celular y computador, revisamos la seguridad y validamos contigo.</p></li>
+      <li><h3>Entrega y soporte</h3><p>Publicamos, te enseñamos a usarlo y te acompañamos según el soporte acordado.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- ================= Preguntas frecuentes ================= -->
+<section class="band alt" id="faq" aria-labelledby="faq-title">
+  <div class="wrap">
+    <div class="sec-head center">
+      <p class="eyebrow">Preguntas frecuentes</p>
+      <h2 id="faq-title">Resolvemos tus dudas</h2>
+    </div>
+    <div class="faq">
+      <details><summary>¿Qué servicios tecnológicos ofrece Orion Nova?</summary><div class="ans"><p>Desarrollo web y de aplicaciones móviles, software a la medida, asistentes con inteligencia artificial, automatización de procesos, ciberseguridad, bases de datos en la nube, IoT, analítica de datos y marketing digital.</p></div></details>
+      <details><summary>¿Cómo puedo solicitar una cotización?</summary><div class="ans"><p>Llena el <a href="#contacto">formulario de contacto</a> con tu nombre, tu correo y una descripción de lo que necesitas. Te llega un correo con el número de tu solicitud y te contactamos para conversar. También puedes escribirnos por WhatsApp al +57 300 444 0009.</p></div></details>
+      <details><summary>¿Desarrollan soluciones a medida?</summary><div class="ans"><p>Sí. Cada proyecto se diseña según la forma en que trabaja tu negocio. Por eso empezamos con una conversación de diagnóstico antes de proponer.</p></div></details>
+      <details><summary>¿Cómo es el proceso de contratación?</summary><div class="ans"><p>Después del diagnóstico te enviamos una propuesta con alcance, etapas y valor. Si la apruebas, firmamos un contrato de prestación de servicios y un acuerdo de confidencialidad cuando el proyecto lo requiere, y empezamos.</p></div></details>
+      <details><summary>¿Qué información debo dar para recibir una propuesta?</summary><div class="ans"><p>Qué hace tu negocio, qué problema quieres resolver, quién lo va a usar, si ya tienes algo hecho (página, logo, datos) y, si lo tienes claro, tu presupuesto y la fecha en que lo necesitas.</p></div></details>
+      <details><summary>¿Atienden empresas fuera de Neiva?</summary><div class="ans"><p>Sí. Trabajamos de forma remota por videollamada, WhatsApp y correo, así que podemos atender proyectos de otras ciudades.</p></div></details>
     </div>
   </div>
 </section>
 
-<!-- ================= Contacto ================= -->
-<section class="band alt" id="contacto">
+<!-- ================= Contacto y cotizaciones ================= -->
+<section class="band" id="contacto" aria-labelledby="contacto-title">
   <div class="wrap">
-    <div class="contact">
-      <div>
-        <p class="eyebrow" style="color:var(--ok)">Escríbenos por WhatsApp</p>
-        <h2>Hablemos de tu proyecto</h2>
-        <p class="phone">300 444 0009</p>
-        <a class="btn btn-wa" style="margin-top:20px" href="https://wa.me/573004440009?text=Hola%20Orion%20Nova%2C%20quiero%20hablar%20de%20mi%20proyecto" target="_blank" rel="noopener">Abrir WhatsApp</a>
-      </div>
-      <dl>
-        <div><dt>WhatsApp</dt><dd><span>+57 300 444 0009</span><button class="copy" type="button" data-copy="+573004440009">Copiar</button></dd></div>
-        <div><dt>Correo</dt><dd><span>orion.nova.techno@gmail.com</span><button class="copy" type="button" data-copy="orion.nova.techno@gmail.com">Copiar</button></dd></div>
-        <div><dt>Ubicación</dt><dd>Neiva, Huila, Colombia</dd></div>
-        <div><dt>Ideal para</dt><dd style="color:var(--muted)">Empresas, emprendedores, tiendas en línea, profesionales e instituciones</dd></div>
-      </dl>
-      <form id="leadForm" class="lead-form" novalidate>
-        <p class="eyebrow">O déjanos tus datos y te llamamos</p>
+    <div class="sec-head">
+      <p class="eyebrow">Contacto y cotizaciones</p>
+      <h2 id="contacto-title">Hablemos de tu proyecto</h2>
+      <p class="lead">Cuéntanos qué necesitas. Recibirás un correo de confirmación con el número de tu solicitud y te contactaremos para conversar.</p>
+    </div>
+    <div class="contact-grid">
+      <form class="qform" id="quoteForm" novalidate aria-describedby="qIntro">
+        <h3 id="qIntro">Solicitar una cotización</h3>
+        <p class="fine">Los campos con <span class="req">*</span> son obligatorios.</p>
+        <div class="hp" aria-hidden="true"><label>No llenar este campo<input id="qSitio" type="text" tabindex="-1" autocomplete="off"></label></div>
         <div class="row2">
-          <label>Nombre<input id="ldName" type="text" autocomplete="name" maxlength="80" required></label>
-          <label>Celular<input id="ldPhone" type="tel" autocomplete="tel" inputmode="numeric" maxlength="14" placeholder="300 000 0000" required></label>
+          <div class="field"><label for="qNombre">Nombre <span class="req">*</span></label><input id="qNombre" type="text" autocomplete="name" maxlength="80" required aria-describedby="err-nombre"><p class="ferr" id="err-nombre"></p></div>
+          <div class="field"><label for="qCorreo">Correo electrónico <span class="req">*</span></label><input id="qCorreo" type="email" autocomplete="email" maxlength="120" required aria-describedby="err-correo"><p class="ferr" id="err-correo"></p></div>
         </div>
-        <label>¿Qué necesitas?<select id="ldService">
-          <option value="web">Página web</option><option value="app">Aplicación móvil</option><option value="asistente">Asistente virtual con IA</option>
-          <option value="automatizacion">Automatización de procesos</option><option value="ciberseguridad">Ciberseguridad</option><option value="iot">IoT</option>
-          <option value="marketing">Marketing digital</option><option value="nova-restaurantes">Unir mi restaurante u hotel a NOVA</option><option value="otro">Otro</option>
-        </select></label>
-        <label>Cuéntanos tu idea<textarea id="ldMsg" rows="3" maxlength="1000"></textarea></label>
-        <label style="display:flex;gap:8px;align-items:flex-start;font-weight:500"><input id="ldTerms" type="checkbox" style="width:auto;margin-top:4px"> Autorizo que Orion Nova me contacte y trate mis datos según la Ley 1581 de 2012.</label>
-        <p class="msg" id="ldMsgOut" role="alert"></p>
-        <button class="btn btn-primary" type="submit" id="ldBtn" style="justify-content:center">Enviar solicitud</button>
+        <div class="row2">
+          <div class="field"><label for="qEmpresa">Empresa <span class="opt">(opcional)</span></label><input id="qEmpresa" type="text" autocomplete="organization" maxlength="100"></div>
+          <div class="field"><label for="qCelular">Celular o WhatsApp <span class="opt">(opcional)</span></label><input id="qCelular" type="tel" inputmode="numeric" autocomplete="tel" maxlength="14" placeholder="300 000 0000" aria-describedby="err-celular"><p class="ferr" id="err-celular"></p></div>
+        </div>
+        <div class="field"><label for="qServicio">Servicio de interés <span class="req">*</span></label>
+          <select id="qServicio" required aria-describedby="err-servicio">
+            <option value="">Elige una opción</option>
+            <option value="ia-automatizacion">Inteligencia artificial y automatización</option>
+            <option value="web-movil">Desarrollo web y aplicaciones móviles</option>
+            <option value="software-medida">Software a la medida</option>
+            <option value="ciberseguridad">Ciberseguridad</option>
+            <option value="nube-redes">Nube y bases de datos</option>
+            <option value="iot-datos">IoT y analítica de datos</option>
+            <option value="marketing">Marketing digital</option>
+            <option value="nova-restaurantes">Unir mi restaurante u hotel a NOVA</option>
+            <option value="otro">Otro</option>
+          </select><p class="ferr" id="err-servicio"></p></div>
+        <div class="field"><label for="qDescripcion">Describe tu proyecto o necesidad <span class="req">*</span></label>
+          <textarea id="qDescripcion" maxlength="2000" required placeholder="Ejemplo: tengo un restaurante y quiero que los clientes pidan por la página y me llegue el pedido." aria-describedby="err-descripcion qCount"></textarea>
+          <span class="counter" id="qCount">0 / 2000</span><p class="ferr" id="err-descripcion"></p></div>
+        <div class="row2">
+          <div class="field"><label for="qPresupuesto">Presupuesto estimado <span class="opt">(opcional)</span></label>
+            <select id="qPresupuesto"><option value="">Prefiero no decirlo</option><option value="menos-2m">Menos de $2.000.000</option><option value="2m-5m">$2.000.000 a $5.000.000</option><option value="5m-15m">$5.000.000 a $15.000.000</option><option value="mas-15m">Más de $15.000.000</option><option value="por-definir">Aún no lo sé</option></select></div>
+          <div class="field"><label for="qPlazo">Plazo deseado <span class="opt">(opcional)</span></label>
+            <select id="qPlazo"><option value="">Sin preferencia</option><option value="menos-1-mes">Menos de 1 mes</option><option value="1-3-meses">1 a 3 meses</option><option value="3-6-meses">3 a 6 meses</option><option value="flexible">Flexible</option></select></div>
+        </div>
+        <div class="field"><label class="consent"><input id="qAcepta" type="checkbox" aria-describedby="err-acepta"> <span>Autorizo a Orion Nova Technologies a tratar mis datos para responder esta solicitud, según la <a href="privacidad.html" target="_blank" rel="noopener">Política de tratamiento de datos personales</a> (Ley 1581 de 2012). <span class="req">*</span></span></label><p class="ferr" id="err-acepta"></p></div>
+        <p class="msg" id="qMsg" role="alert"></p>
+        <button class="btn btn-primary" type="submit" id="qBtn">Enviar solicitud</button>
       </form>
+      <div class="qdone" id="qDone" hidden tabindex="-1">
+        <h3>¡Solicitud recibida!</h3>
+        <p>Tu número de solicitud es <span class="folio" id="qFolio"></span>.</p>
+        <p class="fine" id="qDoneMail"></p>
+        <button class="btn btn-ghost" type="button" id="qAgain" style="justify-self:start">Enviar otra solicitud</button>
+      </div>
+
+      <aside class="side" aria-label="Otros canales de contacto">
+        <div class="card wa">
+          <h3>¿Prefieres WhatsApp?</h3>
+          <span class="num">300 444 0009</span>
+          <a class="btn btn-wa" href="https://wa.me/573004440009?text=Hola%20Orion%20Nova%2C%20quiero%20cotizar%20un%20proyecto" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.3 14.2c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.5-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2.1 1-2.4c.3-.3.6-.3.8-.3h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .5l-.4.6-.4.4c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.6-.1l.9-1.1c.2-.3.4-.2.7-.1l2 1c.3.1.5.2.5.3.1.2.1.8-.1 1.4Z"/></svg>
+            Escribir por WhatsApp</a>
+        </div>
+        <div class="card">
+          <dl>
+            <div><dt>Correo</dt><dd><span>orion.nova.techno@gmail.com</span><button class="copy" type="button" data-copy="orion.nova.techno@gmail.com">Copiar</button></dd></div>
+            <div><dt>WhatsApp</dt><dd><span>+57 300 444 0009</span><button class="copy" type="button" data-copy="+573004440009">Copiar</button></dd></div>
+            <div><dt>Ubicación</dt><dd>Neiva, Huila, Colombia</dd></div>
+            <div><dt>Ideal para</dt><dd style="color:var(--muted)">Empresas, emprendedores, tiendas en línea, profesionales e instituciones</dd></div>
+          </dl>
+        </div>
+        <p class="priv">Tus datos se usan solo para responder tu solicitud y no se venden ni se comparten con terceros para publicidad. Puedes consultarlos, actualizarlos o pedir que los borremos escribiendo a orion.nova.techno@gmail.com. Lee la <a href="privacidad.html" target="_blank" rel="noopener">política completa</a>.</p>
+      </aside>
     </div>
   </div>
 </section>
 </main>
 
-<footer>
+<!-- ================= Footer ================= -->
+<footer class="site">
   <div class="wrap">
-    <span>© <span id="yr">2026</span> Orion Nova Technologies · Neiva, Huila</span>
-    <span class="seg">TECNOLOGÍA · INNOVACIÓN · CONEXIÓN</span>
+    <div class="fgrid">
+      <div>
+        <img src="assets/imagenes/image.png" alt="Orion Nova Technologies" width="462" height="407" loading="lazy">
+        <p>Software, inteligencia artificial y ciberseguridad desde Neiva para Colombia.</p>
+      </div>
+      <div>
+        <h4>Navegación</h4>
+        <ul><li><a href="#servicios">Servicios</a></li><li><a href="#soluciones">Soluciones</a></li><li><a href="#portafolio">Portafolio</a></li><li><a href="#nosotros">Nosotros</a></li><li><a href="#faq">Preguntas frecuentes</a></li><li><a href="#contacto">Contacto</a></li></ul>
+      </div>
+      <div>
+        <h4>Contacto</h4>
+        <ul><li>orion.nova.techno@gmail.com</li><li><a href="https://wa.me/573004440009" target="_blank" rel="noopener">WhatsApp +57 300 444 0009</a></li><li>Neiva, Huila, Colombia</li></ul>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <ul><li><a href="privacidad.html">Tratamiento de datos personales</a></li><li><a href="docs/politica-privacidad.html">Privacidad de ORI Security</a></li></ul>
+      </div>
+    </div>
+    <div class="fbottom">
+      <span>© <span id="yr">2026</span> Orion Nova Technologies. Todos los derechos reservados.</span>
+      <span>Innovamos · Desarrollamos · Conectamos</span>
+    </div>
   </div>
 </footer>
 
@@ -977,26 +1302,9 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
   mb.addEventListener("click",()=>{ const o=nav.classList.toggle("open"); mb.setAttribute("aria-expanded", o); });
   $$("#mainNav a").forEach(a=>a.addEventListener("click",()=>{ nav.classList.remove("open"); mb.setAttribute("aria-expanded","false"); }));
 
-  /* ---------- cielo estrellado ---------- */
-  const cv=$("#stars"), cx=cv.getContext("2d");
-  const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
-  let stars=[];
-  function sizeStars(){
-    const r=cv.getBoundingClientRect(), d=Math.min(devicePixelRatio||1,2);
-    cv.width=r.width*d; cv.height=r.height*d; cx.setTransform(d,0,0,d,0,0);
-    const n=Math.round(r.width*r.height/5200);
-    stars=Array.from({length:n},()=>({x:Math.random()*r.width,y:Math.random()*r.height,r:Math.random()*1.3+.2,p:Math.random()*6.28,s:.4+Math.random()*1.2}));
-  }
-  function drawStars(t){
-    const r=cv.getBoundingClientRect(); cx.clearRect(0,0,r.width,r.height);
-    for(const s of stars){ const a=.35+.65*Math.abs(Math.sin(s.p+t/1000*s.s*(reduce?0:1))); cx.globalAlpha=a; cx.fillStyle=s.r>1.2?"#9fd8ff":"#dfe6ff"; cx.beginPath(); cx.arc(s.x,s.y,s.r,0,6.283); cx.fill(); }
-    if(!reduce) requestAnimationFrame(drawStars);
-  }
-  sizeStars(); requestAnimationFrame(drawStars); addEventListener("resize", sizeStars);
-
   /* ---------- NOVA y ORI en el héroe ---------- */
   const novaLines=[
-    "¡Hola! Soy <b>NOVA</b>. Te muestro lo que hacemos.",
+    "¡Hola! Soy <b>NOVA</b>. ¿Qué quieres construir?",
     "Creamos <b>páginas web y apps</b> para tu negocio.",
     "Puedo atender a tus clientes <b>24/7</b> y tomar pedidos.",
     "¿Tienes una idea? Cuéntamela en el <b>chat</b>.",
@@ -1022,6 +1330,67 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
   });
   let tj=0;
   $("#nextTip").addEventListener("click",()=>{ tj=(tj+1)%tips.length; $("#oriTip").textContent=tips[tj]; });
+
+  /* ---------- héroe: constelación de Orión como red de datos ---------- */
+  const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const cv=$("#stars"), cx=cv.getContext("2d");
+  // Estrellas principales de Orión (posición relativa dentro del recuadro)
+  const ORION=[
+    {n:"Meissa",x:.50,y:.09,r:2.2},{n:"Betelgeuse",x:.27,y:.18,r:4.2,c:"#fdba74"},{n:"Bellatrix",x:.72,y:.20,r:3},
+    {n:"Alnitak",x:.43,y:.42,r:2.8,h:1},{n:"Alnilam",x:.50,y:.40,r:3},{n:"Mintaka",x:.57,y:.38,r:2.8,h:1},
+    {n:"Saiph",x:.33,y:.62,r:2.8},{n:"Rigel",x:.70,y:.60,r:4.2,c:"#a5f3fc"}
+  ];
+  const EDGES=[[0,1],[0,2],[1,3],[2,5],[3,4],[4,5],[3,6],[5,7]];
+  let W=0,H=0,nodes=[],pulses=[];
+  function sizeViz(){
+    const r=cv.getBoundingClientRect(), d=Math.min(devicePixelRatio||1,2);
+    W=r.width; H=r.height; cv.width=W*d; cv.height=H*d; cx.setTransform(d,0,0,d,0,0);
+    const n=Math.max(26,Math.round(W*H/9000));
+    nodes=Array.from({length:n},()=>({x:Math.random()*W,y:Math.random()*H*.78,vx:(Math.random()-.5)*.12,vy:(Math.random()-.5)*.12,r:Math.random()*1.2+.5}));
+    pulses=EDGES.map((e,i)=>({e,t:i/EDGES.length}));
+  }
+  function drawViz(time){
+    cx.clearRect(0,0,W,H);
+    // red de nodos pequeños
+    for(const p of nodes){ if(!reduce){ p.x+=p.vx; p.y+=p.vy; if(p.x<0||p.x>W) p.vx*=-1; if(p.y<0||p.y>H*.8) p.vy*=-1; } }
+    for(let i=0;i<nodes.length;i++){ for(let j=i+1;j<nodes.length;j++){ const a=nodes[i],b=nodes[j],dx=a.x-b.x,dy=a.y-b.y,dd=dx*dx+dy*dy;
+      if(dd<6400){ cx.globalAlpha=(1-dd/6400)*.22; cx.strokeStyle="#67E8F9"; cx.lineWidth=1; cx.beginPath(); cx.moveTo(a.x,a.y); cx.lineTo(b.x,b.y); cx.stroke(); } } }
+    cx.globalAlpha=.55; cx.fillStyle="#9fdcf0"; for(const p of nodes){ cx.beginPath(); cx.arc(p.x,p.y,p.r,0,6.283); cx.fill(); }
+    // líneas de la constelación
+    const P=ORION.map(s=>({...s,X:s.x*W,Y:s.y*H}));
+    cx.globalAlpha=.55; cx.strokeStyle="#06B6D4"; cx.lineWidth=1.3;
+    for(const [a,b] of EDGES){ cx.beginPath(); cx.moveTo(P[a].X,P[a].Y); cx.lineTo(P[b].X,P[b].Y); cx.stroke(); }
+    // paquetes de datos que viajan por las líneas
+    if(!reduce) for(const p of pulses){ p.t=(p.t+0.0035)%1; }
+    for(const p of pulses){ const A=P[p.e[0]],B=P[p.e[1]], x=A.X+(B.X-A.X)*p.t, y=A.Y+(B.Y-A.Y)*p.t;
+      const g=cx.createRadialGradient(x,y,0,x,y,8); g.addColorStop(0,"rgba(103,232,249,.95)"); g.addColorStop(1,"rgba(103,232,249,0)");
+      cx.globalAlpha=1; cx.fillStyle=g; cx.beginPath(); cx.arc(x,y,8,0,6.283); cx.fill(); }
+    // estrellas con brillo
+    const t=time/1000;
+    for(const s of P){ const tw=reduce?1:.75+.25*Math.sin(t*1.6+s.x*9);
+      const g=cx.createRadialGradient(s.X,s.Y,0,s.X,s.Y,s.r*5); g.addColorStop(0,s.c||"#e0f7ff"); g.addColorStop(1,"rgba(224,247,255,0)");
+      cx.globalAlpha=.55*tw; cx.fillStyle=g; cx.beginPath(); cx.arc(s.X,s.Y,s.r*5,0,6.283); cx.fill();
+      cx.globalAlpha=1; cx.fillStyle=s.c||"#ffffff"; cx.beginPath(); cx.arc(s.X,s.Y,s.r,0,6.283); cx.fill();
+      if(W>380&&!s.h){ cx.globalAlpha=.5; cx.fillStyle="#9AABC6"; cx.font="10px 'JetBrains Mono', monospace"; cx.fillText(s.n,s.X+s.r*2+4,s.Y-s.r-3); } }
+    cx.globalAlpha=1;
+    if(!reduce) requestAnimationFrame(drawViz);
+  }
+  sizeViz(); requestAnimationFrame(drawViz);
+  let rz; addEventListener("resize",()=>{ clearTimeout(rz); rz=setTimeout(()=>{ sizeViz(); if(reduce) requestAnimationFrame(drawViz); },150); });
+
+  /* ---------- navegación activa según la sección ---------- */
+  if("IntersectionObserver" in window){
+    const links=$$("#mainNav a[href^='#']:not(.nav-cta)");
+    const map=new Map(links.map(a=>[a.getAttribute("href").slice(1),a]));
+    const io=new IntersectionObserver(es=>{ es.forEach(e=>{ if(e.isIntersecting){ links.forEach(l=>l.removeAttribute("aria-current")); const l=map.get(e.target.id); if(l) l.setAttribute("aria-current","true"); } }); },{rootMargin:"-45% 0px -50% 0px"});
+    ["servicios","soluciones","portafolio","nosotros","contacto"].forEach(id=>{ const s=document.getElementById(id); if(s) io.observe(s); });
+  }
+
+  /* ---------- filtros del portafolio ---------- */
+  $$(".filters button").forEach(b=>b.addEventListener("click",()=>{
+    $$(".filters button").forEach(x=>x.setAttribute("aria-pressed",x===b?"true":"false"));
+    const f=b.dataset.filter; $$(".proj").forEach(p=>p.hidden=!(f==="todos"||p.dataset.estado===f));
+  }));
 
   /* ---------- copiar ---------- */
   $$("[data-copy]").forEach(b=>b.addEventListener("click",()=>{
@@ -1317,38 +1686,67 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
     loadTwilio();
   });
 
-  /* ---------- solicitudes de contacto (tabla leads) ---------- */
-  const svcTxt={web:"Página web",app:"App móvil",asistente:"Asistente IA",automatizacion:"Automatización",ciberseguridad:"Ciberseguridad",iot:"IoT",marketing:"Marketing","nova-restaurantes":"Unirse a NOVA",otro:"Otro"};
-  $("#leadForm").addEventListener("submit",async e=>{
-    e.preventDefault(); const m=$("#ldMsgOut"), btn=$("#ldBtn");
-    const name=$("#ldName").value.trim(), ph=phoneOf($("#ldPhone").value);
-    if(name.length<2) return setMsg(m,"Escribe tu nombre.","err");
-    if(!/^3\d{9}$/.test(ph)) return setMsg(m,"Escribe tu celular colombiano de 10 dígitos (empieza por 3).","err");
-    if(!$("#ldTerms").checked) return setMsg(m,"Necesitamos tu autorización para contactarte.","err");
-    busy(btn,true,"Enviando…"); setMsg(m,"");
-    try{
-      await api("POST","/rest/v1/leads",{name,phone:ph,service:$("#ldService").value,message:$("#ldMsg").value.trim().slice(0,1000),source:"web"},{Prefer:"return=minimal"});
-      $("#leadForm").reset(); setMsg(m,"¡Recibido! Te contactaremos pronto al "+ph.replace(/(\d{3})(\d{3})(\d{4})/,"$1 $2 $3")+".","ok");
-    }catch(err){ setMsg(m,(err.msg&&/Demasiadas/.test(err.msg))?err.msg:(err.code==="offline"?err.msg:"No se pudo enviar. Escríbenos por WhatsApp al 300 444 0009."),"err"); }
-    finally{ busy(btn,false); }
+  /* ---------- cotizaciones: función "cotizar" en Supabase (guarda y avisa por correo) ---------- */
+  const svcTxt={"ia-automatizacion":"IA y automatización","web-movil":"Web y apps","software-medida":"Software a la medida",ciberseguridad:"Ciberseguridad","nube-redes":"Nube y bases de datos","iot-datos":"IoT y datos",marketing:"Marketing digital","nova-restaurantes":"Unirse a NOVA",otro:"Otro"};
+  const budTxt={"menos-2m":"< $2M","2m-5m":"$2M–5M","5m-15m":"$5M–15M","mas-15m":"> $15M","por-definir":"Por definir"};
+  const plzTxt={"menos-1-mes":"< 1 mes","1-3-meses":"1–3 meses","3-6-meses":"3–6 meses",flexible:"Flexible"};
+  const qf=$("#quoteForm"), qMsg=$("#qMsg"), qBtn=$("#qBtn");
+  // los enlaces "Cotizar este servicio" dejan elegido el servicio en el formulario
+  $$("[data-servicio]").forEach(a=>a.addEventListener("click",()=>{ $("#qServicio").value=a.dataset.servicio; setTimeout(()=>$("#qNombre").focus({preventScroll:true}),450); }));
+  $("#qDescripcion").addEventListener("input",e=>{ $("#qCount").textContent=e.target.value.length+" / 2000"; });
+  const qFields={nombre:"#qNombre",correo:"#qCorreo",celular:"#qCelular",servicio:"#qServicio",descripcion:"#qDescripcion",acepta_datos:"#qAcepta"};
+  const errEl={nombre:"#err-nombre",correo:"#err-correo",celular:"#err-celular",servicio:"#err-servicio",descripcion:"#err-descripcion",acepta_datos:"#err-acepta"};
+  function showErrs(errs){
+    Object.keys(errEl).forEach(k=>{ const t=errs[k]||""; $(errEl[k]).textContent=t; const f=$(qFields[k]); if(t) f.setAttribute("aria-invalid","true"); else f.removeAttribute("aria-invalid"); });
+    const first=Object.keys(qFields).find(k=>errs[k]); if(first) $(qFields[first]).focus();
+  }
+  function qValidate(d){
+    const e={};
+    if(d.nombre.length<2) e.nombre="Escribe tu nombre.";
+    if(!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(d.correo)) e.correo="Revisa tu correo: debe verse como nombre@empresa.com.";
+    if(d.celular&&!/^3\d{9}$/.test(d.celular)) e.celular="El celular debe tener 10 dígitos y empezar por 3.";
+    if(!d.servicio) e.servicio="Elige el servicio que te interesa.";
+    if(d.descripcion.length<10) e.descripcion="Cuéntanos un poco más de tu proyecto (mínimo 10 caracteres).";
+    if(!d.acepta_datos) e.acepta_datos="Necesitamos tu autorización para tratar tus datos.";
+    return e;
+  }
+  qf.addEventListener("submit",async e=>{
+    e.preventDefault(); setMsg(qMsg,"");
+    const d={nombre:$("#qNombre").value.trim(),correo:$("#qCorreo").value.trim().toLowerCase(),celular:phoneOf($("#qCelular").value),empresa:$("#qEmpresa").value.trim(),
+      servicio:$("#qServicio").value,descripcion:$("#qDescripcion").value.trim(),presupuesto:$("#qPresupuesto").value,plazo:$("#qPlazo").value,acepta_datos:$("#qAcepta").checked,sitio_web:$("#qSitio").value};
+    const errs=qValidate(d); showErrs(errs); if(Object.keys(errs).length) return setMsg(qMsg,"Revisa los campos marcados.","err");
+    busy(qBtn,true,"Enviando…");
+    let r=null, j={};
+    try{ r=await fetch(CFG.url+"/functions/v1/cotizar",{method:"POST",headers:{apikey:CFG.key,"Content-Type":"application/json"},body:JSON.stringify(d)}); j=await r.json().catch(()=>({})); }
+    catch(err){ busy(qBtn,false); return setMsg(qMsg,"No hay conexión con el servidor. Revisa tu internet o escríbenos por WhatsApp al 300 444 0009.","err"); }
+    busy(qBtn,false);
+    if(!r.ok||!j.ok){ if(j.errores) showErrs(j.errores); return setMsg(qMsg,j.msg||"No pudimos enviar tu solicitud. Intenta de nuevo o escríbenos por WhatsApp al 300 444 0009.","err"); }
+    // solo aquí: el servidor confirmó que la solicitud quedó guardada
+    $("#qFolio").textContent=j.folio||"";
+    $("#qDoneMail").textContent=j.confirmacion?"Te enviamos una confirmación a "+d.correo+". Revisa también la carpeta de spam.":"Guardamos tu solicitud. Si no te llega el correo de confirmación, no te preocupes: te contactaremos igual.";
+    qf.reset(); $("#qCount").textContent="0 / 2000"; qf.hidden=true; $("#qDone").hidden=false; $("#qDone").focus();
   });
+  $("#qAgain").addEventListener("click",()=>{ $("#qDone").hidden=true; qf.hidden=false; setMsg(qMsg,""); $("#qNombre").focus(); });
+
   async function loadLeads(){
     const tb=$("#leadRows");
     try{
-      const rows=await api("GET","/rest/v1/leads?select=id,created_at,name,phone,service,message,status&order=created_at.desc&limit=100");
-      if(!rows.length){ tb.innerHTML='<tr><td colspan="6">Aún no hay solicitudes. Cuando alguien llene el formulario de contacto aparecerá aquí.</td></tr>'; return; }
+      const rows=await api("GET","/rest/v1/cotizaciones?select=id,created_at,nombre,correo,celular,empresa,servicio,descripcion,presupuesto,plazo,estado&order=created_at.desc&limit=200");
+      if(!rows.length){ tb.innerHTML='<tr><td colspan="7">Aún no hay solicitudes. Cuando alguien llene el formulario de cotización aparecerá aquí y te llegará un correo.</td></tr>'; return; }
       tb.innerHTML="";
       rows.forEach(r=>{
         const tr=document.createElement("tr");
         const d=new Date(r.created_at).toLocaleString("es-CO",{dateStyle:"short",timeStyle:"short",timeZone:"America/Bogota"});
-        [d,r.name,r.phone,svcTxt[r.service]||r.service,r.message||"—"].forEach(v=>{ const td=document.createElement("td"); td.textContent=v; tr.appendChild(td); });
+        const cells=[d+"\nON-"+String(r.id).padStart(5,"0"), r.nombre+(r.empresa?"\n"+r.empresa:""), r.correo+(r.celular?"\n"+r.celular:""), svcTxt[r.servicio]||r.servicio,
+          (r.presupuesto?budTxt[r.presupuesto]:"—")+" · "+(r.plazo?plzTxt[r.plazo]:"—"), r.descripcion];
+        cells.forEach(v=>{ const td=document.createElement("td"); td.textContent=v; td.style.whiteSpace="pre-line"; tr.appendChild(td); });
         const td=document.createElement("td"), sel=document.createElement("select");
-        sel.setAttribute("aria-label","Estado de la solicitud de "+r.name);
-        ["nuevo","contactado","cerrado"].forEach(s=>{ const o=document.createElement("option"); o.value=s; o.textContent=s[0].toUpperCase()+s.slice(1); if(s===r.status) o.selected=true; sel.appendChild(o); });
-        sel.addEventListener("change",async()=>{ try{ await api("PATCH","/rest/v1/leads?id=eq."+r.id,{status:sel.value},{Prefer:"return=minimal"}); toast("Estado guardado."); }catch(err){ toast("No se pudo guardar el estado."); } });
+        sel.setAttribute("aria-label","Estado de la solicitud de "+r.nombre);
+        [["nuevo","Nuevo"],["contactado","Contactado"],["propuesta","Propuesta enviada"],["cerrado","Cerrado"]].forEach(([v,t])=>{ const o=document.createElement("option"); o.value=v; o.textContent=t; if(v===r.estado) o.selected=true; sel.appendChild(o); });
+        sel.addEventListener("change",async()=>{ try{ await api("PATCH","/rest/v1/cotizaciones?id=eq."+r.id,{estado:sel.value},{Prefer:"return=minimal"}); toast("Estado guardado."); }catch(err){ toast("No se pudo guardar el estado."); } });
         td.appendChild(sel); tr.appendChild(td); tb.appendChild(tr);
       });
-    }catch(err){ tb.innerHTML='<tr><td colspan="6">No se pudieron cargar las solicitudes.</td></tr>'; }
+    }catch(err){ tb.innerHTML='<tr><td colspan="7">No se pudieron cargar las solicitudes.</td></tr>'; }
   }
   $("#reloadLeads").addEventListener("click",loadLeads);
 
@@ -1373,13 +1771,13 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
     if(who!=="me") speak(d.textContent);
   }
   function quick(list){ const q=$("#quick"); q.innerHTML=""; list.forEach(t=>{ const b=document.createElement("button"); b.type="button"; b.textContent=t; b.addEventListener("click",()=>ask(t)); q.appendChild(b); }); }
-  const base=["Servicios","Proyectos","Precios","Crear cuenta","¿Quién es ORI?","Contacto"];
+  const base=["Servicios","Proyectos","Cotizar","Crear cuenta","¿Quién es ORI?","Contacto"];
   function greet(){
     add("nova","¡Hola"+(me?", "+escapeHtml(me.name.split(" ")[0]):"")+"! Soy NOVA, el humanoide de Orion Nova Technologies. ¿En qué te ayudo hoy?");
     quick(base);
   }
   function escapeHtml(t){ return t.replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
-  const norm=t=>t.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"");
+  const norm=t=>t.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");
   const intents=[
     {k:["servicio","hacen","ofrecen"],a:()=>["nova","Hacemos desarrollo web, aplicaciones móviles, asistentes virtuales con IA, automatización de procesos, ciberseguridad, IoT y marketing digital. ¿Cuál te interesa?"],q:["Página web","App móvil","Asistente con IA","Ciberseguridad"]},
     {k:["web","pagina","sitio"],a:()=>["nova","Hacemos páginas rápidas, seguras y adaptadas al celular, con tu logo, catálogo, WhatsApp y formulario. Cuéntame de tu negocio o <a href='"+WA+"?text=Quiero%20una%20p%C3%A1gina%20web' target='_blank' rel='noopener'>escríbele al equipo por WhatsApp</a>."]},
@@ -1388,8 +1786,8 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
     {k:["segur","hack","ciber","contrasena","clave","virus","fraude"],a:()=>["ori",tips[Math.floor(Math.random()*tips.length)]+" Si quieres una revisión de seguridad para tu empresa, el equipo te ayuda."]},
     {k:["iot","sensor","domotica","hogar"],a:()=>["nova","Con IoT conectamos sensores y dispositivos para que tu casa o negocio se monitoree y se automatice en tiempo real."]},
     {k:["marketing","redes","publicidad","clientes"],a:()=>["nova","Te ayudamos con estrategia digital para que más clientes te encuentren: redes, contenido y una web que convierta visitas en ventas."]},
-    {k:["proyecto","producto","restaurante","academy","curso","transito"],a:()=>["nova","Estamos construyendo NOVA Restaurantes (pedidos y pagos PSE en Neiva), Orion Nova Academy (cursos con certificado) y Alerta Tránsito (reportes de la comunidad). Bájale a la sección <a href='#proyectos'>Proyectos</a>."]},
-    {k:["precio","cuesta","valor","cotiz","cuanto"],a:()=>["nova","Cada proyecto es a la medida, así que el precio depende de lo que necesites. Déjanos tus datos en el <a href='#contacto'>formulario de contacto</a> y te llamamos, o escríbenos al <a href='"+WA+"?text=Quiero%20una%20cotizaci%C3%B3n' target='_blank' rel='noopener'>WhatsApp 300 444 0009</a>."]},
+    {k:["proyecto","producto","restaurante","academy","curso","transito"],a:()=>["nova","Estamos construyendo NOVA Restaurantes (pedidos y pagos PSE en Neiva), Orion Nova Academy (cursos con certificado) y Alerta Tránsito (reportes de la comunidad). Míralos en el <a href='#portafolio'>portafolio</a>."]},
+    {k:["precio","cuesta","valor","cotiz","cuanto"],a:()=>["nova","Cada proyecto es a la medida, así que el precio depende de lo que necesites. Pide tu cotización en el <a href='#contacto'>formulario</a> y te respondemos, o escríbenos al <a href='"+WA+"?text=Quiero%20una%20cotizaci%C3%B3n' target='_blank' rel='noopener'>WhatsApp 300 444 0009</a>."]},
     {k:["cuenta","registr","login","ingresar","entrar","sesion"],a:()=>{ setTimeout(()=>openLogin("up"),400); return ["nova","Te abro el formulario. ORI va a revisar que tu contraseña sea segura."]; }},
     {k:["ori","buho"],a:()=>["ori","¡Ese soy yo! Soy el búho de Orion Nova. Observo, comparto buenas prácticas y te aviso cuando algo no se ve seguro."]},
     {k:["nova","eres","humanoide"],a:()=>["nova","Soy NOVA, el humanoide de Orion Nova Technologies. Doy la bienvenida, explico soluciones y acompaño tutoriales. Para contratos y casos complejos te conecto con una persona."]},
@@ -1412,6 +1810,5 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
   $("#chatForm").addEventListener("submit",e=>{ e.preventDefault(); const i=$("#chatInput"); ask(i.value); i.value=""; });
 })();
 </script>
-
 </body>
 </html>
