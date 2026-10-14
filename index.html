@@ -547,17 +547,6 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
           <button class="btn btn-ghost" type="button" id="twTest" style="margin-top:14px">Enviarme un código de prueba</button>
           <p class="msg" id="twMsg" role="status"></p>
         </div>
-        <div class="pcard">
-          <h3>Cómo configurarlo</h3>
-          <ol class="steps">
-            <li><b>Copia tus credenciales.</b> En twilio.com/console, en la página de inicio, copia el <code>Account SID</code> (empieza por AC) y el <code>Auth Token</code>.</li>
-            <li><b>Crea el servicio Verify.</b> En Twilio: Verify → Services → Create new. Nombre: "Orion Nova". Activa SMS y WhatsApp. Copia el <code>Service SID</code> (empieza por VA).</li>
-            <li><b>Guarda los secretos en Supabase.</b> Proyecto NOVA → Edge Functions → Secrets → Add new secret. Crea <code>TWILIO_ACCOUNT_SID</code>, <code>TWILIO_AUTH_TOKEN</code> y <code>TWILIO_VERIFY_SID</code>. No los pegues en ningún chat.</li>
-            <li><b>Prueba por SMS.</b> Vuelve aquí, pulsa "Revisar estado" y luego "Enviarme un código de prueba". Con cuenta de prueba, el celular debe estar verificado en Twilio (Phone Numbers → Verified Caller IDs).</li>
-            <li><b>Registra tu WhatsApp.</b> En Twilio: Messaging → Senders → WhatsApp senders → crea el remitente con tu Meta Business y un número que no use la app normal de WhatsApp. Cuando Meta lo apruebe, en tu servicio Verify ve a WhatsApp y elige ese remitente.</li>
-            <li><b>Recarga saldo.</b> Para enviar a clientes reales, la cuenta de Twilio debe salir del modo de prueba.</li>
-          </ol>
-        </div>
       </div>
     </div>
   </div>
