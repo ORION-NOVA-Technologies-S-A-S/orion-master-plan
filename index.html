@@ -595,7 +595,7 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
 .ori-pupil{transform:translate(calc(var(--ox)*6px),calc(var(--oy)*5px));transition:transform .3s ease-out}
 .ori-jaw{transform-box:fill-box;transform-origin:center top;animation:var(--jaw,none)}
 .ori-brow{transform:var(--brow,none);transition:transform .25s ease}
-.ori-wing{transform-box:view-box;transform-origin:62px 300px;animation:var(--flap,none)}
+.ori-wing{transform-box:view-box;transform-origin:192px 226px;animation:var(--flap,none)}
 .ori-tuft{transform-box:fill-box;transform-origin:center bottom;transform:var(--tuft,none);transition:transform .25s ease}
 .ori-ring{animation-duration:var(--ring,9s)}
 .ori-host.ori-talking{--jaw:jaw .17s ease-in-out infinite alternate;--brow:translateY(-5px)}
@@ -603,46 +603,13 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
 .ori-host.ori-scan{--ring:1.2s;--brow:translateY(-3px)}
 .ori-host:hover,.ori-host.ori-alert{--tuft:rotate(-8deg) scaleY(1.12)}
 @keyframes jaw{from{transform:translateY(0) scaleY(.6)}to{transform:translateY(4px) scaleY(1.15)}}
-@keyframes flap{0%,100%{transform:rotate(0)}50%{transform:rotate(-24deg)}}
+@keyframes flap{0%,100%{transform:rotate(0)}50%{transform:rotate(-16deg)}}
+.ori-shield-glow{animation:shieldglow 3.6s ease-in-out infinite}
+.ori-host.ori-talking .ori-shield-glow{animation-duration:.8s}
+.ori-host.ori-alert .ori-shield-glow{stroke:#F5B544;animation-duration:.5s}
+@keyframes shieldglow{0%,100%{stroke-opacity:.45}50%{stroke-opacity:1}}
 .character.ori .bubble.ori-says{border-color:rgba(245,181,68,.55)}
 @media (prefers-reduced-motion:reduce){.ori-host{--jaw:none!important;--flap:none!important}.ori-pupil{transition:none}}
-
-/* ---------- ORI (ilustración oficial) con vida ---------- */
-.ori-pic{position:relative;display:block;width:100%;aspect-ratio:302/424;border-radius:22px;--ox:0;--oy:0;
-  transform:perspective(700px) rotateY(calc(var(--ox)*9deg)) rotateX(calc(var(--oy)*-7deg));transition:transform .35s ease-out;
-  box-shadow:0 0 0 1px rgba(103,232,249,.28),0 18px 40px -14px rgba(6,182,212,.55);filter:none}
-.ori-host .ori-pic,.ori-pic.ori-host{--ox:inherit;--oy:inherit}
-.ori-anim{position:absolute;inset:0;border-radius:inherit;overflow:hidden;animation:var(--oriAnim,oribreathe 4.5s ease-in-out infinite);transform-origin:50% 90%}
-.ori-anim img{width:100%;height:100%;object-fit:cover;display:block}
-.ori-lid{position:absolute;left:39.7%;top:20.8%;width:17.2%;height:11.8%;border-radius:50% 50% 45% 45%;background:linear-gradient(180deg,#4d2b1e 0%,#8a6450 35%,#e6dbd6 100%);transform:scaleY(0);transform-origin:50% 0;animation:orilid 5.2s infinite}
-.ori-mono{position:absolute;left:77.5%;top:27.6%;width:24%;aspect-ratio:1;transform:translate(-50%,-50%);border-radius:50%;border:2px solid rgba(103,232,249,.9);box-shadow:0 0 14px rgba(103,232,249,.8),inset 0 0 10px rgba(103,232,249,.5);opacity:0;animation:orimono 3.4s ease-in-out infinite}
-.ori-shield{position:absolute;left:31.5%;top:63.7%;width:56%;height:50%;transform:translate(-50%,-50%);background:radial-gradient(closest-side,rgba(103,232,249,.55),rgba(6,182,212,.18) 55%,transparent);mix-blend-mode:screen;opacity:.25;animation:orishield 3.8s ease-in-out infinite;pointer-events:none}
-.ori-waves{position:absolute;left:62%;top:34.5%;width:16%;aspect-ratio:1;transform:translate(-50%,-50%);opacity:0;pointer-events:none}
-.ori-waves::before,.ori-waves::after{content:"";position:absolute;inset:0;border-radius:50%;border:2px solid rgba(245,181,68,.9)}
-@keyframes oribreathe{0%,100%{transform:scale(1)}50%{transform:scale(1.015,1.025)}}
-@keyframes orilid{0%,93%,100%{transform:scaleY(0)}95.5%{transform:scaleY(1)}}
-@keyframes orimono{0%,100%{opacity:0;transform:translate(-50%,-50%) scale(.85)}50%{opacity:.55;transform:translate(-50%,-50%) scale(1)}}
-@keyframes orishield{0%,100%{opacity:.18}50%{opacity:.45}}
-@keyframes oribob{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-3px) rotate(-1.2deg)}}
-@keyframes orihop{0%,100%{transform:translateY(0) rotate(0)}35%{transform:translateY(-10px) rotate(-3deg)}65%{transform:translateY(0) rotate(2deg)}}
-@keyframes oritilt{30%{transform:rotate(-7deg)}70%{transform:rotate(5deg)}}
-@keyframes oriwave{from{transform:scale(.3);opacity:1}to{transform:scale(1.6);opacity:0}}
-.ori-host.ori-talking .ori-anim,.ori-host.ori-talking.ori-anim{--oriAnim:oribob .5s ease-in-out infinite}
-.ori-host.ori-talking .ori-waves{opacity:1}
-.ori-host.ori-talking .ori-waves::before{animation:oriwave .9s ease-out infinite}
-.ori-host.ori-talking .ori-waves::after{animation:oriwave .9s ease-out .45s infinite}
-.ori-host.ori-talking .ori-shield{animation-duration:.9s}
-.ori-host.ori-flap .ori-anim{--oriAnim:orihop .45s ease-in-out 3}
-.character.tilt .ori-anim{--oriAnim:oritilt 1.2s ease-in-out}
-.ori-host.ori-scan .ori-mono{animation-duration:.9s}
-.ori-host.ori-alert .ori-shield{background:radial-gradient(closest-side,rgba(245,181,68,.7),rgba(245,181,68,.2) 55%,transparent);animation-duration:.6s}
-.character.ori .ori-pic{margin-top:2px}
-.character.ori .bubble{margin-bottom:12px}
-.mascot .ori-pic{width:100%}
-.dialog aside .ori-pic{width:140px;align-self:center}
-.proj .shot.art .ori-pic{width:auto;height:86%;border-radius:18px}
-@media (max-width:720px){.dialog aside .ori-pic{width:70px;flex:none;border-radius:12px}}
-@media (prefers-reduced-motion:reduce){.ori-anim,.ori-lid,.ori-mono,.ori-shield,.ori-waves::before,.ori-waves::after{animation:none!important}.ori-pic{transition:none}}
 </style>
 </head>
 <body>
@@ -699,44 +666,98 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
       </g>
     </symbol>
 
-    <!-- ORI: búho de conocimiento y seguridad, con monóculo cibernético y sudadera -->
+    <!-- ORI: búho guardián de la seguridad. Dibujado por piezas para que pueda moverse y hablar -->
+    <linearGradient id="o-owl" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#a86d3c"/><stop offset=".6" stop-color="#7d4c27"/><stop offset="1" stop-color="#5c361b"/></linearGradient>
+    <radialGradient id="o-face" cx=".5" cy=".45" r=".6"><stop offset="0" stop-color="#fffdf8"/><stop offset=".75" stop-color="#f1e7dc"/><stop offset="1" stop-color="#d9c6b2"/></radialGradient>
+    <linearGradient id="o-hood" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#232b40"/><stop offset="1" stop-color="#0b0f1b"/></linearGradient>
+    <linearGradient id="o-rim" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#eef4fb"/><stop offset=".5" stop-color="#9fb2c9"/><stop offset="1" stop-color="#5d6f88"/></linearGradient>
+    <linearGradient id="o-shield" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1a4fb5"/><stop offset="1" stop-color="#071a45"/></linearGradient>
+    <linearGradient id="o-beak" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffd768"/><stop offset="1" stop-color="#e7961f"/></linearGradient>
+    <radialGradient id="o-iris" cx=".42" cy=".38" r=".62"><stop offset="0" stop-color="#c8f4ff"/><stop offset=".45" stop-color="#3aa4ff"/><stop offset="1" stop-color="#0a3a9c"/></radialGradient>
+    <radialGradient id="o-cyber" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#0d4fb8"/><stop offset=".7" stop-color="#05214f"/><stop offset="1" stop-color="#020b1f"/></radialGradient>
     <symbol id="ori" viewBox="0 0 260 340">
-      <ellipse cx="130" cy="330" rx="80" ry="8" fill="#000" opacity=".45"/>
-      <!-- cuerpo / sudadera -->
-      <path d="M44 330 Q36 214 130 186 Q224 214 216 330 Z" fill="url(#g-hood)"/>
-      <path d="M96 200 Q130 270 164 200 Q150 192 130 190 Q110 192 96 200 Z" fill="#d6b88e"/>
-      <path d="M108 212 q8 6 16 0 M136 212 q8 6 16 0 M118 232 q12 7 24 0" stroke="#a9845b" stroke-width="3" fill="none" stroke-linecap="round"/>
-      <path d="M96 200 Q130 280 164 200" fill="none" stroke="#2a3460" stroke-width="6"/>
-      <circle cx="176" cy="262" r="15" fill="none" stroke="#53c6ff" stroke-width="4" filter="url(#glow)"/>
-      <circle cx="176" cy="262" r="5" fill="#53c6ff"/>
-      <text x="176" y="300" text-anchor="middle" font-family="Sora, Arial, sans-serif" font-weight="700" font-size="18" fill="#cdd4e6" letter-spacing="1">ORI</text>
-      <!-- ala con pulgar arriba -->
-      <path class="ori-wing" d="M50 300 Q30 250 60 222 Q74 260 72 304 Z" fill="url(#g-owl)"/>
-      <g id="ori-head">
-        <!-- penachos -->
-        <path class="ori-tuft l" d="M64 70 L50 18 L98 52 Z" fill="#6b4529"/>
-        <path class="ori-tuft r" d="M196 70 L210 18 L162 52 Z" fill="#6b4529"/>
-        <ellipse cx="130" cy="112" rx="92" ry="80" fill="url(#g-owl)"/>
-        <!-- disco facial -->
-        <path d="M130 70 Q60 56 52 116 Q56 168 130 170 Q204 168 208 116 Q200 56 130 70 Z" fill="#c99d6c"/>
-        <path d="M130 74 L130 96" stroke="#8a5e3a" stroke-width="4" stroke-linecap="round"/>
-        <!-- cejas -->
-        <path class="ori-brow" d="M70 80 Q96 64 120 84" stroke="#4a2f1b" stroke-width="7" fill="none" stroke-linecap="round"/>
-        <path class="ori-brow" d="M140 84 Q164 64 190 80" stroke="#4a2f1b" stroke-width="7" fill="none" stroke-linecap="round"/>
-        <!-- ojo izquierdo -->
-        <g class="blink late"><circle cx="96" cy="116" r="28" fill="#f4efe6"/><g class="ori-pupil"><circle cx="98" cy="118" r="18" fill="url(#g-iris)"/><circle cx="98" cy="118" r="8" fill="#050816"/><circle cx="92" cy="111" r="4.5" fill="#fff"/></g></g>
-        <!-- ojo derecho con monóculo cibernético -->
-        <g class="blink late"><circle cx="164" cy="116" r="28" fill="#f4efe6"/><g class="ori-pupil"><circle cx="162" cy="118" r="18" fill="url(#g-iris)"/><circle cx="162" cy="118" r="8" fill="#050816"/><circle cx="156" cy="111" r="4.5" fill="#fff"/></g></g>
+      <ellipse cx="130" cy="333" rx="86" ry="7" fill="#000" opacity=".45"/>
+      <!-- patas con garras -->
+      <g fill="#e79e32" stroke="#b9711a" stroke-width="1.5">
+        <path d="M86 312 q-12 10 -16 20 q8 -2 12 -8 q2 9 0 14 q8 -4 10 -12 q4 8 10 10 q-2 -10 -4 -16 Z"/>
+        <path d="M174 312 q12 10 16 20 q-8 -2 -12 -8 q-2 9 0 14 q-8 -4 -10 -12 q-4 8 -10 10 q2 -10 4 -16 Z"/>
+      </g>
+      <g fill="#1b1414"><path d="M70 332 q-3 4 -1 8 q3 -3 4 -7Z"/><path d="M82 338 q-2 4 1 7 q2 -4 1 -7Z"/><path d="M102 334 q2 4 6 5 q-1 -4 -4 -6Z"/><path d="M190 332 q3 4 1 8 q-3 -3 -4 -7Z"/><path d="M178 338 q2 4 -1 7 q-2 -4 -1 -7Z"/><path d="M158 334 q-2 4 -6 5 q1 -4 4 -6Z"/></g>
+      <!-- piernas emplumadas -->
+      <path d="M78 290 Q80 318 98 316 Q112 314 112 296 Z M182 290 Q180 318 162 316 Q148 314 148 296 Z" fill="url(#o-owl)"/>
+      <!-- chaqueta con capucha -->
+      <path d="M56 302 Q46 222 130 196 Q214 222 204 302 Q172 322 130 322 Q88 322 56 302 Z" fill="url(#o-hood)"/>
+      <path d="M62 290 Q66 250 84 228" stroke="#38bdf8" stroke-width="2.5" fill="none" opacity=".75" stroke-linecap="round"/>
+      <path d="M198 290 Q194 250 176 228" stroke="#38bdf8" stroke-width="2.5" fill="none" opacity=".75" stroke-linecap="round"/>
+      <path d="M130 226 V314" stroke="#8d9ab2" stroke-width="2.4"/>
+      <rect x="126" y="230" width="8" height="14" rx="2" fill="#aab6c9"/>
+      <path d="M118 228 v22 M142 228 v22" stroke="#9fb0c8" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="118" cy="252" r="2.4" fill="#cfd8e6"/><circle cx="142" cy="252" r="2.4" fill="#cfd8e6"/>
+      <!-- capucha alrededor del cuello -->
+      <path d="M74 210 Q130 178 186 210 Q178 232 130 232 Q82 232 74 210 Z" fill="#161d2f" stroke="#38bdf8" stroke-width="2" stroke-opacity=".7"/>
+      <!-- logo Orion Nova en el pecho -->
+      <g transform="translate(166 262)">
+        <ellipse rx="11" ry="4.5" fill="none" stroke="#e8eef8" stroke-width="1.6" transform="rotate(-18)"/>
+        <circle r="6" fill="none" stroke="#5b8cff" stroke-width="2"/>
+        <path d="M0 -3 L.9 -.9 3 0 .9 .9 0 3 -.9 .9 -3 0 -.9 -.9Z" fill="#fff"/>
+        <text y="16" text-anchor="middle" font-family="Sora, Arial, sans-serif" font-weight="700" font-size="7" fill="#e8eef8" letter-spacing=".4">ORION NOVA</text>
+        <text y="22" text-anchor="middle" font-family="Arial, sans-serif" font-size="3.6" fill="#9fb0c8" letter-spacing=".8">TECHNOLOGIES</text>
+      </g>
+      <!-- ala derecha con el pulgar arriba -->
+      <g class="ori-wing">
+        <path d="M190 220 Q214 232 216 262 Q204 270 194 262 Q196 244 184 232 Z" fill="url(#o-owl)"/>
+        <ellipse cx="212" cy="270" rx="15" ry="13" fill="url(#o-owl)"/>
+        <path d="M206 262 Q202 244 208 236 Q216 234 216 244 Q216 254 214 262 Z" fill="#a86d3c" stroke="#6a3f1f" stroke-width="1.5"/>
+        <path d="M200 266 h22 M200 273 h22 M202 280 h18" stroke="#6a3f1f" stroke-width="1.6" stroke-linecap="round" opacity=".8"/>
+      </g>
+      <!-- ala izquierda detrás del escudo -->
+      <path d="M68 222 Q42 240 44 280 Q56 292 70 286 Z" fill="url(#o-owl)"/>
+      <!-- escudo con candado -->
+      <g class="ori-shield-g">
+        <path d="M86 206 L130 220 Q130 282 86 312 Q42 282 42 220 Z" fill="url(#o-rim)"/>
+        <path d="M86 216 L121 227 Q121 276 86 300 Q51 276 51 227 Z" fill="url(#o-shield)"/>
+        <path class="ori-shield-glow" d="M86 216 L121 227 Q121 276 86 300 Q51 276 51 227 Z" fill="none" stroke="#38bdf8" stroke-width="2.6" filter="url(#glow)"/>
+        <path d="M58 236 Q86 228 114 236" stroke="#7dd3fc" stroke-width="1" opacity=".35" fill="none"/>
         <g filter="url(#glow)">
-          <circle cx="164" cy="116" r="35" fill="none" stroke="#53c6ff" stroke-width="4"/>
-          <g class="ring-spin ori-ring"><circle cx="164" cy="116" r="41" fill="none" stroke="#53c6ff" stroke-width="2" stroke-dasharray="6 9" opacity=".8"/></g>
-          <path d="M199 116 H222 L230 128" stroke="#53c6ff" stroke-width="3" fill="none" stroke-linecap="round"/>
-          <circle cx="230" cy="128" r="3.5" fill="#53c6ff"/>
+          <path d="M77 254 v-8 a9 9 0 0 1 18 0 v8" fill="none" stroke="#67E8F9" stroke-width="4" stroke-linecap="round"/>
+          <rect x="71" y="253" width="30" height="24" rx="5" fill="#38bdf8"/>
+          <circle cx="86" cy="262" r="3.6" fill="#0a2a66"/><rect x="84.4" y="263" width="3.2" height="8" rx="1.4" fill="#0a2a66"/>
         </g>
+      </g>
+      <!-- cabeza -->
+      <g id="ori-head">
+        <path class="ori-tuft l" d="M66 70 L52 16 Q78 30 104 52 Z" fill="#7d4c27"/>
+        <path class="ori-tuft r" d="M194 70 L208 16 Q182 30 156 52 Z" fill="#7d4c27"/>
+        <ellipse cx="130" cy="108" rx="96" ry="84" fill="url(#o-owl)"/>
+        <path d="M70 52 q8 6 6 14 M96 36 q6 8 2 14 M164 36 q-6 8 -2 14 M190 52 q-8 6 -6 14" stroke="#5c361b" stroke-width="3" fill="none" stroke-linecap="round" opacity=".6"/>
+        <!-- disco facial blanco -->
+        <path d="M130 74 Q98 46 66 66 Q40 92 52 130 Q66 166 130 172 Q194 166 208 130 Q220 92 194 66 Q162 46 130 74 Z" fill="url(#o-face)"/>
+        <path d="M130 66 L118 86 L130 96 L142 86 Z" fill="#8a5530"/>
+        <!-- cejas -->
+        <path class="ori-brow" d="M66 82 Q90 62 118 80" stroke="#5c361b" stroke-width="7" fill="none" stroke-linecap="round"/>
+        <path class="ori-brow" d="M142 80 Q170 62 196 82" stroke="#5c361b" stroke-width="7" fill="none" stroke-linecap="round"/>
+        <!-- ojo natural -->
+        <g class="blink late">
+          <circle cx="94" cy="114" r="28" fill="#2a1a12"/>
+          <circle cx="94" cy="114" r="24.5" fill="#fff"/>
+          <g class="ori-pupil"><circle cx="96" cy="116" r="17" fill="url(#o-iris)"/><circle cx="96" cy="116" r="8.5" fill="#04060f"/><circle cx="89" cy="108" r="5" fill="#fff"/><circle cx="102" cy="121" r="2.2" fill="#fff" opacity=".9"/></g>
+        </g>
+        <!-- ojo cibernético con monóculo -->
+        <path d="M196 106 L226 96 L232 104 L200 116 Z" fill="#2b3447" stroke="#475570" stroke-width="1.5"/>
+        <circle cx="229" cy="100" r="3" fill="#67E8F9"/>
+        <circle cx="166" cy="114" r="33" fill="#1b2232" stroke="#4a5873" stroke-width="4"/>
+        <circle cx="166" cy="114" r="27" fill="url(#o-cyber)"/>
+        <g class="ori-pupil" filter="url(#glow)">
+          <circle cx="166" cy="114" r="20" fill="none" stroke="#2f8bff" stroke-width="3"/>
+          <circle cx="166" cy="114" r="13" fill="none" stroke="#67E8F9" stroke-width="3"/>
+          <circle cx="166" cy="114" r="6" fill="#bff6ff"/>
+        </g>
+        <g class="ring-spin ori-ring"><circle cx="166" cy="114" r="30" fill="none" stroke="#38bdf8" stroke-width="1.6" stroke-dasharray="5 8" opacity=".85"/></g>
+        <circle cx="140" cy="94" r="2.4" fill="#9fb0c8"/><circle cx="192" cy="94" r="2.4" fill="#9fb0c8"/>
         <!-- pico -->
-        <path class="ori-jaw" d="M123 150 L137 150 L130 165 Z" fill="#c98a24"/>
-        <path d="M120 140 Q130 134 140 140 L130 156 Z" fill="#e3a43a"/>
-        <path d="M120 140 Q130 134 140 140" stroke="#b97b1e" stroke-width="2" fill="none"/>
+        <path class="ori-jaw" d="M123 151 L137 151 L130 166 Z" fill="#d18a1c"/>
+        <path d="M118 140 Q130 130 142 140 L130 159 Z" fill="url(#o-beak)"/>
+        <path d="M122 139 Q130 134 138 139" stroke="#fff3c4" stroke-width="2" fill="none" opacity=".7" stroke-linecap="round"/>
       </g>
     </symbol>
   </defs>
@@ -897,7 +918,7 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
       </button>
       <button class="character ori ori-host float delay" id="heroOri" type="button" aria-label="ORI, toca para un consejo de seguridad">
         <span class="bubble" id="oriSay">Soy <b>ORI</b>. Tócame y te doy un consejo de seguridad.</span>
-        <span class="ori-pic" role="img" aria-label="ORI, el búho de Orion Nova"><span class="ori-anim"><img src="assets/personajes/ori.webp" alt="" width="302" height="424" decoding="async"><i class="ori-lid"></i><i class="ori-mono"></i><i class="ori-shield"></i><i class="ori-waves"></i></span></span>
+        <svg viewBox="0 0 260 340" role="img" aria-label="ORI, el búho de Orion Nova"><use href="#ori"/></svg>
         <span class="tag">ORI · seguridad</span>
       </button>
     </div>
@@ -1072,7 +1093,7 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
         </div>
       </article>
       <article class="proj" data-estado="preview">
-        <div class="shot art"><span class="ori-pic ori-host" role="img" aria-label="ORI, el búho de seguridad"><span class="ori-anim"><img src="assets/personajes/ori.webp" alt="" width="302" height="424" decoding="async"><i class="ori-lid"></i><i class="ori-mono"></i><i class="ori-shield"></i><i class="ori-waves"></i></span></span></div>
+        <div class="shot art"><svg class="ori-host" viewBox="0 0 260 340" role="img" aria-label="Ilustración de ORI"><use href="#ori"/></svg></div>
         <div class="body">
           <div class="row"><h3>ORI Security</h3><span class="status preview">Vista previa</span></div>
           <dl>
@@ -1130,7 +1151,7 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
         </div>
       </article>
       <article class="mascot">
-        <span class="ori-pic ori-host" id="mascotOri" aria-hidden="true"><span class="ori-anim"><img src="assets/personajes/ori.webp" alt="" width="302" height="424" decoding="async"><i class="ori-lid"></i><i class="ori-mono"></i><i class="ori-shield"></i><i class="ori-waves"></i></span></span>
+        <svg class="ori-host" id="mascotOri" viewBox="0 0 260 340" aria-hidden="true"><use href="#ori"/></svg>
         <div>
           <p class="eyebrow" style="color:var(--warn)">Búho · Conocimiento y seguridad</p>
           <h3>ORI</h3>
@@ -1338,7 +1359,7 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
   <div class="dialog">
     <aside>
       <p class="eyebrow" style="color:var(--warn)">ORI SECURITY</p>
-      <span class="ori-pic ori-host" aria-hidden="true"><span class="ori-anim"><img src="assets/personajes/ori.webp" alt="" width="302" height="424" decoding="async"><i class="ori-lid"></i><i class="ori-mono"></i><i class="ori-shield"></i><i class="ori-waves"></i></span></span>
+      <svg class="ori-host" viewBox="0 0 260 340" aria-hidden="true"><use href="#ori"/></svg>
       <div class="bubble" id="oriGuard">Estoy vigilando tu acceso. Nunca compartas tu contraseña, ni siquiera con el equipo de Orion.</div>
       <p class="fine">Tu cuenta Orion es la misma de NOVA Restaurantes y Hoteles: un solo usuario y contraseña para todo el ecosistema.</p>
     </aside>
