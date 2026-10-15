@@ -270,6 +270,7 @@ section.alt{background:var(--bg-2);border-block:1px solid var(--line)}
 .ptile small{color:var(--muted);font-size:.86rem;line-height:1.45}
 .ptile em{font-style:normal;margin-top:auto;padding-top:6px;color:var(--fc);font-weight:700;font-size:.85rem;display:inline-flex;align-items:center;gap:5px}
 .ptile em svg{width:14px;height:14px}
+.ptile.wide{grid-column:span 2}
 .ptile.soon{cursor:default;border-left-color:var(--line-2);opacity:.85}
 .ptile.soon:hover{transform:none;background:var(--surface);border-color:var(--line)}
 .st{align-self:flex-start;font-family:var(--f-mono);font-size:.62rem;letter-spacing:.08em;text-transform:uppercase;padding:.25em .6em;border-radius:999px;border:1px solid var(--line-2);color:var(--muted)}
@@ -282,7 +283,7 @@ section.alt{background:var(--bg-2);border-block:1px solid var(--line)}
 .eco .eco-live em{font-style:normal;color:#c4b5fd;font-weight:700;font-size:.88rem;display:inline-flex;align-items:center;gap:5px;margin-top:4px}
 .eco .eco-live em svg{width:15px;height:15px}
 @media (max-width:860px){.fam-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media (max-width:520px){.fam-grid{grid-template-columns:1fr}.eco .eco-live{grid-column:auto}}
+@media (max-width:520px){.fam-grid{grid-template-columns:1fr}.ptile.wide{grid-column:auto}.eco .eco-live{grid-column:auto}}
 .eco-wrap h3{font-size:1.25rem;margin-bottom:8px}
 .eco-wrap>p{color:var(--muted);margin-bottom:22px;max-width:70ch}
 .eco{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
@@ -756,7 +757,7 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
     <div class="pview" data-pview="inicio">
       <div class="notice" id="noMail" hidden><span>Agrega tu correo para poder recuperar tu contraseña si la olvidas.</span><button class="btn btn-ghost" type="button" data-view-go="datos">Agregar correo</button></div>
       <div class="grid">
-        <a class="tile" href="https://orion-nova-technologies-s-a-s.github.io/NOVA-IA/" target="_blank" rel="noopener"><b>NOVA Restaurantes →</b><span id="tileNova">Pide en restaurantes de Neiva con el mismo usuario y contraseña.</span></a>
+        <a class="tile" href="https://orion-nova-technologies-s-a-s.github.io/NOVA-IA/" target="_blank" rel="noopener"><b>NOVA Restaurantes y Hoteles →</b><span id="tileNova">Pide en restaurantes de Neiva con el mismo usuario y contraseña.</span></a>
         <a class="tile" href="https://orion-nova-technologies-s-a-s.github.io/NOVA-COURSE/" target="_blank" rel="noopener"><b>Orion Nova Academy →</b><span>Cursos con certificado de Orion Nova Technologies.</span></a>
         <a class="tile" href="https://orion-nova-technologies-s-a-s.github.io/Tr-nsito-IA/" target="_blank" rel="noopener"><b>Alerta Tránsito →</b><span>Reportes de tránsito de la comunidad.</span></a>
         <button class="tile" type="button" data-open-chat><b>Soporte</b><span>Habla con NOVA o escríbenos por WhatsApp.</span></button>
@@ -766,7 +767,7 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
     <div class="pview" data-pview="datos" hidden>
       <form id="formDatos" class="pcard" novalidate>
         <h3>Mis datos</h3>
-        <p class="fine">Estos datos son los mismos en NOVA Restaurantes. Si olvidas tu contraseña, el código llega a tu correo.</p>
+        <p class="fine">Estos datos son los mismos en NOVA Restaurantes y Hoteles. Si olvidas tu contraseña, el código llega a tu correo.</p>
         <label>Usuario<input id="dtUser" type="text" disabled></label>
         <label>Nombre<input id="dtName" type="text" autocomplete="name" maxlength="60"></label>
         <div class="row2">
@@ -972,12 +973,12 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
     </div>
     <div class="projects">
       <article class="proj" data-estado="demo">
-        <div class="shot"><div class="browser" aria-hidden="true"><i></i><i></i><i></i><span>orion-nova-technologies-s-a-s.github.io/NOVA-IA</span></div><img src="assets/portafolio/nova.webp" alt="Captura de la página de NOVA Restaurantes" width="960" height="600" loading="lazy" decoding="async"></div>
+        <div class="shot"><div class="browser" aria-hidden="true"><i></i><i></i><i></i><span>orion-nova-technologies-s-a-s.github.io/NOVA-IA</span></div><img src="assets/portafolio/nova.webp" alt="Captura de la página de NOVA Restaurantes y Hoteles" width="960" height="600" loading="lazy" decoding="async"></div>
         <div class="body">
-          <div class="row"><h3>NOVA Restaurantes</h3><span class="status demo">Demo publicada</span></div>
+          <div class="row"><h3>NOVA Restaurantes y Hoteles</h3><span class="status demo">Demo publicada</span></div>
           <dl>
-            <div><dt>Problema</dt><dd>Los restaurantes y hoteles de Neiva pierden pedidos y tiempo atendiendo mensajes uno por uno.</dd></div>
-            <div><dt>Solución</dt><dd>NOVA FLOW IA, un asistente humanoide que muestra la carta, arma el pedido y lo envía al dueño, con panel para cada negocio.</dd></div>
+            <div><dt>Problema</dt><dd>Los restaurantes y hoteles de Neiva pierden pedidos, reservas y tiempo atendiendo mensajes uno por uno.</dd></div>
+            <div><dt>Solución</dt><dd>Una sola plataforma con NOVA FLOW IA: en restaurantes muestra la carta, arma el pedido y lo envía al dueño; en hoteles reserva hospedaje por horas, por noche o por día. Cada negocio tiene su panel.</dd></div>
             <div><dt>Tecnologías</dt><dd class="chips"><span>HTML y JavaScript</span><span>Supabase</span><span>PostgreSQL</span><span>Voz del navegador</span></dd></div>
           </dl>
           <p class="fine">Cuentas y pedidos ya funcionan. Pagos por PSE y avisos por WhatsApp están en desarrollo.</p>
@@ -1101,8 +1102,7 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
       <div class="fam fam-nova">
         <div class="fam-head"><span class="fam-dot" aria-hidden="true"></span><h4>Familia NOVA</h4><small>Inteligencia artificial que atiende, enseña y acompaña</small></div>
         <div class="fam-grid">
-          <a class="ptile" href="https://orion-nova-technologies-s-a-s.github.io/NOVA-IA/" target="_blank" rel="noopener"><span class="st on">Demo publicada</span><b>NOVA Restaurantes</b><small>NOVA FLOW IA muestra la carta, arma el pedido y lo envía al restaurante.</small><em>Abrir <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M8 7h9v9"/></svg></em></a>
-          <a class="ptile" href="https://orion-nova-technologies-s-a-s.github.io/NOVA-IA/" target="_blank" rel="noopener"><span class="st on">Demo publicada</span><b>NOVA Hoteles</b><small>Reservas de hospedaje por horas, por noche o por día, en la misma plataforma.</small><em>Abrir <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M8 7h9v9"/></svg></em></a>
+          <a class="ptile wide" href="https://orion-nova-technologies-s-a-s.github.io/NOVA-IA/" target="_blank" rel="noopener"><span class="st on">Demo publicada</span><b>NOVA Restaurantes y Hoteles</b><small>Una sola plataforma: NOVA FLOW IA muestra la carta, arma el pedido y lo envía al restaurante, y reserva hospedaje por horas, por noche o por día en hoteles.</small><em>Abrir <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M8 7h9v9"/></svg></em></a>
           <a class="ptile" href="https://orion-nova-technologies-s-a-s.github.io/NOVA-COURSE/" target="_blank" rel="noopener"><span class="st on">Demo publicada</span><b>NOVA Academy</b><small>Cursos con módulos gratis y de pago, NOVA como tutor y certificado.</small><em>Abrir <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M8 7h9v9"/></svg></em></a>
           <a class="ptile" href="https://orion-nova-technologies-s-a-s.github.io/NOVA-COURSE/" target="_blank" rel="noopener"><span class="st dev">En desarrollo</span><b>NOVA Idiomas</b><small>30 idiomas y Lengua de Señas Colombiana, con NOVA pronunciando.</small><em>Abrir <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M8 7h9v9"/></svg></em></a>
           <button class="ptile" type="button" data-open-chat><span class="st on">Activo aquí</span><b>NOVA Asistente</b><small>El chat de esta página: te orienta y te ayuda a cotizar tu proyecto.</small><em>Hablar con NOVA</em></button>
@@ -1290,7 +1290,7 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
       <p class="eyebrow" style="color:var(--warn)">ORI SECURITY</p>
       <svg class="ori-host" viewBox="0 0 260 340" aria-hidden="true"><use href="#ori"/></svg>
       <div class="bubble" id="oriGuard">Estoy vigilando tu acceso. Nunca compartas tu contraseña, ni siquiera con el equipo de Orion.</div>
-      <p class="fine">Tu cuenta Orion es la misma de NOVA Restaurantes: un solo usuario y contraseña para todo el ecosistema.</p>
+      <p class="fine">Tu cuenta Orion es la misma de NOVA Restaurantes y Hoteles: un solo usuario y contraseña para todo el ecosistema.</p>
     </aside>
     <div class="form-side">
       <button class="close" type="button" id="closeLogin" aria-label="Cerrar">×</button>
@@ -1399,7 +1399,7 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
   const WA = "https://wa.me/573004440009";
   $("#yr").textContent = new Date().getFullYear();
 
-  /* ---------- conexión con Supabase (mismo proyecto y misma sesión que NOVA Restaurantes) ---------- */
+  /* ---------- conexión con Supabase (mismo proyecto y misma sesión que NOVA Restaurantes y Hoteles) ---------- */
   const CFG = { url:"https://hreaxtlivntifwmaacox.supabase.co", key:"sb_publishable_vxgx-wGMO1I3tOS6lL_r2A_NOAQj8R0" };
   const LSK = "nova.auth.v1", DOM = "@usuarios.novaia.app";
   const mem = {};
@@ -1611,7 +1611,7 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
   addEventListener("keydown",e=>{ if(e.key==="Escape"){ if(!modal.hidden) closeLogin(); else if(!$("#chat").hidden) closeChat(); } });
   $$("[data-toggle]").forEach(b=>b.addEventListener("click",()=>{ const i=$("#"+b.dataset.toggle); const show=i.type==="password"; i.type=show?"text":"password"; b.textContent=show?"Ocultar":"Mostrar"; }));
 
-  /* misma política de contraseñas que NOVA Restaurantes */
+  /* misma política de contraseñas que NOVA Restaurantes y Hoteles */
   function pwPolicy(p,user){
     const cls=(/[a-z]/.test(p)?1:0)+(/[A-Z]/.test(p)?1:0)+(/\d/.test(p)?1:0)+(/[^A-Za-z0-9]/.test(p)?1:0);
     let score=0; if(p.length>=10)score++; if(p.length>=14)score++; if(cls>=3)score++; if(cls===4)score++;
@@ -1761,7 +1761,7 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
     $("#logout").addEventListener("click",async()=>{ closeMenu(); audit("salida","web Orion"); await Auth.signOut(); me=null; acct=null; renderAuth(); toast("Cerraste sesión."); });
     $$("[data-go]",area).forEach(b=>b.addEventListener("click",()=>{ closeMenu(); showView(b.dataset.go); }));
     $("#panelHello").textContent="Hola, "+first;
-    $("#panelSub").textContent=roleTxt[me.role]+" · usuario "+me.username+" · tu cuenta sirve también en NOVA Restaurantes.";
+    $("#panelSub").textContent=roleTxt[me.role]+" · usuario "+me.username+" · tu cuenta sirve también en NOVA Restaurantes y Hoteles.";
     $("#tileNova").textContent = me.role==="usuario" ? "Administra tu restaurante u hotel: pedidos y carta." : me.admin ? "Panel de administración de NOVA." : "Pide en restaurantes de Neiva con el mismo usuario y contraseña.";
     $$("#ptabs .adm").forEach(b=>b.hidden=!me.admin);
     $("#noMail").hidden=!!(acct&&acct.email);
@@ -1831,7 +1831,7 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
       try{ await Auth.signIn(me.username,old); }catch(err){ throw errx("bad","La contraseña actual no es correcta."); }
       await api("PUT","/auth/v1/user",{password:nw});
       audit("contrasena-cambiada","web Orion");
-      $("#formPw").reset(); setMsg(m,"Contraseña cambiada. Úsala también en NOVA Restaurantes.","ok"); loadActivity();
+      $("#formPw").reset(); setMsg(m,"Contraseña cambiada. Úsala también en NOVA Restaurantes y Hoteles.","ok"); loadActivity();
     }catch(err){ setMsg(m,err.code==="bad"?err.msg:(err.msg&&/weak|password/i.test(err.msg)?"El servidor pide una contraseña más fuerte.":"No se pudo cambiar la contraseña."),"err"); }
     finally{ busy(btn,false); }
   });
@@ -2065,14 +2065,14 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
     {k:["servicio","que hacen","ofrecen","hacen"],fn:()=>["nova","Hacemos inteligencia artificial y automatización, desarrollo web y apps móviles, software a la medida, ciberseguridad, nube y bases de datos, IoT y analítica de datos. También marketing digital. ¿Cuál te interesa?",[{t:"Ver servicios",href:"#servicios"}]],q:["Página web","App móvil","Asistente con IA","Ciberseguridad","Software a la medida"]},
     {k:["web","pagina","sitio","tienda","landing"],fn:()=>["nova","Hacemos páginas rápidas, seguras y adaptadas al celular: corporativas, tiendas en línea y plataformas con registro de usuarios. Como esta página, con login y formulario conectado.",[goQuote("web-movil")]]},
     {k:["app","aplicacion","movil","android","ios","celular"],fn:()=>["nova","Desarrollamos apps para Android e iOS y apps web que se instalan en el celular, como Alerta Tránsito. Primero definimos qué debe hacer, luego un diseño que puedas probar.",[goQuote("web-movil")]]},
-    {k:["asistente","inteligencia","ia","bot","chatbot","automat","pedido"],fn:()=>["nova","¡Eso es lo mío! Un asistente como yo puede atender a tus clientes 24/7, responder preguntas y tomar pedidos. Así funciona NOVA FLOW IA para restaurantes de Neiva.",[goQuote("ia-automatizacion"),{t:"Ver NOVA Restaurantes",href:"https://orion-nova-technologies-s-a-s.github.io/NOVA-IA/"}]]},
+    {k:["asistente","inteligencia","ia","bot","chatbot","automat","pedido"],fn:()=>["nova","¡Eso es lo mío! Un asistente como yo puede atender a tus clientes 24/7, responder preguntas y tomar pedidos. Así funciona NOVA FLOW IA en restaurantes y hoteles de Neiva.",[goQuote("ia-automatizacion"),{t:"Ver NOVA Restaurantes y Hoteles",href:"https://orion-nova-technologies-s-a-s.github.io/NOVA-IA/"}]]},
     {k:["software","sistema","crm","erp","medida","inventario"],fn:()=>["nova","Hacemos software a la medida: plataformas administrativas, sistemas de información, CRM y sistemas académicos, pensados para cómo trabaja tu empresa.",[goQuote("software-medida")]]},
     {k:["segur","hack","ciber","contrasena","clave","virus","fraude","phishing","estafa"],fn:()=>["ori",tips[Math.floor(Math.random()*tips.length)]+" Si quieres una revisión de seguridad para tu empresa, el equipo te ayuda.",[goQuote("ciberseguridad")]]},
     {k:["orion core","core","diagnostico"],fn:()=>["nova","ORION CORE es nuestro servicio de ciberseguridad para negocios: monitoreo 24/7, auditoría de vulnerabilidades, protección web y capacitación de tu equipo.",[{t:"Ver ORION CORE",href:"https://orion-nova-technologies-s-a-s.github.io/orion-core/"},goQuote("ciberseguridad")]]},
     {k:["nube","servidor","base de datos","hosting","supabase"],fn:()=>["nova","Montamos tus bases de datos y servicios en la nube, con usuarios, permisos y copias de seguridad. Esta misma página funciona así.",[goQuote("nube-redes")]]},
     {k:["iot","sensor","domotica","hogar","dato","tablero","dashboard","analitica"],fn:()=>["nova","Con IoT conectamos sensores y dispositivos, y con analítica armamos tableros que convierten tus datos en decisiones.",[goQuote("iot-datos")]]},
     {k:["marketing","redes","publicidad","clientes","ventas"],fn:()=>["nova","Te ayudamos con marketing digital para que más clientes te encuentren y te recuerden.",[goQuote("marketing")]]},
-    {k:["proyecto","producto","portafolio","restaurante","academy","curso","transito","ejemplo"],fn:()=>["nova","Estamos construyendo NOVA Restaurantes (pedidos por chat en Neiva), Orion Nova Academy (cursos con certificado), Alerta Tránsito (reportes de la comunidad) y la app ORI Security.",[{t:"Ver portafolio",href:"#portafolio"}]]},
+    {k:["proyecto","producto","portafolio","restaurante","academy","curso","transito","ejemplo"],fn:()=>["nova","Estamos construyendo NOVA Restaurantes y Hoteles (pedidos y reservas por chat en Neiva), Orion Nova Academy (cursos con certificado), Alerta Tránsito (reportes de la comunidad) y la app ORI Security.",[{t:"Ver portafolio",href:"#portafolio"}]]},
     {k:["como trabajan","proceso","metodologia","pasos","tiempo","demora","plazo"],fn:()=>["nova","Trabajamos en 5 pasos: diagnóstico, propuesta y cotización, diseño y desarrollo, pruebas, y entrega con soporte. Los tiempos se definen en la propuesta de cada proyecto.",[{t:"Ver metodología",href:"#metodologia"}]]},
     {k:["cuenta","registr","login","ingresar","entrar","sesion"],fn:()=>{ setTimeout(()=>{ closeChat(); openLogin("up"); },900); return ["nova","Te abro el formulario. ORI va a revisar que tu contraseña sea segura."]; }},
     {k:["ori","buho"],fn:()=>["ori","¡Ese soy yo! Soy el búho de Orion Nova. Observo, comparto buenas prácticas y te aviso cuando algo no se ve seguro."]},
