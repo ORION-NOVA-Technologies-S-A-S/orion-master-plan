@@ -606,6 +606,43 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
 @keyframes flap{0%,100%{transform:rotate(0)}50%{transform:rotate(-24deg)}}
 .character.ori .bubble.ori-says{border-color:rgba(245,181,68,.55)}
 @media (prefers-reduced-motion:reduce){.ori-host{--jaw:none!important;--flap:none!important}.ori-pupil{transition:none}}
+
+/* ---------- ORI (ilustración oficial) con vida ---------- */
+.ori-pic{position:relative;display:block;width:100%;aspect-ratio:302/424;border-radius:22px;--ox:0;--oy:0;
+  transform:perspective(700px) rotateY(calc(var(--ox)*9deg)) rotateX(calc(var(--oy)*-7deg));transition:transform .35s ease-out;
+  box-shadow:0 0 0 1px rgba(103,232,249,.28),0 18px 40px -14px rgba(6,182,212,.55);filter:none}
+.ori-host .ori-pic,.ori-pic.ori-host{--ox:inherit;--oy:inherit}
+.ori-anim{position:absolute;inset:0;border-radius:inherit;overflow:hidden;animation:var(--oriAnim,oribreathe 4.5s ease-in-out infinite);transform-origin:50% 90%}
+.ori-anim img{width:100%;height:100%;object-fit:cover;display:block}
+.ori-lid{position:absolute;left:39.7%;top:20.8%;width:17.2%;height:11.8%;border-radius:50% 50% 45% 45%;background:linear-gradient(180deg,#4d2b1e 0%,#8a6450 35%,#e6dbd6 100%);transform:scaleY(0);transform-origin:50% 0;animation:orilid 5.2s infinite}
+.ori-mono{position:absolute;left:77.5%;top:27.6%;width:24%;aspect-ratio:1;transform:translate(-50%,-50%);border-radius:50%;border:2px solid rgba(103,232,249,.9);box-shadow:0 0 14px rgba(103,232,249,.8),inset 0 0 10px rgba(103,232,249,.5);opacity:0;animation:orimono 3.4s ease-in-out infinite}
+.ori-shield{position:absolute;left:31.5%;top:63.7%;width:56%;height:50%;transform:translate(-50%,-50%);background:radial-gradient(closest-side,rgba(103,232,249,.55),rgba(6,182,212,.18) 55%,transparent);mix-blend-mode:screen;opacity:.25;animation:orishield 3.8s ease-in-out infinite;pointer-events:none}
+.ori-waves{position:absolute;left:62%;top:34.5%;width:16%;aspect-ratio:1;transform:translate(-50%,-50%);opacity:0;pointer-events:none}
+.ori-waves::before,.ori-waves::after{content:"";position:absolute;inset:0;border-radius:50%;border:2px solid rgba(245,181,68,.9)}
+@keyframes oribreathe{0%,100%{transform:scale(1)}50%{transform:scale(1.015,1.025)}}
+@keyframes orilid{0%,93%,100%{transform:scaleY(0)}95.5%{transform:scaleY(1)}}
+@keyframes orimono{0%,100%{opacity:0;transform:translate(-50%,-50%) scale(.85)}50%{opacity:.55;transform:translate(-50%,-50%) scale(1)}}
+@keyframes orishield{0%,100%{opacity:.18}50%{opacity:.45}}
+@keyframes oribob{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-3px) rotate(-1.2deg)}}
+@keyframes orihop{0%,100%{transform:translateY(0) rotate(0)}35%{transform:translateY(-10px) rotate(-3deg)}65%{transform:translateY(0) rotate(2deg)}}
+@keyframes oritilt{30%{transform:rotate(-7deg)}70%{transform:rotate(5deg)}}
+@keyframes oriwave{from{transform:scale(.3);opacity:1}to{transform:scale(1.6);opacity:0}}
+.ori-host.ori-talking .ori-anim,.ori-host.ori-talking.ori-anim{--oriAnim:oribob .5s ease-in-out infinite}
+.ori-host.ori-talking .ori-waves{opacity:1}
+.ori-host.ori-talking .ori-waves::before{animation:oriwave .9s ease-out infinite}
+.ori-host.ori-talking .ori-waves::after{animation:oriwave .9s ease-out .45s infinite}
+.ori-host.ori-talking .ori-shield{animation-duration:.9s}
+.ori-host.ori-flap .ori-anim{--oriAnim:orihop .45s ease-in-out 3}
+.character.tilt .ori-anim{--oriAnim:oritilt 1.2s ease-in-out}
+.ori-host.ori-scan .ori-mono{animation-duration:.9s}
+.ori-host.ori-alert .ori-shield{background:radial-gradient(closest-side,rgba(245,181,68,.7),rgba(245,181,68,.2) 55%,transparent);animation-duration:.6s}
+.character.ori .ori-pic{margin-top:2px}
+.character.ori .bubble{margin-bottom:12px}
+.mascot .ori-pic{width:100%}
+.dialog aside .ori-pic{width:140px;align-self:center}
+.proj .shot.art .ori-pic{width:auto;height:86%;border-radius:18px}
+@media (max-width:720px){.dialog aside .ori-pic{width:70px;flex:none;border-radius:12px}}
+@media (prefers-reduced-motion:reduce){.ori-anim,.ori-lid,.ori-mono,.ori-shield,.ori-waves::before,.ori-waves::after{animation:none!important}.ori-pic{transition:none}}
 </style>
 </head>
 <body>
@@ -860,7 +897,7 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
       </button>
       <button class="character ori ori-host float delay" id="heroOri" type="button" aria-label="ORI, toca para un consejo de seguridad">
         <span class="bubble" id="oriSay">Soy <b>ORI</b>. Tócame y te doy un consejo de seguridad.</span>
-        <svg viewBox="0 0 260 340" role="img" aria-label="ORI, el búho de Orion Nova"><use href="#ori"/></svg>
+        <span class="ori-pic" role="img" aria-label="ORI, el búho de Orion Nova"><span class="ori-anim"><img src="assets/personajes/ori.webp" alt="" width="302" height="424" decoding="async"><i class="ori-lid"></i><i class="ori-mono"></i><i class="ori-shield"></i><i class="ori-waves"></i></span></span>
         <span class="tag">ORI · seguridad</span>
       </button>
     </div>
@@ -1035,7 +1072,7 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
         </div>
       </article>
       <article class="proj" data-estado="preview">
-        <div class="shot art"><svg class="ori-host" viewBox="0 0 260 340" role="img" aria-label="Ilustración de ORI"><use href="#ori"/></svg></div>
+        <div class="shot art"><span class="ori-pic ori-host" role="img" aria-label="ORI, el búho de seguridad"><span class="ori-anim"><img src="assets/personajes/ori.webp" alt="" width="302" height="424" decoding="async"><i class="ori-lid"></i><i class="ori-mono"></i><i class="ori-shield"></i><i class="ori-waves"></i></span></span></div>
         <div class="body">
           <div class="row"><h3>ORI Security</h3><span class="status preview">Vista previa</span></div>
           <dl>
@@ -1093,7 +1130,7 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
         </div>
       </article>
       <article class="mascot">
-        <svg class="ori-host" id="mascotOri" viewBox="0 0 260 340" aria-hidden="true"><use href="#ori"/></svg>
+        <span class="ori-pic ori-host" id="mascotOri" aria-hidden="true"><span class="ori-anim"><img src="assets/personajes/ori.webp" alt="" width="302" height="424" decoding="async"><i class="ori-lid"></i><i class="ori-mono"></i><i class="ori-shield"></i><i class="ori-waves"></i></span></span>
         <div>
           <p class="eyebrow" style="color:var(--warn)">Búho · Conocimiento y seguridad</p>
           <h3>ORI</h3>
@@ -1301,7 +1338,7 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
   <div class="dialog">
     <aside>
       <p class="eyebrow" style="color:var(--warn)">ORI SECURITY</p>
-      <svg class="ori-host" viewBox="0 0 260 340" aria-hidden="true"><use href="#ori"/></svg>
+      <span class="ori-pic ori-host" aria-hidden="true"><span class="ori-anim"><img src="assets/personajes/ori.webp" alt="" width="302" height="424" decoding="async"><i class="ori-lid"></i><i class="ori-mono"></i><i class="ori-shield"></i><i class="ori-waves"></i></span></span>
       <div class="bubble" id="oriGuard">Estoy vigilando tu acceso. Nunca compartas tu contraseña, ni siquiera con el equipo de Orion.</div>
       <p class="fine">Tu cuenta Orion es la misma de NOVA Restaurantes y Hoteles: un solo usuario y contraseña para todo el ecosistema.</p>
     </aside>
