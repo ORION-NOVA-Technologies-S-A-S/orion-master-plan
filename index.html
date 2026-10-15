@@ -283,6 +283,7 @@ section.alt{background:var(--bg-2);border-block:1px solid var(--line)}
 .eco .eco-live em{font-style:normal;color:#c4b5fd;font-weight:700;font-size:.88rem;display:inline-flex;align-items:center;gap:5px;margin-top:4px}
 .eco .eco-live em svg{width:15px;height:15px}
 @media (max-width:860px){.fam-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.eco .eco-live.one{grid-column:span 1}
 @media (max-width:520px){.fam-grid{grid-template-columns:1fr}.ptile.wide{grid-column:auto}.eco .eco-live{grid-column:auto}}
 .eco-wrap h3{font-size:1.25rem;margin-bottom:8px}
 .eco-wrap>p{color:var(--muted);margin-bottom:22px;max-width:70ch}
@@ -843,7 +844,7 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
       </div>
       <ul class="trust" aria-label="Datos de Orion Nova">
         <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12Z"/><circle cx="12" cy="10" r="2.5"/></svg>Empresa de Neiva, Huila, Colombia</li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M8 21h8"/></svg>5 productos propios en el portafolio</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M8 21h8"/></svg>6 productos propios en el portafolio</li>
         <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12Z"/></svg>Atención directa por WhatsApp</li>
       </ul>
     </div>
@@ -1021,6 +1022,18 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
           <div class="foot"><a class="link-arrow" href="https://orion-nova-technologies-s-a-s.github.io/orion-core/" target="_blank" rel="noopener">Ver la página <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M8 7h9v9"/></svg></a></div>
         </div>
       </article>
+      <article class="proj" data-estado="demo">
+        <div class="shot"><div class="browser" aria-hidden="true"><i></i><i></i><i></i><span>orion-nova-technologies-s-a-s.github.io/orion-nexus-IA</span></div><img src="assets/portafolio/orion-nexus-ia.webp" alt="Captura de la página de ORION NEXUS IA" width="960" height="600" loading="lazy" decoding="async"></div>
+        <div class="body">
+          <div class="row"><h3>ORION NEXUS IA</h3><span class="status demo">Página publicada</span></div>
+          <dl>
+            <div><dt>Problema</dt><dd>Los negocios pierden clientes por no responder a tiempo y gastan horas en tareas repetitivas.</dd></div>
+            <div><dt>Solución</dt><dd>Inteligencia artificial para negocios: asistentes virtuales que atienden por WhatsApp y la página, automatización de procesos, análisis de datos e IA a la medida.</dd></div>
+            <div><dt>Tecnologías</dt><dd class="chips"><span>HTML y JavaScript</span><span>Supabase</span><span>NOVA con voz</span><span>IA</span></dd></div>
+          </dl>
+          <div class="foot"><a class="link-arrow" href="https://orion-nova-technologies-s-a-s.github.io/orion-nexus-IA/" target="_blank" rel="noopener">Ver la página <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M8 7h9v9"/></svg></a></div>
+        </div>
+      </article>
       <article class="proj" data-estado="preview">
         <div class="shot art"><svg class="ori-host" viewBox="0 0 260 340" role="img" aria-label="Ilustración de ORI"><use href="#ori"/></svg></div>
         <div class="body">
@@ -1123,7 +1136,7 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
         <div class="fam-head"><span class="fam-dot" aria-hidden="true"></span><h4>Ecosistema ORION · hoja de ruta 2026–2035</h4><small>Plataformas conectadas por una arquitectura modular, escalable y segura</small></div>
         <div class="eco">
           <a class="eco-live" href="https://orion-nova-technologies-s-a-s.github.io/orion-core/" target="_blank" rel="noopener"><span class="st on">Página publicada</span><b>ORION <span>Core</span></b><small>Ciberseguridad para tu negocio: monitoreo 24/7, auditoría, protección web y capacitación.</small><em>Visitar ORION CORE <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M8 7h9v9"/></svg></em></a>
-          <div><b>ORION <span>Nexus AI</span></b><small>Asistente humanoide con lenguaje natural.</small></div>
+          <a class="eco-live one" href="https://orion-nova-technologies-s-a-s.github.io/orion-nexus-IA/" target="_blank" rel="noopener"><span class="st on">Página publicada</span><b>ORION <span>Nexus IA</span></b><small>IA para negocios: asistentes virtuales, automatización, análisis de datos e IA a la medida.</small><em>Visitar ORION NEXUS IA <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M8 7h9v9"/></svg></em></a>
           <div><b>ORION <span>Cloud</span></b><small>Servidores, contenedores y respaldos.</small></div>
           <div><b>ORION <span>Vision</span></b><small>Visión por computador, OCR y video.</small></div>
           <div><b>ORION <span>Home</span></b><small>Hogar inteligente y sensores.</small></div>
@@ -2068,6 +2081,7 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
     {k:["asistente","inteligencia","ia","bot","chatbot","automat","pedido"],fn:()=>["nova","¡Eso es lo mío! Un asistente como yo puede atender a tus clientes 24/7, responder preguntas y tomar pedidos. Así funciona NOVA FLOW IA en restaurantes y hoteles de Neiva.",[goQuote("ia-automatizacion"),{t:"Ver NOVA Restaurantes y Hoteles",href:"https://orion-nova-technologies-s-a-s.github.io/NOVA-IA/"}]]},
     {k:["software","sistema","crm","erp","medida","inventario"],fn:()=>["nova","Hacemos software a la medida: plataformas administrativas, sistemas de información, CRM y sistemas académicos, pensados para cómo trabaja tu empresa.",[goQuote("software-medida")]]},
     {k:["segur","hack","ciber","contrasena","clave","virus","fraude","phishing","estafa"],fn:()=>["ori",tips[Math.floor(Math.random()*tips.length)]+" Si quieres una revisión de seguridad para tu empresa, el equipo te ayuda.",[goQuote("ciberseguridad")]]},
+    {k:["nexus","orion nexus"],fn:()=>["nova","ORION NEXUS IA es nuestra línea de inteligencia artificial para negocios: asistentes virtuales por WhatsApp y tu página, automatización, análisis de datos e IA a la medida.",[{t:"Ver ORION NEXUS IA",href:"https://orion-nova-technologies-s-a-s.github.io/orion-nexus-IA/"},goQuote("ia-automatizacion")]]},
     {k:["orion core","core","diagnostico"],fn:()=>["nova","ORION CORE es nuestro servicio de ciberseguridad para negocios: monitoreo 24/7, auditoría de vulnerabilidades, protección web y capacitación de tu equipo.",[{t:"Ver ORION CORE",href:"https://orion-nova-technologies-s-a-s.github.io/orion-core/"},goQuote("ciberseguridad")]]},
     {k:["nube","servidor","base de datos","hosting","supabase"],fn:()=>["nova","Montamos tus bases de datos y servicios en la nube, con usuarios, permisos y copias de seguridad. Esta misma página funciona así.",[goQuote("nube-redes")]]},
     {k:["iot","sensor","domotica","hogar","dato","tablero","dashboard","analitica"],fn:()=>["nova","Con IoT conectamos sensores y dispositivos, y con analítica armamos tableros que convierten tus datos en decisiones.",[goQuote("iot-datos")]]},
