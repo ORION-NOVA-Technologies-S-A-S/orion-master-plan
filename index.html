@@ -142,9 +142,11 @@ nav.main .nav-cta{display:none}
 .hero-visual .frame{position:absolute;inset:0;border-radius:28px;border:1px solid var(--line);background:radial-gradient(80% 60% at 50% 30%,rgba(16,27,50,.6),rgba(8,17,31,.2));pointer-events:none}
 .hero-visual .tag-c{position:absolute;left:18px;top:16px;font-family:var(--f-mono);font-size:.68rem;letter-spacing:.14em;color:var(--muted);text-transform:uppercase}
 .character{position:absolute;bottom:2%;display:flex;flex-direction:column;align-items:center;cursor:pointer;background:none;border:0;padding:0;color:inherit;font:inherit}
-.character.nova{left:4%;width:44%}
-.character.ori{right:3%;width:36%}
-.character svg{width:100%;height:auto;filter:drop-shadow(0 18px 30px rgba(0,0,0,.55))}
+.hero-visual{container-type:inline-size}
+.character.nova{left:6%}
+.character.ori{right:5%}
+.character>svg{height:min(52cqw,290px);width:auto;max-width:none;filter:drop-shadow(0 18px 30px rgba(0,0,0,.55))}
+.character .bubble{max-width:min(250px,44cqw)}
 .character .tag{font-family:var(--f-mono);font-size:.64rem;letter-spacing:.16em;color:var(--muted);margin-top:2px;text-transform:uppercase}
 .bubble{position:relative;background:rgba(16,27,50,.92);border:1px solid var(--line-2);border-radius:14px;padding:9px 12px;font-size:.84rem;line-height:1.45;color:var(--text);max-width:100%;margin-bottom:10px;text-align:left;min-height:3.4em;backdrop-filter:blur(6px)}
 .bubble::after{content:"";position:absolute;bottom:-7px;left:50%;width:12px;height:12px;background:inherit;border-right:1px solid var(--line-2);border-bottom:1px solid var(--line-2);transform:translateX(-50%) rotate(45deg)}
@@ -156,7 +158,6 @@ nav.main .nav-cta{display:none}
 .blink{transform-box:fill-box;transform-origin:center;animation:blink 5s infinite}
 .blink.late{animation-delay:1.7s}
 @keyframes blink{0%,93%,100%{transform:scaleY(1)}96%{transform:scaleY(.1)}}
-#nova-arm{transform-box:view-box;transform-origin:72px 214px;animation:var(--wave,none)}
 .character.wave{--wave:wave .9s ease-in-out 2}
 @keyframes wave{0%,100%{transform:rotate(0)}30%{transform:rotate(-22deg)}70%{transform:rotate(12deg)}}
 #ori-head{transform-box:view-box;transform-origin:130px 170px;animation:var(--tilt,none)}
@@ -610,12 +611,65 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
 @keyframes shieldglow{0%,100%{stroke-opacity:.45}50%{stroke-opacity:1}}
 .character.ori .bubble.ori-says{border-color:rgba(245,181,68,.55)}
 @media (prefers-reduced-motion:reduce){.ori-host{--jaw:none!important;--flap:none!important}.ori-pupil{transition:none}}
+
+/* ---------- NOVA: mismo humanoide y mismas animaciones de Orion Nova Academy ---------- */
+.av { width: 100%; height: 100%; display: block; overflow: visible; --ex: 0; --ey: 0; }
+.av-all { animation: avfloat 4.5s ease-in-out infinite; transform-box: view-box; }
+@keyframes avfloat { 50% { transform: translateY(-2.5px); } }
+.av-head { transform-box: view-box; transform-origin: 60px 72px; animation: avsway 7s ease-in-out infinite; }
+@keyframes avsway { 0%, 100% { transform: rotate(0); } 30% { transform: rotate(2.5deg); } 70% { transform: rotate(-2.5deg); } }
+.av-eyes { animation: avblink 5s infinite; transform-box: fill-box; transform-origin: center; }
+@keyframes avblink { 0%, 93%, 100% { transform: scaleY(1); } 96% { transform: scaleY(.12); } }
+.av-pup { transform: translate(calc(var(--ex) * 3px), calc(var(--ey) * 2px)); transition: transform .12s linear; }
+.av-open { opacity: 0; transform-box: fill-box; transform-origin: center; }
+.av.talk .av-smile { opacity: 0; }
+.av.talk .av-open { opacity: 1; animation: avvis .42s steps(1, end) infinite; }
+@keyframes avvis { 0% { transform: scale(1.05, .5); } 18% { transform: scale(.75, 1.25); } 36% { transform: scale(1.2, .85); } 54% { transform: scale(.65, .45); } 72% { transform: scale(1, 1.1); } 88% { transform: scale(1.15, .6); } }
+.av-cheek { opacity: 0; transition: opacity .2s; }
+.av.happy .av-cheek { opacity: .8; }
+.av.happy .av-all { animation: avhop .45s ease-out 2; }
+@keyframes avhop { 40% { transform: translateY(-7px); } }
+.av.think .av-head { animation: avtilt 1s ease-in-out infinite alternate; }
+@keyframes avtilt { from { transform: rotate(-5deg); } to { transform: rotate(5deg); } }
+.av-ant { animation: avant 2s ease-in-out infinite; }
+.av.think .av-ant { animation-duration: .5s; }
+@keyframes avant { 50% { opacity: .35; } }
+.av-arm-r { transform-box: view-box; transform-origin: 99px 84px; }
+.av.wave .av-arm-r { animation: avwave .55s ease-in-out 5 alternate; }
+@keyframes avwave { from { transform: rotate(-120deg); } to { transform: rotate(-165deg); } }
+.av-aura { opacity: .55; transform-box: fill-box; transform-origin: center; animation: avaura 5s ease-in-out infinite; }
+@keyframes avaura { 50% { opacity: .85; transform: scale(1.06); } }
+.av.talk .av-aura { animation-duration: 1.1s; opacity: .9; }
+.av.listen .av-aura { animation-duration: .8s; opacity: 1; }
+.av-torso { transform-box: view-box; transform-origin: 60px 140px; animation: avbreath 4.2s ease-in-out infinite; }
+@keyframes avbreath { 50% { transform: scaleY(1.014); } }
+.av-brow { transform-box: fill-box; transform-origin: center; transition: transform .25s ease; }
+.av.happy .av-brow { transform: translateY(-2px); }
+.av.think .av-brow-r { transform: translateY(-3px) rotate(-10deg); }
+.av.think .av-brow-l { transform: translateY(1px) rotate(4deg); }
+.av.talk .av-brow { animation: avbrow 1.6s ease-in-out infinite; }
+@keyframes avbrow { 30% { transform: translateY(-1.4px); } 65% { transform: translateY(.6px); } }
+.av.listen .av-brow { transform: translateY(-2.5px); }
+.av.listen .av-eyes { transform: scale(1.1); }
+.av.talk .av-ant { fill: #6cf0b0; } .av.think .av-ant { fill: #ffb347; } .av.listen .av-ant { fill: #ff7aa8; }
+.av-shine { animation: avshine 7s ease-in-out infinite; } @keyframes avshine { 50% { stroke-opacity: .32; } }
+.nova-av .av{width:94%;height:auto;overflow:hidden}
+.av-head-only .av-arm-r,.av-head-only .av-aura{display:none}
+.mascot svg.av{height:auto}
+#heroNova svg.av{overflow:visible}
+@media (prefers-reduced-motion:reduce){.av-all,.av-head,.av-torso,.av-aura,.av-shine,.av-ant{animation:none!important}}
 </style>
 </head>
 <body>
 <!-- ================= SVG reutilizables ================= -->
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
   <defs>
+    <!-- NOVA: el mismo dibujo de Orion Nova Academy -->
+    <linearGradient id="avBody" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f2f5fc"/><stop offset=".55" stop-color="#c9d0e2"/><stop offset="1" stop-color="#8d96b3"/></linearGradient>
+  <linearGradient id="avBlue" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7cc4ff"/><stop offset="1" stop-color="#3a3fe0"/></linearGradient>
+  <linearGradient id="avDark" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1a2046"/><stop offset="1" stop-color="#05060f"/></linearGradient>
+  <radialGradient id="avAura" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#5b8dff" stop-opacity=".5"/><stop offset=".6" stop-color="#3a3fe0" stop-opacity=".16"/><stop offset="1" stop-color="#3a3fe0" stop-opacity="0"/></radialGradient>
+  <radialGradient id="avEye" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#fff"/><stop offset=".45" stop-color="#8fd0ff"/><stop offset="1" stop-color="#3a7bff" stop-opacity="0"/></radialGradient>
     <linearGradient id="g-shell" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#b9c3da"/></linearGradient>
     <linearGradient id="g-visor" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#121a3c"/><stop offset="1" stop-color="#050816"/></linearGradient>
     <radialGradient id="g-pod" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#7fd6ff"/><stop offset=".55" stop-color="#2f5bff"/><stop offset="1" stop-color="#16246b"/></radialGradient>
@@ -624,47 +678,6 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
     <radialGradient id="g-iris" cx=".45" cy=".4" r=".6"><stop offset="0" stop-color="#9fe3ff"/><stop offset=".5" stop-color="#2f86ff"/><stop offset="1" stop-color="#123a9a"/></radialGradient>
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 
-    <!-- NOVA: humanoide blanco con visor oscuro -->
-    <symbol id="nova" viewBox="0 0 260 340">
-      <ellipse cx="130" cy="330" rx="78" ry="8" fill="#000" opacity=".45"/>
-      <!-- brazo derecho (abajo) -->
-      <rect x="190" y="206" width="30" height="78" rx="15" fill="url(#g-shell)"/>
-      <circle cx="205" cy="292" r="16" fill="#1a2138"/>
-      <!-- torso -->
-      <path d="M72 204 Q130 186 188 204 L200 300 Q130 324 60 300 Z" fill="url(#g-shell)"/>
-      <path d="M86 300 Q130 314 174 300 L176 316 Q130 330 84 316 Z" fill="#1a2138"/>
-      <circle cx="130" cy="236" r="19" fill="none" stroke="#2f5bff" stroke-width="5"/>
-      <path d="M118 236 a12 12 0 0 1 20 -9" fill="none" stroke="#53c6ff" stroke-width="4" stroke-linecap="round"/>
-      <circle cx="130" cy="236" r="4" fill="#2f5bff"/>
-      <text x="130" y="282" text-anchor="middle" font-family="Sora, Arial, sans-serif" font-weight="800" font-style="italic" font-size="20" fill="#2a49d6" letter-spacing="1">NOVA</text>
-      <!-- cuello -->
-      <rect x="112" y="178" width="36" height="20" rx="6" fill="#8a94b0"/>
-      <!-- brazo izquierdo (saluda) -->
-      <g id="nova-arm">
-        <rect x="40" y="150" width="30" height="80" rx="15" fill="url(#g-shell)" transform="rotate(14 72 214)"/>
-        <g transform="rotate(14 72 214)">
-          <rect x="34" y="122" width="40" height="36" rx="14" fill="#1a2138"/>
-          <rect x="38" y="106" width="9" height="22" rx="4.5" fill="#1a2138"/>
-          <rect x="49" y="102" width="9" height="24" rx="4.5" fill="#1a2138"/>
-          <rect x="60" y="106" width="9" height="22" rx="4.5" fill="#1a2138"/>
-        </g>
-      </g>
-      <!-- cabeza -->
-      <g>
-        <circle cx="50" cy="106" r="22" fill="url(#g-pod)"/>
-        <circle cx="210" cy="106" r="22" fill="url(#g-pod)"/>
-        <circle cx="50" cy="106" r="12" fill="none" stroke="#bfefff" stroke-width="2" opacity=".7"/>
-        <circle cx="210" cy="106" r="12" fill="none" stroke="#bfefff" stroke-width="2" opacity=".7"/>
-        <ellipse cx="130" cy="104" rx="84" ry="80" fill="url(#g-shell)"/>
-        <rect x="64" y="58" width="132" height="96" rx="44" fill="url(#g-visor)"/>
-        <path d="M84 70 Q110 60 136 64" stroke="#fff" stroke-width="4" stroke-linecap="round" opacity=".18" fill="none"/>
-        <g filter="url(#glow)" stroke="#53c6ff" stroke-width="7" stroke-linecap="round" fill="none">
-          <g class="blink"><path d="M90 108 Q104 90 118 108"/></g>
-          <g class="blink"><path d="M142 108 Q156 90 170 108"/></g>
-          <path class="mouth" d="M112 128 Q130 142 148 128" stroke-width="5"/>
-        </g>
-      </g>
-    </symbol>
 
     <!-- ORI: búho guardián de la seguridad. Dibujado por piezas para que pueda moverse y hablar -->
     <linearGradient id="o-owl" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#a86d3c"/><stop offset=".6" stop-color="#7d4c27"/><stop offset="1" stop-color="#5c361b"/></linearGradient>
@@ -913,7 +926,7 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
       <span class="tag-c" aria-hidden="true">Constelación de Orión · red de datos</span>
       <button class="character nova float" id="heroNova" type="button" aria-label="NOVA, toca para que te salude">
         <span class="bubble" id="novaSay">¡Hola! Soy <b>NOVA</b>. ¿Qué quieres construir?</span>
-        <svg viewBox="0 0 260 340" role="img" aria-label="NOVA, el humanoide de Orion Nova"><use href="#nova"/></svg>
+        <svg class="av" viewBox="0 0 120 140" role="img" aria-label="NOVA, el humanoide de Orion Nova"><circle class="av-aura" cx="60" cy="46" r="56" fill="url(#avAura)"/><g class="av-all"><g class="av-arm-r"><rect x="92" y="80" width="14" height="38" rx="7" fill="url(#avBody)"/><circle cx="99" cy="119" r="8" fill="url(#avDark)"/></g><rect x="14" y="80" width="14" height="38" rx="7" fill="url(#avBody)"/><circle cx="21" cy="119" r="8" fill="url(#avDark)"/><g class="av-torso"><path d="M30 80 Q60 70 90 80 L88 140 L32 140 Z" fill="url(#avBody)"/><path d="M38 88 Q60 82 82 88 L81 140 L39 140 Z" fill="url(#avDark)"/><path d="M44 90 Q60 100 76 90" stroke="#cfe3ff" stroke-opacity=".5" stroke-width="1.2" fill="none"/><path d="M60 98 L63 108 L73 111 L63 114 L60 124 L57 114 L47 111 L57 108 Z" fill="url(#avBlue)"/></g><circle cx="30" cy="80" r="9" fill="url(#avBlue)"/><circle cx="90" cy="80" r="9" fill="url(#avBlue)"/><g class="av-head"><rect x="53" y="64" width="14" height="12" rx="4" fill="url(#avDark)"/><rect x="22" y="8" width="76" height="62" rx="32" fill="url(#avBody)"/><rect x="22" y="8" width="76" height="62" rx="32" fill="none" stroke="#fff" stroke-opacity=".55" stroke-width="1"/><rect x="29" y="16" width="62" height="44" rx="22" fill="url(#avDark)"/><path class="av-shine" d="M38 24 Q60 16 82 24" stroke="#fff" stroke-opacity=".2" stroke-width="2" fill="none" stroke-linecap="round"/><rect x="16" y="30" width="7" height="16" rx="3.5" fill="url(#avBlue)"/><rect x="97" y="30" width="7" height="16" rx="3.5" fill="url(#avBlue)"/><rect x="59" y="3" width="2" height="6" fill="#8d96b3"/><circle class="av-ant" cx="60" cy="3" r="2.6" fill="#7cc4ff"/><path class="av-brow av-brow-l" d="M37 27.5 Q45 23.5 53 27.5" stroke="#9fd4ff" stroke-width="2" fill="none" stroke-linecap="round"/><path class="av-brow av-brow-r" d="M67 27.5 Q75 23.5 83 27.5" stroke="#9fd4ff" stroke-width="2" fill="none" stroke-linecap="round"/><g class="av-eyes"><ellipse cx="45" cy="38" rx="9" ry="7" fill="url(#avEye)"/><ellipse cx="75" cy="38" rx="9" ry="7" fill="url(#avEye)"/><g class="av-pup"><circle cx="45" cy="38" r="4.3" fill="#cfeaff"/><circle cx="75" cy="38" r="4.3" fill="#cfeaff"/><circle cx="45" cy="38" r="2.1" fill="#0b1236"/><circle cx="75" cy="38" r="2.1" fill="#0b1236"/><circle cx="46.3" cy="36.6" r="1.1" fill="#fff"/><circle cx="76.3" cy="36.6" r="1.1" fill="#fff"/></g></g><ellipse class="av-cheek" cx="37" cy="50" rx="4" ry="2.4" fill="#ff8fb0"/><ellipse class="av-cheek" cx="83" cy="50" rx="4" ry="2.4" fill="#ff8fb0"/><path class="av-smile" d="M52 49.5 q8 5.5 16 0" stroke="#8fd0ff" stroke-width="2.4" fill="none" stroke-linecap="round"/><ellipse class="av-open" cx="60" cy="51" rx="5.5" ry="3" fill="#8fd0ff"/></g></g></svg>
         <span class="tag">NOVA · humanoide IA</span>
       </button>
       <button class="character ori ori-host float delay" id="heroOri" type="button" aria-label="ORI, toca para un consejo de seguridad">
@@ -1141,7 +1154,7 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
     <span id="nova-ori" class="anchor" aria-hidden="true"></span>
     <div class="duo">
       <article class="mascot">
-        <svg viewBox="0 0 260 340" aria-hidden="true"><use href="#nova"/></svg>
+        <svg class="av" viewBox="0 0 120 140" aria-hidden="true"><circle class="av-aura" cx="60" cy="46" r="56" fill="url(#avAura)"/><g class="av-all"><g class="av-arm-r"><rect x="92" y="80" width="14" height="38" rx="7" fill="url(#avBody)"/><circle cx="99" cy="119" r="8" fill="url(#avDark)"/></g><rect x="14" y="80" width="14" height="38" rx="7" fill="url(#avBody)"/><circle cx="21" cy="119" r="8" fill="url(#avDark)"/><g class="av-torso"><path d="M30 80 Q60 70 90 80 L88 140 L32 140 Z" fill="url(#avBody)"/><path d="M38 88 Q60 82 82 88 L81 140 L39 140 Z" fill="url(#avDark)"/><path d="M44 90 Q60 100 76 90" stroke="#cfe3ff" stroke-opacity=".5" stroke-width="1.2" fill="none"/><path d="M60 98 L63 108 L73 111 L63 114 L60 124 L57 114 L47 111 L57 108 Z" fill="url(#avBlue)"/></g><circle cx="30" cy="80" r="9" fill="url(#avBlue)"/><circle cx="90" cy="80" r="9" fill="url(#avBlue)"/><g class="av-head"><rect x="53" y="64" width="14" height="12" rx="4" fill="url(#avDark)"/><rect x="22" y="8" width="76" height="62" rx="32" fill="url(#avBody)"/><rect x="22" y="8" width="76" height="62" rx="32" fill="none" stroke="#fff" stroke-opacity=".55" stroke-width="1"/><rect x="29" y="16" width="62" height="44" rx="22" fill="url(#avDark)"/><path class="av-shine" d="M38 24 Q60 16 82 24" stroke="#fff" stroke-opacity=".2" stroke-width="2" fill="none" stroke-linecap="round"/><rect x="16" y="30" width="7" height="16" rx="3.5" fill="url(#avBlue)"/><rect x="97" y="30" width="7" height="16" rx="3.5" fill="url(#avBlue)"/><rect x="59" y="3" width="2" height="6" fill="#8d96b3"/><circle class="av-ant" cx="60" cy="3" r="2.6" fill="#7cc4ff"/><path class="av-brow av-brow-l" d="M37 27.5 Q45 23.5 53 27.5" stroke="#9fd4ff" stroke-width="2" fill="none" stroke-linecap="round"/><path class="av-brow av-brow-r" d="M67 27.5 Q75 23.5 83 27.5" stroke="#9fd4ff" stroke-width="2" fill="none" stroke-linecap="round"/><g class="av-eyes"><ellipse cx="45" cy="38" rx="9" ry="7" fill="url(#avEye)"/><ellipse cx="75" cy="38" rx="9" ry="7" fill="url(#avEye)"/><g class="av-pup"><circle cx="45" cy="38" r="4.3" fill="#cfeaff"/><circle cx="75" cy="38" r="4.3" fill="#cfeaff"/><circle cx="45" cy="38" r="2.1" fill="#0b1236"/><circle cx="75" cy="38" r="2.1" fill="#0b1236"/><circle cx="46.3" cy="36.6" r="1.1" fill="#fff"/><circle cx="76.3" cy="36.6" r="1.1" fill="#fff"/></g></g><ellipse class="av-cheek" cx="37" cy="50" rx="4" ry="2.4" fill="#ff8fb0"/><ellipse class="av-cheek" cx="83" cy="50" rx="4" ry="2.4" fill="#ff8fb0"/><path class="av-smile" d="M52 49.5 q8 5.5 16 0" stroke="#8fd0ff" stroke-width="2.4" fill="none" stroke-linecap="round"/><ellipse class="av-open" cx="60" cy="51" rx="5.5" ry="3" fill="#8fd0ff"/></g></g></svg>
         <div>
           <p class="eyebrow">Humanoide · Innovación e IA</p>
           <h3>NOVA</h3>
@@ -1429,13 +1442,13 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
 <div class="fab-wrap" id="fabWrap">
   <div class="fab-hint" id="fabHint" hidden><span>¿Te ayudo a cotizar tu proyecto?</span><button type="button" id="fabHintX" aria-label="Cerrar sugerencia">×</button></div>
   <button class="chat-fab" id="chatFab" type="button" data-open-chat aria-label="Abrir chat con NOVA">
-    <span class="nova-av mini" aria-hidden="true"><svg viewBox="0 0 200 172"><g class="av-bob"><circle class="av-pod" cx="22" cy="92" r="17"/><circle class="av-pod" cx="178" cy="92" r="17"/><ellipse cx="100" cy="90" rx="74" ry="72" fill="url(#g-shell)"/><rect class="av-visor" x="40" y="46" width="120" height="88" rx="40" fill="url(#g-visor)"/><path d="M58 58 Q82 50 106 54" stroke="#fff" stroke-width="4" stroke-linecap="round" opacity=".18" fill="none"/><g class="av-face"><g class="av-eyes" stroke="#67E8F9" stroke-width="7" stroke-linecap="round" fill="none"><path class="av-eye" d="M62 96 Q76 78 90 96"/><path class="av-eye" d="M110 96 Q124 78 138 96"/></g><path class="av-mouth" d="M82 114 Q100 128 118 114" stroke="#67E8F9" stroke-width="5" stroke-linecap="round" fill="none"/></g><path d="M100 19V11" stroke="#8a94b0" stroke-width="4"/><circle class="av-led" cx="100" cy="9" r="5"/></g></svg></span>
+    <span class="nova-av mini" aria-hidden="true"><svg class="av av-head-only" viewBox="14 -4 92 80" aria-hidden="true"><circle class="av-aura" cx="60" cy="46" r="56" fill="url(#avAura)"/><g class="av-all"><g class="av-arm-r"><rect x="92" y="80" width="14" height="38" rx="7" fill="url(#avBody)"/><circle cx="99" cy="119" r="8" fill="url(#avDark)"/></g><rect x="14" y="80" width="14" height="38" rx="7" fill="url(#avBody)"/><circle cx="21" cy="119" r="8" fill="url(#avDark)"/><g class="av-torso"><path d="M30 80 Q60 70 90 80 L88 140 L32 140 Z" fill="url(#avBody)"/><path d="M38 88 Q60 82 82 88 L81 140 L39 140 Z" fill="url(#avDark)"/><path d="M44 90 Q60 100 76 90" stroke="#cfe3ff" stroke-opacity=".5" stroke-width="1.2" fill="none"/><path d="M60 98 L63 108 L73 111 L63 114 L60 124 L57 114 L47 111 L57 108 Z" fill="url(#avBlue)"/></g><circle cx="30" cy="80" r="9" fill="url(#avBlue)"/><circle cx="90" cy="80" r="9" fill="url(#avBlue)"/><g class="av-head"><rect x="53" y="64" width="14" height="12" rx="4" fill="url(#avDark)"/><rect x="22" y="8" width="76" height="62" rx="32" fill="url(#avBody)"/><rect x="22" y="8" width="76" height="62" rx="32" fill="none" stroke="#fff" stroke-opacity=".55" stroke-width="1"/><rect x="29" y="16" width="62" height="44" rx="22" fill="url(#avDark)"/><path class="av-shine" d="M38 24 Q60 16 82 24" stroke="#fff" stroke-opacity=".2" stroke-width="2" fill="none" stroke-linecap="round"/><rect x="16" y="30" width="7" height="16" rx="3.5" fill="url(#avBlue)"/><rect x="97" y="30" width="7" height="16" rx="3.5" fill="url(#avBlue)"/><rect x="59" y="3" width="2" height="6" fill="#8d96b3"/><circle class="av-ant" cx="60" cy="3" r="2.6" fill="#7cc4ff"/><path class="av-brow av-brow-l" d="M37 27.5 Q45 23.5 53 27.5" stroke="#9fd4ff" stroke-width="2" fill="none" stroke-linecap="round"/><path class="av-brow av-brow-r" d="M67 27.5 Q75 23.5 83 27.5" stroke="#9fd4ff" stroke-width="2" fill="none" stroke-linecap="round"/><g class="av-eyes"><ellipse cx="45" cy="38" rx="9" ry="7" fill="url(#avEye)"/><ellipse cx="75" cy="38" rx="9" ry="7" fill="url(#avEye)"/><g class="av-pup"><circle cx="45" cy="38" r="4.3" fill="#cfeaff"/><circle cx="75" cy="38" r="4.3" fill="#cfeaff"/><circle cx="45" cy="38" r="2.1" fill="#0b1236"/><circle cx="75" cy="38" r="2.1" fill="#0b1236"/><circle cx="46.3" cy="36.6" r="1.1" fill="#fff"/><circle cx="76.3" cy="36.6" r="1.1" fill="#fff"/></g></g><ellipse class="av-cheek" cx="37" cy="50" rx="4" ry="2.4" fill="#ff8fb0"/><ellipse class="av-cheek" cx="83" cy="50" rx="4" ry="2.4" fill="#ff8fb0"/><path class="av-smile" d="M52 49.5 q8 5.5 16 0" stroke="#8fd0ff" stroke-width="2.4" fill="none" stroke-linecap="round"/><ellipse class="av-open" cx="60" cy="51" rx="5.5" ry="3" fill="#8fd0ff"/></g></g></svg></span>
     Pregúntale a NOVA
   </button>
 </div>
 <section class="chat" id="chat" hidden aria-label="Chat con NOVA">
   <div class="chat-stage">
-    <span class="nova-av big" id="chatAv" aria-hidden="true"><svg viewBox="0 0 200 172"><g class="av-bob"><circle class="av-pod" cx="22" cy="92" r="17"/><circle class="av-pod" cx="178" cy="92" r="17"/><ellipse cx="100" cy="90" rx="74" ry="72" fill="url(#g-shell)"/><rect class="av-visor" x="40" y="46" width="120" height="88" rx="40" fill="url(#g-visor)"/><path d="M58 58 Q82 50 106 54" stroke="#fff" stroke-width="4" stroke-linecap="round" opacity=".18" fill="none"/><g class="av-face"><g class="av-eyes" stroke="#67E8F9" stroke-width="7" stroke-linecap="round" fill="none"><path class="av-eye" d="M62 96 Q76 78 90 96"/><path class="av-eye" d="M110 96 Q124 78 138 96"/></g><path class="av-mouth" d="M82 114 Q100 128 118 114" stroke="#67E8F9" stroke-width="5" stroke-linecap="round" fill="none"/></g><path d="M100 19V11" stroke="#8a94b0" stroke-width="4"/><circle class="av-led" cx="100" cy="9" r="5"/></g></svg></span>
+    <span class="nova-av big" id="chatAv" aria-hidden="true"><svg class="av av-head-only" viewBox="14 -4 92 80" aria-hidden="true"><circle class="av-aura" cx="60" cy="46" r="56" fill="url(#avAura)"/><g class="av-all"><g class="av-arm-r"><rect x="92" y="80" width="14" height="38" rx="7" fill="url(#avBody)"/><circle cx="99" cy="119" r="8" fill="url(#avDark)"/></g><rect x="14" y="80" width="14" height="38" rx="7" fill="url(#avBody)"/><circle cx="21" cy="119" r="8" fill="url(#avDark)"/><g class="av-torso"><path d="M30 80 Q60 70 90 80 L88 140 L32 140 Z" fill="url(#avBody)"/><path d="M38 88 Q60 82 82 88 L81 140 L39 140 Z" fill="url(#avDark)"/><path d="M44 90 Q60 100 76 90" stroke="#cfe3ff" stroke-opacity=".5" stroke-width="1.2" fill="none"/><path d="M60 98 L63 108 L73 111 L63 114 L60 124 L57 114 L47 111 L57 108 Z" fill="url(#avBlue)"/></g><circle cx="30" cy="80" r="9" fill="url(#avBlue)"/><circle cx="90" cy="80" r="9" fill="url(#avBlue)"/><g class="av-head"><rect x="53" y="64" width="14" height="12" rx="4" fill="url(#avDark)"/><rect x="22" y="8" width="76" height="62" rx="32" fill="url(#avBody)"/><rect x="22" y="8" width="76" height="62" rx="32" fill="none" stroke="#fff" stroke-opacity=".55" stroke-width="1"/><rect x="29" y="16" width="62" height="44" rx="22" fill="url(#avDark)"/><path class="av-shine" d="M38 24 Q60 16 82 24" stroke="#fff" stroke-opacity=".2" stroke-width="2" fill="none" stroke-linecap="round"/><rect x="16" y="30" width="7" height="16" rx="3.5" fill="url(#avBlue)"/><rect x="97" y="30" width="7" height="16" rx="3.5" fill="url(#avBlue)"/><rect x="59" y="3" width="2" height="6" fill="#8d96b3"/><circle class="av-ant" cx="60" cy="3" r="2.6" fill="#7cc4ff"/><path class="av-brow av-brow-l" d="M37 27.5 Q45 23.5 53 27.5" stroke="#9fd4ff" stroke-width="2" fill="none" stroke-linecap="round"/><path class="av-brow av-brow-r" d="M67 27.5 Q75 23.5 83 27.5" stroke="#9fd4ff" stroke-width="2" fill="none" stroke-linecap="round"/><g class="av-eyes"><ellipse cx="45" cy="38" rx="9" ry="7" fill="url(#avEye)"/><ellipse cx="75" cy="38" rx="9" ry="7" fill="url(#avEye)"/><g class="av-pup"><circle cx="45" cy="38" r="4.3" fill="#cfeaff"/><circle cx="75" cy="38" r="4.3" fill="#cfeaff"/><circle cx="45" cy="38" r="2.1" fill="#0b1236"/><circle cx="75" cy="38" r="2.1" fill="#0b1236"/><circle cx="46.3" cy="36.6" r="1.1" fill="#fff"/><circle cx="76.3" cy="36.6" r="1.1" fill="#fff"/></g></g><ellipse class="av-cheek" cx="37" cy="50" rx="4" ry="2.4" fill="#ff8fb0"/><ellipse class="av-cheek" cx="83" cy="50" rx="4" ry="2.4" fill="#ff8fb0"/><path class="av-smile" d="M52 49.5 q8 5.5 16 0" stroke="#8fd0ff" stroke-width="2.4" fill="none" stroke-linecap="round"/><ellipse class="av-open" cx="60" cy="51" rx="5.5" ry="3" fill="#8fd0ff"/></g></g></svg></span>
     <div class="who">
       <b>NOVA</b>
       <small id="chatState"><i></i>En línea</small>
@@ -1563,7 +1576,7 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
   let ni=0, ti=0;
   $("#heroNova").addEventListener("click",e=>{
     const el=e.currentTarget; ni=(ni+1)%novaLines.length; $("#novaSay").innerHTML=novaLines[ni];
-    el.classList.remove("wave"); void el.offsetWidth; el.classList.add("wave"); speak($("#novaSay").textContent);
+    const av=el.querySelector("svg.av"); av.classList.remove("wave"); void av.getBoundingClientRect(); av.classList.add("wave"); clearTimeout(av._w); av._w=setTimeout(()=>av.classList.remove("wave"),2900); speak($("#novaSay").textContent);
   });
   $("#heroOri").addEventListener("click",e=>{
     const el=e.currentTarget; ti=(ti+1)%tips.length; $("#oriSay").innerHTML="<b>Consejo:</b> "+tips[ti]; $("#oriSay").classList.add("ori-says");
@@ -2034,7 +2047,7 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
   }
   /* estados del avatar: talk, think, listen, happy */
   function avSet(state,on){
-    $$(".nova-av").forEach(a=>a.classList.toggle(state,on));
+    $$(".nova-av, svg.av").forEach(a=>a.classList.toggle(state,on));
     if(state==="talk") $("#heroNova").classList.toggle("talking",on);
     const st=$("#chatState"); if(!st) return;
     const a=$("#chatAv"), txt=a.classList.contains("listen")?["listen","Te escucho…"]:a.classList.contains("talk")?["busy","Hablando…"]:a.classList.contains("think")?["busy","Pensando…"]:["","En línea"];
@@ -2091,8 +2104,8 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
   });
   /* los ojos siguen el puntero */
   let lastMove=Date.now();
-  addEventListener("pointermove",e=>{ lastMove=Date.now(); $$(".nova-av").forEach(a=>{ const r=a.getBoundingClientRect(); if(!r.width) return; const dx=(e.clientX-(r.left+r.width/2))/innerWidth, dy=(e.clientY-(r.top+r.height/2))/innerHeight; a.style.setProperty("--ex",Math.max(-1,Math.min(1,dx*2.4)).toFixed(2)); a.style.setProperty("--ey",Math.max(-1,Math.min(1,dy*2.4)).toFixed(2)); }); },{passive:true});
-  setInterval(()=>{ if(document.hidden||Date.now()-lastMove<4000||reduce) return; const x=(Math.random()*2-1)*.8,y=(Math.random()*2-1)*.5; $$(".nova-av").forEach(a=>{ a.style.setProperty("--ex",x.toFixed(2)); a.style.setProperty("--ey",y.toFixed(2)); }); },3200);
+  addEventListener("pointermove",e=>{ lastMove=Date.now(); $$("svg.av").forEach(a=>{ const r=a.getBoundingClientRect(); if(!r.width) return; const dx=(e.clientX-(r.left+r.width/2))/innerWidth, dy=(e.clientY-(r.top+r.height/2))/innerHeight; a.style.setProperty("--ex",Math.max(-1,Math.min(1,dx*2.4)).toFixed(2)); a.style.setProperty("--ey",Math.max(-1,Math.min(1,dy*2.4)).toFixed(2)); }); },{passive:true});
+  setInterval(()=>{ if(document.hidden||Date.now()-lastMove<4000||reduce) return; const x=(Math.random()*2-1)*.8,y=(Math.random()*2-1)*.5; $$("svg.av").forEach(a=>{ a.style.setProperty("--ex",x.toFixed(2)); a.style.setProperty("--ey",y.toFixed(2)); }); },3200);
 
   /* abrir, cerrar y sugerencia */
   function openChat(){ chat.hidden=false; fabWrap.hidden=true; if(!started){ started=true; greet(); } setTimeout(()=>$("#chatInput").focus(),30); }
