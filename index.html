@@ -257,6 +257,32 @@ section.alt{background:var(--bg-2);border-block:1px solid var(--line)}
 .ori-tip p{font-size:.95rem;min-width:0;flex:1}
 .ori-tip button{flex:none}
 .eco-wrap{margin-top:56px}
+.fam{margin-top:26px}
+.fam-head{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:12px}
+.fam-head h4{font-size:1.05rem}
+.fam-head small{color:var(--muted);font-size:.86rem}
+.fam-dot{width:10px;height:10px;border-radius:50%;background:var(--fc);box-shadow:0 0 0 4px color-mix(in srgb,var(--fc) 20%,transparent);align-self:center}
+.fam-nova{--fc:var(--cyan-2)}.fam-ori{--fc:var(--warn)}.fam-orion{--fc:#a78bfa}
+.fam-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.ptile{display:flex;flex-direction:column;gap:6px;text-align:left;font:inherit;color:inherit;text-decoration:none;background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--fc);border-radius:12px;padding:16px 16px 14px;min-width:0;cursor:pointer;transition:transform .2s,border-color .2s,background .2s}
+.ptile:hover{transform:translateY(-2px);border-color:var(--fc);background:var(--surface-2)}
+.ptile b{font-family:var(--f-display);color:var(--fg);font-size:1rem}
+.ptile small{color:var(--muted);font-size:.86rem;line-height:1.45}
+.ptile em{font-style:normal;margin-top:auto;padding-top:6px;color:var(--fc);font-weight:700;font-size:.85rem;display:inline-flex;align-items:center;gap:5px}
+.ptile em svg{width:14px;height:14px}
+.ptile.soon{cursor:default;border-left-color:var(--line-2);opacity:.85}
+.ptile.soon:hover{transform:none;background:var(--surface);border-color:var(--line)}
+.st{align-self:flex-start;font-family:var(--f-mono);font-size:.62rem;letter-spacing:.08em;text-transform:uppercase;padding:.25em .6em;border-radius:999px;border:1px solid var(--line-2);color:var(--muted)}
+.st.on{color:#4ade80;border-color:rgba(74,222,128,.45);background:rgba(74,222,128,.08)}
+.st.dev{color:var(--warn);border-color:rgba(245,181,68,.45);background:rgba(245,181,68,.08)}
+.st.prev{color:#c4b5fd;border-color:rgba(167,139,250,.45);background:rgba(139,92,246,.1)}
+.eco .eco-live{background:linear-gradient(160deg,rgba(167,139,250,.16),rgba(6,182,212,.08)),var(--bg);padding:18px;min-width:0;text-decoration:none;color:inherit;display:flex;flex-direction:column;gap:6px;transition:background .2s;grid-column:span 2}
+.eco .eco-live:hover{background:linear-gradient(160deg,rgba(167,139,250,.26),rgba(6,182,212,.14)),var(--bg)}
+.eco .eco-live b{font-size:1.05rem}
+.eco .eco-live em{font-style:normal;color:#c4b5fd;font-weight:700;font-size:.88rem;display:inline-flex;align-items:center;gap:5px;margin-top:4px}
+.eco .eco-live em svg{width:15px;height:15px}
+@media (max-width:860px){.fam-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:520px){.fam-grid{grid-template-columns:1fr}.eco .eco-live{grid-column:auto}}
 .eco-wrap h3{font-size:1.25rem;margin-bottom:8px}
 .eco-wrap>p{color:var(--muted);margin-bottom:22px;max-width:70ch}
 .eco{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
@@ -816,7 +842,7 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
       </div>
       <ul class="trust" aria-label="Datos de Orion Nova">
         <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12Z"/><circle cx="12" cy="10" r="2.5"/></svg>Empresa de Neiva, Huila, Colombia</li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M8 21h8"/></svg>4 productos propios en desarrollo</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M8 21h8"/></svg>5 productos propios en el portafolio</li>
         <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12Z"/></svg>Atención directa por WhatsApp</li>
       </ul>
     </div>
@@ -982,6 +1008,18 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
           <div class="foot"><a class="link-arrow" href="https://orion-nova-technologies-s-a-s.github.io/Tr-nsito-IA/" target="_blank" rel="noopener">Ver la versión web <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M8 7h9v9"/></svg></a></div>
         </div>
       </article>
+      <article class="proj" data-estado="demo">
+        <div class="shot"><div class="browser" aria-hidden="true"><i></i><i></i><i></i><span>orion-nova-technologies-s-a-s.github.io/orion-core</span></div><img src="assets/portafolio/orion-core.webp" alt="Captura de la página de ORION CORE" width="960" height="600" loading="lazy" decoding="async"></div>
+        <div class="body">
+          <div class="row"><h3>ORION CORE</h3><span class="status demo">Página publicada</span></div>
+          <dl>
+            <div><dt>Problema</dt><dd>Muchos negocios no saben si su página, sus apps o sus datos están expuestos hasta que ya hay un problema.</dd></div>
+            <div><dt>Solución</dt><dd>Servicio de ciberseguridad con cuatro capas: monitoreo 24/7, auditoría de vulnerabilidades, protección web y capacitación del equipo.</dd></div>
+            <div><dt>Tecnologías</dt><dd class="chips"><span>HTML y CSS</span><span>GitHub Pages</span><span>Ciberseguridad</span></dd></div>
+          </dl>
+          <div class="foot"><a class="link-arrow" href="https://orion-nova-technologies-s-a-s.github.io/orion-core/" target="_blank" rel="noopener">Ver la página <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M8 7h9v9"/></svg></a></div>
+        </div>
+      </article>
       <article class="proj" data-estado="preview">
         <div class="shot art"><svg class="ori-host" viewBox="0 0 260 340" role="img" aria-label="Ilustración de ORI"><use href="#ori"/></svg></div>
         <div class="body">
@@ -1057,24 +1095,48 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
     </div>
 
     <div class="eco-wrap">
-      <h3>Ecosistema ORION · hoja de ruta 2026–2035</h3>
-      <p>Los productos que proyectamos construir, conectados por una arquitectura modular, escalable y segura. Son metas de largo plazo, no servicios disponibles hoy.</p>
-      <div class="eco">
-        <div><b>ORION <span>Core</span></b><small>Usuarios, roles, autenticación y API Gateway.</small></div>
-        <div><b>ORION <span>Nexus AI</span></b><small>Asistente humanoide con lenguaje natural.</small></div>
-        <div><b>ORION <span>Cloud</span></b><small>Servidores, contenedores y respaldos.</small></div>
-        <div><b>ORION <span>Vision</span></b><small>Visión por computador, OCR y video.</small></div>
-        <div><b>ORION <span>Home</span></b><small>Hogar inteligente y sensores.</small></div>
-        <div><b>ORION <span>Robotics</span></b><small>Robots móviles, educativos e industriales.</small></div>
-        <div><b>ORION <span>Secure</span></b><small>Accesos, auditoría e incidentes.</small></div>
-        <div><b>ORION <span>Edu</span></b><small>Formación en tecnologías emergentes.</small></div>
-        <div><b>ORION <span>Analytics</span></b><small>Datos convertidos en decisiones.</small></div>
-        <div><b>ORION <span>API Platform</span></b><small>Servicios abiertos para integrar todo.</small></div>
-        <div><b>ORION <span>Developer Hub</span></b><small>Herramientas para desarrolladores.</small></div>
-        <div><b>ORION <span>IoT Platform</span></b><small>Dispositivos conectados en tiempo real.</small></div>
+      <h3>Ecosistema Orion Nova</h3>
+      <p>Nuestros productos se agrupan en tres familias. Toca los que tienen enlace para verlos funcionando; los demás están en nuestra hoja de ruta y aún no están disponibles.</p>
+
+      <div class="fam fam-nova">
+        <div class="fam-head"><span class="fam-dot" aria-hidden="true"></span><h4>Familia NOVA</h4><small>Inteligencia artificial que atiende, enseña y acompaña</small></div>
+        <div class="fam-grid">
+          <a class="ptile" href="https://orion-nova-technologies-s-a-s.github.io/NOVA-IA/" target="_blank" rel="noopener"><span class="st on">Demo publicada</span><b>NOVA Restaurantes</b><small>NOVA FLOW IA muestra la carta, arma el pedido y lo envía al restaurante.</small><em>Abrir <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M8 7h9v9"/></svg></em></a>
+          <a class="ptile" href="https://orion-nova-technologies-s-a-s.github.io/NOVA-IA/" target="_blank" rel="noopener"><span class="st on">Demo publicada</span><b>NOVA Hoteles</b><small>Reservas de hospedaje por horas, por noche o por día, en la misma plataforma.</small><em>Abrir <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M8 7h9v9"/></svg></em></a>
+          <a class="ptile" href="https://orion-nova-technologies-s-a-s.github.io/NOVA-COURSE/" target="_blank" rel="noopener"><span class="st on">Demo publicada</span><b>NOVA Academy</b><small>Cursos con módulos gratis y de pago, NOVA como tutor y certificado.</small><em>Abrir <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M8 7h9v9"/></svg></em></a>
+          <a class="ptile" href="https://orion-nova-technologies-s-a-s.github.io/NOVA-COURSE/" target="_blank" rel="noopener"><span class="st dev">En desarrollo</span><b>NOVA Idiomas</b><small>30 idiomas y Lengua de Señas Colombiana, con NOVA pronunciando.</small><em>Abrir <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M8 7h9v9"/></svg></em></a>
+          <button class="ptile" type="button" data-open-chat><span class="st on">Activo aquí</span><b>NOVA Asistente</b><small>El chat de esta página: te orienta y te ayuda a cotizar tu proyecto.</small><em>Hablar con NOVA</em></button>
+          <div class="ptile soon"><span class="st">En diseño</span><b>NOVA Humanoide</b><small>Robot de servicio para llevar pedidos y guiar huéspedes en restaurantes y hoteles.</small></div>
+        </div>
       </div>
-      <div class="roadmap" aria-label="Hoja de ruta">
-        <span class="now">Sprint 0 · Fundación</span><span class="now">Sprint 1 · Empresa</span><span>Sprint 2 · Arquitectura</span><span>Sprint 3 · Desarrollo</span><span>Sprint 4 · IA</span><span>Sprint 5 · Avatar</span><span>Sprint 6 · IoT</span>
+
+      <div class="fam fam-ori">
+        <div class="fam-head"><span class="fam-dot" aria-hidden="true"></span><h4>Familia ORI</h4><small>Seguridad y conocimiento para personas y negocios</small></div>
+        <div class="fam-grid">
+          <a class="ptile" href="docs/politica-privacidad.html"><span class="st prev">Vista previa</span><b>ORI Security</b><small>App Android que revisa enlaces y correos sospechosos en tu propio teléfono.</small><em>Ver detalles <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M8 7h9v9"/></svg></em></a>
+          <button class="ptile" type="button" data-ori-login><span class="st on">Activo aquí</span><b>ORI en tu cuenta</b><small>Vigila el acceso: mide tu contraseña y avisa intentos fallidos.</small><em>Ver a ORI en acción</em></button>
+          <button class="ptile" type="button" data-ori-tip><span class="st on">Activo aquí</span><b>Consejos de ORI</b><small>Buenas prácticas de seguridad digital explicadas en lenguaje sencillo.</small><em>Pedir un consejo</em></button>
+        </div>
+      </div>
+
+      <div class="fam fam-orion">
+        <div class="fam-head"><span class="fam-dot" aria-hidden="true"></span><h4>Ecosistema ORION · hoja de ruta 2026–2035</h4><small>Plataformas conectadas por una arquitectura modular, escalable y segura</small></div>
+        <div class="eco">
+          <a class="eco-live" href="https://orion-nova-technologies-s-a-s.github.io/orion-core/" target="_blank" rel="noopener"><span class="st on">Página publicada</span><b>ORION <span>Core</span></b><small>Ciberseguridad para tu negocio: monitoreo 24/7, auditoría, protección web y capacitación.</small><em>Visitar ORION CORE <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M8 7h9v9"/></svg></em></a>
+          <div><b>ORION <span>Nexus AI</span></b><small>Asistente humanoide con lenguaje natural.</small></div>
+          <div><b>ORION <span>Cloud</span></b><small>Servidores, contenedores y respaldos.</small></div>
+          <div><b>ORION <span>Vision</span></b><small>Visión por computador, OCR y video.</small></div>
+          <div><b>ORION <span>Home</span></b><small>Hogar inteligente y sensores.</small></div>
+          <div><b>ORION <span>Robotics</span></b><small>Robots móviles, educativos e industriales.</small></div>
+          <div><b>ORION <span>Edu</span></b><small>Formación en tecnologías emergentes.</small></div>
+          <div><b>ORION <span>Analytics</span></b><small>Datos convertidos en decisiones.</small></div>
+          <div><b>ORION <span>API Platform</span></b><small>Servicios abiertos para integrar todo.</small></div>
+          <div><b>ORION <span>Developer Hub</span></b><small>Herramientas para desarrolladores.</small></div>
+          <div><b>ORION <span>IoT Platform</span></b><small>Dispositivos conectados en tiempo real.</small></div>
+        </div>
+        <div class="roadmap" aria-label="Hoja de ruta">
+          <span class="now">Sprint 0 · Fundación</span><span class="now">Sprint 1 · Empresa</span><span>Sprint 2 · Arquitectura</span><span>Sprint 3 · Desarrollo</span><span>Sprint 4 · IA</span><span>Sprint 5 · Avatar</span><span>Sprint 6 · IoT</span>
+        </div>
       </div>
     </div>
   </div>
@@ -1440,6 +1502,8 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
   let tj=0;
   $("#nextTip").addEventListener("click",()=>{ tj=(tj+1)%tips.length; $("#oriTip").textContent=tips[tj]; oriDo("flap"); speak(tips[tj],"ori"); });
 
+  $$("[data-ori-tip]").forEach(b=>b.addEventListener("click",()=>{ $("#nextTip").click(); $("#oriTip").scrollIntoView({behavior:"smooth",block:"center"}); }));
+  $$("[data-ori-login]").forEach(b=>b.addEventListener("click",()=>{ openLogin("up"); }));
   /* ---------- ORI con vida ---------- */
   function oriDo(act,host){
     const hs=host?[host]:$$(".ori-host"); const cls={flap:"ori-flap",scan:"ori-scan",alert:"ori-alert"}[act]; if(!cls) return;
@@ -2004,6 +2068,7 @@ code{font-family:var(--f-mono);font-size:.82em;background:var(--bg);border:1px s
     {k:["asistente","inteligencia","ia","bot","chatbot","automat","pedido"],fn:()=>["nova","¡Eso es lo mío! Un asistente como yo puede atender a tus clientes 24/7, responder preguntas y tomar pedidos. Así funciona NOVA FLOW IA para restaurantes de Neiva.",[goQuote("ia-automatizacion"),{t:"Ver NOVA Restaurantes",href:"https://orion-nova-technologies-s-a-s.github.io/NOVA-IA/"}]]},
     {k:["software","sistema","crm","erp","medida","inventario"],fn:()=>["nova","Hacemos software a la medida: plataformas administrativas, sistemas de información, CRM y sistemas académicos, pensados para cómo trabaja tu empresa.",[goQuote("software-medida")]]},
     {k:["segur","hack","ciber","contrasena","clave","virus","fraude","phishing","estafa"],fn:()=>["ori",tips[Math.floor(Math.random()*tips.length)]+" Si quieres una revisión de seguridad para tu empresa, el equipo te ayuda.",[goQuote("ciberseguridad")]]},
+    {k:["orion core","core","diagnostico"],fn:()=>["nova","ORION CORE es nuestro servicio de ciberseguridad para negocios: monitoreo 24/7, auditoría de vulnerabilidades, protección web y capacitación de tu equipo.",[{t:"Ver ORION CORE",href:"https://orion-nova-technologies-s-a-s.github.io/orion-core/"},goQuote("ciberseguridad")]]},
     {k:["nube","servidor","base de datos","hosting","supabase"],fn:()=>["nova","Montamos tus bases de datos y servicios en la nube, con usuarios, permisos y copias de seguridad. Esta misma página funciona así.",[goQuote("nube-redes")]]},
     {k:["iot","sensor","domotica","hogar","dato","tablero","dashboard","analitica"],fn:()=>["nova","Con IoT conectamos sensores y dispositivos, y con analítica armamos tableros que convierten tus datos en decisiones.",[goQuote("iot-datos")]]},
     {k:["marketing","redes","publicidad","clientes","ventas"],fn:()=>["nova","Te ayudamos con marketing digital para que más clientes te encuentren y te recuerden.",[goQuote("marketing")]]},
