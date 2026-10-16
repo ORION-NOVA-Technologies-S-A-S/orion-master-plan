@@ -7,7 +7,14 @@
 // Opcional: CORREO_AVISOS (a dónde llegan los avisos; si no existe, se usa CORREO_REMITENTE).
 import { createClient } from "npm:@supabase/supabase-js@2.45.4";
 
-const ORIGINS = ["https://orionnovatechnologies.com", "https://www.orionnovatechnologies.com", "https://orion-nova-technologies-s-a-s.github.io"];
+const ORIGINS = [
+  "https://orionnovatechnologies.com",
+  "https://www.orionnovatechnologies.com",
+  "https://nova.orionnovatechnologies.com",
+  "https://core.orionnovatechnologies.com",
+  "https://nexus.orionnovatechnologies.com",
+  "https://orion-nova-technologies-s-a-s.github.io",
+];
 const SERVICIOS: Record<string, string> = {
   "ia-automatizacion": "Inteligencia artificial y automatización",
   "web-movil": "Desarrollo web y aplicaciones móviles",
