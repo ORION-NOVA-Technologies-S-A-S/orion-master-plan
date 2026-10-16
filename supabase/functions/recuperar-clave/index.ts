@@ -8,7 +8,7 @@
 // SUPABASE_URL y SUPABASE_SERVICE_ROLE_KEY los pone Supabase automáticamente.
 import { createClient } from "npm:@supabase/supabase-js@2.45.4";
 
-const ORIGINS = ["https://orion-nova-technologies-s-a-s.github.io"];
+const ORIGINS = ["https://orionnovatechnologies.com", "https://www.orionnovatechnologies.com", "https://orion-nova-technologies-s-a-s.github.io"];
 const USER_RE = /^[a-z0-9_.]{3,20}$/;
 const GENERIC = "Si el usuario existe y tiene correo registrado, te enviamos un código. Revisa tu bandeja de entrada y la carpeta de spam.";
 
